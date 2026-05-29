@@ -20,6 +20,15 @@ GitHub-hosted entries show live **★ stars** and **last-commit** badges (render
   - [Runtime Protection & Enforcement](#runtime-protection--enforcement)
 - [AI/ML Supply Chain & Model Security](#aiml-supply-chain--model-security)
 - [Pentest & Red-Team Agents](#pentest--red-team-agents)
+- [AI-Powered Recon & Narrow ML Tools](#ai-powered-recon--narrow-ml-tools)
+  - [Subdomain & DNS Prediction](#subdomain--dns-prediction)
+  - [Recon Screenshot Triage](#recon-screenshot-triage)
+  - [Software / Tech Fingerprinting](#software--tech-fingerprinting)
+  - [AI-Assisted Fuzzing](#ai-assisted-fuzzing)
+  - [Password / Credential ML](#password--credential-ml)
+  - [Phishing Detection (Visual / URL)](#phishing-detection-visual--url)
+  - [ML-Generated Detection Rules](#ml-generated-detection-rules)
+  - [Defensive Trained-Model Detectors](#defensive-trained-model-detectors)
 - [AI-Powered SAST & Secure Code Review](#ai-powered-sast--secure-code-review)
 - [LLM-Driven Fuzzing](#llm-driven-fuzzing)
   - [Harness / target generation](#harness--target-generation)
@@ -153,6 +162,54 @@ Autonomous and semi-autonomous AI agents for penetration testing, exploitation, 
 - **[cyber-security-llm-agents](https://github.com/NVISOsecurity/cyber-security-llm-agents)** 🟢⚠️ — AutoGen-based agents for cybersecurity tasks (shown at RSAC 2024). *(NVISO)* [![stars](https://img.shields.io/github/stars/NVISOsecurity/cyber-security-llm-agents?style=flat-square&label=%E2%98%85)](https://github.com/NVISOsecurity/cyber-security-llm-agents) [![updated](https://img.shields.io/github/last-commit/NVISOsecurity/cyber-security-llm-agents?style=flat-square&label=updated)](https://github.com/NVISOsecurity/cyber-security-llm-agents)
 - **[Pentest-Swarm-AI](https://github.com/Armur-Ai/Pentest-Swarm-AI)** 🟢 — Swarm-intelligence multi-agent pentest with stigmergic blackboard coordination (Go). [![stars](https://img.shields.io/github/stars/Armur-Ai/Pentest-Swarm-AI?style=flat-square&label=%E2%98%85)](https://github.com/Armur-Ai/Pentest-Swarm-AI) [![updated](https://img.shields.io/github/last-commit/Armur-Ai/Pentest-Swarm-AI?style=flat-square&label=updated)](https://github.com/Armur-Ai/Pentest-Swarm-AI)
 - **[hackGPT](https://github.com/NoDataFound/hackGPT)** 🟢⚠️ — LLM offensive-security toolkit. [![stars](https://img.shields.io/github/stars/NoDataFound/hackGPT?style=flat-square&label=%E2%98%85)](https://github.com/NoDataFound/hackGPT) [![updated](https://img.shields.io/github/last-commit/NoDataFound/hackGPT?style=flat-square&label=updated)](https://github.com/NoDataFound/hackGPT)
+
+---
+
+## AI-Powered Recon & Narrow ML Tools
+
+Hyper-specific AI/ML tools for a single offensive-security, recon, or detection step — the subwiz/eyeballer pattern rather than broad autonomous agents. 🅐 = self-contained trained model or learned model/pattern engine; 🅑 = LLM wrapper that calls an external API.
+
+### Subdomain & DNS Prediction
+
+- **[subwiz](https://github.com/hadriansecurity/subwiz)** 🟢 — 🅐 Lightweight nanoGPT model that predicts resolvable subdomains via beam search; model weights are published on Hugging Face. *(Hadrian Security)* [![stars](https://img.shields.io/github/stars/hadriansecurity/subwiz?style=flat-square&label=%E2%98%85)](https://github.com/hadriansecurity/subwiz) [![updated](https://img.shields.io/github/last-commit/hadriansecurity/subwiz?style=flat-square&label=updated)](https://github.com/hadriansecurity/subwiz)
+  - **Related:** [HadrianSecurity/subwiz model](https://huggingface.co/HadrianSecurity/subwiz)
+- **[regulator](https://github.com/cramppet/regulator)** 🟢⚠️ — 🅐 Learns and ranks regex-like naming patterns from known subdomains to generate likely new candidates. — **note:** no LICENSE file found; treat as source-available until clarified. [![stars](https://img.shields.io/github/stars/cramppet/regulator?style=flat-square&label=%E2%98%85)](https://github.com/cramppet/regulator) [![updated](https://img.shields.io/github/last-commit/cramppet/regulator?style=flat-square&label=updated)](https://github.com/cramppet/regulator)
+  - **Related:** [subwiz](https://github.com/hadriansecurity/subwiz)
+
+### Recon Screenshot Triage
+
+- **[eyeballer](https://github.com/BishopFox/eyeballer)** 🟢⚠️ — 🅐 Convolutional neural network that classifies pentest/recon screenshots (login pages, webapps, old-looking sites, parked domains, and custom 404s) for attack-surface triage. *(Bishop Fox)* — **note:** GPL-3.0 licensed. [![stars](https://img.shields.io/github/stars/BishopFox/eyeballer?style=flat-square&label=%E2%98%85)](https://github.com/BishopFox/eyeballer) [![updated](https://img.shields.io/github/last-commit/BishopFox/eyeballer?style=flat-square&label=updated)](https://github.com/BishopFox/eyeballer)
+
+### Software / Tech Fingerprinting
+
+- **[GyoiThon](https://github.com/gyoisamurai/GyoiThon)** 🟢🔬 — 🅐 Machine-learning-assisted web intelligence tool that fingerprints products, versions, CVEs, login pages, debug messages, and related web-server signals from HTTP responses. — **note:** older project; Apache-2.0 licensed, but maintenance appears low. [![stars](https://img.shields.io/github/stars/gyoisamurai/GyoiThon?style=flat-square&label=%E2%98%85)](https://github.com/gyoisamurai/GyoiThon) [![updated](https://img.shields.io/github/last-commit/gyoisamurai/GyoiThon?style=flat-square&label=updated)](https://github.com/gyoisamurai/GyoiThon)
+- **[http-fingerprint-transformer](https://github.com/Darwinkel/bachelor-thesis-information-science)** 🔬⚠️ — 🅐 Transformer-encoded HTTP-header fingerprinting experiment for classifying web-server software and versions. — **note:** thesis artifact; code is GPL-3.0 and data is CC BY-SA 4.0. [![stars](https://img.shields.io/github/stars/Darwinkel/bachelor-thesis-information-science?style=flat-square&label=%E2%98%85)](https://github.com/Darwinkel/bachelor-thesis-information-science) [![updated](https://img.shields.io/github/last-commit/Darwinkel/bachelor-thesis-information-science?style=flat-square&label=updated)](https://github.com/Darwinkel/bachelor-thesis-information-science)
+
+### AI-Assisted Fuzzing
+
+- **[ffufai](https://github.com/jthack/ffufai)** 🟢⚠️ — 🅑 AI wrapper around the ffuf web fuzzer that suggests file extensions and paths from the target URL and headers using OpenAI or Anthropic models. *(Joseph Thacker)* — **note:** requires an LLM API key; README states MIT but no LICENSE file was found. [![stars](https://img.shields.io/github/stars/jthack/ffufai?style=flat-square&label=%E2%98%85)](https://github.com/jthack/ffufai) [![updated](https://img.shields.io/github/last-commit/jthack/ffufai?style=flat-square&label=updated)](https://github.com/jthack/ffufai)
+
+### Password / Credential ML
+
+- **[PassGPT](https://huggingface.co/javirandor/passgpt-10characters)** 🔬⚠️ — 🅐 GPT-style password model trained on leaked passwords for research on password generation and strength estimation. *(Rando et al.)* *license: CC BY-NC-4.0 · access: open 10-char model; 16-char variant gated · artifacts: PyTorch/Safetensors.* Research-only / non-commercial use; related code: [javirandor/passgpt](https://github.com/javirandor/passgpt).
+- **[PassGAN](https://github.com/brannondorsey/PassGAN)** 🔬 — 🅐 WGAN that learns password distributions from leaks to generate guesses; historical reference implementation of the PassGAN paper (MIT). [![stars](https://img.shields.io/github/stars/brannondorsey/PassGAN?style=flat-square&label=%E2%98%85)](https://github.com/brannondorsey/PassGAN) [![updated](https://img.shields.io/github/last-commit/brannondorsey/PassGAN?style=flat-square&label=updated)](https://github.com/brannondorsey/PassGAN)
+- **[neural_network_cracking](https://github.com/cupslab/neural_network_cracking)** 🔬 — 🅐 RNN password-guessing model from *Fast, Lean, and Accurate: Modeling Password Guessability Using Neural Networks* (USENIX Security 2016); Apache-2.0 licensed. *(CMU CUPS Lab)* [![stars](https://img.shields.io/github/stars/cupslab/neural_network_cracking?style=flat-square&label=%E2%98%85)](https://github.com/cupslab/neural_network_cracking) [![updated](https://img.shields.io/github/last-commit/cupslab/neural_network_cracking?style=flat-square&label=updated)](https://github.com/cupslab/neural_network_cracking)
+  - **Related:** [PassGPT](https://huggingface.co/javirandor/passgpt-10characters) · [PassGAN](https://github.com/brannondorsey/PassGAN)
+
+### Phishing Detection (Visual / URL)
+
+- **[phishing-url-detection](https://huggingface.co/pirocheto/phishing-url-detection)** 🟢 — 🅐 Packaged URL phishing classifier with ONNX and pickle artifacts. *license: MIT · access: open · artifacts: ONNX, pickle.* Model card recommends ONNX over pickle for safer inference.
+- **[PhishIntention](https://github.com/lindsey98/PhishIntention)** 🔬 — 🅐 Deep-vision phishing detector that infers both brand intention and credential-taking intention from webpage appearance and dynamics (USENIX Security 2022). — **note:** CC0-1.0 licensed. [![stars](https://img.shields.io/github/stars/lindsey98/PhishIntention?style=flat-square&label=%E2%98%85)](https://github.com/lindsey98/PhishIntention) [![updated](https://img.shields.io/github/last-commit/lindsey98/PhishIntention?style=flat-square&label=updated)](https://github.com/lindsey98/PhishIntention)
+- **[VisualPhishNet](https://github.com/S-Abdelnabi/VisualPhishNet)** 🔬⚠️ — 🅐 Triplet CNN for zero-day phishing detection by visual similarity to trusted websites (ACM CCS 2020). *(CISPA)* — **note:** no LICENSE file found; dataset access is research-request based. [![stars](https://img.shields.io/github/stars/S-Abdelnabi/VisualPhishNet?style=flat-square&label=%E2%98%85)](https://github.com/S-Abdelnabi/VisualPhishNet) [![updated](https://img.shields.io/github/last-commit/S-Abdelnabi/VisualPhishNet?style=flat-square&label=updated)](https://github.com/S-Abdelnabi/VisualPhishNet)
+
+### ML-Generated Detection Rules
+
+- **[yaraml_rules](https://github.com/sophos/yaraml_rules)** 🟢 — 🅐 Trains scikit-learn classifiers on malware/benign corpora and compiles the learned model into deployable YARA rules (Apache-2.0). *(Sophos)* [![stars](https://img.shields.io/github/stars/sophos/yaraml_rules?style=flat-square&label=%E2%98%85)](https://github.com/sophos/yaraml_rules) [![updated](https://img.shields.io/github/last-commit/sophos/yaraml_rules?style=flat-square&label=updated)](https://github.com/sophos/yaraml_rules)
+
+### Defensive Trained-Model Detectors
+
+- **[DeepSQLi](https://github.com/gatewayd-io/DeepSQLi)** 🟢⚠️ — 🅐 Deep-learning SQL-injection detector with dataset, trained models, and a Flask Prediction API for GatewayD IDS/IPS integration. *(GatewayD)* — **note:** AGPL-3.0 licensed; defensive detector rather than offensive generator. [![stars](https://img.shields.io/github/stars/gatewayd-io/DeepSQLi?style=flat-square&label=%E2%98%85)](https://github.com/gatewayd-io/DeepSQLi) [![updated](https://img.shields.io/github/last-commit/gatewayd-io/DeepSQLi?style=flat-square&label=updated)](https://github.com/gatewayd-io/DeepSQLi)
+- **[deepsecrets](https://github.com/ntoskernel/deepsecrets)** 🟢 — Semantic secrets scanner using lexing/parsing, entropy checks, and hashed-known-secret matching across 500+ languages. — **note:** useful narrow detector, but not a trained ML model. [![stars](https://img.shields.io/github/stars/ntoskernel/deepsecrets?style=flat-square&label=%E2%98%85)](https://github.com/ntoskernel/deepsecrets) [![updated](https://img.shields.io/github/last-commit/ntoskernel/deepsecrets?style=flat-square&label=updated)](https://github.com/ntoskernel/deepsecrets)
 
 ---
 

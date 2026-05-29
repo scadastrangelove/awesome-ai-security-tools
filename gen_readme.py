@@ -282,6 +282,77 @@ SECTIONS.append((
 ))
 
 SECTIONS.append((
+    "AI-Powered Recon & Narrow ML Tools",
+    "ai-powered-recon--narrow-ml-tools",
+    "Hyper-specific AI/ML tools for a single offensive-security, recon, or detection step — the subwiz/eyeballer pattern rather than broad autonomous agents. 🅐 = self-contained trained model or learned model/pattern engine; 🅑 = LLM wrapper that calls an external API.",
+    [
+        ("Subdomain & DNS Prediction", [
+            {"name": "subwiz", "repo": "hadriansecurity/subwiz", "tags": "🟢", "org": "Hadrian Security",
+             "desc": "🅐 Lightweight nanoGPT model that predicts resolvable subdomains via beam search; model weights are published on Hugging Face.",
+             "related": [("HadrianSecurity/subwiz model", HF + "HadrianSecurity/subwiz")]},
+            {"name": "regulator", "repo": "cramppet/regulator", "tags": "🟢⚠️",
+             "desc": "🅐 Learns and ranks regex-like naming patterns from known subdomains to generate likely new candidates.",
+             "note": "— **note:** no LICENSE file found; treat as source-available until clarified.",
+             "related": [("subwiz", GH + "hadriansecurity/subwiz")]},
+        ]),
+        ("Recon Screenshot Triage", [
+            {"name": "eyeballer", "repo": "BishopFox/eyeballer", "tags": "🟢⚠️", "org": "Bishop Fox",
+             "desc": "🅐 Convolutional neural network that classifies pentest/recon screenshots (login pages, webapps, old-looking sites, parked domains, and custom 404s) for attack-surface triage.",
+             "note": "— **note:** GPL-3.0 licensed."},
+        ]),
+        ("Software / Tech Fingerprinting", [
+            {"name": "GyoiThon", "repo": "gyoisamurai/GyoiThon", "tags": "🟢🔬",
+             "desc": "🅐 Machine-learning-assisted web intelligence tool that fingerprints products, versions, CVEs, login pages, debug messages, and related web-server signals from HTTP responses.",
+             "note": "— **note:** older project; Apache-2.0 licensed, but maintenance appears low."},
+            {"name": "http-fingerprint-transformer", "repo": "Darwinkel/bachelor-thesis-information-science", "tags": "🔬⚠️",
+             "desc": "🅐 Transformer-encoded HTTP-header fingerprinting experiment for classifying web-server software and versions.",
+             "note": "— **note:** thesis artifact; code is GPL-3.0 and data is CC BY-SA 4.0."},
+        ]),
+        ("AI-Assisted Fuzzing", [
+            {"name": "ffufai", "repo": "jthack/ffufai", "tags": "🟢⚠️", "org": "Joseph Thacker",
+             "desc": "🅑 AI wrapper around the ffuf web fuzzer that suggests file extensions and paths from the target URL and headers using OpenAI or Anthropic models.",
+             "note": "— **note:** requires an LLM API key; README states MIT but no LICENSE file was found."},
+        ]),
+        ("Password / Credential ML", [
+            {"kind": "hf_model", "name": "PassGPT", "model": "javirandor/passgpt-10characters", "tags": "🔬⚠️", "org": "Rando et al.",
+             "desc": "🅐 GPT-style password model trained on leaked passwords for research on password generation and strength estimation.",
+             "license": "CC BY-NC-4.0", "access": "open 10-char model; 16-char variant gated", "artifacts": "PyTorch/Safetensors",
+             "note": "Research-only / non-commercial use; related code: [javirandor/passgpt](https://github.com/javirandor/passgpt)."},
+            {"name": "PassGAN", "repo": "brannondorsey/PassGAN", "tags": "🔬",
+             "desc": "🅐 WGAN that learns password distributions from leaks to generate guesses; historical reference implementation of the PassGAN paper (MIT)."},
+            {"name": "neural_network_cracking", "repo": "cupslab/neural_network_cracking", "tags": "🔬", "org": "CMU CUPS Lab",
+             "desc": "🅐 RNN password-guessing model from *Fast, Lean, and Accurate: Modeling Password Guessability Using Neural Networks* (USENIX Security 2016); Apache-2.0 licensed.",
+             "related": [("PassGPT", HF + "javirandor/passgpt-10characters"), ("PassGAN", GH + "brannondorsey/PassGAN")]},
+        ]),
+        ("Phishing Detection (Visual / URL)", [
+            {"kind": "hf_model", "name": "phishing-url-detection", "model": "pirocheto/phishing-url-detection", "tags": "🟢",
+             "desc": "🅐 Packaged URL phishing classifier with ONNX and pickle artifacts.",
+             "license": "MIT", "access": "open", "artifacts": "ONNX, pickle",
+             "note": "Model card recommends ONNX over pickle for safer inference."},
+            {"name": "PhishIntention", "repo": "lindsey98/PhishIntention", "tags": "🔬",
+             "desc": "🅐 Deep-vision phishing detector that infers both brand intention and credential-taking intention from webpage appearance and dynamics (USENIX Security 2022).",
+             "note": "— **note:** CC0-1.0 licensed."},
+            {"name": "VisualPhishNet", "repo": "S-Abdelnabi/VisualPhishNet", "tags": "🔬⚠️", "org": "CISPA",
+             "desc": "🅐 Triplet CNN for zero-day phishing detection by visual similarity to trusted websites (ACM CCS 2020).",
+             "note": "— **note:** no LICENSE file found; dataset access is research-request based."},
+        ]),
+        ("ML-Generated Detection Rules", [
+            {"name": "yaraml_rules", "repo": "sophos/yaraml_rules", "tags": "🟢", "org": "Sophos",
+             "desc": "🅐 Trains scikit-learn classifiers on malware/benign corpora and compiles the learned model into deployable YARA rules (Apache-2.0)."},
+        ]),
+        ("Defensive Trained-Model Detectors", [
+            {"name": "DeepSQLi", "repo": "gatewayd-io/DeepSQLi", "tags": "🟢⚠️", "org": "GatewayD",
+             "desc": "🅐 Deep-learning SQL-injection detector with dataset, trained models, and a Flask Prediction API for GatewayD IDS/IPS integration.",
+             "note": "— **note:** AGPL-3.0 licensed; defensive detector rather than offensive generator."},
+            {"name": "deepsecrets", "repo": "ntoskernel/deepsecrets", "tags": "🟢",
+             "desc": "Semantic secrets scanner using lexing/parsing, entropy checks, and hashed-known-secret matching across 500+ languages.",
+             "note": "— **note:** useful narrow detector, but not a trained ML model."},
+        ]),
+    ],
+    None,
+))
+
+SECTIONS.append((
     "AI-Powered SAST & Secure Code Review",
     "ai-powered-sast--secure-code-review",
     "Static analysis and secure code review enhanced with LLMs.",
