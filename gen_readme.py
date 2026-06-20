@@ -170,6 +170,9 @@ SECTIONS.append((
              "related": [MCP_SCANNER, AGENT_SCAN]},
             {"name": "agentic-radar", "repo": "splx-ai/agentic-radar", "tags": "🟠", "org": "SplxAI",
              "desc": "CLI security scanner for agentic workflows (LangGraph, CrewAI, n8n, etc.) — maps tools/data flows and flags risks."},
+            {"name": "skilltotal", "repo": "pezhik/skilltotal", "tags": "🟢",
+             "desc": "Offline deterministic static scanner (regex + AST, no LLM, no account) for AI components — agent skills/plugins, MCP servers, npm & PyPI packages, and git repos; flags supply-chain risk, dangerous capabilities, prompt-injection surfaces, MCP tool poisoning/shadowing, and data-exfiltration paths, maps to the OWASP Agentic Skills Top 10, and emits JSON + SARIF 2.1.0. *(skilltotal.ai)*",
+             "related": [AGUARA, AGENT_SCAN, SKILL_SCANNER, MCP_SCANNER]},
         ]),
         ("Frameworks, Rule Standards & Benchmarks", [
             {"name": "asamm", "repo": "scadastrangelove/asamm", "tags": "🔬", "org": "CyberOK / S. Gordeychik",
