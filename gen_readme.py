@@ -194,6 +194,9 @@ SECTIONS.append((
              "related": [AGENT_AUDIT, ATR]},
         ]),
         ("Runtime Protection & Enforcement", [
+            {"name": "Armorer Guard", "repo": "ArmorerLabs/Armorer-Guard", "tags": "🟢",
+             "desc": "Local Rust scanner and MCP proxy for AI-agent prompt injection, credential leakage, exfiltration, and risky tool-call arguments, with structured reasons and no scanner network calls.",
+             "related": [AGENTGUARD, ATR]},
             {"name": "onecli", "repo": "onecli/onecli", "tags": "🟢",
              "desc": "Credential gateway and encrypted vault for AI agents; injects real API credentials at the gateway so agents only see placeholder keys.",
              "related": [AGENTGUARD, ("defenseclaw", GH + "cisco-ai-defense/defenseclaw")]},
