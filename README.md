@@ -128,6 +128,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [agentguard](https://github.com/GoPlusSecurity/agentguard) · [Snyk Agent Scan](https://github.com/snyk/agent-scan)
 - **[clawsec](https://github.com/prompt-security/clawsec)** 🟢⚠️ — Security skill suite for OpenClaw-family agents; AGPL-3.0 licensed. *(Prompt Security)* [![stars](https://img.shields.io/github/stars/prompt-security/clawsec?style=flat-square&label=%E2%98%85)](https://github.com/prompt-security/clawsec) [![updated](https://img.shields.io/github/last-commit/prompt-security/clawsec?style=flat-square&label=updated)](https://github.com/prompt-security/clawsec)
   - **Related:** [agentguard](https://github.com/GoPlusSecurity/agentguard) · [Cisco AI Defense – skill-scanner](https://github.com/cisco-ai-defense/skill-scanner)
+- **[h5i](https://github.com/h5i-dev/h5i)** 🟢 — Rust CLI that runs multiple coding agents (Claude Code, Codex) on the same task, each in an isolated git-worktree sandbox, has them peer-review each other, then a neutral verifier replays and tests every candidate before merging the one that passes, with each run versioned in the repo under refs/h5i/* (Apache-2.0). [![stars](https://img.shields.io/github/stars/h5i-dev/h5i?style=flat-square&label=%E2%98%85)](https://github.com/h5i-dev/h5i) [![updated](https://img.shields.io/github/last-commit/h5i-dev/h5i?style=flat-square&label=updated)](https://github.com/h5i-dev/h5i)
+  - **Related:** [microsandbox](https://github.com/superradcompany/microsandbox) · [defenseclaw](https://github.com/cisco-ai-defense/defenseclaw)
 
 ---
 
