@@ -1818,6 +1818,31 @@
           ]
         },
         {
+          "name": "defending-code-reference-harness",
+          "repo": "anthropics/defending-code-reference-harness",
+          "org": "Anthropic",
+          "desc": "Reference Claude Code skills and autonomous vulnerability-discovery pipeline for threat modeling, static scanning, triage, execution-verified C/C++ memory-bug discovery, reporting, and patch generation.",
+          "note": "— **note:** official reference implementation, not maintained as a product; the autonomous pipeline executes target code and should be run only inside the documented gVisor sandbox.",
+          "status": [
+            "open_source"
+          ],
+          "flags": [
+            "requires_api_key",
+            "heavy_runtime",
+            "authorized_testing_only"
+          ],
+          "related": [
+            {
+              "label": "deepsec",
+              "url": "https://github.com/vercel-labs/deepsec"
+            },
+            {
+              "label": "claude-code-security-review",
+              "url": "https://github.com/anthropics/claude-code-security-review"
+            }
+          ]
+        },
+        {
           "name": "claude-code-security-review",
           "repo": "anthropics/claude-code-security-review",
           "org": "Anthropic",
