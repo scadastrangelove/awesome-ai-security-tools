@@ -1843,6 +1843,32 @@
           ]
         },
         {
+          "name": "rust-in-peace",
+          "repo": "scadastrangelove/rust-in-peace",
+          "org": "Sergey Gordeychik",
+          "desc": "Rust-security fork of Anthropic's defending-code reference harness, adding a Rust profile for agentic review of unsafe/FFI memory bugs, panic-DoS, deserialization-trust issues, and Miri/ASan/panic/hang-verified findings.",
+          "note": "— **note:** very new Apache-2.0 fork; autonomous runs execute target code and should use the documented sandbox.",
+          "status": [
+            "open_source"
+          ],
+          "flags": [
+            "early_stage",
+            "requires_api_key",
+            "heavy_runtime",
+            "authorized_testing_only"
+          ],
+          "related": [
+            {
+              "label": "defending-code-reference-harness",
+              "url": "https://github.com/anthropics/defending-code-reference-harness"
+            },
+            {
+              "label": "deepsec",
+              "url": "https://github.com/vercel-labs/deepsec"
+            }
+          ]
+        },
+        {
           "name": "claude-code-security-review",
           "repo": "anthropics/claude-code-security-review",
           "org": "Anthropic",
