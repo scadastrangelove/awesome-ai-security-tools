@@ -3024,6 +3024,15 @@
               "flags": [
                 "license_caveat"
               ]
+            },
+            {
+              "name": "Redcells",
+              "repo": "awdemos/redcell",
+              "desc": "Automated adversarial testing platform for the LLMs you own or control.",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT"
             }
           ]
         },
