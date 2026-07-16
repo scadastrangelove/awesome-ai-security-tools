@@ -921,6 +921,16 @@
                   "url": "https://github.com/ArmorerLabs/Armorer-Guard"
                 }
               ]
+            },
+            {
+              "name": "Signato",
+              "repo": "Signato-ai/signato-integrations",
+              "org": "Signato",
+              "desc": "Deterministic local confidentiality chamber for AI agents: checks every outbound action against a who-must-not-know-what matrix (person x subject walls) and denies the forbidden pair before it executes; ships a Claude Code PreToolUse hook/plugin, executable wall test scenarios, and local audit telemetry.",
+              "note": "— **note:** integration surface, plugin, and examples are MIT; the chamber engine is proprietary (pip install signato, full 30-day local trial).",
+              "status": [
+                "commercial_open"
+              ]
             }
           ]
         }
