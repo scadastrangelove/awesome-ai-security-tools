@@ -4,7 +4,7 @@
   "title": "Awesome AI Security Tools data",
   "type": "object",
   "additionalProperties": false,
-  "required": ["sections", "awesome"],
+  "required": ["sections"],
   "properties": {
     "$schema": {
       "type": "string"
@@ -14,12 +14,6 @@
       "minItems": 1,
       "items": {
         "$ref": "#/$defs/section"
-      }
-    },
-    "awesome": {
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/awesomeList"
       }
     }
   },
@@ -62,7 +56,7 @@
     "entry": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["name", "desc", "status"],
+      "required": ["name", "desc"],
       "anyOf": [
         {
           "required": ["repo"]
@@ -71,10 +65,65 @@
           "required": ["model"]
         }
       ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "hf_model"
+              }
+            },
+            "required": ["kind"]
+          },
+          "then": {
+            "required": ["model", "status"]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "awesome_list"
+              }
+            },
+            "required": ["kind"]
+          },
+          "then": {
+            "required": ["repo"]
+          }
+        },
+        {
+          "if": {
+            "not": {
+              "anyOf": [
+                {
+                  "properties": {
+                    "kind": {
+                      "const": "hf_model"
+                    }
+                  },
+                  "required": ["kind"]
+                },
+                {
+                  "properties": {
+                    "kind": {
+                      "const": "awesome_list"
+                    }
+                  },
+                  "required": ["kind"]
+                }
+              ]
+            }
+          },
+          "then": {
+            "required": ["repo", "status"]
+          }
+        }
+      ],
       "properties": {
         "kind": {
           "type": "string",
-          "enum": ["hf_model"]
+          "enum": ["hf_model", "awesome_list"]
         },
         "name": {
           "type": "string",
@@ -206,25 +255,6 @@
           "items": {
             "$ref": "#/$defs/group"
           }
-        }
-      }
-    },
-    "awesomeList": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["name", "repo", "desc"],
-      "properties": {
-        "name": {
-          "type": "string",
-          "minLength": 1
-        },
-        "repo": {
-          "type": "string",
-          "pattern": "^[^\\s/]+/[^\\s]+$"
-        },
-        "desc": {
-          "type": "string",
-          "minLength": 1
         }
       }
     }

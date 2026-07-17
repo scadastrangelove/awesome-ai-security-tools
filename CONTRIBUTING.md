@@ -44,4 +44,6 @@ Rendered emoji badges are generated from structured fields:
 - `commercial_open` → `🟠`
 - warning flags such as `license_caveat`, `no_license`, `noncommercial`, `copyleft`, or `abliterated_or_uncensored` → `⚠️`
 
+Related awesome-list entries use `kind: "awesome_list"` and live in the regular `Related Awesome Lists` section in `data/sections.json`.
+
 The badges are generated automatically by `gen_readme.py`; do not paste badge Markdown by hand in the source data.

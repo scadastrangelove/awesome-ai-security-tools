@@ -97,6 +97,10 @@ def render_hf_model(entry: dict[str, Any]) -> str:
 def render_entry(entry: dict[str, Any]) -> str:
     if entry.get("kind") == "hf_model":
         return render_hf_model(entry)
+    if entry.get("kind") == "awesome_list":
+        repo = entry["repo"]
+        url = entry.get("url", f"{GH}{repo}")
+        return f"- **[{entry['name']}]({url})** — {entry['desc']} {badges(repo)}"
     repo = entry["repo"]
     url = entry.get("url", f"{GH}{repo}")
     tags = entry_tags(entry)
@@ -135,7 +139,6 @@ def require(condition: bool, message: str) -> None:
 
 def validate_data(data: dict[str, Any]) -> None:
     require(isinstance(data.get("sections"), list), "data.sections must be a list")
-    require(isinstance(data.get("awesome"), list), "data.awesome must be a list")
 
     repos = []
     models = []
@@ -162,20 +165,27 @@ def validate_data(data: dict[str, Any]) -> None:
 
     for entry in iter_entries(data):
         name = entry.get("name", "<unnamed>")
+        kind = entry.get("kind")
         require("desc" in entry, f"entry {name!r} is missing desc")
-        statuses = entry.get("status")
-        require(isinstance(statuses, list) and statuses, f"entry {name!r} must have non-empty status")
-        unknown_statuses = [s for s in statuses if s not in STATUS_BADGES]
-        require(not unknown_statuses, f"entry {name!r} has unknown status: {unknown_statuses}")
         flags = entry.get("flags", [])
         require(isinstance(flags, list), f"entry {name!r} flags must be a list")
         unknown_flags = [f for f in flags if f not in KNOWN_FLAGS]
         require(not unknown_flags, f"entry {name!r} has unknown flags: {unknown_flags}")
 
-        if entry.get("kind") == "hf_model":
+        if kind == "awesome_list":
+            require("repo" in entry, f"awesome list entry {name!r} is missing repo")
+            repos.append(entry["repo"])
+        else:
+            statuses = entry.get("status")
+            require(isinstance(statuses, list) and statuses,
+                    f"entry {name!r} must have non-empty status")
+            unknown_statuses = [s for s in statuses if s not in STATUS_BADGES]
+            require(not unknown_statuses, f"entry {name!r} has unknown status: {unknown_statuses}")
+
+        if kind == "hf_model":
             require("model" in entry, f"HF model entry {name!r} is missing model")
             models.append(entry["model"])
-        else:
+        elif kind != "awesome_list":
             require("repo" in entry, f"entry {name!r} is missing repo")
             repos.append(entry["repo"])
 
@@ -192,7 +202,6 @@ def validate_data(data: dict[str, Any]) -> None:
 
 def build(data: dict[str, Any]) -> str:
     sections = data["sections"]
-    awesome = data["awesome"]
     out = []
     out.append("# Awesome AI Security Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)")
     out.append("")
@@ -213,7 +222,6 @@ def build(data: dict[str, Any]) -> str:
         out.append(f"- [{section['title']}](#{section['anchor']})")
         for group in section.get("groups", []):
             out.append(f"  - [{group['title']}](#{github_anchor(group['title'])})")
-    out.append("- [Related Awesome Lists](#related-awesome-lists)")
     out.append("- [Contributing](#contributing)")
     out.append("- [License](#license)")
     out.append("")
@@ -243,13 +251,6 @@ def build(data: dict[str, Any]) -> str:
         out.append("---")
         out.append("")
 
-    out.append("## Related Awesome Lists")
-    out.append("")
-    for item in awesome:
-        out.append(f"- **[{item['name']}]({GH}{item['repo']})** — {item['desc']} {badges(item['repo'])}")
-    out.append("")
-    out.append("---")
-    out.append("")
     out.append("## Contributing")
     out.append("")
     out.append("Contributions are welcome! This README is generated from structured data.")

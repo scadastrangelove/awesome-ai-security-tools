@@ -3593,103 +3593,132 @@
           ]
         }
       ]
-    }
-  ],
-  "awesome": [
-    {
-      "name": "awesome-llm-cybersecurity-tools",
-      "repo": "tenable/awesome-llm-cybersecurity-tools",
-      "desc": "Tenable's list (archived but a strong reference)."
     },
     {
-      "name": "Awesome-LLM4Cybersecurity",
-      "repo": "tmylla/Awesome-LLM4Cybersecurity",
-      "desc": "600+ papers on LLMs for cybersecurity."
-    },
-    {
-      "name": "awesome-ai-cybersecurity",
-      "repo": "ElNiak/awesome-ai-cybersecurity",
-      "desc": "Broad AI-for-security collection."
-    },
-    {
-      "name": "awesome-genai-cyberhub",
-      "repo": "Ashfaaq98/awesome-genai-cyberhub",
-      "desc": "GenAI-driven cybersecurity resources."
-    },
-    {
-      "name": "awesome-ai-security",
-      "repo": "gmh5225/awesome-ai-security",
-      "desc": "For pentesters, bug hunters, and researchers."
-    },
-    {
-      "name": "awesome-ai-security",
-      "repo": "ottosulin/awesome-ai-security",
-      "desc": "AI security resources."
-    },
-    {
-      "name": "Awesome-AI-Security",
-      "repo": "TalEliyahu/Awesome-AI-Security",
-      "desc": "AI security resources."
-    },
-    {
-      "name": "Awesome-AI-For-Security",
-      "repo": "AmanPriyanshu/Awesome-AI-For-Security",
-      "desc": "AI-for-security tools, papers, and datasets."
-    },
-    {
-      "name": "awesome-cybersecurity-agentic-ai",
-      "repo": "raphabot/awesome-cybersecurity-agentic-ai",
-      "desc": "Agentic-AI cybersecurity tools and security MCP servers."
-    },
-    {
-      "name": "open-source-llm-scanners",
-      "repo": "psiinon/open-source-llm-scanners",
-      "desc": "Open-source LLM scanners and testing tools."
-    },
-    {
-      "name": "awesome-mcp-security",
-      "repo": "Puliczek/awesome-mcp-security",
-      "desc": "MCP security resources, tools, writeups, and server/client risk references."
-    },
-    {
-      "name": "awesome-ml-security",
-      "repo": "trailofbits/awesome-ml-security",
-      "desc": "Trail of Bits' curated machine-learning security resources."
-    },
-    {
-      "name": "awesome-ml-privacy-attacks",
-      "repo": "stratosphereips/awesome-ml-privacy-attacks",
-      "desc": "Machine-learning privacy-attack papers and resources."
-    },
-    {
-      "name": "awesome-ml-for-cybersecurity",
-      "repo": "jivoi/awesome-ml-for-cybersecurity",
-      "desc": "Large classic list of machine-learning-for-cybersecurity resources (stale-ish but still useful)."
-    },
-    {
-      "name": "Awesome-AI4DevSecOps",
-      "repo": "awsm-research/Awesome-AI4DevSecOps",
-      "desc": "Taxonomy of AI-driven security solutions for DevSecOps."
-    },
-    {
-      "name": "awesome-llm-security",
-      "repo": "corca-ai/awesome-llm-security",
-      "desc": "Securing LLMs."
-    },
-    {
-      "name": "awesome-security-for-ai",
-      "repo": "zmre/awesome-security-for-ai",
-      "desc": "Products for securing AI systems."
-    },
-    {
-      "name": "awesome-gpt-security",
-      "repo": "cckuailong/awesome-gpt-security",
-      "desc": "GPT/LLM security tools and cases."
-    },
-    {
-      "name": "awesome-threat-intelligence",
-      "repo": "hslatman/awesome-threat-intelligence",
-      "desc": "Classic CTI list (pairs with the AI-CTI section)."
+      "title": "Related Awesome Lists",
+      "anchor": "related-awesome-lists",
+      "entries": [
+        {
+          "kind": "awesome_list",
+          "name": "awesome-llm-cybersecurity-tools",
+          "repo": "tenable/awesome-llm-cybersecurity-tools",
+          "desc": "Tenable's list (archived but a strong reference)."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "Awesome-LLM4Cybersecurity",
+          "repo": "tmylla/Awesome-LLM4Cybersecurity",
+          "desc": "600+ papers on LLMs for cybersecurity."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-ai-cybersecurity",
+          "repo": "ElNiak/awesome-ai-cybersecurity",
+          "desc": "Broad AI-for-security collection."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-genai-cyberhub",
+          "repo": "Ashfaaq98/awesome-genai-cyberhub",
+          "desc": "GenAI-driven cybersecurity resources."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-ai-security",
+          "repo": "gmh5225/awesome-ai-security",
+          "desc": "For pentesters, bug hunters, and researchers."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-ai-security",
+          "repo": "ottosulin/awesome-ai-security",
+          "desc": "AI security resources."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "Awesome-AI-Security",
+          "repo": "TalEliyahu/Awesome-AI-Security",
+          "desc": "AI security resources."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "Awesome-AI-For-Security",
+          "repo": "AmanPriyanshu/Awesome-AI-For-Security",
+          "desc": "AI-for-security tools, papers, and datasets."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-cybersecurity-agentic-ai",
+          "repo": "raphabot/awesome-cybersecurity-agentic-ai",
+          "desc": "Agentic-AI cybersecurity tools and security MCP servers."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "Awesome-Offensive-AI-Agentic-Landscape",
+          "repo": "Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
+          "desc": "Offensive AI-agent landscape covering open-source pentest/red-team agents, offensive/security-specialized models, papers, benchmarks, and commercial tools."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "open-source-llm-scanners",
+          "repo": "psiinon/open-source-llm-scanners",
+          "desc": "Open-source LLM scanners and testing tools."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-mcp-security",
+          "repo": "Puliczek/awesome-mcp-security",
+          "desc": "MCP security resources, tools, writeups, and server/client risk references."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-ml-security",
+          "repo": "trailofbits/awesome-ml-security",
+          "desc": "Trail of Bits' curated machine-learning security resources."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-ml-privacy-attacks",
+          "repo": "stratosphereips/awesome-ml-privacy-attacks",
+          "desc": "Machine-learning privacy-attack papers and resources."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-ml-for-cybersecurity",
+          "repo": "jivoi/awesome-ml-for-cybersecurity",
+          "desc": "Large classic list of machine-learning-for-cybersecurity resources (stale-ish but still useful)."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "Awesome-AI4DevSecOps",
+          "repo": "awsm-research/Awesome-AI4DevSecOps",
+          "desc": "Taxonomy of AI-driven security solutions for DevSecOps."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-llm-security",
+          "repo": "corca-ai/awesome-llm-security",
+          "desc": "Securing LLMs."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-security-for-ai",
+          "repo": "zmre/awesome-security-for-ai",
+          "desc": "Products for securing AI systems."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-gpt-security",
+          "repo": "cckuailong/awesome-gpt-security",
+          "desc": "GPT/LLM security tools and cases."
+        },
+        {
+          "kind": "awesome_list",
+          "name": "awesome-threat-intelligence",
+          "repo": "hslatman/awesome-threat-intelligence",
+          "desc": "Classic CTI list (pairs with the AI-CTI section)."
+        }
+      ]
     }
   ]
 }
