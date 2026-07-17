@@ -18,6 +18,7 @@ python3 gen_readme.py --check
 - Add `research` to `status` for papers, benchmarks, datasets, and research frameworks.
 - Use `commercial_open` in `status` for commercial products that still provide meaningful open components.
 - Add a caveat flag and/or `note` when the project has a restrictive, non-commercial, unclear, missing, or copyleft license.
+- Very new repositories, zero-star projects, and projects without a clear root license may be tracked in `WATCHLIST.md` first instead of the main README; they can graduate once license, adoption, and maintenance signals are clearer.
 
 ## Entry Format
 

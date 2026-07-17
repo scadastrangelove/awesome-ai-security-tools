@@ -661,6 +661,32 @@
               ]
             },
             {
+              "name": "SourceryKit",
+              "repo": "ProvablyAI/sourcerykit",
+              "org": "ProvablyAI",
+              "desc": "Python SDK for agent guardrails that intercepts outbound HTTP calls, enforces trusted-endpoint policies, logs requests, and checks agent handoff claims against a Provably backend before propagation.",
+              "note": "— **note:** BSL-1.1 licensed; requires Provably backend/API credentials and database setup.",
+              "status": [
+                "commercial_open"
+              ],
+              "license": "BSL-1.1",
+              "flags": [
+                "license_caveat",
+                "requires_api_key",
+                "commercial_features"
+              ],
+              "related": [
+                {
+                  "label": "Pipelock",
+                  "url": "https://github.com/luckyPipewrench/pipelock"
+                },
+                {
+                  "label": "mcp-context-protector",
+                  "url": "https://github.com/trailofbits/mcp-context-protector"
+                }
+              ]
+            },
+            {
               "name": "mcp-context-protector",
               "repo": "trailofbits/mcp-context-protector",
               "org": "Trail of Bits",
@@ -3453,6 +3479,28 @@
           "desc": "GPT-based discovery of privilege-escalation paths in AWS IAM policies.",
           "status": [
             "open_source"
+          ]
+        },
+        {
+          "name": "Cynative",
+          "repo": "cynative/cynative",
+          "desc": "Local AI security research agent for cloud, code, and runtime environments across GitHub, GitLab, AWS, GCP, Azure, and Kubernetes, with read-only action gates, sandboxed code execution, evidence-backed verification, and audit logs.",
+          "status": [
+            "open_source"
+          ],
+          "license": "Apache-2.0",
+          "flags": [
+            "requires_api_key"
+          ],
+          "related": [
+            {
+              "label": "Fraim",
+              "url": "https://github.com/fraim-dev/fraim"
+            },
+            {
+              "label": "EscalateGPT",
+              "url": "https://github.com/tenable/EscalateGPT"
+            }
           ]
         },
         {
