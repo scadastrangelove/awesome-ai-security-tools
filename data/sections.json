@@ -481,6 +481,21 @@
               "flags": [
                 "early_stage"
               ]
+            },
+            {
+              "name": "trentclaw",
+              "repo": "trnt-ai/trent-openclaw-security-assessment",
+              "org": "Trent AI",
+              "desc": "Client-side security auditor for OpenClaw deployments: applies pattern-based secret redaction locally, then uploads config/skill metadata and confirm-gated skill archives to Trent AI's API, which identifies misconfigurations, risky skills (prompt injection, permission escalation, data exfiltration), and chained attack paths.",
+              "note": "— **note:** core detection runs server-side via the Trent AI API (requires an API key); the Apache-2.0 client collects OpenClaw config/skill metadata, applies pattern-based secret redaction locally, and uploads skill archives only after an explicit in-terminal confirmation.",
+              "status": [
+                "commercial_open"
+              ],
+              "license": "Apache-2.0",
+              "flags": [
+                "requires_api_key",
+                "commercial_features"
+              ]
             }
           ]
         },
