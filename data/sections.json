@@ -152,6 +152,17 @@
               ]
             },
             {
+              "name": "Skarn",
+              "repo": "skarn-security/skarn-action",
+              "url": "https://getskarn.com/",
+              "status": ["commercial_open"],
+              "flags": ["commercial_features"],
+              "desc": "Security scanner for local AI coding-assistant sessions (Claude Code, Cursor, Codex CLI, Gemini CLI, Copilot Chat). Detects leaked credentials across 200+ types and correlates prompt-injection-to-exfiltration attack chains across MITRE ATLAS stages, with a 0-100 risk score, enforced redaction, and SARIF 2.1.0 / OWASP LLM / CWE output, plus a real-time pre-execution guard hook. Open GitHub Action wrapper over a proprietary offline engine; free tier plus paid org features.",
+              "related": [
+                { "label": "agent-audit", "url": "https://github.com/scadastrangelove/agent-audit" }
+              ]
+            },
+            {
               "name": "AI-Infra-Guard",
               "repo": "Tencent/AI-Infra-Guard",
               "org": "Tencent Zhuque Lab",
