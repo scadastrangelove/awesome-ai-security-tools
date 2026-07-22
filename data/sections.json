@@ -687,6 +687,21 @@
               ]
             },
             {
+              "name": "emisar",
+              "repo": "AndrewDryga/emisar",
+              "desc": "Control plane that limits infrastructure agents to defined server actions, applies access and policy checks before dispatch, supports conditional approval, revalidates actions on the host, and keeps separate control-plane and runner audit records.",
+              "note": "— **note:** runner, MCP bridge, and packs are Apache-2.0; the portal is BSL-1.1 and converts to Apache-2.0 on 2029-07-20.",
+              "status": [
+                "commercial_open"
+              ],
+              "license": "BSL-1.1 / Apache-2.0",
+              "flags": [
+                "license_caveat",
+                "early_stage",
+                "commercial_features"
+              ]
+            },
+            {
               "name": "mcp-context-protector",
               "repo": "trailofbits/mcp-context-protector",
               "org": "Trail of Bits",
