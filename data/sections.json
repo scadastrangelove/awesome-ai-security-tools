@@ -926,7 +926,7 @@
               "repo": "webpro255/agentlock",
               "license": "AGPL-3.0",
               "desc": "Pre-action authorization gate for LLM agent tool calls that decides from session provenance rather than content, with deny-by-default tool permissions, parameter lineage, Ed25519 signed receipts, and a hash-chained audit log; AGPL-3.0 licensed with commercial options.",
-              "note": "— **note:** externally evaluated on AgentDojo with predictions pre-registered before the runs; the published results include a suite where the defense costs more utility than the attack it prevents.",
+              "note": "— **note:** evaluated on AgentDojo with predictions pre-registered before the runs; the published results include a suite where the defense costs more utility than the attack it prevents.",
               "status": [
                 "open_source",
                 "research"
