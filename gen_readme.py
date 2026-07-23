@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Generate the Awesome AI Security Tools README from structured JSON data.
 
-Badges are dynamic shields.io endpoints (stars + last commit) that render live
-from the GitHub API, so counts stay fresh without manual updates.
+GitHub stars and last-commit dates are rendered from static snapshots stored in
+data/sections.json. Refresh them before a release with
+scripts/update_github_metrics.py; the README itself does not call live badge
+services for per-entry GitHub metadata.
 """
 
 from argparse import ArgumentParser
@@ -13,7 +15,6 @@ import re
 from typing import Any
 
 
-STAR = "%E2%98%85"  # ★
 GH = "https://github.com/"
 HF = "https://huggingface.co/"
 
@@ -45,12 +46,29 @@ class DataError(ValueError):
     """Raised when the structured data is invalid."""
 
 
-def badges(repo: str) -> str:
-    s = (f"[![stars](https://img.shields.io/github/stars/{repo}"
-         f"?style=flat-square&label={STAR})](https://github.com/{repo})")
-    c = (f"[![updated](https://img.shields.io/github/last-commit/{repo}"
-         f"?style=flat-square&label=updated)](https://github.com/{repo})")
-    return f"{s} {c}"
+def format_int(value: int) -> str:
+    return f"{value:,}"
+
+
+def github_metrics(entry: dict[str, Any]) -> str:
+    metrics = entry.get("metrics")
+    if not metrics:
+        return ""
+    parts = []
+    if "stars" in metrics:
+        parts.append(f"★ {format_int(metrics['stars'])}")
+    if "updated" in metrics:
+        parts.append(f"updated {metrics['updated']}")
+    return f" *({' · '.join(parts)})*" if parts else ""
+
+
+def latest_metrics_snapshot(data: dict[str, Any]) -> str | None:
+    snapshots = [
+        entry["metrics"]["snapshot"]
+        for entry in iter_entries(data)
+        if entry.get("metrics", {}).get("snapshot")
+    ]
+    return max(snapshots) if snapshots else None
 
 
 def hf_model_url(model: str) -> str:
@@ -100,14 +118,13 @@ def render_entry(entry: dict[str, Any]) -> str:
     if entry.get("kind") == "awesome_list":
         repo = entry["repo"]
         url = entry.get("url", f"{GH}{repo}")
-        return f"- **[{entry['name']}]({url})** — {entry['desc']} {badges(repo)}"
+        return f"- **[{entry['name']}]({url})** — {entry['desc']}{github_metrics(entry)}"
     repo = entry["repo"]
     url = entry.get("url", f"{GH}{repo}")
     tags = entry_tags(entry)
     org = f" *({entry['org']})*" if entry.get("org") else ""
     note = f" {entry['note']}" if entry.get("note") else ""
-    line = (f"- **[{entry['name']}]({url})** {tags} — {entry['desc']}{org}{note} "
-            f"{badges(repo)}")
+    line = f"- **[{entry['name']}]({url})** {tags} — {entry['desc']}{org}{note}{github_metrics(entry)}"
     out = [line]
     if entry.get("sources"):
         out.append("  - **Sources:** " + " · ".join(link(s) for s in entry["sources"]))
@@ -194,6 +211,18 @@ def validate_data(data: dict[str, Any]) -> None:
                 require(set(item) == {"label", "url"},
                         f"entry {name!r} {field} items must contain label and url only")
 
+        metrics = entry.get("metrics")
+        if metrics is not None:
+            require("repo" in entry, f"entry {name!r} has metrics but no repo")
+            require(set(metrics) == {"stars", "updated", "snapshot"},
+                    f"entry {name!r} metrics must contain stars, updated, and snapshot only")
+            require(isinstance(metrics["stars"], int) and metrics["stars"] >= 0,
+                    f"entry {name!r} metrics.stars must be a non-negative integer")
+            for field in ("updated", "snapshot"):
+                require(isinstance(metrics[field], str)
+                        and re.fullmatch(r"\d{4}-\d{2}-\d{2}", metrics[field]),
+                        f"entry {name!r} metrics.{field} must be YYYY-MM-DD")
+
     duplicate_repos = [repo for repo, count in Counter(repos).items() if count > 1]
     duplicate_models = [model for model, count in Counter(models).items() if count > 1]
     require(not duplicate_repos, f"duplicate repos: {', '.join(duplicate_repos)}")
@@ -202,6 +231,7 @@ def validate_data(data: dict[str, Any]) -> None:
 
 def build(data: dict[str, Any]) -> str:
     sections = data["sections"]
+    latest_snapshot = latest_metrics_snapshot(data)
     out = []
     out.append("# Awesome AI Security Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)")
     out.append("")
@@ -212,7 +242,9 @@ def build(data: dict[str, Any]) -> str:
     out.append("")
     out.append("**Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.")
     out.append("")
-    out.append("GitHub-hosted entries show live **★ stars** and **last-commit** badges (rendered from the GitHub API by shields.io). Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.")
+    snapshot_note = (f" Latest snapshot: {latest_snapshot}."
+                     if latest_snapshot else " run `python3 scripts/update_github_metrics.py` before release.")
+    out.append("GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release." + snapshot_note + " Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.")
     out.append("")
     out.append("---")
     out.append("")
@@ -260,6 +292,7 @@ def build(data: dict[str, Any]) -> str:
     out.append("3. Regenerate and check the README:")
     out.append("")
     out.append("```bash")
+    out.append("python3 scripts/update_github_metrics.py")
     out.append("python3 gen_readme.py")
     out.append("python3 gen_readme.py --check")
     out.append("```")

@@ -27,7 +27,12 @@
               "label": "asamm",
               "url": "https://github.com/scadastrangelove/asamm"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 0,
+            "updated": "2026-05-25",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "seclab-taskflow-agent",
@@ -42,7 +47,12 @@
               "label": "SigmaOptimizer",
               "url": "https://github.com/YusukeJustinNakajima/SigmaOptimizer"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 219,
+            "updated": "2026-07-20",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "honeyslop",
@@ -50,7 +60,12 @@
           "desc": "Code-canary decoys to triage AI-hallucinated (\"slop\") vulnerability reports flooding bug-bounty programs.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 95,
+            "updated": "2026-05-20",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "nano-analyzer",
@@ -60,7 +75,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 299,
+            "updated": "2026-04-14",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "SigmaOptimizer",
@@ -78,7 +98,12 @@
               "label": "seclab-taskflow-agent",
               "url": "https://github.com/GitHubSecurityLab/seclab-taskflow-agent"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 11,
+            "updated": "2025-08-01",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "ai-soc-triage-assistant",
@@ -89,7 +114,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 0,
+            "updated": "2026-02-23",
+            "snapshot": "2026-07-23"
+          }
         }
       ],
       "footer": "> See also: OpenAI's *Aardvark* / *Codex Security* research previews — public references exist, but there is no standalone installable repo to badge here."
@@ -149,7 +179,12 @@
                   "label": "nuclei-autotriage",
                   "url": "https://github.com/cyberok-org/nuclei-autotriage"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 11,
+                "updated": "2026-07-15",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "AI-Infra-Guard",
@@ -176,7 +211,12 @@
                   "label": "Cisco AI Defense – mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 4197,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "SkillSpector",
@@ -203,7 +243,12 @@
                   "label": "Cisco AI Defense – mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 13584,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Ramparts",
@@ -225,7 +270,12 @@
                   "label": "Cisco AI Defense – mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 96,
+                "updated": "2026-06-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "mcp-armor",
@@ -248,7 +298,12 @@
                   "label": "Cisco AI Defense – mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 117,
+                "updated": "2026-03-27",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "aguara",
@@ -274,7 +329,12 @@
                   "label": "Cisco AI Defense – skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 85,
+                "updated": "2026-07-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "agent-scan",
@@ -297,7 +357,12 @@
                   "label": "Cisco AI Defense – skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 2809,
+                "updated": "2026-07-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "inkog",
@@ -316,7 +381,12 @@
                   "label": "agentic-radar",
                   "url": "https://github.com/splx-ai/agentic-radar"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 29,
+                "updated": "2026-06-07",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "AgentShield",
@@ -334,7 +404,12 @@
                   "label": "Snyk Agent Scan",
                   "url": "https://github.com/snyk/agent-scan"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 1008,
+                "updated": "2026-07-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "repo-forensics",
@@ -355,7 +430,12 @@
                   "label": "aguara",
                   "url": "https://github.com/garagon/aguara"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 143,
+                "updated": "2026-07-15",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "skill-scanner",
@@ -378,7 +458,12 @@
                   "label": "Cisco AI Defense – mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 2378,
+                "updated": "2026-06-29",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "mcp-scanner",
@@ -404,7 +489,12 @@
                   "label": "aguara",
                   "url": "https://github.com/garagon/aguara"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 990,
+                "updated": "2026-07-21",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "mcp-guardian",
@@ -422,7 +512,12 @@
                   "label": "Snyk Agent Scan",
                   "url": "https://github.com/snyk/agent-scan"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 5,
+                "updated": "2026-02-17",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "agentic-radar",
@@ -431,7 +526,12 @@
               "desc": "CLI security scanner for agentic workflows (LangGraph, CrewAI, n8n, etc.) — maps tools/data flows and flags risks.",
               "status": [
                 "commercial_open"
-              ]
+              ],
+              "metrics": {
+                "stars": 1015,
+                "updated": "2025-11-27",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "skilltotal",
@@ -457,7 +557,12 @@
                   "label": "Cisco AI Defense – mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 1,
+                "updated": "2026-07-09",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Sunglasses",
@@ -480,7 +585,12 @@
               "note": "— **note:** early-stage project; published precision/recall benchmark is self-reported by the project.",
               "flags": [
                 "early_stage"
-              ]
+              ],
+              "metrics": {
+                "stars": 4,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "trentclaw",
@@ -495,7 +605,12 @@
               "flags": [
                 "requires_api_key",
                 "commercial_features"
-              ]
+              ],
+              "metrics": {
+                "stars": 23,
+                "updated": "2026-07-22",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -533,7 +648,12 @@
                   "label": "agent-audit",
                   "url": "https://github.com/scadastrangelove/agent-audit"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 12,
+                "updated": "2026-06-28",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "agent-threat-rules (ATR)",
@@ -551,7 +671,12 @@
                   "label": "aguara",
                   "url": "https://github.com/garagon/aguara"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 0,
+                "updated": "2026-03-10",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "MCP-Security-Checklist",
@@ -570,7 +695,12 @@
                   "label": "ATR – Agent Threat Rules",
                   "url": "https://github.com/panguard-ai/agent-threat-rules"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 833,
+                "updated": "2025-04-28",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Anthropic-Cybersecurity-Skills",
@@ -589,7 +719,12 @@
                   "label": "Cisco AI Defense – skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 26420,
+                "updated": "2026-06-26",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Claude-BugHunter",
@@ -611,7 +746,12 @@
                   "label": "Anthropic-Cybersecurity-Skills",
                   "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 3026,
+                "updated": "2026-07-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "AgentDojo",
@@ -630,7 +770,12 @@
                   "label": "ATR – Agent Threat Rules",
                   "url": "https://github.com/panguard-ai/agent-threat-rules"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 678,
+                "updated": "2026-06-02",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -654,7 +799,12 @@
                   "label": "defenseclaw",
                   "url": "https://github.com/cisco-ai-defense/defenseclaw"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 1968,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Pipelock",
@@ -673,7 +823,12 @@
                   "label": "mcp-context-protector",
                   "url": "https://github.com/trailofbits/mcp-context-protector"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 779,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "SourceryKit",
@@ -699,7 +854,12 @@
                   "label": "mcp-context-protector",
                   "url": "https://github.com/trailofbits/mcp-context-protector"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 15,
+                "updated": "2026-07-20",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "mcp-context-protector",
@@ -722,7 +882,12 @@
                   "label": "Pipelock",
                   "url": "https://github.com/luckyPipewrench/pipelock"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 222,
+                "updated": "2026-02-13",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "MCP Defender",
@@ -744,7 +909,12 @@
                   "label": "mcp-context-protector",
                   "url": "https://github.com/trailofbits/mcp-context-protector"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 256,
+                "updated": "2026-06-05",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "MCP Gateway",
@@ -767,7 +937,12 @@
                   "label": "mcp-context-protector",
                   "url": "https://github.com/trailofbits/mcp-context-protector"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 381,
+                "updated": "2026-01-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Parallax",
@@ -786,7 +961,12 @@
                   "label": "Armorer Guard",
                   "url": "https://github.com/ArmorerLabs/Armorer-Guard"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 31,
+                "updated": "2026-06-05",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Armorer Guard",
@@ -805,7 +985,12 @@
                   "label": "ATR – Agent Threat Rules",
                   "url": "https://github.com/panguard-ai/agent-threat-rules"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 41,
+                "updated": "2026-06-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "onecli",
@@ -823,7 +1008,12 @@
                   "label": "defenseclaw",
                   "url": "https://github.com/cisco-ai-defense/defenseclaw"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 2582,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "microsandbox",
@@ -841,7 +1031,12 @@
                   "label": "defenseclaw",
                   "url": "https://github.com/cisco-ai-defense/defenseclaw"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 7006,
+                "updated": "2026-07-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "agentguard",
@@ -859,7 +1054,12 @@
                   "label": "defenseclaw",
                   "url": "https://github.com/cisco-ai-defense/defenseclaw"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 446,
+                "updated": "2026-06-25",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "defenseclaw",
@@ -878,7 +1078,12 @@
                   "label": "agentguard",
                   "url": "https://github.com/GoPlusSecurity/agentguard"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 781,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "AgentFence",
@@ -897,7 +1102,12 @@
                   "label": "Snyk Agent Scan",
                   "url": "https://github.com/snyk/agent-scan"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 59,
+                "updated": "2025-03-06",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "clawsec",
@@ -919,7 +1129,12 @@
                   "label": "Cisco AI Defense – skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 1070,
+                "updated": "2026-07-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "AgentLock",
@@ -933,7 +1148,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 18,
+                "updated": "2026-07-16",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "h5i",
@@ -952,7 +1172,12 @@
                   "label": "defenseclaw",
                   "url": "https://github.com/cisco-ai-defense/defenseclaw"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 484,
+                "updated": "2026-07-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "DvalinCode",
@@ -975,7 +1200,12 @@
                   "label": "Armorer Guard",
                   "url": "https://github.com/ArmorerLabs/Armorer-Guard"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 95,
+                "updated": "2026-07-22",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         }
@@ -998,7 +1228,12 @@
               "label": "sast-skills",
               "url": "https://github.com/utkusen/sast-skills"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 158,
+            "updated": "2025-12-01",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Adversarial Robustness Toolbox (ART)",
@@ -1017,7 +1252,12 @@
               "label": "PrivacyRaven",
               "url": "https://github.com/trailofbits/PrivacyRaven"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 6135,
+            "updated": "2025-11-13",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Foolbox",
@@ -1031,7 +1271,12 @@
               "label": "Adversarial Robustness Toolbox",
               "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 2972,
+            "updated": "2024-03-04",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "modelscan",
@@ -1054,7 +1299,12 @@
               "label": "ai-exploits",
               "url": "https://github.com/protectai/ai-exploits"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 748,
+            "updated": "2026-02-18",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Fickling",
@@ -1073,7 +1323,12 @@
               "label": "picklescan",
               "url": "https://github.com/mmaitre314/picklescan"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 652,
+            "updated": "2026-07-21",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "picklescan",
@@ -1091,7 +1346,12 @@
               "label": "Fickling",
               "url": "https://github.com/trailofbits/fickling"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 418,
+            "updated": "2026-07-01",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "AIsbom",
@@ -1109,7 +1369,12 @@
               "label": "model-provenance-kit",
               "url": "https://github.com/cisco-ai-defense/model-provenance-kit"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 74,
+            "updated": "2026-07-20",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "model-provenance-kit",
@@ -1124,7 +1389,12 @@
               "label": "AIsbom",
               "url": "https://github.com/Lab700xOrg/aisbom"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 98,
+            "updated": "2026-07-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "pickle-fuzzer",
@@ -1147,7 +1417,12 @@
               "label": "picklescan",
               "url": "https://github.com/mmaitre314/picklescan"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 17,
+            "updated": "2026-06-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Medusa",
@@ -1169,7 +1444,12 @@
               "label": "modelscan",
               "url": "https://github.com/protectai/modelscan"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 948,
+            "updated": "2026-06-24",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "PrivacyRaven",
@@ -1186,7 +1466,12 @@
               "label": "Adversarial Robustness Toolbox",
               "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 214,
+            "updated": "2025-09-05",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "gym-malware",
@@ -1195,7 +1480,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 637,
+            "updated": "2018-06-15",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "deep-pwning",
@@ -1204,7 +1494,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 570,
+            "updated": "2022-05-17",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "open-malicious-code-benchmark",
@@ -1233,7 +1528,12 @@
               "label": "bandit4mal",
               "url": "https://github.com/lyvd/bandit4mal"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 17,
+            "updated": "2026-06-09",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "malicious-software-packages-dataset",
@@ -1254,7 +1554,12 @@
               "label": "pypi_malregistry",
               "url": "https://github.com/lxyeternal/pypi_malregistry"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 368,
+            "updated": "2026-07-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "GuardDog",
@@ -1273,7 +1578,12 @@
               "label": "Packj",
               "url": "https://github.com/ossillate-inc/packj"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 1163,
+            "updated": "2026-07-13",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "package-analysis",
@@ -1293,7 +1603,12 @@
               "label": "package-feeds",
               "url": "https://github.com/ossf/package-feeds"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 901,
+            "updated": "2026-07-21",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "malicious-code-ruleset",
@@ -1308,7 +1623,12 @@
               "label": "open-malicious-code-benchmark",
               "url": "https://github.com/False-Positive-Community/open-malicious-code-benchmark"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 149,
+            "updated": "2025-02-24",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "pypi_malregistry",
@@ -1326,7 +1646,12 @@
               "label": "malicious-software-packages-dataset",
               "url": "https://github.com/DataDog/malicious-software-packages-dataset"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 127,
+            "updated": "2026-07-21",
+            "snapshot": "2026-07-23"
+          }
         }
       ]
     },
@@ -1342,7 +1667,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 14458,
+            "updated": "2026-07-14",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "PentAGI",
@@ -1351,7 +1681,12 @@
           "desc": "Fully autonomous multi-agent pentest framework with Docker sandboxing.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 21163,
+            "updated": "2026-05-31",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "CAI – Cybersecurity AI",
@@ -1361,7 +1696,12 @@
           "status": [
             "open_source",
             "commercial_open"
-          ]
+          ],
+          "metrics": {
+            "stars": 9527,
+            "updated": "2026-07-14",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Strix",
@@ -1369,7 +1709,12 @@
           "desc": "Autonomous \"AI hackers\" that dynamically run code and validate vulnerabilities with PoCs (Apache-2.0).",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 43655,
+            "updated": "2026-07-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "hackingBuddyGPT",
@@ -1378,7 +1723,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 1187,
+            "updated": "2025-08-27",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Nebula",
@@ -1387,7 +1737,12 @@
           "status": [
             "open_source",
             "commercial_open"
-          ]
+          ],
+          "metrics": {
+            "stars": 1073,
+            "updated": "2026-07-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "HexStrike-AI",
@@ -1395,7 +1750,12 @@
           "desc": "MCP server exposing 150+ security tools (nmap, gobuster, nuclei, …) to AI agents (MIT).",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 10457,
+            "updated": "2026-04-27",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Burp Suite MCP Server",
@@ -1414,7 +1774,12 @@
               "label": "HexStrike-AI",
               "url": "https://github.com/0x4m4/hexstrike-ai"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 1004,
+            "updated": "2026-05-26",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "pentest-ai",
@@ -1428,7 +1793,12 @@
               "label": "pentest-ai-agents",
               "url": "https://github.com/0xSteph/pentest-ai-agents"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 1420,
+            "updated": "2026-06-30",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "pentest-ai-agents",
@@ -1442,7 +1812,12 @@
               "label": "pentest-ai",
               "url": "https://github.com/0xSteph/pentest-ai"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 2033,
+            "updated": "2026-06-19",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "DarkMoon",
@@ -1468,7 +1843,12 @@
               "label": "pentest-ai",
               "url": "https://github.com/0xSteph/pentest-ai"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 770,
+            "updated": "2026-07-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "T3MP3ST",
@@ -1496,7 +1876,12 @@
               "label": "pentest-ai",
               "url": "https://github.com/0xSteph/pentest-ai"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 5121,
+            "updated": "2026-07-20",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Shannon",
@@ -1509,7 +1894,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 46094,
+            "updated": "2026-07-20",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "AIDA",
@@ -1520,7 +1910,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 448,
+            "updated": "2026-07-19",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "HackSynth",
@@ -1532,7 +1927,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 309,
+            "updated": "2025-06-24",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "VulnBot",
@@ -1541,7 +1941,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 181,
+            "updated": "2025-04-07",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "PentestAgent",
@@ -1549,7 +1954,12 @@
           "desc": "Black-box AI pentest framework with MCP, multi-agent spawning, and persistent sessions.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 2817,
+            "updated": "2026-07-07",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "cyber-security-llm-agents",
@@ -1561,7 +1971,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 380,
+            "updated": "2024-05-07",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Pentest-Swarm-AI",
@@ -1569,7 +1984,12 @@
           "desc": "Swarm-intelligence multi-agent pentest with stigmergic blackboard coordination (Go).",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 2104,
+            "updated": "2026-06-20",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "hackGPT",
@@ -1580,7 +2000,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 1195,
+            "updated": "2025-07-21",
+            "snapshot": "2026-07-23"
+          }
         }
       ]
     },
@@ -1605,7 +2030,12 @@
                   "label": "HadrianSecurity/subwiz model",
                   "url": "https://huggingface.co/HadrianSecurity/subwiz"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 383,
+                "updated": "2025-12-18",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "regulator",
@@ -1623,7 +2053,12 @@
                   "label": "subwiz",
                   "url": "https://github.com/hadriansecurity/subwiz"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 393,
+                "updated": "2023-02-18",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -1641,7 +2076,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 1287,
+                "updated": "2024-02-19",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -1656,7 +2096,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 826,
+                "updated": "2021-06-29",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "http-fingerprint-transformer",
@@ -1668,7 +2113,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 3,
+                "updated": "2024-04-05",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -1686,7 +2136,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 796,
+                "updated": "2025-12-04",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -1716,7 +2171,12 @@
               "desc": "🅐 WGAN that learns password distributions from leaks to generate guesses; historical reference implementation of the PassGAN paper (MIT).",
               "status": [
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 2005,
+                "updated": "2018-09-30",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "neural_network_cracking",
@@ -1735,7 +2195,12 @@
                   "label": "PassGAN",
                   "url": "https://github.com/brannondorsey/PassGAN"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 243,
+                "updated": "2018-11-30",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -1778,7 +2243,12 @@
               "note": "— **note:** CC0-1.0 licensed.",
               "status": [
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 262,
+                "updated": "2026-06-04",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "VisualPhishNet",
@@ -1791,7 +2261,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 30,
+                "updated": "2022-02-09",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -1805,7 +2280,12 @@
               "desc": "🅐 Trains scikit-learn classifiers on malware/benign corpora and compiles the learned model into deployable YARA rules (Apache-2.0).",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 214,
+                "updated": "2020-12-18",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -1823,7 +2303,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 6,
+                "updated": "2026-02-21",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "deepsecrets",
@@ -1832,7 +2317,12 @@
               "note": "— **note:** useful narrow detector, but not a trained ML model.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 170,
+                "updated": "2026-06-04",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "kind": "hf_model",
@@ -1874,7 +2364,12 @@
               "label": "vulnhuntr-mod",
               "url": "https://github.com/kxcode/vulnhuntr-mod"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 2714,
+            "updated": "2025-02-06",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "deepsec",
@@ -1893,7 +2388,12 @@
               "label": "sast-skills",
               "url": "https://github.com/utkusen/sast-skills"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 6193,
+            "updated": "2026-07-21",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "defending-code-reference-harness",
@@ -1918,7 +2418,12 @@
               "label": "claude-code-security-review",
               "url": "https://github.com/anthropics/claude-code-security-review"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 6671,
+            "updated": "2026-07-16",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "rust-in-peace",
@@ -1944,7 +2449,12 @@
               "label": "deepsec",
               "url": "https://github.com/vercel-labs/deepsec"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 5,
+            "updated": "2026-07-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "claude-code-security-review",
@@ -1953,7 +2463,12 @@
           "desc": "Official Claude-based semantic SAST GitHub Action that reviews PR diffs.",
           "status": [
             "commercial_open"
-          ]
+          ],
+          "metrics": {
+            "stars": 5613,
+            "updated": "2026-02-11",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "IRIS",
@@ -1962,7 +2477,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 408,
+            "updated": "2026-07-02",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "sast-skills",
@@ -1980,7 +2500,12 @@
               "label": "llm-sast-scanner",
               "url": "https://github.com/SunWeb3Sec/llm-sast-scanner"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 1205,
+            "updated": "2026-04-08",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "llm-sast-scanner",
@@ -1995,7 +2520,12 @@
               "label": "sast-skills",
               "url": "https://github.com/utkusen/sast-skills"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 272,
+            "updated": "2026-04-07",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "sast-ai-workflow",
@@ -2014,7 +2544,12 @@
               "label": "Fraim",
               "url": "https://github.com/fraim-dev/fraim"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 18,
+            "updated": "2026-06-29",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "xvulnhuntr",
@@ -2035,7 +2570,12 @@
               "label": "vulnhuntr-mod",
               "url": "https://github.com/kxcode/vulnhuntr-mod"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 12,
+            "updated": "2026-02-03",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "llm-security-scanner",
@@ -2046,7 +2586,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 22,
+            "updated": "2025-04-02",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "vulnhuntr-mod",
@@ -2066,7 +2611,12 @@
               "label": "xvulnhuntr",
               "url": "https://github.com/CompassSecurity/xvulnhuntr"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 7,
+            "updated": "2024-12-14",
+            "snapshot": "2026-07-23"
+          }
         }
       ]
     },
@@ -2085,7 +2635,12 @@
               "desc": "LLM-driven fuzz-harness generation for OSS-Fuzz; reported 26 real vulnerabilities (incl. CVE-2024-9143 in OpenSSL).",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 1422,
+                "updated": "2026-03-02",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "PromptFuzz",
@@ -2097,7 +2652,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 339,
+                "updated": "2026-05-15",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Fuzz4All",
@@ -2106,7 +2666,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 335,
+                "updated": "2025-08-11",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "ChatAFL",
@@ -2115,7 +2680,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 391,
+                "updated": "2025-06-20",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "TitanFuzz",
@@ -2127,7 +2697,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 94,
+                "updated": "2023-09-10",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -2140,7 +2715,12 @@
               "desc": "First open-source fuzzing framework for LLM API integrations.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 372,
+                "updated": "2024-02-12",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "ps-fuzz",
@@ -2149,7 +2729,12 @@
               "desc": "System-prompt hardening fuzzer; 16 attacks × 16 providers.",
               "status": [
                 "commercial_open"
-              ]
+              ],
+              "metrics": {
+                "stars": 699,
+                "updated": "2026-02-16",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "FuzzyAI",
@@ -2158,7 +2743,12 @@
               "desc": "Automated LLM fuzzer for jailbreaks/prompt injection.",
               "status": [
                 "commercial_open"
-              ]
+              ],
+              "metrics": {
+                "stars": 1536,
+                "updated": "2026-02-06",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "spikee",
@@ -2173,7 +2763,12 @@
                   "label": "promptmap",
                   "url": "https://github.com/utkusen/promptmap"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 225,
+                "updated": "2026-07-13",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "promptmap",
@@ -2190,7 +2785,12 @@
                   "label": "spikee",
                   "url": "https://github.com/ReversecLabs/spikee"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 1235,
+                "updated": "2025-12-01",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "ai-prompt-fuzzer",
@@ -2199,7 +2799,12 @@
               "desc": "Burp Suite extension fuzzing GenAI/LLM prompts.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 35,
+                "updated": "2025-09-04",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         }
@@ -2216,7 +2821,12 @@
           "desc": "LLM + ChromaDB tool to summarize threat reports and extract MITRE TTPs and IOCs.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 10,
+            "updated": "2023-11-15",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "TI-Mindmap-GPT",
@@ -2224,7 +2834,12 @@
           "desc": "Streamlit app: AI summaries, mindmaps, IOC/TTP extraction, and ATT&CK Navigator layers.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 110,
+            "updated": "2026-02-16",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "aiocrioc",
@@ -2232,7 +2847,12 @@
           "desc": "LLM + OCR IOC extraction (pulls IOCs from images/PDFs).",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 38,
+            "updated": "2024-12-04",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "ThreatIngestor",
@@ -2240,7 +2860,12 @@
           "desc": "Extracts/aggregates IOCs from feeds; integrates with MISP/ThreatKB (pairs well with LLM post-processing).",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 923,
+            "updated": "2026-05-26",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "IATelligence",
@@ -2254,7 +2879,12 @@
               "label": "MCP_Security",
               "url": "https://github.com/fr0gger/MCP_Security"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 384,
+            "updated": "2022-12-09",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "MCP_Security",
@@ -2271,7 +2901,12 @@
               "label": "IATelligence",
               "url": "https://github.com/fr0gger/IATelligence"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 49,
+            "updated": "2025-01-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "threat-intelligence-cti-analysis",
@@ -2285,7 +2920,12 @@
               "label": "soctalk",
               "url": "https://github.com/soctalk/soctalk"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 4,
+            "updated": "2025-11-03",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "hf_model",
@@ -2314,7 +2954,12 @@
           "desc": "Black Hat 2025 MCP server exposing security-investigation tools (ELK, IRIS).",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 44,
+            "updated": "2025-12-28",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "soctalk",
@@ -2328,7 +2973,12 @@
               "label": "SigmaOptimizer",
               "url": "https://github.com/YusukeJustinNakajima/SigmaOptimizer"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 71,
+            "updated": "2026-07-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Vigil SOC",
@@ -2343,7 +2993,12 @@
               "label": "soctalk",
               "url": "https://github.com/soctalk/soctalk"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 217,
+            "updated": "2026-07-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "agentic-soc-platform",
@@ -2351,7 +3006,12 @@
           "desc": "Agentic SOC platform (LangGraph/Dify) with local-LLM support.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 964,
+            "updated": "2026-07-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "SigmAIQ",
@@ -2369,7 +3029,12 @@
               "label": "SigmaOptimizer",
               "url": "https://github.com/YusukeJustinNakajima/SigmaOptimizer"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 97,
+            "updated": "2025-11-03",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "SOCGPT",
@@ -2377,7 +3042,12 @@
           "desc": "LLM log summarization, severity triage, MITRE mapping, and Q&A.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 7,
+            "updated": "2025-06-11",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "AttackGen",
@@ -2385,7 +3055,12 @@
           "desc": "LLM-driven incident-response scenario generator using MITRE ATT&CK + ATLAS.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 1228,
+            "updated": "2026-07-21",
+            "snapshot": "2026-07-23"
+          }
         }
       ]
     },
@@ -2400,7 +3075,12 @@
           "desc": "IDA Pro plugin: GPT adds comments and meaningful variable names.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 3447,
+            "updated": "2026-05-03",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "ida-pro-mcp",
@@ -2408,7 +3088,12 @@
           "desc": "MCP bridge for IDA Pro exposing decompile, disassemble, xref, rename, and debugging workflows to LLM clients.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 10693,
+            "updated": "2026-07-19",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "GhidraMCP",
@@ -2426,7 +3111,12 @@
               "label": "OGhidra",
               "url": "https://github.com/llnl/OGhidra"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 9563,
+            "updated": "2025-06-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "ReVa",
@@ -2444,7 +3134,12 @@
               "label": "GhidrAssistMCP",
               "url": "https://github.com/symgraph/GhidrAssistMCP"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 785,
+            "updated": "2026-06-30",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "GhidrAssistMCP",
@@ -2462,7 +3157,12 @@
               "label": "ghidra-mcp",
               "url": "https://github.com/bethington/ghidra-mcp"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 674,
+            "updated": "2026-07-12",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "ghidra-mcp",
@@ -2476,7 +3176,12 @@
               "label": "GhidrAssistMCP",
               "url": "https://github.com/symgraph/GhidrAssistMCP"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 2926,
+            "updated": "2026-07-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "GhidrOllama",
@@ -2497,7 +3202,12 @@
               "label": "GhidraMCP",
               "url": "https://github.com/LaurieWired/GhidraMCP"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 153,
+            "updated": "2024-11-29",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "GhidraGPT",
@@ -2515,7 +3225,12 @@
               "label": "ReVa",
               "url": "https://github.com/cyberkaida/reverse-engineering-assistant"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 586,
+            "updated": "2026-07-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "LLM4Decompile",
@@ -2527,7 +3242,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 6779,
+            "updated": "2026-02-12",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "x64dbg_mcp",
@@ -2535,7 +3255,12 @@
           "desc": "MCP server exposing x64dbg debugging and reverse-engineering operations to AI clients.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 85,
+            "updated": "2026-06-08",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "binaryninja-mcp",
@@ -2543,7 +3268,12 @@
           "desc": "MCP server for Binary Ninja-assisted reverse engineering.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 46,
+            "updated": "2025-05-13",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "OGhidra",
@@ -2562,7 +3292,12 @@
               "label": "GhidraMCP",
               "url": "https://github.com/LaurieWired/GhidraMCP"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 291,
+            "updated": "2026-07-15",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "ghidra_tools (G-3PO)",
@@ -2571,7 +3306,12 @@
           "desc": "Ghidra plugin for AI-assisted decompiled-code analysis.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 312,
+            "updated": "2023-05-10",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "gpt-wpre",
@@ -2579,7 +3319,12 @@
           "desc": "Whole-program reverse engineering with GPT-3.",
           "status": [
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 382,
+            "updated": "2022-12-31",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "burpgpt",
@@ -2593,7 +3338,12 @@
               "label": "Burp-extension-for-GPT",
               "url": "https://github.com/tenable/Burp-extension-for-GPT"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 2340,
+            "updated": "2024-06-09",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Burp-extension-for-GPT",
@@ -2608,7 +3358,12 @@
               "label": "burpgpt",
               "url": "https://github.com/aress31/burpgpt"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 115,
+            "updated": "2023-05-01",
+            "snapshot": "2026-07-23"
+          }
         }
       ]
     },
@@ -2637,7 +3392,12 @@
                   "label": "promptfoo",
                   "url": "https://github.com/promptfoo/promptfoo"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 8549,
+                "updated": "2026-07-21",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "PyRIT",
@@ -2646,7 +3406,12 @@
               "desc": "Python Risk Identification Tool; battle-tested across 100+ GenAI red-team operations.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 4175,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "promptfoo",
@@ -2655,7 +3420,12 @@
               "note": "*Note: OpenAI announced an acquisition agreement in March 2026; remains MIT-licensed — track governance.*",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 23530,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Augustus",
@@ -2674,7 +3444,12 @@
                   "label": "PyRIT",
                   "url": "https://github.com/microsoft/PyRIT"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 261,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "agentic_security",
@@ -2692,7 +3467,12 @@
                   "label": "spikee",
                   "url": "https://github.com/ReversecLabs/spikee"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 1937,
+                "updated": "2026-06-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "HackAgent",
@@ -2715,7 +3495,12 @@
                   "label": "agentic_security",
                   "url": "https://github.com/msoedov/agentic_security"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 330,
+                "updated": "2026-07-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "HiveTrace Red",
@@ -2738,7 +3523,12 @@
                   "label": "promptfoo",
                   "url": "https://github.com/promptfoo/promptfoo"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 28,
+                "updated": "2026-07-21",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "DeepTeam",
@@ -2746,7 +3536,12 @@
               "desc": "Open-source framework for red-teaming LLMs and LLM systems across jailbreaks, prompt injection, data leakage, and safety risks.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 2293,
+                "updated": "2026-07-20",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Moonshot",
@@ -2755,7 +3550,12 @@
               "desc": "Modular tool for benchmarking, red-teaming, and evaluating LLM applications with custom connectors and recipes.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 337,
+                "updated": "2026-02-05",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Guardrails AI",
@@ -2774,7 +3574,12 @@
                   "label": "LLM Guard",
                   "url": "https://github.com/protectai/llm-guard"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 7194,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Giskard",
@@ -2793,7 +3598,12 @@
                   "label": "promptfoo",
                   "url": "https://github.com/promptfoo/promptfoo"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 5706,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "LangKit",
@@ -2802,7 +3612,12 @@
               "desc": "LLM monitoring toolkit extracting safety/security signals such as jailbreak similarity, prompt-injection similarity, hallucination checks, PII patterns, toxicity, and refusal metrics.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 993,
+                "updated": "2024-11-22",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "LLM Guard",
@@ -2817,7 +3632,12 @@
                   "label": "Rebuff",
                   "url": "https://github.com/protectai/rebuff"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 3191,
+                "updated": "2026-07-08",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Rebuff",
@@ -2832,7 +3652,12 @@
                   "label": "LLM Guard",
                   "url": "https://github.com/protectai/llm-guard"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 1514,
+                "updated": "2024-01-25",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "NeMo Guardrails",
@@ -2841,7 +3666,12 @@
               "desc": "Programmable guardrails (input/output/dialog/retrieval rails) for LLM apps.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 6778,
+                "updated": "2026-07-23",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "PurpleLlama",
@@ -2850,7 +3680,12 @@
               "desc": "Llama Guard classifiers, CodeShield, and CyberSecEval.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 4309,
+                "updated": "2026-07-20",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "LLAMATOR",
@@ -2861,7 +3696,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 216,
+                "updated": "2026-01-15",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Vigil",
@@ -2870,7 +3710,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 492,
+                "updated": "2024-01-31",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Counterfit",
@@ -2879,7 +3724,12 @@
               "desc": "ML/AI penetration-testing automation tool.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 924,
+                "updated": "2025-07-18",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "AI-Red-Teaming-Playground-Labs",
@@ -2888,7 +3738,12 @@
               "desc": "CTFd-based AI red-team training challenges.",
               "status": [
                 "open_source"
-              ]
+              ],
+              "metrics": {
+                "stars": 2022,
+                "updated": "2025-10-07",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "EasyJailbreak",
@@ -2897,7 +3752,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 875,
+                "updated": "2026-03-30",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "TextAttack",
@@ -2906,7 +3766,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 3453,
+                "updated": "2026-04-17",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "GPTFuzz",
@@ -2915,7 +3780,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 601,
+                "updated": "2026-02-27",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "HarmBench",
@@ -2931,7 +3801,12 @@
                   "label": "JailbreakBench",
                   "url": "https://github.com/JailbreakBench/jailbreakbench"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 1011,
+                "updated": "2024-08-05",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "llm-attacks (GCG)",
@@ -2946,7 +3821,12 @@
                   "label": "nanoGCG",
                   "url": "https://github.com/GraySwanAI/nanoGCG"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 4744,
+                "updated": "2024-08-02",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "nanoGCG",
@@ -2960,7 +3840,12 @@
                   "label": "llm-attacks (GCG)",
                   "url": "https://github.com/llm-attacks/llm-attacks"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 344,
+                "updated": "2025-05-13",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "JailbreakBench",
@@ -2969,7 +3854,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 634,
+                "updated": "2025-03-31",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Open-Prompt-Injection",
@@ -2978,7 +3868,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 466,
+                "updated": "2025-10-29",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "PINT Benchmark",
@@ -2998,7 +3893,12 @@
                   "label": "Prompt Guard 86M",
                   "url": "https://huggingface.co/meta-llama/Prompt-Guard-86M"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 198,
+                "updated": "2026-04-02",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "PIArena",
@@ -3017,7 +3917,12 @@
                   "label": "Open-Prompt-Injection",
                   "url": "https://github.com/liu00222/Open-Prompt-Injection"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 41,
+                "updated": "2026-04-20",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Whistleblower",
@@ -3030,7 +3935,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 167,
+                "updated": "2025-10-27",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "LLMmap",
@@ -3039,7 +3949,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 390,
+                "updated": "2025-07-24",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "llm-security",
@@ -3047,7 +3962,12 @@
               "desc": "Original PoC for indirect prompt-injection attacks.",
               "status": [
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 2118,
+                "updated": "2025-07-17",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "JailbreakLLMs",
@@ -3058,7 +3978,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 23,
+                "updated": "2024-02-21",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "Do-Not-Answer",
@@ -3067,7 +3992,12 @@
               "status": [
                 "open_source",
                 "research"
-              ]
+              ],
+              "metrics": {
+                "stars": 337,
+                "updated": "2024-06-07",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "name": "prompt-injection-defenses",
@@ -3078,7 +4008,12 @@
               ],
               "flags": [
                 "license_caveat"
-              ]
+              ],
+              "metrics": {
+                "stars": 713,
+                "updated": "2025-02-22",
+                "snapshot": "2026-07-23"
+              }
             }
           ]
         },
@@ -3177,7 +4112,12 @@
                   "label": "SecGPT model",
                   "url": "https://huggingface.co/clouditera/secgpt"
                 }
-              ]
+              ],
+              "metrics": {
+                "stars": 3083,
+                "updated": "2025-06-25",
+                "snapshot": "2026-07-23"
+              }
             },
             {
               "kind": "hf_model",
@@ -3259,7 +4199,12 @@
           "desc": "Low-code honeypot using LLMs to simulate SSH/HTTP/MCP services (Go).",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 2094,
+            "updated": "2026-07-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "DECEIVE",
@@ -3269,7 +4214,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 286,
+            "updated": "2026-05-13",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "TRAP",
@@ -3278,7 +4228,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 15,
+            "updated": "2024-11-20",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "shelLM",
@@ -3293,7 +4248,12 @@
               "label": "VelLMes",
               "url": "https://github.com/stratosphereips/VelLMes-AI-Honeypot"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 63,
+            "updated": "2026-06-25",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "VelLMes",
@@ -3308,7 +4268,12 @@
               "label": "shelLM",
               "url": "https://github.com/stratosphereips/shelLM"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 78,
+            "updated": "2025-02-18",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "llm-honeypot",
@@ -3320,7 +4285,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 60,
+            "updated": "2026-01-23",
+            "snapshot": "2026-07-23"
+          }
         }
       ]
     },
@@ -3350,7 +4320,12 @@
               "label": "InterCode",
               "url": "https://github.com/princeton-nlp/intercode"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 19896,
+            "updated": "2026-07-16",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Cybench",
@@ -3358,7 +4333,12 @@
           "desc": "40 professional CTF tasks across 4 competitions; widely used by AI safety institutes.",
           "status": [
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 285,
+            "updated": "2026-07-09",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "NYU CTF Bench",
@@ -3366,7 +4346,12 @@
           "desc": "Dockerized CSAW CTF challenges for LLM-agent evaluation.",
           "status": [
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 161,
+            "updated": "2025-09-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "CTFTiny",
@@ -3383,7 +4368,12 @@
               "label": "NYU CTF Bench",
               "url": "https://github.com/NYU-LLM-CTF/NYU_CTF_Bench"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 18,
+            "updated": "2026-03-10",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "InterCode",
@@ -3391,7 +4381,12 @@
           "desc": "Interactive-coding benchmark incl. InterCode-CTF.",
           "status": [
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 253,
+            "updated": "2024-05-05",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "inspect_evals",
@@ -3401,7 +4396,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 598,
+            "updated": "2026-07-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "BountyBench",
@@ -3409,7 +4409,12 @@
           "desc": "25 real systems / 40 bug bounties for Detect-Exploit-Patch evaluation.",
           "status": [
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 100,
+            "updated": "2025-06-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Cyber-Zero",
@@ -3430,7 +4435,12 @@
               "label": "SWE-agent",
               "url": "https://github.com/SWE-agent/SWE-agent"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 100,
+            "updated": "2025-09-02",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "ExploitBench",
@@ -3438,7 +4448,12 @@
           "desc": "Measures AI-agent progress on V8/Chromium exploit ladders.",
           "status": [
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 306,
+            "updated": "2026-07-04",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "AI Goat",
@@ -3451,7 +4466,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 354,
+            "updated": "2024-08-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Damn Vulnerable LLM Agent",
@@ -3467,7 +4487,12 @@
               "label": "spikee",
               "url": "https://github.com/ReversecLabs/spikee"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 493,
+            "updated": "2025-06-25",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "claude-bug-bounty",
@@ -3475,7 +4500,12 @@
           "desc": "Claude Code plugin orchestrating recon → vuln classes → reporting.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 4025,
+            "updated": "2026-07-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Bug-Bounty-Agents",
@@ -3483,7 +4513,12 @@
           "desc": "43 AI agent personas for Claude Code / Copilot / Cursor across the bug-bounty lifecycle.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 354,
+            "updated": "2026-04-30",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "ai-exploits",
@@ -3492,7 +4527,12 @@
           "desc": "Real-world AI/ML exploits (Metasploit modules + Nuclei templates) for MLflow, Ray, H2O.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 1742,
+            "updated": "2024-10-23",
+            "snapshot": "2026-07-23"
+          }
         }
       ]
     },
@@ -3508,7 +4548,12 @@
           "desc": "GPT-based discovery of privilege-escalation paths in AWS IAM policies.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 121,
+            "updated": "2024-01-17",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Cynative",
@@ -3530,7 +4575,12 @@
               "label": "EscalateGPT",
               "url": "https://github.com/tenable/EscalateGPT"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 140,
+            "updated": "2026-07-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "MemoryInvestigator",
@@ -3544,7 +4594,12 @@
               "label": "Volatility-MCP-Server",
               "url": "https://github.com/bornpresident/Volatility-MCP-Server"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 13,
+            "updated": "2025-09-16",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "Volatility-MCP-Server",
@@ -3558,7 +4613,12 @@
               "label": "MemoryInvestigator",
               "url": "https://github.com/jan-hendrik-lang/MemoryInvestigator"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 39,
+            "updated": "2025-07-07",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "llm_osint",
@@ -3567,7 +4627,12 @@
           "status": [
             "open_source",
             "research"
-          ]
+          ],
+          "metrics": {
+            "stars": 315,
+            "updated": "2024-11-02",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "ai_osint",
@@ -3575,7 +4640,12 @@
           "desc": "Curated AI-OSINT dorks, queries, and techniques for discovering exposed LLM and AI infrastructure.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 150,
+            "updated": "2026-06-19",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "PhishLLM",
@@ -3592,7 +4662,12 @@
               "label": "PhishVLM",
               "url": "https://github.com/code-philia/PhishVLM"
             }
-          ]
+          ],
+          "metrics": {
+            "stars": 38,
+            "updated": "2026-06-04",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "mcp-dnstwist",
@@ -3600,7 +4675,12 @@
           "desc": "MCP server for dnstwist DNS fuzzing to support typosquatting, phishing, and lookalike-domain analysis.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 51,
+            "updated": "2025-03-03",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "osintgpt",
@@ -3611,7 +4691,12 @@
           ],
           "flags": [
             "license_caveat"
-          ]
+          ],
+          "metrics": {
+            "stars": 517,
+            "updated": "2023-12-11",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "name": "gpt-osint",
@@ -3619,7 +4704,12 @@
           "desc": "Web-based GPT-4 OSINT tool over social-media dumps and CSVs.",
           "status": [
             "open_source"
-          ]
+          ],
+          "metrics": {
+            "stars": 34,
+            "updated": "2023-04-24",
+            "snapshot": "2026-07-23"
+          }
         }
       ]
     },
@@ -3631,121 +4721,221 @@
           "kind": "awesome_list",
           "name": "awesome-llm-cybersecurity-tools",
           "repo": "tenable/awesome-llm-cybersecurity-tools",
-          "desc": "Tenable's list (archived but a strong reference)."
+          "desc": "Tenable's list (archived but a strong reference).",
+          "metrics": {
+            "stars": 488,
+            "updated": "2024-04-08",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "Awesome-LLM4Cybersecurity",
           "repo": "tmylla/Awesome-LLM4Cybersecurity",
-          "desc": "600+ papers on LLMs for cybersecurity."
+          "desc": "600+ papers on LLMs for cybersecurity.",
+          "metrics": {
+            "stars": 1720,
+            "updated": "2026-07-08",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-ai-cybersecurity",
           "repo": "ElNiak/awesome-ai-cybersecurity",
-          "desc": "Broad AI-for-security collection."
+          "desc": "Broad AI-for-security collection.",
+          "metrics": {
+            "stars": 148,
+            "updated": "2026-07-06",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-genai-cyberhub",
           "repo": "Ashfaaq98/awesome-genai-cyberhub",
-          "desc": "GenAI-driven cybersecurity resources."
+          "desc": "GenAI-driven cybersecurity resources.",
+          "metrics": {
+            "stars": 52,
+            "updated": "2026-07-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-ai-security",
           "repo": "gmh5225/awesome-ai-security",
-          "desc": "For pentesters, bug hunters, and researchers."
+          "desc": "For pentesters, bug hunters, and researchers.",
+          "metrics": {
+            "stars": 31,
+            "updated": "2026-07-23",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-ai-security",
           "repo": "ottosulin/awesome-ai-security",
-          "desc": "AI security resources."
+          "desc": "AI security resources.",
+          "metrics": {
+            "stars": 1292,
+            "updated": "2026-07-22",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "Awesome-AI-Security",
           "repo": "TalEliyahu/Awesome-AI-Security",
-          "desc": "AI security resources."
+          "desc": "AI security resources.",
+          "metrics": {
+            "stars": 837,
+            "updated": "2026-07-18",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "Awesome-AI-For-Security",
           "repo": "AmanPriyanshu/Awesome-AI-For-Security",
-          "desc": "AI-for-security tools, papers, and datasets."
+          "desc": "AI-for-security tools, papers, and datasets.",
+          "metrics": {
+            "stars": 141,
+            "updated": "2026-06-25",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-cybersecurity-agentic-ai",
           "repo": "raphabot/awesome-cybersecurity-agentic-ai",
-          "desc": "Agentic-AI cybersecurity tools and security MCP servers."
+          "desc": "Agentic-AI cybersecurity tools and security MCP servers.",
+          "metrics": {
+            "stars": 520,
+            "updated": "2026-06-28",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "Awesome-Offensive-AI-Agentic-Landscape",
           "repo": "Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
-          "desc": "Offensive AI-agent landscape covering open-source pentest/red-team agents, offensive/security-specialized models, papers, benchmarks, and commercial tools."
+          "desc": "Offensive AI-agent landscape covering open-source pentest/red-team agents, offensive/security-specialized models, papers, benchmarks, and commercial tools.",
+          "metrics": {
+            "stars": 146,
+            "updated": "2026-07-20",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "open-source-llm-scanners",
           "repo": "psiinon/open-source-llm-scanners",
-          "desc": "Open-source LLM scanners and testing tools."
+          "desc": "Open-source LLM scanners and testing tools.",
+          "metrics": {
+            "stars": 109,
+            "updated": "2026-02-05",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-mcp-security",
           "repo": "Puliczek/awesome-mcp-security",
-          "desc": "MCP security resources, tools, writeups, and server/client risk references."
+          "desc": "MCP security resources, tools, writeups, and server/client risk references.",
+          "metrics": {
+            "stars": 720,
+            "updated": "2026-03-03",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-ml-security",
           "repo": "trailofbits/awesome-ml-security",
-          "desc": "Trail of Bits' curated machine-learning security resources."
+          "desc": "Trail of Bits' curated machine-learning security resources.",
+          "metrics": {
+            "stars": 169,
+            "updated": "2026-02-06",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-ml-privacy-attacks",
           "repo": "stratosphereips/awesome-ml-privacy-attacks",
-          "desc": "Machine-learning privacy-attack papers and resources."
+          "desc": "Machine-learning privacy-attack papers and resources.",
+          "metrics": {
+            "stars": 640,
+            "updated": "2024-03-18",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-ml-for-cybersecurity",
           "repo": "jivoi/awesome-ml-for-cybersecurity",
-          "desc": "Large classic list of machine-learning-for-cybersecurity resources (stale-ish but still useful)."
+          "desc": "Large classic list of machine-learning-for-cybersecurity resources (stale-ish but still useful).",
+          "metrics": {
+            "stars": 9188,
+            "updated": "2024-04-11",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "Awesome-AI4DevSecOps",
           "repo": "awsm-research/Awesome-AI4DevSecOps",
-          "desc": "Taxonomy of AI-driven security solutions for DevSecOps."
+          "desc": "Taxonomy of AI-driven security solutions for DevSecOps.",
+          "metrics": {
+            "stars": 21,
+            "updated": "2025-07-02",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-llm-security",
           "repo": "corca-ai/awesome-llm-security",
-          "desc": "Securing LLMs."
+          "desc": "Securing LLMs.",
+          "metrics": {
+            "stars": 1661,
+            "updated": "2025-08-20",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-security-for-ai",
           "repo": "zmre/awesome-security-for-ai",
-          "desc": "Products for securing AI systems."
+          "desc": "Products for securing AI systems.",
+          "metrics": {
+            "stars": 92,
+            "updated": "2024-06-13",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-gpt-security",
           "repo": "cckuailong/awesome-gpt-security",
-          "desc": "GPT/LLM security tools and cases."
+          "desc": "GPT/LLM security tools and cases.",
+          "metrics": {
+            "stars": 663,
+            "updated": "2026-07-20",
+            "snapshot": "2026-07-23"
+          }
         },
         {
           "kind": "awesome_list",
           "name": "awesome-threat-intelligence",
           "repo": "hslatman/awesome-threat-intelligence",
-          "desc": "Classic CTI list (pairs with the AI-CTI section)."
+          "desc": "Classic CTI list (pairs with the AI-CTI section).",
+          "metrics": {
+            "stars": 10474,
+            "updated": "2026-05-31",
+            "snapshot": "2026-07-23"
+          }
         }
       ]
     }

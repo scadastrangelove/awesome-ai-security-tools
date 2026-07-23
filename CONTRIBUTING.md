@@ -5,6 +5,7 @@ Contributions are welcome. This list is generated from structured JSON data.
 Please edit `data/sections.json`, not the generated `README.md`. The data file is described by `data/schema.json`.
 
 ```bash
+python3 scripts/update_github_metrics.py
 python3 gen_readme.py
 python3 gen_readme.py --check
 ```
@@ -30,6 +31,7 @@ python3 gen_readme.py --check
   "license": "MIT",
   "flags": ["early_stage"],
   "desc": "One factual sentence about what the tool does.",
+  "metrics": {"stars": 123, "updated": "2026-07-23", "snapshot": "2026-07-23"},
   "note": "— **note:** young project with limited independent adoption signal.",
   "related": [
     {"label": "Sibling tool", "url": "https://github.com/OWNER/SIBLING"}
@@ -45,5 +47,7 @@ Rendered emoji badges are generated from structured fields:
 - warning flags such as `license_caveat`, `no_license`, `noncommercial`, `copyleft`, or `abliterated_or_uncensored` → `⚠️`
 
 Related awesome-list entries use `kind: "awesome_list"` and live in the regular `Related Awesome Lists` section in `data/sections.json`.
+
+GitHub stars and last-commit dates are static snapshots in the optional `metrics` field. Refresh them before release with `python3 scripts/update_github_metrics.py`; do not add live per-entry badge URLs.
 
 The badges are generated automatically by `gen_readme.py`; do not paste badge Markdown by hand in the source data.
