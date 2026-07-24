@@ -158,6 +158,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [microsandbox](https://github.com/superradcompany/microsandbox) · [defenseclaw](https://github.com/cisco-ai-defense/defenseclaw)
 - **[DvalinCode](https://github.com/arthurpanhku/dvalincode)** 🟢 — Local-first AI coding agent with runtime governance controls: org/repo policy gates for tools, models, MCP servers, paths, and commands, plus provider/shell/MCP egress controls and hash-chained audit logs. — **note:** young project with limited independent adoption signal. *(★ 95 · updated 2026-07-22)*
   - **Related:** [h5i](https://github.com/h5i-dev/h5i) · [Pipelock](https://github.com/luckyPipewrench/pipelock) · [Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard)
+- **[TAP](https://github.com/holonym-foundation/tap-oss)** 🟢 — Credential-isolation proxy and MCP server for AI agents: agents send placeholder credentials, TAP injects real secrets server-side after per-action policy checks, with optional human approval on sensitive calls. *(human.tech)*
 
 ---
 
