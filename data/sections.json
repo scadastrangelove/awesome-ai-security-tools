@@ -1206,6 +1206,15 @@
                 "updated": "2026-07-22",
                 "snapshot": "2026-07-23"
               }
+            },
+            {
+              "name": "TAP",
+              "repo": "holonym-foundation/tap-oss",
+              "org": "human.tech",
+              "desc": "Credential-isolation proxy and MCP server for AI agents: agents send placeholder credentials, TAP injects real secrets server-side after per-action policy checks, with optional human approval on sensitive calls.",
+              "status": [
+                "open_source"
+              ]
             }
           ]
         }
