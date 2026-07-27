@@ -1261,6 +1261,35 @@
                 "updated": "2026-07-26",
                 "snapshot": "2026-07-26"
               }
+            },
+            {
+              "name": "gate.cat",
+              "repo": "BGMLAI/gate.cat",
+              "desc": "Deterministic fail-closed deny-list that vetoes an AI coding agent's irreversible shell commands (rm -rf, disk wipe, prod-DB drop, secret exfiltration, runaway fork loops) before they execute, via a pre-execution hook.",
+              "status": [
+                "open_source"
+              ],
+              "license": "Apache-2.0",
+              "flags": [
+                "commercial_features",
+                "early_stage"
+              ],
+              "note": "— **note:** Core is Apache-2.0 (pip install gate.cat); the hosted Cloud subscription and one-time policy packs are commercial. Enforces a fixed catastrophic-command deny-list, so it complements rather than replaces sandboxing and egress-control tools. Young project with limited independent adoption signal.",
+              "related": [
+                {
+                  "label": "agentguard",
+                  "url": "https://github.com/GoPlusSecurity/agentguard"
+                },
+                {
+                  "label": "Parallax",
+                  "url": "https://github.com/agent-defense/parallax"
+                }
+              ],
+              "metrics": {
+                "stars": 3,
+                "updated": "2026-07-27",
+                "snapshot": "2026-07-27"
+              }
             }
           ]
         }
