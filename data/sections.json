@@ -2071,6 +2071,40 @@
             "updated": "2025-07-21",
             "snapshot": "2026-07-26"
           }
+        },
+        {
+          "name": "BugTraceAI",
+          "repo": "BugTraceAI/BugTraceAI",
+          "desc": "Self-hosted autonomous multi-agent web-application scanner that chains recon, specialist exploit agents, Go fuzzers, and Playwright browser validation before emitting PoC-backed reports, shipped as a CLI engine, a real-time web dashboard, and a one-command Docker launcher.",
+          "note": "— **note:** AGPL-3.0 licensed; authorized testing only. Needs an LLM provider key (OpenRouter/Anthropic or compatible) or a local Ollama endpoint, and a heavy Docker runtime (Playwright browsers, Go fuzzers); components are versioned beta.",
+          "status": [
+            "open_source"
+          ],
+          "flags": [
+            "license_caveat",
+            "requires_api_key",
+            "heavy_runtime",
+            "authorized_testing_only"
+          ],
+          "related": [
+            {
+              "label": "BugTraceAI-CLI",
+              "url": "https://github.com/BugTraceAI/BugTraceAI-CLI"
+            },
+            {
+              "label": "BugTraceAI-WEB",
+              "url": "https://github.com/BugTraceAI/BugTraceAI-WEB"
+            },
+            {
+              "label": "BugTraceAI-Launcher",
+              "url": "https://github.com/BugTraceAI/BugTraceAI-Launcher"
+            }
+          ],
+          "metrics": {
+            "stars": 110,
+            "updated": "2026-07-27",
+            "snapshot": "2026-07-27"
+          }
         }
       ]
     },

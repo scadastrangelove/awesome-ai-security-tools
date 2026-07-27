@@ -237,6 +237,8 @@ Autonomous and semi-autonomous AI agents for penetration testing, exploitation, 
 - **[cyber-security-llm-agents](https://github.com/NVISOsecurity/cyber-security-llm-agents)** 🟢⚠️ — AutoGen-based agents for cybersecurity tasks (shown at RSAC 2024). *(NVISO)* *(★ 381 · updated 2024-05-07)*
 - **[Pentest-Swarm-AI](https://github.com/Armur-Ai/Pentest-Swarm-AI)** 🟢 — Swarm-intelligence multi-agent pentest with stigmergic blackboard coordination (Go). *(★ 2,110 · updated 2026-06-20)*
 - **[hackGPT](https://github.com/NoDataFound/hackGPT)** 🟢⚠️ — LLM offensive-security toolkit. *(★ 1,195 · updated 2025-07-21)*
+- **[BugTraceAI](https://github.com/BugTraceAI/BugTraceAI)** 🟢⚠️ — Self-hosted autonomous multi-agent web-application scanner that chains recon, specialist exploit agents, Go fuzzers, and Playwright browser validation before emitting PoC-backed reports, shipped as a CLI engine, a real-time web dashboard, and a one-command Docker launcher. — **note:** AGPL-3.0 licensed; authorized testing only. Needs an LLM provider key (OpenRouter/Anthropic or compatible) or a local Ollama endpoint, and a heavy Docker runtime (Playwright browsers, Go fuzzers); components are versioned beta. *(★ 110 · updated 2026-07-27)*
+  - **Related:** [BugTraceAI-CLI](https://github.com/BugTraceAI/BugTraceAI-CLI) · [BugTraceAI-WEB](https://github.com/BugTraceAI/BugTraceAI-WEB) · [BugTraceAI-Launcher](https://github.com/BugTraceAI/BugTraceAI-Launcher)
 
 ---
 
