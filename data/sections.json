@@ -3152,6 +3152,20 @@
             "snapshot": "2026-07-26"
           }
         },
+            {
+      "name": "ARIA",
+      "repo": "sidevworks/aria-sec",
+      "desc": "Voice-native AI security operations cockpit with governed autonomy, AI-SPM, cloud and identity connectors, local-model support, and auditable response controls.",
+      "status": [
+        "open_source"
+      ],
+      "license": "BSL-1.1",
+      "flags": [
+        "early_stage",
+        "license_caveat"
+      ],
+      "note": "— **note:** source-available under BSL-1.1; production use requires a commercial license until conversion to GPL-3.0-or-later."
+    },
         {
           "name": "SigmAIQ",
           "repo": "AttackIQ/SigmAIQ",
