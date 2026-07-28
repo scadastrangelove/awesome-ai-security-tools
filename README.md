@@ -123,6 +123,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [sast-skills](https://github.com/utkusen/sast-skills) · [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
 - **[AgentDojo](https://github.com/ethz-spylab/agentdojo)** 🟢🔬 — Benchmark environment for prompt-injection attacks and defenses in tool-using LLM agents. *(★ 684 · updated 2026-06-02)*
   - **Related:** [agent-audit](https://github.com/scadastrangelove/agent-audit) · [ATR – Agent Threat Rules](https://github.com/panguard-ai/agent-threat-rules)
+- **[Gracestack Bride](https://tools.gracestack.se/ask.html)** 🟢 — Cognitive AI agent with HD computing, Active Inference, and anomaly detection — ask Bride to analyze security patterns, probe AI reasoning, or detect threats. Free API key included with every answer. *(Gracestack)*
 
 ### Runtime Protection & Enforcement
 
