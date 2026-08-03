@@ -984,6 +984,29 @@
               }
             },
             {
+              "name": "Koma",
+              "repo": "swnotmetal/Project-Koma",
+              "desc": "Three-layer TypeScript defense middleware — semantic prompt-injection filter (Gate), audio validation + rate limiting (Scout), and token-gated split-store against data scraping (Core). Independent npm packages, MIT licensed.",
+              "status": [
+                "open_source"
+              ],
+              "related": [
+                {
+                  "label": "LLM Guard",
+                  "url": "https://github.com/protectai/llm-guard"
+                },
+                {
+                  "label": "Guardrails AI",
+                  "url": "https://github.com/guardrails-ai/guardrails"
+                }
+              ],
+              "metrics": {
+                "stars": 10,
+                "updated": "2026-08-03",
+                "snapshot": "2026-08-03"
+              }
+            },
+            {
               "name": "SourceryKit",
               "repo": "ProvablyAI/sourcerykit",
               "org": "ProvablyAI",
