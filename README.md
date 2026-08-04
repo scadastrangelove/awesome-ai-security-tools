@@ -439,7 +439,7 @@ Tools for attacking and defending LLM applications themselves.
 
 ### Scanners, Evals & Guardrails
 
-- **[Ice Phi](https://github.com/arconRising/icephi-python)** 🟢 — Lightning-fast, zero-logging prompt injection defense gateway middleware for FastAPI applications. *(Ice Phi)* *(★ 2 · updated 2026-08-04)*
+- **[Ice Phi](https://github.com/Ice-Phi/icephi-python)** 🟢 — Lightning-fast, zero-logging prompt injection defense gateway middleware for FastAPI applications. *(Ice Phi)* *(★ 2 · updated 2026-08-04)*
   - **Related:** [Guardrails AI](https://github.com/guardrails-ai/guardrails) · [LLM Guard](https://github.com/protectai/llm-guard) · [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)
 - **[NuGuard](https://github.com/NuGuardAI/nuguard)** 🟢 — Generates an AI-SBOM, statically analyzes agentic applications, red-teams live targets for prompt injection/tool misuse/data exfiltration, and validates behavioral policy compliance with SARIF, JSON, and Markdown reports. *(NuGuard AI)* — **note:** beta project; live red-team scans actively probe the target and require authorization. LLM-assisted features need provider credentials, and the optional NuGuard.ai hosted offering adds commercial features. *(★ 17 · updated 2026-07-31)*
   - **Related:** [garak](https://github.com/NVIDIA/garak) · [Medusa](https://github.com/Pantheon-Security/medusa)
