@@ -3764,6 +3764,20 @@
             "updated": "2023-05-01",
             "snapshot": "2026-08-01"
           }
+        },
+        {
+          "name": "REA",
+          "repo": "morluto/rea",
+          "desc": "Local CLI and MCP tools for agent-driven reverse engineering with Hopper and Ghidra, managed PE/CLI, JavaScript/Electron apps, and browser runtimes.",
+          "status": [
+            "open_source"
+          ],
+          "license": "MIT",
+          "metrics": {
+            "stars": 168,
+            "updated": "2026-08-03",
+            "snapshot": "2026-08-04"
+          }
         }
       ]
     },

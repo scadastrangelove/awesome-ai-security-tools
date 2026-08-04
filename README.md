@@ -7,7 +7,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Latest snapshot: 2026-08-01. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Latest snapshot: 2026-08-04. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -430,6 +430,7 @@ LLM-assisted binary analysis and traffic inspection.
   - **Related:** [Burp-extension-for-GPT](https://github.com/tenable/Burp-extension-for-GPT)
 - **[Burp-extension-for-GPT](https://github.com/tenable/Burp-extension-for-GPT)** 🟢 — Burp extension to analyze HTTP traffic with GPT. *(Tenable)* *(★ 115 · updated 2023-05-01)*
   - **Related:** [burpgpt](https://github.com/aress31/burpgpt)
+- **[REA](https://github.com/morluto/rea)** 🟢 — Local CLI and MCP tools for agent-driven reverse engineering with Hopper and Ghidra, managed PE/CLI, JavaScript/Electron apps, and browser runtimes. *(★ 168 · updated 2026-08-03)*
 
 ---
 
