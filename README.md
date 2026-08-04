@@ -52,7 +52,7 @@ GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; r
 
 ## Autotriage of Security Findings
 
-AI/LLM tools that triage, deduplicate, prioritize, or validate the output of scanners and finding sources.
+AI/LLM tools that triage, deduplicate, prioritize, or validate the output of  and finding sources.
 
 - **[nuclei-autotriage](https://github.com/cyberok-org/nuclei-autotriage)** 🟢⚠️ — Two-stage LLM triage (falsifier + red-team pass) of Nuclei JSONL findings via OpenAI-compatible endpoints (vLLM/Ollama). *(CyberOK)* — **note:** restrictive personal/non-commercial EULA, not a permissive OSS license. *(★ 1 · updated 2026-05-25)*
   - **Related:** [agent-audit](https://github.com/scadastrangelove/agent-audit) · [asamm](https://github.com/scadastrangelove/asamm)
@@ -72,7 +72,7 @@ AI/LLM tools that triage, deduplicate, prioritize, or validate the output of sca
 
 Securing the AI agents themselves — auditing coding agents (Claude Code, Codex, OpenClaw), scanning skills / plugins / MCP manifests, and governance for agentic development. A fast-moving 2026 category, split below by role.
 
-### Scanners & Auditors
+###  & Auditors
 
 - **[agent-audit](https://github.com/scadastrangelove/agent-audit)** 🟢 — Forensic auditor for local AI coding agents (Claude Code, Codex CLI, OpenClaw) **and** project-surface scanner for repos shipping skills, plugins, and MCP manifests; 296 bundled rules across native + imported detector families, with optional LLM cross-verification. *(CyberOK / S. Gordeychik)* *(★ 15 · updated 2026-07-15)*
   - **Sources:** [asamm](https://github.com/scadastrangelove/asamm) · [ATR – Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules) · [aguara](https://github.com/garagon/aguara) · [Cisco AI Defense – skill-scanner](https://github.com/cisco-ai-defense/skill-scanner)
@@ -195,7 +195,7 @@ Tools for securing model artifacts, serialized ML files, AI/ML supply-chain surf
   - **Related:** [modelscan](https://github.com/protectai/modelscan) · [model-provenance-kit](https://github.com/cisco-ai-defense/model-provenance-kit)
 - **[model-provenance-kit](https://github.com/cisco-ai-defense/model-provenance-kit)** 🟢 — Toolkit for model-family provenance and fingerprinting across model weights, tokenizers, and architecture signals. *(Cisco AI Defense)* *(★ 100 · updated 2026-07-22)*
   - **Related:** [AIsbom](https://github.com/Lab700xOrg/aisbom)
-- **[pickle-fuzzer](https://github.com/cisco-ai-defense/pickle-fuzzer)** 🟢 — Structure-aware fuzzer for pickle scanners, useful for hardening tools such as modelscan, Fickling, and picklescan. *(Cisco AI Defense)* *(★ 17 · updated 2026-06-23)*
+- **[pickle-fuzzer](https://github.com/cisco-ai-defense/pickle-fuzzer)** 🟢 — Structure-aware fuzzer for pickle , useful for hardening tools such as modelscan, Fickling, and picklescan. *(Cisco AI Defense)* *(★ 17 · updated 2026-06-23)*
   - **Related:** [modelscan](https://github.com/protectai/modelscan) · [Fickling](https://github.com/trailofbits/fickling) · [picklescan](https://github.com/mmaitre314/picklescan)
 - **[Medusa](https://github.com/Pantheon-Security/medusa)** 🟢⚠️ — AI-first security scanner for AI/ML repos, agents, and MCP surfaces; AGPL-3.0 licensed. *(Pantheon Security)* *(★ 955 · updated 2026-06-24)*
   - **Related:** [agent-audit](https://github.com/scadastrangelove/agent-audit) · [modelscan](https://github.com/protectai/modelscan)
@@ -439,6 +439,8 @@ Tools for attacking and defending LLM applications themselves.
 
 ### Scanners, Evals & Guardrails
 
+- **[Ice Phi](https://github.com/arconRising/icephi-python)** 🟢 — Lightning-fast, zero-logging prompt injection defense gateway middleware for FastAPI applications. *(Ice Phi)* *(★ 2 · updated 2026-08-04)*
+  - **Related:** [Guardrails AI](https://github.com/guardrails-ai/guardrails) · [LLM Guard](https://github.com/protectai/llm-guard) · [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)
 - **[NuGuard](https://github.com/NuGuardAI/nuguard)** 🟢 — Generates an AI-SBOM, statically analyzes agentic applications, red-teams live targets for prompt injection/tool misuse/data exfiltration, and validates behavioral policy compliance with SARIF, JSON, and Markdown reports. *(NuGuard AI)* — **note:** beta project; live red-team scans actively probe the target and require authorization. LLM-assisted features need provider credentials, and the optional NuGuard.ai hosted offering adds commercial features. *(★ 17 · updated 2026-07-31)*
   - **Related:** [garak](https://github.com/NVIDIA/garak) · [Medusa](https://github.com/Pantheon-Security/medusa)
 - **[garak](https://github.com/NVIDIA/garak)** 🟢 — The LLM vulnerability scanner — probes for prompt injection, jailbreaks, data leakage, and more. *(NVIDIA)* *(★ 8,644 · updated 2026-07-31)*
