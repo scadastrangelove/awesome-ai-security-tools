@@ -4510,6 +4510,19 @@
                 "updated": "2025-02-22",
                 "snapshot": "2026-08-05"
               }
+            },
+            {
+              "name": "little-canary",
+              "repo": "hermes-labs-ai/little-canary",
+              "desc": "Prompt-injection preflight sensor: routes untrusted input through a powerless sacrificial model first and reads the response residue for compromise, returning pass/flag/block before the primary agent acts.",
+              "status": [
+                "open_source"
+              ],
+              "metrics": {
+                "stars": 26,
+                "updated": "2026-08-03",
+                "snapshot": "2026-08-05"
+              }
             }
           ]
         },

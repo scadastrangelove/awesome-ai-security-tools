@@ -495,6 +495,7 @@ Tools for attacking and defending LLM applications themselves.
 - **[JailbreakLLMs](https://github.com/TrustAIRLab/JailbreakLLMs)** 🔬⚠️ — Research dataset of 6,387 ChatGPT prompts, including in-the-wild jailbreak prompts from Reddit, Discord, websites, and open datasets. *(★ 23 · updated 2024-02-21)*
 - **[Do-Not-Answer](https://github.com/Libr-AI/do-not-answer)** 🟢🔬 — Dataset for evaluating LLM safeguards on unsafe or policy-sensitive prompts. *(★ 339 · updated 2024-06-07)*
 - **[prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses)** 🟢⚠️ — Curated catalog of practical defenses against prompt injection. *(★ 719 · updated 2025-02-22)*
+- **[little-canary](https://github.com/hermes-labs-ai/little-canary)** 🟢 — Prompt-injection preflight sensor: routes untrusted input through a powerless sacrificial model first and reads the response residue for compromise, returning pass/flag/block before the primary agent acts. *(★ 26 · updated 2026-08-03)*
 
 ### Prompt-Injection Classifier Models
 
