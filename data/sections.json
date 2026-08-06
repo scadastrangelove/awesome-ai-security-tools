@@ -11,7 +11,7 @@
           "repo": "cyberok-org/nuclei-autotriage",
           "org": "CyberOK",
           "desc": "Two-stage LLM triage (falsifier + red-team pass) of Nuclei JSONL findings via OpenAI-compatible endpoints (vLLM/Ollama).",
-          "note": "— **note:** restrictive personal/non-commercial EULA, not a permissive OSS license.",
+          "note": "\u2014 **note:** restrictive personal/non-commercial EULA, not a permissive OSS license.",
           "status": [
             "open_source"
           ],
@@ -71,7 +71,7 @@
           "name": "nano-analyzer",
           "repo": "weareaisle/nano-analyzer",
           "org": "AISLE",
-          "desc": "Minimal three-stage LLM pipeline (context → scan → skeptical triage) for zero-day discovery in C/C++.",
+          "desc": "Minimal three-stage LLM pipeline (context \u2192 scan \u2192 skeptical triage) for zero-day discovery in C/C++.",
           "status": [
             "open_source",
             "research"
@@ -122,12 +122,12 @@
           }
         }
       ],
-      "footer": "> See also: OpenAI's *Aardvark* research preview — public references exist, but there is no standalone installable repository to badge here."
+      "footer": "> See also: OpenAI's *Aardvark* research preview \u2014 public references exist, but there is no standalone installable repository to badge here."
     },
     {
       "title": "AI Agent & Coding-Agent Security",
       "anchor": "ai-agent--coding-agent-security",
-      "intro": "Securing the AI agents themselves — auditing coding agents (Claude Code, Codex, OpenClaw), scanning skills / plugins / MCP manifests, and governance for agentic development. A fast-moving 2026 category, split below by role.",
+      "intro": "Securing the AI agents themselves \u2014 auditing coding agents (Claude Code, Codex, OpenClaw), scanning skills / plugins / MCP manifests, and governance for agentic development. A fast-moving 2026 category, split below by role.",
       "groups": [
         {
           "title": "Scanners & Auditors",
@@ -146,7 +146,7 @@
                   "url": "https://github.com/scadastrangelove/asamm"
                 },
                 {
-                  "label": "ATR – Agent Threat Rules",
+                  "label": "ATR \u2013 Agent Threat Rules",
                   "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules"
                 },
                 {
@@ -154,7 +154,7 @@
                   "url": "https://github.com/garagon/aguara"
                 },
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 }
               ],
@@ -204,11 +204,11 @@
                   "url": "https://github.com/garagon/aguara"
                 },
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 },
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
               ],
@@ -228,7 +228,7 @@
               ],
               "related": [
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 },
                 {
@@ -240,7 +240,7 @@
                   "url": "https://github.com/snyk/agent-scan"
                 },
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
               ],
@@ -263,11 +263,11 @@
                   "url": "https://github.com/NVIDIA/SkillSpector"
                 },
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 },
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
               ],
@@ -295,7 +295,7 @@
                   "url": "https://github.com/highflame-ai/ramparts"
                 },
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
               ],
@@ -326,7 +326,7 @@
                   "url": "https://github.com/snyk/agent-scan"
                 },
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 }
               ],
@@ -350,11 +350,11 @@
                   "url": "https://github.com/garagon/aguara"
                 },
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 },
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 }
               ],
@@ -455,7 +455,7 @@
                   "url": "https://github.com/garagon/aguara"
                 },
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
               ],
@@ -478,7 +478,7 @@
               ],
               "related": [
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 },
                 {
@@ -505,7 +505,7 @@
               ],
               "related": [
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 },
                 {
@@ -525,7 +525,7 @@
               "org": "KryptosAI",
               "desc": "CI-native MCP-server testing tool for schema drift, safe attack simulation, record/replay verification, health scoring, and SARIF evidence before agents depend on a server.",
               "license": "MIT",
-              "note": "— **note:** the local evidence engine is open source; hosted telemetry intelligence, fleet workflows, and commercial ranking remain outside the package.",
+              "note": "\u2014 **note:** the local evidence engine is open source; hosted telemetry intelligence, fleet workflows, and commercial ranking remain outside the package.",
               "status": [
                 "open_source",
                 "commercial_open"
@@ -535,7 +535,7 @@
               ],
               "related": [
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 },
                 {
@@ -553,7 +553,7 @@
               "name": "agentic-radar",
               "repo": "splx-ai/agentic-radar",
               "org": "SplxAI",
-              "desc": "CLI security scanner for agentic workflows (LangGraph, CrewAI, n8n, etc.) — maps tools/data flows and flags risks.",
+              "desc": "CLI security scanner for agentic workflows (LangGraph, CrewAI, n8n, etc.) \u2014 maps tools/data flows and flags risks.",
               "status": [
                 "commercial_open"
               ],
@@ -566,7 +566,7 @@
             {
               "name": "skilltotal",
               "repo": "pezhik/skilltotal",
-              "desc": "Offline deterministic static scanner (regex + AST, no LLM, no account) for AI components — agent skills/plugins, MCP servers, npm & PyPI packages, and git repos; flags supply-chain risk, dangerous capabilities, prompt-injection surfaces, MCP tool poisoning/shadowing, and data-exfiltration paths, maps to the OWASP Agentic Skills Top 10, and emits JSON + SARIF 2.1.0. *(skilltotal.ai)*",
+              "desc": "Offline deterministic static scanner (regex + AST, no LLM, no account) for AI components \u2014 agent skills/plugins, MCP servers, npm & PyPI packages, and git repos; flags supply-chain risk, dangerous capabilities, prompt-injection surfaces, MCP tool poisoning/shadowing, and data-exfiltration paths, maps to the OWASP Agentic Skills Top 10, and emits JSON + SARIF 2.1.0. *(skilltotal.ai)*",
               "status": [
                 "open_source"
               ],
@@ -580,11 +580,11 @@
                   "url": "https://github.com/snyk/agent-scan"
                 },
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 },
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 }
               ],
@@ -612,7 +612,7 @@
                   "url": "https://github.com/ArmorerLabs/Armorer-Guard"
                 }
               ],
-              "note": "— **note:** early-stage project; published precision/recall benchmark is self-reported by the project.",
+              "note": "\u2014 **note:** early-stage project; published precision/recall benchmark is self-reported by the project.",
               "flags": [
                 "early_stage"
               ],
@@ -627,7 +627,7 @@
               "repo": "trnt-ai/trent-openclaw-security-assessment",
               "org": "Trent AI",
               "desc": "Client-side security auditor for OpenClaw deployments: applies pattern-based secret redaction locally, then uploads config/skill metadata and confirm-gated skill archives to Trent AI's API, which identifies misconfigurations, risky skills (prompt injection, permission escalation, data exfiltration), and chained attack paths.",
-              "note": "— **note:** core detection runs server-side via the Trent AI API (requires an API key); the Apache-2.0 client collects OpenClaw config/skill metadata, applies pattern-based secret redaction locally, and uploads skill archives only after an explicit in-terminal confirmation.",
+              "note": "\u2014 **note:** core detection runs server-side via the Trent AI API (requires an API key); the Apache-2.0 client collects OpenClaw config/skill metadata, applies pattern-based secret redaction locally, and uploads skill archives only after an explicit in-terminal confirmation.",
               "status": [
                 "commercial_open"
               ],
@@ -651,7 +651,7 @@
               "name": "asamm",
               "repo": "scadastrangelove/asamm",
               "org": "CyberOK / S. Gordeychik",
-              "desc": "*Agentic SAMM* — an OWASP SAMM extension for AI-driven development: an entry-point-based threat taxonomy plus 17 controls across 5 SAMM functions (Governance, Design, Implementation, Verification, Operations) with L1/L2/L3 maturity. License: CC BY-SA 4.0.",
+              "desc": "*Agentic SAMM* \u2014 an OWASP SAMM extension for AI-driven development: an entry-point-based threat taxonomy plus 17 controls across 5 SAMM functions (Governance, Design, Implementation, Verification, Operations) with L1/L2/L3 maturity. License: CC BY-SA 4.0.",
               "status": [
                 "research"
               ],
@@ -688,7 +688,7 @@
             {
               "name": "agent-threat-rules (ATR)",
               "repo": "Agent-Threat-Rule/agent-threat-rules",
-              "desc": "Open, versioned, machine-readable detection rules for AI-agent threats (prompt injection, tool poisoning, MCP attacks, and skill compromise) — \"Sigma for agents\"; 768 rules across 10 categories with integrations for Microsoft AGT, Cisco AI Defense, MISP, OWASP, FINOS, and SigmaHQ.",
+              "desc": "Open, versioned, machine-readable detection rules for AI-agent threats (prompt injection, tool poisoning, MCP attacks, and skill compromise) \u2014 \"Sigma for agents\"; 768 rules across 10 categories with integrations for Microsoft AGT, Cisco AI Defense, MISP, OWASP, FINOS, and SigmaHQ.",
               "license": "MIT",
               "status": [
                 "open_source"
@@ -715,7 +715,7 @@
               "org": "Microsoft",
               "desc": "Multi-language toolkit for policy-enforced agent tool calls and audit records, with optional identity, MCP-gateway, sandboxing, reliability, and compliance components.",
               "license": "MIT",
-              "note": "— **note:** official public preview; APIs and deployment patterns may change before general availability.",
+              "note": "\u2014 **note:** official public preview; APIs and deployment patterns may change before general availability.",
               "status": [
                 "open_source"
               ],
@@ -724,7 +724,7 @@
               ],
               "related": [
                 {
-                  "label": "ATR – Agent Threat Rules",
+                  "label": "ATR \u2013 Agent Threat Rules",
                   "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules"
                 },
                 {
@@ -748,11 +748,11 @@
               ],
               "related": [
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 },
                 {
-                  "label": "ATR – Agent Threat Rules",
+                  "label": "ATR \u2013 Agent Threat Rules",
                   "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules"
                 }
               ],
@@ -766,7 +766,7 @@
               "name": "Anthropic-Cybersecurity-Skills",
               "repo": "mukul975/Anthropic-Cybersecurity-Skills",
               "desc": "Large community cybersecurity skill library for AI agents, mapped to MITRE ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, and NIST AI RMF.",
-              "note": "— **note:** independent community project, not affiliated with Anthropic.",
+              "note": "\u2014 **note:** independent community project, not affiliated with Anthropic.",
               "status": [
                 "open_source"
               ],
@@ -776,7 +776,7 @@
                   "url": "https://github.com/utkusen/sast-skills"
                 },
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 }
               ],
@@ -790,7 +790,7 @@
               "name": "Claude-BugHunter",
               "repo": "elementalsouls/Claude-BugHunter",
               "desc": "Claude Code / agent-skill bundle for authorized bug hunting and external red-team workflows across web, API, identity, cloud, recon, reporting, Burp MCP, slash commands, and the cbh CLI.",
-              "note": "— **note:** skill bundle and workflow knowledge base, not a standalone scanner.",
+              "note": "\u2014 **note:** skill bundle and workflow knowledge base, not a standalone scanner.",
               "status": [
                 "open_source"
               ],
@@ -827,7 +827,7 @@
                   "url": "https://github.com/scadastrangelove/agent-audit"
                 },
                 {
-                  "label": "ATR – Agent Threat Rules",
+                  "label": "ATR \u2013 Agent Threat Rules",
                   "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules"
                 }
               ],
@@ -843,7 +843,7 @@
               "org": "Ant Group",
               "desc": "Sandboxed research framework for evaluating AI-agent security over complete execution trajectories, covering direct/indirect injection, skill and memory poisoning, and practical risk outcomes.",
               "license": "Apache-2.0",
-              "note": "— **note:** research framework that requires Docker plus target and auxiliary LLM configuration; use only in controlled environments.",
+              "note": "\u2014 **note:** research framework that requires Docker plus target and auxiliary LLM configuration; use only in controlled environments.",
               "status": [
                 "open_source",
                 "research"
@@ -869,6 +869,40 @@
                 "updated": "2026-06-24",
                 "snapshot": "2026-08-06"
               }
+            },
+            {
+              "name": "Agent Trust",
+              "repo": "Rain-ouroboros/ouroboros",
+              "org": "Rain (Ouroboros)",
+              "desc": "Advisory receipt library for agent self-attestation: a Python library that lets an AI agent declare its boundaries (tool restrictions, safety constraints, runtime limits) and publish a signed manifest at startup. Manifest is signed by a trusted third-party promote service \u2014 not by the agent itself \u2014 so the declaration is verifiable. Currently advisory (does not intercept LLM calls); alpha-stage, installed from GitHub.",
+              "license": "MIT",
+              "note": "\u2014 **note:** advisory, not runtime-enforced; alpha-stage; install from GitHub (not PyPI).",
+              "status": [
+                "open_source",
+                "research"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "related": [
+                {
+                  "label": "Agent Trust Transport Protocol (ATTP)",
+                  "url": "https://datatracker.ietf.org/doc/draft-sharif-attp/"
+                },
+                {
+                  "label": "AgentDojo",
+                  "url": "https://github.com/ethz-spylab/agentdojo"
+                },
+                {
+                  "label": "ATR \u2013 Agent Threat Rules",
+                  "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules"
+                }
+              ],
+              "metrics": {
+                "stars": 0,
+                "updated": "2026-08-05",
+                "snapshot": "2026-08-06"
+              }
             }
           ]
         },
@@ -881,7 +915,7 @@
               "org": "NoLabs",
               "desc": "Least-privilege sandbox for AI coding agents that isolates the agent and delegated tools with composable filesystem, network, credential-proxy, and command policies.",
               "license": "Apache-2.0",
-              "note": "— **note:** APIs are still stabilizing ahead of the 1.0 release; review every pulled profile before use.",
+              "note": "\u2014 **note:** APIs are still stabilizing ahead of the 1.0 release; review every pulled profile before use.",
               "status": [
                 "open_source"
               ],
@@ -910,7 +944,7 @@
               "org": "Arcjet",
               "desc": "JavaScript runtime guard for AI-agent tool calls and MCP handlers, with prompt-injection detection, sensitive-data detection/redaction, and custom local policy rules.",
               "license": "Apache-2.0",
-              "note": "— **note:** open SDK packages integrate with Arcjet's hosted platform; assess the service, account, and data-processing requirements for the protections you enable.",
+              "note": "\u2014 **note:** open SDK packages integrate with Arcjet's hosted platform; assess the service, account, and data-processing requirements for the protections you enable.",
               "status": [
                 "open_source",
                 "commercial_open"
@@ -963,7 +997,7 @@
               "name": "Pipelock",
               "repo": "luckyPipewrench/pipelock",
               "desc": "AI-agent firewall and verifiable egress-control layer mediating HTTP, WebSocket, CONNECT, MCP, and A2A traffic to detect prompt injection, secret exfiltration, SSRF, and suspicious outbound actions.",
-              "note": "— **note:** open-source core is Apache-2.0; commercial reporting/features are also advertised.",
+              "note": "\u2014 **note:** open-source core is Apache-2.0; commercial reporting/features are also advertised.",
               "status": [
                 "open_source"
               ],
@@ -988,7 +1022,7 @@
               "repo": "ProvablyAI/sourcerykit",
               "org": "ProvablyAI",
               "desc": "Python SDK for agent guardrails that intercepts outbound HTTP calls, enforces trusted-endpoint policies, logs requests, and checks agent handoff claims against a Provably backend before propagation.",
-              "note": "— **note:** BSL-1.1 licensed; requires Provably backend/API credentials and database setup.",
+              "note": "\u2014 **note:** BSL-1.1 licensed; requires Provably backend/API credentials and database setup.",
               "status": [
                 "commercial_open"
               ],
@@ -1018,7 +1052,7 @@
               "name": "emisar",
               "repo": "AndrewDryga/emisar",
               "desc": "Agent-infrastructure control plane that exposes declared, typed actions through MCP, applies policy and approval gates before dispatch, revalidates calls on an outbound-only host runner, and records separate control-plane and host audit trails.",
-              "note": "— **note:** runner, MCP bridge, and packs are Apache-2.0; the hosted portal/control plane is BSL-1.1 and converts to Apache-2.0 on 2029-07-26. Connecting a runner requires an emisar account and outbound HTTPS to the control plane.",
+              "note": "\u2014 **note:** runner, MCP bridge, and packs are Apache-2.0; the hosted portal/control plane is BSL-1.1 and converts to Apache-2.0 on 2029-07-26. Connecting a runner requires an emisar account and outbound HTTPS to the control plane.",
               "status": [
                 "commercial_open"
               ],
@@ -1043,7 +1077,7 @@
               ],
               "related": [
                 {
-                  "label": "Cisco AI Defense – mcp-scanner",
+                  "label": "Cisco AI Defense \u2013 mcp-scanner",
                   "url": "https://github.com/cisco-ai-defense/mcp-scanner"
                 },
                 {
@@ -1065,7 +1099,7 @@
               "name": "MCP Defender",
               "repo": "MCP-Defender/MCP-Defender",
               "desc": "Desktop app that proxies MCP tool-call requests and responses for Cursor, Claude, VS Code, and Windsurf, checks intercepted traffic against signatures, and prompts users to allow or block suspicious calls.",
-              "note": "— **note:** AGPL-3.0 licensed; project has been acquired by Docker.",
+              "note": "\u2014 **note:** AGPL-3.0 licensed; project has been acquired by Docker.",
               "status": [
                 "open_source"
               ],
@@ -1120,7 +1154,7 @@
               "name": "Parallax",
               "repo": "agent-defense/parallax",
               "desc": "Rust runtime policy engine for AI agents: evaluates lifecycle events with regex, keyword, Sigma, CEL, and SQL rules to block or redact prompt injection, data exfiltration, dangerous tool calls, and secret leakage.",
-              "note": "— **note:** early-stage project with limited adoption signal.",
+              "note": "\u2014 **note:** early-stage project with limited adoption signal.",
               "status": [
                 "open_source"
               ],
@@ -1144,7 +1178,7 @@
               "name": "Armorer Guard",
               "repo": "ArmorerLabs/Armorer-Guard",
               "desc": "Local Rust scanner and MCP proxy for AI-agent prompt injection, credential leakage, exfiltration, and risky tool-call arguments, with structured reasons and no scanner network calls.",
-              "note": "— **note:** young project with limited independent adoption signal.",
+              "note": "\u2014 **note:** young project with limited independent adoption signal.",
               "status": [
                 "open_source"
               ],
@@ -1154,7 +1188,7 @@
                   "url": "https://github.com/GoPlusSecurity/agentguard"
                 },
                 {
-                  "label": "ATR – Agent Threat Rules",
+                  "label": "ATR \u2013 Agent Threat Rules",
                   "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules"
                 }
               ],
@@ -1243,7 +1277,7 @@
               ],
               "related": [
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 },
                 {
@@ -1298,7 +1332,7 @@
                   "url": "https://github.com/GoPlusSecurity/agentguard"
                 },
                 {
-                  "label": "Cisco AI Defense – skill-scanner",
+                  "label": "Cisco AI Defense \u2013 skill-scanner",
                   "url": "https://github.com/cisco-ai-defense/skill-scanner"
                 }
               ],
@@ -1313,7 +1347,7 @@
               "repo": "webpro255/agentlock",
               "license": "AGPL-3.0",
               "desc": "Pre-action authorization gate for LLM agent tool calls that decides from session provenance rather than content, with deny-by-default tool permissions, parameter lineage, Ed25519 signed receipts, and a hash-chained audit log; AGPL-3.0 licensed with commercial options.",
-              "note": "— **note:** evaluated on AgentDojo with predictions pre-registered before the runs; the published results include a suite where the defense costs more utility than the attack it prevents.",
+              "note": "\u2014 **note:** evaluated on AgentDojo with predictions pre-registered before the runs; the published results include a suite where the defense costs more utility than the attack it prevents.",
               "status": [
                 "open_source",
                 "research"
@@ -1331,7 +1365,7 @@
               "name": "h5i",
               "repo": "h5i-dev/h5i",
               "desc": "Local Rust CLI for auditable coding-agent workspaces: per-agent worktrees with sandbox policies, provenance capture, peer review, neutral verification, secret/prompt-injection audit signals, and refs/h5i/* run metadata.",
-              "note": "— **note:** security-adjacent agent-workspace governance tool, not a vulnerability scanner or VM-equivalent sandbox.",
+              "note": "\u2014 **note:** security-adjacent agent-workspace governance tool, not a vulnerability scanner or VM-equivalent sandbox.",
               "status": [
                 "open_source"
               ],
@@ -1355,7 +1389,7 @@
               "name": "DvalinCode",
               "repo": "arthurpanhku/dvalincode",
               "desc": "Local-first AI coding agent with runtime governance controls: org/repo policy gates for tools, models, MCP servers, paths, and commands, plus provider/shell/MCP egress controls and hash-chained audit logs.",
-              "note": "— **note:** young project with limited independent adoption signal.",
+              "note": "\u2014 **note:** young project with limited independent adoption signal.",
               "status": [
                 "open_source"
               ],
@@ -1392,7 +1426,7 @@
               "flags": [
                 "commercial_features"
               ],
-              "note": "— **note:** Apache-2.0 runtime is self-hostable, but the hosted dashboard and managed-service deployment glue are proprietary; self-hosting puts credential/key isolation and policy-engine hardening on the operator.",
+              "note": "\u2014 **note:** Apache-2.0 runtime is self-hostable, but the hosted dashboard and managed-service deployment glue are proprietary; self-hosting puts credential/key isolation and policy-engine hardening on the operator.",
               "metrics": {
                 "stars": 12,
                 "updated": "2026-07-23",
@@ -1408,7 +1442,7 @@
               "status": [
                 "open_source"
               ],
-              "note": "— **note:** OWASP Incubator project; published benchmark numbers are project-reported and should be independently reproduced before production enforcement.",
+              "note": "\u2014 **note:** OWASP Incubator project; published benchmark numbers are project-reported and should be independently reproduced before production enforcement.",
               "metrics": {
                 "stars": 112,
                 "updated": "2026-08-06",
@@ -1664,7 +1698,7 @@
           "repo": "trailofbits/PrivacyRaven",
           "org": "Trail of Bits",
           "desc": "Privacy-testing library for deep-learning systems, covering model extraction and membership-inference style attacks.",
-          "note": "— **note:** archived/hiatus project, but still a useful reference implementation.",
+          "note": "\u2014 **note:** archived/hiatus project, but still a useful reference implementation.",
           "status": [
             "open_source",
             "research"
@@ -1714,7 +1748,7 @@
           "repo": "False-Positive-Community/open-malicious-code-benchmark",
           "org": "False Positive Community",
           "desc": "OMCBench benchmark suite for malicious-code/package detection: labeled Python and JavaScript package archives, common runners, and published precision/recall/F1 metrics.",
-          "note": "— **note:** evaluates an unreleased commercial ML detector (MOLOT / PT Application Inspector) alongside open-source baselines.",
+          "note": "\u2014 **note:** evaluates an unreleased commercial ML detector (MOLOT / PT Application Inspector) alongside open-source baselines.",
           "status": [
             "open_source",
             "research"
@@ -1748,7 +1782,7 @@
           "repo": "DataDog/malicious-software-packages-dataset",
           "org": "Datadog Security Labs",
           "desc": "Human-vetted dataset of malicious software packages across npm, PyPI, IDE extensions, and AI Skills, useful for detector training and evaluation.",
-          "note": "— **note:** contains real malware samples; Datadog notes selection bias because many samples were identified by GuardDog.",
+          "note": "\u2014 **note:** contains real malware samples; Datadog notes selection bias because many samples were identified by GuardDog.",
           "status": [
             "open_source",
             "research"
@@ -1842,7 +1876,7 @@
           "name": "pypi_malregistry",
           "repo": "lxyeternal/pypi_malregistry",
           "desc": "ASE'23 / USENIX Security'26 malicious-PyPI dataset with more than 10k malicious package versions.",
-          "note": "— **note:** no LICENSE file found and the repository contains malware samples; handle in an isolated environment.",
+          "note": "\u2014 **note:** no LICENSE file found and the repository contains malware samples; handle in an isolated environment.",
           "status": [
             "research"
           ],
@@ -1897,7 +1931,7 @@
           }
         },
         {
-          "name": "CAI – Cybersecurity AI",
+          "name": "CAI \u2013 Cybersecurity AI",
           "repo": "aliasrobotics/cai",
           "org": "Alias Robotics",
           "desc": "Modular, bug-bounty-ready agent framework supporting 300+ LLM models. MIT for research; separate commercial license for production/on-prem.",
@@ -1955,7 +1989,7 @@
         {
           "name": "HexStrike-AI",
           "repo": "0x4m4/hexstrike-ai",
-          "desc": "MCP server exposing 150+ security tools (nmap, gobuster, nuclei, …) to AI agents (MIT).",
+          "desc": "MCP server exposing 150+ security tools (nmap, gobuster, nuclei, \u2026) to AI agents (MIT).",
           "status": [
             "open_source"
           ],
@@ -1969,7 +2003,7 @@
           "name": "Deep Eye",
           "repo": "zakirkun/deep-eye",
           "desc": "AI-assisted penetration-testing scanner that orchestrates multiple LLM providers for payload generation, 45+ vulnerability checks, CVE/RAG-assisted testing, AI triage, scan diffing, browser automation, proxying, and multi-format reports.",
-          "note": "— **note:** MIT-licensed; authorized use only. Heavy runtime surface: optional browser automation/proxying, plaintext API-key config, plugins with full OS access, and pickle model files called out in SECURITY.md.",
+          "note": "\u2014 **note:** MIT-licensed; authorized use only. Heavy runtime surface: optional browser automation/proxying, plaintext API-key config, plugins with full OS access, and pickle model files called out in SECURITY.md.",
           "status": [
             "open_source"
           ],
@@ -1999,7 +2033,7 @@
           "repo": "PortSwigger/mcp-server",
           "org": "PortSwigger",
           "desc": "Official Burp Suite extension exposing Burp to AI clients through MCP.",
-          "note": "— **note:** GPL-3.0 licensed.",
+          "note": "\u2014 **note:** GPL-3.0 licensed.",
           "status": [
             "open_source"
           ],
@@ -2060,7 +2094,7 @@
           "name": "DarkMoon",
           "repo": "ASCIT31/Dark-Moon",
           "desc": "Autonomous AI penetration-testing platform that orchestrates specialized web, AD, Kubernetes, CMS, and framework agents through an MCP-controlled Docker toolbox with local privacy-tokenization for sensitive target data.",
-          "note": "— **note:** GPL-3.0 licensed; heavy Docker/LLM stack, use only for authorized testing.",
+          "note": "\u2014 **note:** GPL-3.0 licensed; heavy Docker/LLM stack, use only for authorized testing.",
           "status": [
             "open_source"
           ],
@@ -2091,7 +2125,7 @@
           "name": "T3MP3ST",
           "repo": "elder-plinius/T3MP3ST",
           "desc": "Autonomous offensive-security meta-harness that wraps local or API-backed coding agents into a multi-agent recon-to-exploit workflow with MCP/API, War Room UI, tool arsenal, and committed benchmark artifacts.",
-          "note": "— **note:** very new AGPL-3.0 project with bold benchmark claims; use only for authorized testing and verify independently before operational use.",
+          "note": "\u2014 **note:** very new AGPL-3.0 project with bold benchmark claims; use only for authorized testing and verify independently before operational use.",
           "status": [
             "open_source"
           ],
@@ -2256,7 +2290,7 @@
             "authorized_testing_only",
             "early_stage"
           ],
-          "note": "— **note:** early-stage local Docker application with no built-in authentication; keep its API and UI ports bound to localhost.",
+          "note": "\u2014 **note:** early-stage local Docker application with no built-in authentication; keep its API and UI ports bound to localhost.",
           "metrics": {
             "stars": 36,
             "updated": "2026-08-02",
@@ -2278,7 +2312,7 @@
             "heavy_runtime",
             "authorized_testing_only"
           ],
-          "note": "— **note:** AGPL-3.0 licensed and beta; use only for authorized testing. Requires an LLM provider or local Ollama endpoint and a substantial Docker/Playwright/Go runtime.",
+          "note": "\u2014 **note:** AGPL-3.0 licensed and beta; use only for authorized testing. Requires an LLM provider or local Ollama endpoint and a substantial Docker/Playwright/Go runtime.",
           "related": [
             {
               "label": "Project overview",
@@ -2304,7 +2338,7 @@
     {
       "title": "AI-Powered Recon & Narrow ML Tools",
       "anchor": "ai-powered-recon--narrow-ml-tools",
-      "intro": "Hyper-specific AI/ML tools for a single offensive-security, recon, or detection step — the subwiz/eyeballer pattern rather than broad autonomous agents. 🅐 = self-contained trained model or learned model/pattern engine; 🅑 = LLM wrapper that calls an external API.",
+      "intro": "Hyper-specific AI/ML tools for a single offensive-security, recon, or detection step \u2014 the subwiz/eyeballer pattern rather than broad autonomous agents. \ud83c\udd50 = self-contained trained model or learned model/pattern engine; \ud83c\udd51 = LLM wrapper that calls an external API.",
       "groups": [
         {
           "title": "Subdomain & DNS Prediction",
@@ -2313,7 +2347,7 @@
               "name": "subwiz",
               "repo": "hadriansecurity/subwiz",
               "org": "Hadrian Security",
-              "desc": "🅐 Lightweight nanoGPT model that predicts resolvable subdomains via beam search; model weights are published on Hugging Face.",
+              "desc": "\ud83c\udd50 Lightweight nanoGPT model that predicts resolvable subdomains via beam search; model weights are published on Hugging Face.",
               "status": [
                 "open_source"
               ],
@@ -2332,8 +2366,8 @@
             {
               "name": "regulator",
               "repo": "cramppet/regulator",
-              "desc": "🅐 Learns and ranks regex-like naming patterns from known subdomains to generate likely new candidates.",
-              "note": "— **note:** no LICENSE file found; treat as source-available until clarified.",
+              "desc": "\ud83c\udd50 Learns and ranks regex-like naming patterns from known subdomains to generate likely new candidates.",
+              "note": "\u2014 **note:** no LICENSE file found; treat as source-available until clarified.",
               "status": [
                 "open_source"
               ],
@@ -2361,8 +2395,8 @@
               "name": "eyeballer",
               "repo": "BishopFox/eyeballer",
               "org": "Bishop Fox",
-              "desc": "🅐 Convolutional neural network that classifies pentest/recon screenshots (login pages, webapps, old-looking sites, parked domains, and custom 404s) for attack-surface triage.",
-              "note": "— **note:** GPL-3.0 licensed.",
+              "desc": "\ud83c\udd50 Convolutional neural network that classifies pentest/recon screenshots (login pages, webapps, old-looking sites, parked domains, and custom 404s) for attack-surface triage.",
+              "note": "\u2014 **note:** GPL-3.0 licensed.",
               "status": [
                 "open_source"
               ],
@@ -2383,8 +2417,8 @@
             {
               "name": "GyoiThon",
               "repo": "gyoisamurai/GyoiThon",
-              "desc": "🅐 Machine-learning-assisted web intelligence tool that fingerprints products, versions, CVEs, login pages, debug messages, and related web-server signals from HTTP responses.",
-              "note": "— **note:** historical research reference; Apache-2.0 licensed, but maintenance is low.",
+              "desc": "\ud83c\udd50 Machine-learning-assisted web intelligence tool that fingerprints products, versions, CVEs, login pages, debug messages, and related web-server signals from HTTP responses.",
+              "note": "\u2014 **note:** historical research reference; Apache-2.0 licensed, but maintenance is low.",
               "status": [
                 "open_source",
                 "research"
@@ -2404,8 +2438,8 @@
               "name": "ffufai",
               "repo": "jthack/ffufai",
               "org": "Joseph Thacker",
-              "desc": "🅑 AI wrapper around the ffuf web fuzzer that suggests file extensions and paths from the target URL and headers using OpenAI or Anthropic models.",
-              "note": "— **note:** requires an LLM API key; README states MIT but no LICENSE file was found.",
+              "desc": "\ud83c\udd51 AI wrapper around the ffuf web fuzzer that suggests file extensions and paths from the target URL and headers using OpenAI or Anthropic models.",
+              "note": "\u2014 **note:** requires an LLM API key; README states MIT but no LICENSE file was found.",
               "status": [
                 "open_source"
               ],
@@ -2428,7 +2462,7 @@
               "name": "PassGPT",
               "model": "javirandor/passgpt-10characters",
               "org": "Rando et al.",
-              "desc": "🅐 GPT-style password model trained on leaked passwords for research on password generation and strength estimation.",
+              "desc": "\ud83c\udd50 GPT-style password model trained on leaked passwords for research on password generation and strength estimation.",
               "note": "Research-only / non-commercial use; related code: [javirandor/passgpt](https://github.com/javirandor/passgpt).",
               "license": "CC BY-NC-4.0",
               "access": "open 10-char model; 16-char variant gated",
@@ -2443,11 +2477,11 @@
             {
               "name": "PassGAN",
               "repo": "brannondorsey/PassGAN",
-              "desc": "🅐 WGAN that learns password distributions from leaks to generate guesses; historical reference implementation of the PassGAN paper (MIT).",
+              "desc": "\ud83c\udd50 WGAN that learns password distributions from leaks to generate guesses; historical reference implementation of the PassGAN paper (MIT).",
               "status": [
                 "research"
               ],
-              "note": "— **note:** historical research reference; not an actively maintained password-auditing product.",
+              "note": "\u2014 **note:** historical research reference; not an actively maintained password-auditing product.",
               "metrics": {
                 "stars": 2007,
                 "updated": "2018-09-30",
@@ -2458,11 +2492,11 @@
               "name": "neural_network_cracking",
               "repo": "cupslab/neural_network_cracking",
               "org": "CMU CUPS Lab",
-              "desc": "🅐 RNN password-guessing model from *Fast, Lean, and Accurate: Modeling Password Guessability Using Neural Networks* (USENIX Security 2016); Apache-2.0 licensed.",
+              "desc": "\ud83c\udd50 RNN password-guessing model from *Fast, Lean, and Accurate: Modeling Password Guessability Using Neural Networks* (USENIX Security 2016); Apache-2.0 licensed.",
               "status": [
                 "research"
               ],
-              "note": "— **note:** historical USENIX research implementation, not a maintained password-auditing product.",
+              "note": "\u2014 **note:** historical USENIX research implementation, not a maintained password-auditing product.",
               "related": [
                 {
                   "label": "PassGPT",
@@ -2488,7 +2522,7 @@
               "kind": "hf_model",
               "name": "phishing-url-detection",
               "model": "pirocheto/phishing-url-detection",
-              "desc": "🅐 Packaged URL phishing classifier with ONNX and pickle artifacts.",
+              "desc": "\ud83c\udd50 Packaged URL phishing classifier with ONNX and pickle artifacts.",
               "note": "Model card recommends ONNX over pickle for safer inference.",
               "license": "MIT",
               "access": "open",
@@ -2502,7 +2536,7 @@
               "name": "Phishing Email Detection DistilBERT v2.4.1",
               "model": "cybersectony/phishing-email-detection-distilbert_v2.4.1",
               "desc": "DistilBERT text-classification model for email and URL phishing detection, trained on a public Hugging Face phishing-email dataset.",
-              "note": "— **note:** strong download signal, but independently verify the very high published metrics before production use.",
+              "note": "\u2014 **note:** strong download signal, but independently verify the very high published metrics before production use.",
               "license": "Apache-2.0",
               "access": "open",
               "artifacts": "Safetensors",
@@ -2516,8 +2550,8 @@
             {
               "name": "PhishIntention",
               "repo": "lindsey98/PhishIntention",
-              "desc": "🅐 Deep-vision phishing detector that infers both brand intention and credential-taking intention from webpage appearance and dynamics (USENIX Security 2022).",
-              "note": "— **note:** CC0-1.0 licensed.",
+              "desc": "\ud83c\udd50 Deep-vision phishing detector that infers both brand intention and credential-taking intention from webpage appearance and dynamics (USENIX Security 2022).",
+              "note": "\u2014 **note:** CC0-1.0 licensed.",
               "status": [
                 "research"
               ],
@@ -2531,8 +2565,8 @@
               "name": "VisualPhishNet",
               "repo": "S-Abdelnabi/VisualPhishNet",
               "org": "CISPA",
-              "desc": "🅐 Triplet CNN for zero-day phishing detection by visual similarity to trusted websites (ACM CCS 2020).",
-              "note": "— **note:** no LICENSE file found; dataset access is research-request based.",
+              "desc": "\ud83c\udd50 Triplet CNN for zero-day phishing detection by visual similarity to trusted websites (ACM CCS 2020).",
+              "note": "\u2014 **note:** no LICENSE file found; dataset access is research-request based.",
               "status": [
                 "research"
               ],
@@ -2553,8 +2587,8 @@
             {
               "name": "SYARA",
               "repo": "nabeelxy/syara",
-              "desc": "🅐 Semantic YARA-like rule engine for text and multimodal signals, adding embedding similarity, classifier-backed rules, LLM evaluators, and pHash matching to familiar YARA-style syntax.",
-              "note": "— **note:** early-stage engine; useful for LLM-era intent signals such as phishing, prompt injection, jailbreaks, hallucination, and disinformation rather than classic binary-only YARA matching.",
+              "desc": "\ud83c\udd50 Semantic YARA-like rule engine for text and multimodal signals, adding embedding similarity, classifier-backed rules, LLM evaluators, and pHash matching to familiar YARA-style syntax.",
+              "note": "\u2014 **note:** early-stage engine; useful for LLM-era intent signals such as phishing, prompt injection, jailbreaks, hallucination, and disinformation rather than classic binary-only YARA matching.",
               "status": [
                 "open_source",
                 "research"
@@ -2571,8 +2605,8 @@
             {
               "name": "AutoYara",
               "repo": "FutureComputing4AI/AutoYara",
-              "desc": "🅐 Research implementation of automatic YARA rule generation via biclustering over byte n-grams for malware-family samples.",
-              "note": "— **note:** Apache-2.0 research code from the ACM AISec 2020 paper; README explicitly says it comes with no warranty or support.",
+              "desc": "\ud83c\udd50 Research implementation of automatic YARA rule generation via biclustering over byte n-grams for malware-family samples.",
+              "note": "\u2014 **note:** Apache-2.0 research code from the ACM AISec 2020 paper; README explicitly says it comes with no warranty or support.",
               "status": [
                 "open_source",
                 "research"
@@ -2595,7 +2629,7 @@
               "org": "Sophos",
               "desc": "Research code that trains scikit-learn classifiers on malware and benign corpora, then compiles the learned model into deployable YARA rules.",
               "license": "Apache-2.0",
-              "note": "— **note:** historical research reference; the maintained value is the ML-to-YARA technique, not a current detection product.",
+              "note": "\u2014 **note:** historical research reference; the maintained value is the ML-to-YARA technique, not a current detection product.",
               "status": [
                 "open_source",
                 "research"
@@ -2609,8 +2643,8 @@
             {
               "name": "RuleLLM",
               "repo": "zhang-xr/RuleLLM",
-              "desc": "🅑 LLM-assisted malware-rule generator that clusters malicious code samples and produces/refines/validates YARA and Semgrep rules.",
-              "note": "— **note:** MIT-licensed research prototype; requires OpenAI-compatible API access plus YARA/Semgrep validators.",
+              "desc": "\ud83c\udd51 LLM-assisted malware-rule generator that clusters malicious code samples and produces/refines/validates YARA and Semgrep rules.",
+              "note": "\u2014 **note:** MIT-licensed research prototype; requires OpenAI-compatible API access plus YARA/Semgrep validators.",
               "status": [
                 "open_source",
                 "research"
@@ -2634,8 +2668,8 @@
               "name": "DeepSQLi",
               "repo": "gatewayd-io/DeepSQLi",
               "org": "GatewayD",
-              "desc": "🅐 Deep-learning SQL-injection detector with dataset, trained models, and a Flask Prediction API for GatewayD IDS/IPS integration.",
-              "note": "— **note:** AGPL-3.0 licensed; defensive detector rather than offensive generator.",
+              "desc": "\ud83c\udd50 Deep-learning SQL-injection detector with dataset, trained models, and a Flask Prediction API for GatewayD IDS/IPS integration.",
+              "note": "\u2014 **note:** AGPL-3.0 licensed; defensive detector rather than offensive generator.",
               "status": [
                 "open_source"
               ],
@@ -2652,7 +2686,7 @@
               "name": "deepsecrets",
               "repo": "ntoskernel/deepsecrets",
               "desc": "Semantic secrets scanner using lexing/parsing, entropy checks, and hashed-known-secret matching across 500+ languages.",
-              "note": "— **note:** useful narrow detector, but not a trained ML model.",
+              "note": "\u2014 **note:** useful narrow detector, but not a trained ML model.",
               "status": [
                 "open_source"
               ],
@@ -2735,7 +2769,7 @@
           "org": "OpenAI",
           "desc": "CLI and TypeScript SDK that use Codex Security to find, validate, and help fix vulnerabilities in a codebase, with scan comparison and containerized bulk-scan support.",
           "license": "Apache-2.0",
-          "note": "— **note:** the CLI/SDK are open source, but scans require Codex Security access and, for best results, OpenAI Trusted Access.",
+          "note": "\u2014 **note:** the CLI/SDK are open source, but scans require Codex Security access and, for best results, OpenAI Trusted Access.",
           "status": [
             "commercial_open"
           ],
@@ -2760,12 +2794,12 @@
           }
         },
         {
-          "name": "open·kritt",
+          "name": "open\u00b7kritt",
           "repo": "Kritt-ai/open-kritt",
           "org": "Kritt AI",
           "desc": "Self-hosted platform that orchestrates Codex or Claude Code across focused vulnerability-research workflows, then validates, de-duplicates, ranks, and reports resulting findings.",
           "license": "AGPL-3.0",
-          "note": "— **note:** jobs run as root in disposable Docker containers with writable target copies and direct internet access; the stack has no application auth by default and sends scanned code to the configured model provider. Deploy only on a dedicated, access-controlled host and scan authorized targets.",
+          "note": "\u2014 **note:** jobs run as root in disposable Docker containers with writable target copies and direct internet access; the stack has no application auth by default and sends scanned code to the configured model provider. Deploy only on a dedicated, access-controlled host and scan authorized targets.",
           "status": [
             "open_source"
           ],
@@ -2796,7 +2830,7 @@
           "repo": "visa/visa-vulnerability-agentic-harness",
           "org": "Visa",
           "desc": "Agentic SAST pipeline for autonomous vulnerability discovery, exploitability verification, SARIF/Markdown reporting, remediation, and validation using frontier AI models.",
-          "note": "— **note:** Apache-2.0; authorized use only. The default `scan` profile can continue into remediation and edit target source files; use `--stop-after s9` for detection-only runs.",
+          "note": "\u2014 **note:** Apache-2.0; authorized use only. The default `scan` profile can continue into remediation and edit target source files; use `--stop-after s9` for detection-only runs.",
           "status": [
             "open_source"
           ],
@@ -2826,7 +2860,7 @@
           "repo": "anthropics/defending-code-reference-harness",
           "org": "Anthropic",
           "desc": "Reference Claude Code skills and autonomous vulnerability-discovery pipeline for threat modeling, static scanning, triage, execution-verified C/C++ memory-bug discovery, reporting, and patch generation.",
-          "note": "— **note:** official reference implementation, not maintained as a product; the autonomous pipeline executes target code and should be run only inside the documented gVisor sandbox.",
+          "note": "\u2014 **note:** official reference implementation, not maintained as a product; the autonomous pipeline executes target code and should be run only inside the documented gVisor sandbox.",
           "status": [
             "open_source"
           ],
@@ -2856,7 +2890,7 @@
           "repo": "scadastrangelove/rust-in-peace",
           "org": "Sergey Gordeychik",
           "desc": "Rust-security fork of Anthropic's defending-code reference harness, adding a Rust profile for agentic review of unsafe/FFI memory bugs, panic-DoS, deserialization-trust issues, and Miri/ASan/panic/hang-verified findings.",
-          "note": "— **note:** very new Apache-2.0 fork; autonomous runs execute target code and should use the documented sandbox.",
+          "note": "\u2014 **note:** very new Apache-2.0 fork; autonomous runs execute target code and should use the documented sandbox.",
           "status": [
             "open_source"
           ],
@@ -3118,7 +3152,7 @@
                 "open_source",
                 "research"
               ],
-              "note": "— **note:** historical research reference; maintenance appears low compared with current LLM security scanners.",
+              "note": "\u2014 **note:** historical research reference; maintenance appears low compared with current LLM security scanners.",
               "metrics": {
                 "stars": 372,
                 "updated": "2024-02-12",
@@ -3129,7 +3163,7 @@
               "name": "ps-fuzz",
               "repo": "prompt-security/ps-fuzz",
               "org": "Prompt Security",
-              "desc": "System-prompt hardening fuzzer; 16 attacks × 16 providers.",
+              "desc": "System-prompt hardening fuzzer; 16 attacks \u00d7 16 providers.",
               "status": [
                 "commercial_open"
               ],
@@ -3443,7 +3477,7 @@
           "name": "RulePilot",
           "repo": "LLM4SOC-Topic/RulePilot",
           "desc": "LLM-powered security-rule generation agent for Splunk, Microsoft Sentinel, and Elastic, with field detection from log samples, multi-stage refinement, and cross-platform rule conversion.",
-          "note": "— **note:** MIT-licensed ICSE 2026 research prototype; requires an OpenAI API key.",
+          "note": "\u2014 **note:** MIT-licensed ICSE 2026 research prototype; requires an OpenAI API key.",
           "status": [
             "open_source",
             "research"
@@ -3805,7 +3839,7 @@
             "open_source"
           ],
           "license": "MIT",
-          "note": "— **note:** deep native analysis uses separately licensed Hopper or operator-installed Ghidra. Setup can modify agent MCP registrations after interactive approval, and dynamic providers run with the current user's permissions; analyze only authorized artifacts.",
+          "note": "\u2014 **note:** deep native analysis uses separately licensed Hopper or operator-installed Ghidra. Setup can modify agent MCP registrations after interactive approval, and dynamic providers run with the current user's permissions; analyze only authorized artifacts.",
           "flags": [
             "heavy_runtime",
             "authorized_testing_only",
@@ -3853,7 +3887,7 @@
                 "commercial_features"
               ],
               "desc": "Generates an AI-SBOM, statically analyzes agentic applications, red-teams live targets for prompt injection/tool misuse/data exfiltration, and validates behavioral policy compliance with SARIF, JSON, and Markdown reports.",
-              "note": "— **note:** beta project; live red-team scans actively probe the target and require authorization. LLM-assisted features need provider credentials, and the optional NuGuard.ai hosted offering adds commercial features.",
+              "note": "\u2014 **note:** beta project; live red-team scans actively probe the target and require authorization. LLM-assisted features need provider credentials, and the optional NuGuard.ai hosted offering adds commercial features.",
               "related": [
                 {
                   "label": "garak",
@@ -3874,7 +3908,7 @@
               "name": "garak",
               "repo": "NVIDIA/garak",
               "org": "NVIDIA",
-              "desc": "The LLM vulnerability scanner — probes for prompt injection, jailbreaks, data leakage, and more.",
+              "desc": "The LLM vulnerability scanner \u2014 probes for prompt injection, jailbreaks, data leakage, and more.",
               "status": [
                 "open_source"
               ],
@@ -3912,7 +3946,7 @@
               "name": "promptfoo",
               "repo": "promptfoo/promptfoo",
               "desc": "LLM eval + red-teaming/pentesting CLI with 50+ attack plugins (MIT).",
-              "note": "*Note: OpenAI announced an acquisition agreement in March 2026; remains MIT-licensed — track governance.*",
+              "note": "*Note: OpenAI announced an acquisition agreement in March 2026; remains MIT-licensed \u2014 track governance.*",
               "status": [
                 "open_source"
               ],
@@ -3973,7 +4007,7 @@
               "name": "HackAgent",
               "repo": "AISecurityLab/hackagent",
               "desc": "Python SDK and CLI for red-teaming AI agents with research-backed attacks such as AdvPrefix, AutoDAN-Turbo, PAIR, TAP, FlipAttack, BoN, and static templates across agent frameworks.",
-              "note": "— **note:** works locally without an API key; optional cloud reporting is available.",
+              "note": "\u2014 **note:** works locally without an API key; optional cloud reporting is available.",
               "status": [
                 "open_source"
               ],
@@ -4001,7 +4035,7 @@
               "name": "wallbreaker",
               "repo": "JailbrokenAI/wallbreaker",
               "desc": "Claude-Code-style terminal and red-team harness for authorized LLM safety testing, with HarmBench, PAIR/TAP, Crescendo, GCG-style workflows, Parseltongue transforms, MCP tooling, LLM judges, and reproducible run artifacts.",
-              "note": "— **note:** offensive jailbreak toolkit for authorized testing only; AGPL-3.0 licensed and NOTICE flags external jailbreak corpora with their own or missing upstream licenses.",
+              "note": "\u2014 **note:** offensive jailbreak toolkit for authorized testing only; AGPL-3.0 licensed and NOTICE flags external jailbreak corpora with their own or missing upstream licenses.",
               "status": [
                 "open_source",
                 "research"
@@ -4034,7 +4068,7 @@
               "name": "HiveTrace Red",
               "repo": "HiveTrace/HiveTraceRed",
               "desc": "Early-stage LLM red-teaming framework with 80+ attack templates, async evaluation pipelines, WildGuard evaluators, multi-provider support, and HTML reporting.",
-              "note": "— **note:** young project with limited independent adoption signal.",
+              "note": "\u2014 **note:** young project with limited independent adoption signal.",
               "status": [
                 "open_source"
               ],
@@ -4457,7 +4491,7 @@
               "repo": "Repello-AI/whistleblower",
               "org": "Repello AI",
               "desc": "Offensive testing tool for inferring system prompts and discovering capabilities of LLM applications exposed through APIs.",
-              "note": "— **note:** no LICENSE file found.",
+              "note": "\u2014 **note:** no LICENSE file found.",
               "status": [
                 "open_source"
               ],
@@ -4548,7 +4582,7 @@
               "repo": "hermes-labs-ai/little-canary",
               "desc": "Prompt-injection preflight risk sensor that routes untrusted input through a powerless sacrificial model, then reads response residue to return pass/flag/block before the primary agent acts.",
               "license": "Apache-2.0",
-              "note": "— **note:** experimental sensing layer, not a security guarantee or runtime containment. A failed canary can return availability-first routing with explicit degraded coverage; remote/OpenAI-compatible canary or judge endpoints receive raw input.",
+              "note": "\u2014 **note:** experimental sensing layer, not a security guarantee or runtime containment. A failed canary can return availability-first routing with explicit degraded coverage; remote/OpenAI-compatible canary or judge endpoints receive raw input.",
               "status": [
                 "open_source",
                 "research"
@@ -4683,7 +4717,7 @@
               "model": "fdtn-ai/antares-1b",
               "org": "Cisco Foundation AI",
               "desc": "Open-weight security SLM specialized for agentic vulnerability localization: it explores repository snapshots through a terminal-style loop and ranks likely vulnerable files for analyst review.",
-              "note": "— **note:** HF access is gated/manual; related smaller model: [Antares-350M](https://huggingface.co/fdtn-ai/antares-350m), benchmark: [VLoc Bench](https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/).",
+              "note": "\u2014 **note:** HF access is gated/manual; related smaller model: [Antares-350M](https://huggingface.co/fdtn-ai/antares-350m), benchmark: [VLoc Bench](https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/).",
               "license": "Apache-2.0",
               "access": "gated manual",
               "artifacts": "Safetensors + CLI ZIP",
@@ -4746,7 +4780,7 @@
               "model": "deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-GGUF",
               "org": "RavenX LLC / DeadByDawn101",
               "desc": "GGUF security-specialized text-generation model positioned for pentest, bug-bounty, tool-calling, MCP, CVSS/CWE, and MITRE ATT&CK workflows.",
-              "note": "— **note:** built from an abliterated base model and marketed for autonomous security assessment; use only in authorized, sandboxed agent harnesses with tool-call validation.",
+              "note": "\u2014 **note:** built from an abliterated base model and marketed for autonomous security assessment; use only in authorized, sandboxed agent harnesses with tool-call validation.",
               "license": "Apache-2.0",
               "access": "open",
               "artifacts": "GGUF",
@@ -4773,7 +4807,7 @@
           "repo": "beelzebub-labs/beelzebub",
           "desc": "Low-code honeypot using LLMs to simulate SSH/HTTP/MCP services (Go).",
           "license": "GPL-3.0",
-          "note": "— **note:** GPL-3.0 licensed.",
+          "note": "\u2014 **note:** GPL-3.0 licensed.",
           "status": [
             "open_source"
           ],
@@ -5039,7 +5073,7 @@
           "name": "AI Goat",
           "repo": "dhammon/ai-goat",
           "desc": "Vulnerable-by-design local LLM CTF for learning prompt injection, insecure output handling, data leakage, excessive agency, and related LLM app risks.",
-          "note": "— **note:** GPL-2.0 licensed.",
+          "note": "\u2014 **note:** GPL-2.0 licensed.",
           "status": [
             "open_source",
             "research"
@@ -5066,7 +5100,7 @@
             "license_caveat",
             "noncommercial"
           ],
-          "note": "— **note:** platform code is Apache-2.0, but training/challenge content is CC BY-NC-SA-4.0 and requires permission for commercial workshops.",
+          "note": "\u2014 **note:** platform code is Apache-2.0, but training/challenge content is CC BY-NC-SA-4.0 and requires permission for commercial workshops.",
           "metrics": {
             "stars": 74,
             "updated": "2026-04-24",
@@ -5097,7 +5131,7 @@
         {
           "name": "claude-bug-bounty",
           "repo": "shuvonsec/claude-bug-bounty",
-          "desc": "Claude Code plugin orchestrating recon → vuln classes → reporting.",
+          "desc": "Claude Code plugin orchestrating recon \u2192 vuln classes \u2192 reporting.",
           "status": [
             "open_source"
           ],
@@ -5188,7 +5222,7 @@
           "org": "Praetorian",
           "desc": "Local Go tool that fingerprints LLM service infrastructure on authorized endpoints, identifies 60+ serving, gateway, MCP, and RAG platforms, and can enumerate exposed models.",
           "license": "Apache-2.0",
-          "note": "— **note:** use only against endpoints you own or are authorized to assess.",
+          "note": "\u2014 **note:** use only against endpoints you own or are authorized to assess.",
           "status": [
             "open_source"
           ],
