@@ -129,6 +129,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [agent-audit](https://github.com/scadastrangelove/agent-audit) · [ATR – Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)
 - **[Agent3Sigma-Canary](https://github.com/antgroup/Agent3Sigma-Canary)** 🟢🔬 — Sandboxed research framework for evaluating AI-agent security over complete execution trajectories, covering direct/indirect injection, skill and memory poisoning, and practical risk outcomes. *(Ant Group)* — **note:** research framework that requires Docker plus target and auxiliary LLM configuration; use only in controlled environments. *(★ 34 · updated 2026-06-24)*
   - **Related:** [AgentDojo](https://github.com/ethz-spylab/agentdojo) · [HarmBench](https://github.com/centerforaisafety/HarmBench)
+- **[Agent Trust](https://github.com/Rain-ouroboros/ouroboros)** 🟢🔬 — Advisory receipt library for agent self-attestation: a Python library that lets an AI agent declare its boundaries (tool restrictions, safety constraints, runtime limits) and publish a signed manifest at startup. Manifest is signed by a trusted third-party promote service — not by the agent itself — so the declaration is verifiable. Currently advisory (does not intercept LLM calls); alpha-stage, installed from GitHub. *(Rain (Ouroboros))* — **note:** advisory, not runtime-enforced; alpha-stage; install from GitHub (not PyPI). *(★ 0 · updated 2026-08-05)*
+  - **Related:** [Agent Trust Transport Protocol (ATTP)](https://datatracker.ietf.org/doc/draft-sharif-attp/) · [AgentDojo](https://github.com/ethz-spylab/agentdojo) · [ATR – Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)
 
 ### Runtime Protection & Enforcement
 
