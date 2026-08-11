@@ -31,7 +31,7 @@
           "metrics": {
             "stars": 1,
             "updated": "2026-05-25",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -49,9 +49,9 @@
             }
           ],
           "metrics": {
-            "stars": 220,
+            "stars": 221,
             "updated": "2026-08-03",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -62,9 +62,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 96,
+            "stars": 97,
             "updated": "2026-05-20",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -77,9 +77,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 303,
+            "stars": 305,
             "updated": "2026-04-14",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -102,7 +102,7 @@
           "metrics": {
             "stars": 11,
             "updated": "2025-08-01",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -118,7 +118,7 @@
           "metrics": {
             "stars": 0,
             "updated": "2026-02-23",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         }
       ],
@@ -183,7 +183,7 @@
               "metrics": {
                 "stars": 15,
                 "updated": "2026-07-15",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -213,9 +213,9 @@
                 }
               ],
               "metrics": {
-                "stars": 4413,
-                "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "stars": 4467,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -245,9 +245,9 @@
                 }
               ],
               "metrics": {
-                "stars": 14284,
-                "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "stars": 14498,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -272,9 +272,9 @@
                 }
               ],
               "metrics": {
-                "stars": 95,
-                "updated": "2026-07-29",
-                "snapshot": "2026-08-06"
+                "stars": 96,
+                "updated": "2026-08-07",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -302,7 +302,7 @@
               "metrics": {
                 "stars": 117,
                 "updated": "2026-03-27",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -331,9 +331,9 @@
                 }
               ],
               "metrics": {
-                "stars": 85,
+                "stars": 86,
                 "updated": "2026-07-24",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -359,9 +359,9 @@
                 }
               ],
               "metrics": {
-                "stars": 2878,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 2899,
+                "updated": "2026-08-07",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -385,7 +385,7 @@
               "metrics": {
                 "stars": 28,
                 "updated": "2026-06-07",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -406,9 +406,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1048,
+                "stars": 1064,
                 "updated": "2026-07-22",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -432,9 +432,9 @@
                 }
               ],
               "metrics": {
-                "stars": 147,
-                "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "stars": 148,
+                "updated": "2026-08-08",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -460,9 +460,9 @@
                 }
               ],
               "metrics": {
-                "stars": 2405,
+                "stars": 2417,
                 "updated": "2026-08-04",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -491,9 +491,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1010,
-                "updated": "2026-07-30",
-                "snapshot": "2026-08-06"
+                "stars": 1017,
+                "updated": "2026-08-07",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -516,7 +516,7 @@
               "metrics": {
                 "stars": 6,
                 "updated": "2026-07-29",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -544,9 +544,9 @@
                 }
               ],
               "metrics": {
-                "stars": 175,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 176,
+                "updated": "2026-08-07",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -558,9 +558,9 @@
                 "commercial_open"
               ],
               "metrics": {
-                "stars": 1023,
+                "stars": 1027,
                 "updated": "2025-11-27",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -591,7 +591,7 @@
               "metrics": {
                 "stars": 1,
                 "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -618,8 +618,8 @@
               ],
               "metrics": {
                 "stars": 4,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "updated": "2026-08-09",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -639,7 +639,7 @@
               "metrics": {
                 "stars": 23,
                 "updated": "2026-07-27",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -664,7 +664,7 @@
               "metrics": {
                 "stars": 162,
                 "updated": "2026-04-16",
-                "snapshot": "2026-08-09"
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -707,7 +707,7 @@
               "metrics": {
                 "stars": 16,
                 "updated": "2026-07-26",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -729,9 +729,9 @@
                 }
               ],
               "metrics": {
-                "stars": 363,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 368,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -758,9 +758,9 @@
                 }
               ],
               "metrics": {
-                "stars": 5629,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 5870,
+                "updated": "2026-08-07",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -784,7 +784,7 @@
               "metrics": {
                 "stars": 835,
                 "updated": "2025-04-28",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -806,9 +806,9 @@
                 }
               ],
               "metrics": {
-                "stars": 27378,
-                "updated": "2026-08-02",
-                "snapshot": "2026-08-06"
+                "stars": 27596,
+                "updated": "2026-08-08",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -833,9 +833,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3317,
-                "updated": "2026-08-03",
-                "snapshot": "2026-08-06"
+                "stars": 3463,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -857,9 +857,9 @@
                 }
               ],
               "metrics": {
-                "stars": 721,
+                "stars": 738,
                 "updated": "2026-06-02",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -890,9 +890,9 @@
                 }
               ],
               "metrics": {
-                "stars": 34,
-                "updated": "2026-06-24",
-                "snapshot": "2026-08-06"
+                "stars": 35,
+                "updated": "2026-08-09",
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -924,9 +924,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3523,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 3603,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -955,9 +955,9 @@
                 }
               ],
               "metrics": {
-                "stars": 676,
-                "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "stars": 678,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -979,9 +979,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1993,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 2003,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1003,9 +1003,9 @@
                 }
               ],
               "metrics": {
-                "stars": 791,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 792,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1034,9 +1034,9 @@
                 }
               ],
               "metrics": {
-                "stars": 16,
+                "stars": 18,
                 "updated": "2026-07-20",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1053,9 +1053,9 @@
                 "commercial_features"
               ],
               "metrics": {
-                "stars": 421,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 420,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1083,7 +1083,7 @@
               "metrics": {
                 "stars": 222,
                 "updated": "2026-02-13",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1110,7 +1110,7 @@
               "metrics": {
                 "stars": 255,
                 "updated": "2026-06-05",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1136,9 +1136,9 @@
                 }
               ],
               "metrics": {
-                "stars": 384,
+                "stars": 385,
                 "updated": "2026-01-22",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1162,7 +1162,7 @@
               "metrics": {
                 "stars": 32,
                 "updated": "2026-06-05",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1185,8 +1185,8 @@
               ],
               "metrics": {
                 "stars": 40,
-                "updated": "2026-06-22",
-                "snapshot": "2026-08-06"
+                "updated": "2026-08-09",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1207,9 +1207,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3002,
+                "stars": 3052,
                 "updated": "2026-07-31",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1230,9 +1230,9 @@
                 }
               ],
               "metrics": {
-                "stars": 7156,
-                "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "stars": 7248,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1253,9 +1253,9 @@
                 }
               ],
               "metrics": {
-                "stars": 453,
+                "stars": 455,
                 "updated": "2026-06-25",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1277,9 +1277,9 @@
                 }
               ],
               "metrics": {
-                "stars": 808,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 817,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1302,8 +1302,8 @@
               ],
               "metrics": {
                 "stars": 59,
-                "updated": "2025-03-06",
-                "snapshot": "2026-08-06"
+                "updated": "2026-08-06",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1328,9 +1328,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1081,
+                "stars": 1082,
                 "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1347,9 +1347,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 18,
+                "stars": 19,
                 "updated": "2026-08-04",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1371,9 +1371,9 @@
                 }
               ],
               "metrics": {
-                "stars": 502,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 522,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1399,9 +1399,9 @@
                 }
               ],
               "metrics": {
-                "stars": 108,
-                "updated": "2026-08-03",
-                "snapshot": "2026-08-06"
+                "stars": 111,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1421,7 +1421,7 @@
               "metrics": {
                 "stars": 12,
                 "updated": "2026-07-23",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1435,9 +1435,9 @@
               ],
               "note": "— **note:** OWASP Incubator project; published benchmark numbers are project-reported and should be independently reproduced before production enforcement.",
               "metrics": {
-                "stars": 112,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 119,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1463,9 +1463,9 @@
                 }
               ],
               "metrics": {
-                "stars": 5652,
+                "stars": 5672,
                 "updated": "2026-07-02",
-                "snapshot": "2026-08-09"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1487,9 +1487,9 @@
                 }
               ],
               "metrics": {
-                "stars": 4274,
-                "updated": "2026-08-07",
-                "snapshot": "2026-08-09"
+                "stars": 4297,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1518,9 +1518,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3454,
-                "updated": "2026-08-07",
-                "snapshot": "2026-08-09"
+                "stars": 3476,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1542,9 +1542,9 @@
                 }
               ],
               "metrics": {
-                "stars": 280,
-                "updated": "2026-08-09",
-                "snapshot": "2026-08-09"
+                "stars": 283,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -1570,9 +1570,9 @@
                 }
               ],
               "metrics": {
-                "stars": 2648,
-                "updated": "2026-08-09",
-                "snapshot": "2026-08-09"
+                "stars": 2654,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -1600,7 +1600,7 @@
           "metrics": {
             "stars": 159,
             "updated": "2025-12-01",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1622,9 +1622,9 @@
             }
           ],
           "metrics": {
-            "stars": 6154,
+            "stars": 6161,
             "updated": "2025-11-13",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1643,7 +1643,7 @@
           "metrics": {
             "stars": 2972,
             "updated": "2024-03-04",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1669,9 +1669,9 @@
             }
           ],
           "metrics": {
-            "stars": 757,
+            "stars": 759,
             "updated": "2026-02-18",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1693,9 +1693,9 @@
             }
           ],
           "metrics": {
-            "stars": 657,
+            "stars": 659,
             "updated": "2026-07-30",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1716,9 +1716,9 @@
             }
           ],
           "metrics": {
-            "stars": 419,
+            "stars": 418,
             "updated": "2026-07-01",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1740,8 +1740,8 @@
           ],
           "metrics": {
             "stars": 76,
-            "updated": "2026-07-26",
-            "snapshot": "2026-08-06"
+            "updated": "2026-08-08",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1761,7 +1761,7 @@
           "metrics": {
             "stars": 101,
             "updated": "2026-08-05",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1789,7 +1789,7 @@
           "metrics": {
             "stars": 17,
             "updated": "2026-08-03",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1814,9 +1814,9 @@
             }
           ],
           "metrics": {
-            "stars": 959,
+            "stars": 961,
             "updated": "2026-06-24",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1838,7 +1838,7 @@
           "metrics": {
             "stars": 214,
             "updated": "2025-09-05",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1852,7 +1852,7 @@
           "metrics": {
             "stars": 636,
             "updated": "2018-06-15",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1866,7 +1866,7 @@
           "metrics": {
             "stars": 571,
             "updated": "2022-05-17",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1900,7 +1900,7 @@
           "metrics": {
             "stars": 17,
             "updated": "2026-06-09",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1925,8 +1925,8 @@
           ],
           "metrics": {
             "stars": 371,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1948,9 +1948,9 @@
             }
           ],
           "metrics": {
-            "stars": 1180,
-            "updated": "2026-08-04",
-            "snapshot": "2026-08-06"
+            "stars": 1179,
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1973,9 +1973,9 @@
             }
           ],
           "metrics": {
-            "stars": 904,
+            "stars": 903,
             "updated": "2026-07-21",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -1995,7 +1995,7 @@
           "metrics": {
             "stars": 149,
             "updated": "2025-02-24",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2018,7 +2018,7 @@
           "metrics": {
             "stars": 129,
             "updated": "2026-07-21",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         }
       ]
@@ -2037,9 +2037,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 14729,
+            "stars": 14796,
             "updated": "2026-07-14",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2051,9 +2051,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 21673,
+            "stars": 21762,
             "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2066,9 +2066,9 @@
             "commercial_open"
           ],
           "metrics": {
-            "stars": 9657,
+            "stars": 9700,
             "updated": "2026-07-14",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2079,9 +2079,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 49232,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "stars": 50992,
+            "updated": "2026-08-10",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2093,9 +2093,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 1200,
-            "updated": "2025-08-27",
-            "snapshot": "2026-08-06"
+            "stars": 1206,
+            "updated": "2026-08-10",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2107,9 +2107,9 @@
             "commercial_open"
           ],
           "metrics": {
-            "stars": 1082,
+            "stars": 1085,
             "updated": "2026-07-26",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2120,9 +2120,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 10839,
+            "stars": 10940,
             "updated": "2026-08-03",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2149,9 +2149,9 @@
             }
           ],
           "metrics": {
-            "stars": 1888,
+            "stars": 1923,
             "updated": "2026-07-25",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2173,9 +2173,9 @@
             }
           ],
           "metrics": {
-            "stars": 1050,
-            "updated": "2026-05-26",
-            "snapshot": "2026-08-06"
+            "stars": 1057,
+            "updated": "2026-08-10",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2192,9 +2192,9 @@
             }
           ],
           "metrics": {
-            "stars": 1552,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "stars": 1576,
+            "updated": "2026-08-08",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2211,9 +2211,9 @@
             }
           ],
           "metrics": {
-            "stars": 2082,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "stars": 2107,
+            "updated": "2026-08-08",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2242,9 +2242,9 @@
             }
           ],
           "metrics": {
-            "stars": 809,
+            "stars": 829,
             "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2275,9 +2275,9 @@
             }
           ],
           "metrics": {
-            "stars": 5445,
+            "stars": 5524,
             "updated": "2026-08-02",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2293,9 +2293,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 46482,
-            "updated": "2026-08-04",
-            "snapshot": "2026-08-06"
+            "stars": 46618,
+            "updated": "2026-08-10",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2309,9 +2309,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 465,
+            "stars": 468,
             "updated": "2026-07-19",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2326,9 +2326,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 312,
+            "stars": 313,
             "updated": "2025-06-24",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2340,9 +2340,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 183,
+            "stars": 185,
             "updated": "2025-04-07",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2353,9 +2353,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 2889,
+            "stars": 2911,
             "updated": "2026-08-04",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2370,9 +2370,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 384,
+            "stars": 388,
             "updated": "2024-05-07",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2383,9 +2383,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 2162,
+            "stars": 2188,
             "updated": "2026-08-04",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2401,7 +2401,7 @@
           "metrics": {
             "stars": 1199,
             "updated": "2025-07-21",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2418,9 +2418,9 @@
           ],
           "note": "— **note:** early-stage local Docker application with no built-in authentication; keep its API and UI ports bound to localhost.",
           "metrics": {
-            "stars": 36,
+            "stars": 38,
             "updated": "2026-08-02",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2454,9 +2454,9 @@
             }
           ],
           "metrics": {
-            "stars": 164,
+            "stars": 169,
             "updated": "2026-07-30",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         }
       ]
@@ -2484,9 +2484,9 @@
                 }
               ],
               "metrics": {
-                "stars": 386,
+                "stars": 387,
                 "updated": "2025-12-18",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -2509,7 +2509,7 @@
               "metrics": {
                 "stars": 392,
                 "updated": "2023-02-18",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -2530,9 +2530,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 1288,
+                "stars": 1289,
                 "updated": "2024-02-19",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -2552,7 +2552,7 @@
               "metrics": {
                 "stars": 826,
                 "updated": "2021-06-29",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -2573,9 +2573,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 800,
+                "stars": 802,
                 "updated": "2025-12-04",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -2609,9 +2609,9 @@
               ],
               "note": "— **note:** historical research reference; not an actively maintained password-auditing product.",
               "metrics": {
-                "stars": 2007,
+                "stars": 2008,
                 "updated": "2018-09-30",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -2636,7 +2636,7 @@
               "metrics": {
                 "stars": 243,
                 "updated": "2018-11-30",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -2684,7 +2684,7 @@
               "metrics": {
                 "stars": 263,
                 "updated": "2026-06-04",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -2702,7 +2702,7 @@
               "metrics": {
                 "stars": 30,
                 "updated": "2022-02-09",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -2725,7 +2725,7 @@
               "metrics": {
                 "stars": 18,
                 "updated": "2026-03-05",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -2746,7 +2746,7 @@
               "metrics": {
                 "stars": 79,
                 "updated": "2025-10-08",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -2763,7 +2763,7 @@
               "metrics": {
                 "stars": 215,
                 "updated": "2020-12-18",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -2782,7 +2782,7 @@
               "metrics": {
                 "stars": 12,
                 "updated": "2025-04-25",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -2805,7 +2805,7 @@
               "metrics": {
                 "stars": 7,
                 "updated": "2026-02-21",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -2819,7 +2819,7 @@
               "metrics": {
                 "stars": 171,
                 "updated": "2026-06-04",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -2860,9 +2860,9 @@
             }
           ],
           "metrics": {
-            "stars": 2727,
+            "stars": 2729,
             "updated": "2025-02-06",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2884,9 +2884,9 @@
             }
           ],
           "metrics": {
-            "stars": 6586,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "stars": 6650,
+            "updated": "2026-08-09",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2914,9 +2914,9 @@
             }
           ],
           "metrics": {
-            "stars": 8987,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "stars": 9580,
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2946,9 +2946,9 @@
             }
           ],
           "metrics": {
-            "stars": 1479,
-            "updated": "2026-08-05",
-            "snapshot": "2026-08-06"
+            "stars": 1664,
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -2976,9 +2976,9 @@
             }
           ],
           "metrics": {
-            "stars": 2484,
+            "stars": 2524,
             "updated": "2026-08-04",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3006,9 +3006,9 @@
             }
           ],
           "metrics": {
-            "stars": 6950,
-            "updated": "2026-08-04",
-            "snapshot": "2026-08-06"
+            "stars": 6979,
+            "updated": "2026-08-06",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3037,9 +3037,9 @@
             }
           ],
           "metrics": {
-            "stars": 10,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "stars": 12,
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3051,9 +3051,9 @@
             "commercial_open"
           ],
           "metrics": {
-            "stars": 5769,
+            "stars": 5848,
             "updated": "2026-02-11",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3067,7 +3067,7 @@
           "metrics": {
             "stars": 411,
             "updated": "2026-07-02",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3088,9 +3088,9 @@
             }
           ],
           "metrics": {
-            "stars": 1256,
+            "stars": 1268,
             "updated": "2026-04-08",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3108,9 +3108,9 @@
             }
           ],
           "metrics": {
-            "stars": 273,
+            "stars": 272,
             "updated": "2026-04-07",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3134,7 +3134,7 @@
           "metrics": {
             "stars": 19,
             "updated": "2026-06-29",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3160,7 +3160,7 @@
           "metrics": {
             "stars": 12,
             "updated": "2026-02-03",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3176,7 +3176,7 @@
           "metrics": {
             "stars": 22,
             "updated": "2025-04-02",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         }
       ]
@@ -3198,9 +3198,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 1426,
+                "stars": 1429,
                 "updated": "2026-03-02",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -3217,7 +3217,7 @@
               "metrics": {
                 "stars": 339,
                 "updated": "2026-05-15",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -3231,7 +3231,7 @@
               "metrics": {
                 "stars": 336,
                 "updated": "2025-08-11",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -3243,9 +3243,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 391,
+                "stars": 392,
                 "updated": "2025-06-20",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -3262,7 +3262,7 @@
               "metrics": {
                 "stars": 94,
                 "updated": "2023-09-10",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -3282,7 +3282,7 @@
               "metrics": {
                 "stars": 372,
                 "updated": "2024-02-12",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -3296,7 +3296,7 @@
               "metrics": {
                 "stars": 702,
                 "updated": "2026-02-16",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -3308,9 +3308,9 @@
                 "commercial_open"
               ],
               "metrics": {
-                "stars": 1552,
+                "stars": 1556,
                 "updated": "2026-02-06",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -3330,7 +3330,7 @@
               "metrics": {
                 "stars": 230,
                 "updated": "2026-07-13",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -3350,9 +3350,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1239,
+                "stars": 1245,
                 "updated": "2025-12-01",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -3366,7 +3366,7 @@
               "metrics": {
                 "stars": 35,
                 "updated": "2025-09-04",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -3388,7 +3388,7 @@
           "metrics": {
             "stars": 10,
             "updated": "2023-11-15",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3401,7 +3401,7 @@
           "metrics": {
             "stars": 111,
             "updated": "2026-02-16",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3414,7 +3414,7 @@
           "metrics": {
             "stars": 38,
             "updated": "2024-12-04",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3425,9 +3425,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 921,
+            "stars": 922,
             "updated": "2026-05-26",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3446,7 +3446,7 @@
           "metrics": {
             "stars": 384,
             "updated": "2022-12-09",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3466,9 +3466,9 @@
             }
           ],
           "metrics": {
-            "stars": 50,
+            "stars": 51,
             "updated": "2025-01-22",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3487,7 +3487,7 @@
           "metrics": {
             "stars": 4,
             "updated": "2025-11-03",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3521,7 +3521,7 @@
           "metrics": {
             "stars": 46,
             "updated": "2025-12-28",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3538,9 +3538,9 @@
             }
           ],
           "metrics": {
-            "stars": 74,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "stars": 75,
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3558,9 +3558,9 @@
             }
           ],
           "metrics": {
-            "stars": 231,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "stars": 234,
+            "updated": "2026-08-10",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3571,9 +3571,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 1122,
+            "stars": 1133,
             "updated": "2026-08-05",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3596,7 +3596,7 @@
           "metrics": {
             "stars": 97,
             "updated": "2025-11-03",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3625,7 +3625,7 @@
           "metrics": {
             "stars": 15,
             "updated": "2025-10-20",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3638,7 +3638,7 @@
           "metrics": {
             "stars": 6,
             "updated": "2025-06-11",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3649,9 +3649,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 1230,
-            "updated": "2026-07-21",
-            "snapshot": "2026-08-06"
+            "stars": 1234,
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3679,9 +3679,9 @@
             }
           ],
           "metrics": {
-            "stars": 513,
-            "updated": "2026-06-03",
-            "snapshot": "2026-08-09"
+            "stars": 515,
+            "updated": "2026-04-29",
+            "snapshot": "2026-08-11"
           }
         }
       ]
@@ -3699,9 +3699,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 3453,
-            "updated": "2026-05-03",
-            "snapshot": "2026-08-06"
+            "stars": 3455,
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3712,9 +3712,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 11141,
-            "updated": "2026-08-05",
-            "snapshot": "2026-08-06"
+            "stars": 11257,
+            "updated": "2026-08-09",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3735,9 +3735,9 @@
             }
           ],
           "metrics": {
-            "stars": 9722,
+            "stars": 9763,
             "updated": "2025-06-23",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3760,7 +3760,7 @@
           "metrics": {
             "stars": 798,
             "updated": "2026-07-28",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3781,9 +3781,9 @@
             }
           ],
           "metrics": {
-            "stars": 709,
+            "stars": 711,
             "updated": "2026-08-02",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3800,9 +3800,9 @@
             }
           ],
           "metrics": {
-            "stars": 3177,
-            "updated": "2026-08-04",
-            "snapshot": "2026-08-06"
+            "stars": 3263,
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3828,7 +3828,7 @@
           "metrics": {
             "stars": 154,
             "updated": "2024-11-29",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3849,9 +3849,9 @@
             }
           ],
           "metrics": {
-            "stars": 624,
+            "stars": 649,
             "updated": "2026-07-22",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3866,9 +3866,9 @@
             "license_caveat"
           ],
           "metrics": {
-            "stars": 6946,
+            "stars": 6954,
             "updated": "2026-02-12",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3879,9 +3879,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 94,
+            "stars": 97,
             "updated": "2026-06-08",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3894,7 +3894,7 @@
           "metrics": {
             "stars": 47,
             "updated": "2025-05-13",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3916,9 +3916,9 @@
             }
           ],
           "metrics": {
-            "stars": 300,
+            "stars": 397,
             "updated": "2026-07-29",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3932,7 +3932,7 @@
           "metrics": {
             "stars": 312,
             "updated": "2023-05-10",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3943,9 +3943,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 402,
+            "stars": 404,
             "updated": "2022-12-31",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3962,9 +3962,9 @@
             }
           ],
           "metrics": {
-            "stars": 2342,
+            "stars": 2344,
             "updated": "2024-06-09",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -3982,9 +3982,9 @@
             }
           ],
           "metrics": {
-            "stars": 115,
+            "stars": 116,
             "updated": "2023-05-01",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -4012,9 +4012,9 @@
             }
           ],
           "metrics": {
-            "stars": 170,
-            "updated": "2026-08-05",
-            "snapshot": "2026-08-06"
+            "stars": 167,
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         }
       ]
@@ -4055,9 +4055,9 @@
                 }
               ],
               "metrics": {
-                "stars": 20,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 21,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4079,9 +4079,9 @@
                 }
               ],
               "metrics": {
-                "stars": 8716,
-                "updated": "2026-08-04",
-                "snapshot": "2026-08-06"
+                "stars": 8761,
+                "updated": "2026-08-07",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4093,9 +4093,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 4252,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 4278,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4107,9 +4107,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 24000,
-                "updated": "2026-08-04",
-                "snapshot": "2026-08-06"
+                "stars": 24122,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4131,9 +4131,9 @@
                 }
               ],
               "metrics": {
-                "stars": 269,
+                "stars": 273,
                 "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4154,9 +4154,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1957,
+                "stars": 1960,
                 "updated": "2026-07-31",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4182,9 +4182,9 @@
                 }
               ],
               "metrics": {
-                "stars": 349,
+                "stars": 356,
                 "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4215,9 +4215,9 @@
                 }
               ],
               "metrics": {
-                "stars": 984,
-                "updated": "2026-07-18",
-                "snapshot": "2026-08-06"
+                "stars": 1009,
+                "updated": "2026-08-09",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4245,7 +4245,7 @@
               "metrics": {
                 "stars": 29,
                 "updated": "2026-07-21",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4256,9 +4256,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 2326,
+                "stars": 2428,
                 "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4270,9 +4270,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 343,
+                "stars": 345,
                 "updated": "2026-02-05",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4294,9 +4294,9 @@
                 }
               ],
               "metrics": {
-                "stars": 7259,
+                "stars": 7272,
                 "updated": "2026-07-27",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4318,9 +4318,9 @@
                 }
               ],
               "metrics": {
-                "stars": 5739,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "stars": 5745,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4334,7 +4334,7 @@
               "metrics": {
                 "stars": 994,
                 "updated": "2024-11-22",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4352,9 +4352,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3202,
+                "stars": 3201,
                 "updated": "2026-07-08",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4372,9 +4372,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1517,
+                "stars": 1518,
                 "updated": "2024-01-25",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4386,9 +4386,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 6880,
-                "updated": "2026-08-05",
-                "snapshot": "2026-08-06"
+                "stars": 6914,
+                "updated": "2026-08-10",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4400,9 +4400,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 4333,
-                "updated": "2026-07-27",
-                "snapshot": "2026-08-06"
+                "stars": 4340,
+                "updated": "2026-08-06",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4418,7 +4418,7 @@
               "metrics": {
                 "stars": 214,
                 "updated": "2026-01-15",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4432,7 +4432,7 @@
               "metrics": {
                 "stars": 495,
                 "updated": "2024-01-31",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4446,7 +4446,7 @@
               "metrics": {
                 "stars": 932,
                 "updated": "2025-07-18",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4458,9 +4458,9 @@
                 "open_source"
               ],
               "metrics": {
-                "stars": 2035,
+                "stars": 2040,
                 "updated": "2025-10-07",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4472,9 +4472,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 878,
+                "stars": 881,
                 "updated": "2026-03-30",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4488,7 +4488,7 @@
               "metrics": {
                 "stars": 3462,
                 "updated": "2026-04-17",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4502,7 +4502,7 @@
               "metrics": {
                 "stars": 604,
                 "updated": "2026-02-27",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4521,9 +4521,9 @@
                 }
               ],
               "metrics": {
-                "stars": 1023,
+                "stars": 1027,
                 "updated": "2024-08-05",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4541,9 +4541,9 @@
                 }
               ],
               "metrics": {
-                "stars": 4757,
+                "stars": 4760,
                 "updated": "2024-08-02",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4560,9 +4560,9 @@
                 }
               ],
               "metrics": {
-                "stars": 345,
+                "stars": 347,
                 "updated": "2025-05-13",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4574,9 +4574,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 646,
+                "stars": 651,
                 "updated": "2025-03-31",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4588,9 +4588,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 473,
+                "stars": 475,
                 "updated": "2025-10-29",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4615,7 +4615,7 @@
               "metrics": {
                 "stars": 198,
                 "updated": "2026-04-02",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4639,7 +4639,7 @@
               "metrics": {
                 "stars": 44,
                 "updated": "2026-04-20",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4655,9 +4655,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 168,
+                "stars": 169,
                 "updated": "2025-10-27",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4669,9 +4669,9 @@
                 "research"
               ],
               "metrics": {
-                "stars": 407,
+                "stars": 421,
                 "updated": "2025-07-24",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4684,7 +4684,7 @@
               "metrics": {
                 "stars": 2124,
                 "updated": "2025-07-17",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4700,7 +4700,7 @@
               "metrics": {
                 "stars": 23,
                 "updated": "2024-02-21",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4714,7 +4714,7 @@
               "metrics": {
                 "stars": 339,
                 "updated": "2024-06-07",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4728,9 +4728,9 @@
                 "license_caveat"
               ],
               "metrics": {
-                "stars": 719,
+                "stars": 721,
                 "updated": "2025-02-22",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4759,8 +4759,8 @@
               ],
               "metrics": {
                 "stars": 26,
-                "updated": "2026-08-06",
-                "snapshot": "2026-08-06"
+                "updated": "2026-08-07",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4784,9 +4784,9 @@
                 }
               ],
               "metrics": {
-                "stars": 420,
-                "updated": "2026-08-01",
-                "snapshot": "2026-08-09"
+                "stars": 421,
+                "updated": "2026-07-27",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4822,8 +4822,8 @@
               ],
               "metrics": {
                 "stars": 1076,
-                "updated": "2026-05-19",
-                "snapshot": "2026-08-09"
+                "updated": "2026-02-19",
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -4852,8 +4852,8 @@
               ],
               "metrics": {
                 "stars": 59,
-                "updated": "2026-07-24",
-                "snapshot": "2026-08-09"
+                "updated": "2026-05-18",
+                "snapshot": "2026-08-11"
               }
             }
           ]
@@ -4955,9 +4955,9 @@
                 }
               ],
               "metrics": {
-                "stars": 3093,
+                "stars": 3097,
                 "updated": "2025-06-25",
-                "snapshot": "2026-08-06"
+                "snapshot": "2026-08-11"
               }
             },
             {
@@ -5064,9 +5064,9 @@
             "copyleft"
           ],
           "metrics": {
-            "stars": 2130,
-            "updated": "2026-08-05",
-            "snapshot": "2026-08-06"
+            "stars": 2139,
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5081,7 +5081,7 @@
           "metrics": {
             "stars": 288,
             "updated": "2026-05-13",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5095,7 +5095,7 @@
           "metrics": {
             "stars": 15,
             "updated": "2024-11-20",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5115,7 +5115,7 @@
           "metrics": {
             "stars": 64,
             "updated": "2026-06-25",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5135,7 +5135,7 @@
           "metrics": {
             "stars": 78,
             "updated": "2025-02-18",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5152,7 +5152,7 @@
           "metrics": {
             "stars": 59,
             "updated": "2026-01-23",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         }
       ]
@@ -5185,9 +5185,9 @@
             }
           ],
           "metrics": {
-            "stars": 20013,
+            "stars": 20042,
             "updated": "2026-07-16",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5198,9 +5198,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 306,
+            "stars": 309,
             "updated": "2026-07-09",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5211,9 +5211,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 165,
+            "stars": 166,
             "updated": "2025-09-22",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5233,9 +5233,9 @@
             }
           ],
           "metrics": {
-            "stars": 17,
+            "stars": 18,
             "updated": "2026-03-10",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5248,7 +5248,7 @@
           "metrics": {
             "stars": 254,
             "updated": "2024-05-05",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5261,9 +5261,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 615,
-            "updated": "2026-08-05",
-            "snapshot": "2026-08-06"
+            "stars": 619,
+            "updated": "2026-08-10",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5274,9 +5274,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 100,
+            "stars": 101,
             "updated": "2025-06-22",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5300,9 +5300,9 @@
             }
           ],
           "metrics": {
-            "stars": 100,
+            "stars": 101,
             "updated": "2025-09-02",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5313,9 +5313,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 324,
+            "stars": 332,
             "updated": "2026-07-04",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5333,7 +5333,7 @@
           "metrics": {
             "stars": 354,
             "updated": "2024-08-22",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5353,7 +5353,7 @@
           "metrics": {
             "stars": 74,
             "updated": "2026-04-24",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5362,16 +5362,14 @@
           "desc": "Intentionally vulnerable LLM security-training platform with OWASP LLM Top 10 labs, CTF-style challenges, hints, scoring, and mitigation guidance.",
           "license": "MIT",
           "status": [
-            "open_source",
-            "research"
+            "open_source"
           ],
           "flags": [
-            "heavy_runtime",
             "authorized_testing_only"
           ],
-          "note": "— **note:** deliberately vulnerable training target; run only in an isolated, authorized environment. Live Mode optionally requires Ollama or provider credentials.",
+          "note": "— **note:** deliberately vulnerable training target; run only in an isolated, authorized environment.",
           "metrics": {
-            "stars": 284,
+            "stars": 285,
             "updated": "2026-08-10",
             "snapshot": "2026-08-11"
           }
@@ -5394,7 +5392,7 @@
           "metrics": {
             "stars": 501,
             "updated": "2025-06-25",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5405,9 +5403,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 4152,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "stars": 4183,
+            "updated": "2026-08-10",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5418,9 +5416,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 363,
+            "stars": 365,
             "updated": "2026-04-30",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5434,7 +5432,7 @@
           "metrics": {
             "stars": 1744,
             "updated": "2024-10-23",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5463,9 +5461,9 @@
             }
           ],
           "metrics": {
-            "stars": 682,
+            "stars": 687,
             "updated": "2026-08-04",
-            "snapshot": "2026-08-09"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5493,9 +5491,9 @@
             }
           ],
           "metrics": {
-            "stars": 266,
+            "stars": 267,
             "updated": "2026-01-14",
-            "snapshot": "2026-08-09"
+            "snapshot": "2026-08-11"
           }
         }
       ]
@@ -5516,7 +5514,7 @@
           "metrics": {
             "stars": 122,
             "updated": "2024-01-17",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5541,9 +5539,9 @@
             }
           ],
           "metrics": {
-            "stars": 176,
-            "updated": "2026-08-05",
-            "snapshot": "2026-08-06"
+            "stars": 185,
+            "updated": "2026-08-10",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5570,9 +5568,9 @@
             }
           ],
           "metrics": {
-            "stars": 175,
+            "stars": 203,
             "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5591,7 +5589,7 @@
           "metrics": {
             "stars": 13,
             "updated": "2025-09-16",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5610,7 +5608,7 @@
           "metrics": {
             "stars": 39,
             "updated": "2025-07-07",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5622,9 +5620,9 @@
             "research"
           ],
           "metrics": {
-            "stars": 313,
+            "stars": 315,
             "updated": "2024-11-02",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5635,9 +5633,9 @@
             "open_source"
           ],
           "metrics": {
-            "stars": 151,
+            "stars": 153,
             "updated": "2026-06-19",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5659,7 +5657,7 @@
           "metrics": {
             "stars": 39,
             "updated": "2026-06-04",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5672,7 +5670,7 @@
           "metrics": {
             "stars": 51,
             "updated": "2025-03-03",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5688,7 +5686,7 @@
           "metrics": {
             "stars": 523,
             "updated": "2023-12-11",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         }
       ]
@@ -5705,7 +5703,7 @@
           "metrics": {
             "stars": 488,
             "updated": "2024-04-08",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5714,9 +5712,9 @@
           "repo": "tmylla/Awesome-LLM4Cybersecurity",
           "desc": "600+ papers on LLMs for cybersecurity.",
           "metrics": {
-            "stars": 1732,
+            "stars": 1740,
             "updated": "2026-07-08",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5725,9 +5723,9 @@
           "repo": "ElNiak/awesome-ai-cybersecurity",
           "desc": "Broad AI-for-security collection.",
           "metrics": {
-            "stars": 149,
+            "stars": 150,
             "updated": "2026-07-06",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5737,8 +5735,8 @@
           "desc": "GenAI-driven cybersecurity resources.",
           "metrics": {
             "stars": 53,
-            "updated": "2026-07-22",
-            "snapshot": "2026-08-06"
+            "updated": "2026-08-07",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5748,8 +5746,8 @@
           "desc": "For pentesters, bug hunters, and researchers.",
           "metrics": {
             "stars": 37,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "updated": "2026-08-10",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5758,9 +5756,9 @@
           "repo": "ottosulin/awesome-ai-security",
           "desc": "AI security resources.",
           "metrics": {
-            "stars": 1352,
-            "updated": "2026-08-05",
-            "snapshot": "2026-08-06"
+            "stars": 1362,
+            "updated": "2026-08-06",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5769,9 +5767,9 @@
           "repo": "TalEliyahu/Awesome-AI-Security",
           "desc": "AI security resources.",
           "metrics": {
-            "stars": 846,
+            "stars": 850,
             "updated": "2026-07-18",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5782,7 +5780,7 @@
           "metrics": {
             "stars": 148,
             "updated": "2026-07-23",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5791,9 +5789,9 @@
           "repo": "raphabot/awesome-cybersecurity-agentic-ai",
           "desc": "Agentic-AI cybersecurity tools and security MCP servers.",
           "metrics": {
-            "stars": 530,
+            "stars": 534,
             "updated": "2026-06-28",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5802,9 +5800,9 @@
           "repo": "ProjectRecon/awesome-ai-agents-security",
           "desc": "Focused map of AI-agent security resources across runtime protection, red-teaming scanners, static analysis, sandboxing, guardrails, benchmarks, and identity.",
           "metrics": {
-            "stars": 59,
+            "stars": 60,
             "updated": "2026-06-12",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5813,9 +5811,9 @@
           "repo": "Yeti-791/Awesome-Offensive-AI-Agentic-Landscape",
           "desc": "Offensive AI-agent landscape covering open-source pentest/red-team agents, offensive/security-specialized models, papers, benchmarks, and commercial tools.",
           "metrics": {
-            "stars": 189,
+            "stars": 198,
             "updated": "2026-07-20",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5824,9 +5822,9 @@
           "repo": "webpro255/awesome-ai-agent-attacks",
           "desc": "Sourced timeline of real AI-agent security incidents, breaches, vulnerabilities, and attack techniques.",
           "metrics": {
-            "stars": 55,
+            "stars": 62,
             "updated": "2026-08-03",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5836,8 +5834,8 @@
           "desc": "Daily-updated AI/LLM/MCP/RAG security repository radar with category, license, stars, and quality/relevance metadata.",
           "metrics": {
             "stars": 5,
-            "updated": "2026-08-06",
-            "snapshot": "2026-08-06"
+            "updated": "2026-08-11",
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5846,9 +5844,9 @@
           "repo": "RiccardoBiosas/awesome-MLSecOps",
           "desc": "Curated MLSecOps resources spanning adversarial ML, LLM security, AI red teaming, model scanning, supply-chain protection, and MLOps pipeline security.",
           "metrics": {
-            "stars": 444,
+            "stars": 450,
             "updated": "2026-07-24",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5859,7 +5857,7 @@
           "metrics": {
             "stars": 62,
             "updated": "2026-07-30",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5870,7 +5868,7 @@
           "metrics": {
             "stars": 109,
             "updated": "2026-02-05",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5879,9 +5877,9 @@
           "repo": "Puliczek/awesome-mcp-security",
           "desc": "MCP security resources, tools, writeups, and server/client risk references.",
           "metrics": {
-            "stars": 725,
+            "stars": 728,
             "updated": "2026-03-03",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5892,7 +5890,7 @@
           "metrics": {
             "stars": 170,
             "updated": "2026-02-06",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5903,7 +5901,7 @@
           "metrics": {
             "stars": 640,
             "updated": "2024-03-18",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5912,9 +5910,9 @@
           "repo": "jivoi/awesome-ml-for-cybersecurity",
           "desc": "Large classic list of machine-learning-for-cybersecurity resources (stale-ish but still useful).",
           "metrics": {
-            "stars": 9242,
+            "stars": 9263,
             "updated": "2024-04-11",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5925,7 +5923,7 @@
           "metrics": {
             "stars": 19,
             "updated": "2025-07-02",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5934,9 +5932,9 @@
           "repo": "corca-ai/awesome-llm-security",
           "desc": "Securing LLMs.",
           "metrics": {
-            "stars": 1672,
+            "stars": 1677,
             "updated": "2025-08-20",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5947,7 +5945,7 @@
           "metrics": {
             "stars": 92,
             "updated": "2024-06-13",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5956,9 +5954,9 @@
           "repo": "cckuailong/awesome-gpt-security",
           "desc": "GPT/LLM security tools and cases.",
           "metrics": {
-            "stars": 666,
+            "stars": 668,
             "updated": "2026-07-24",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         },
         {
@@ -5967,9 +5965,9 @@
           "repo": "hslatman/awesome-threat-intelligence",
           "desc": "Classic CTI list (pairs with the AI-CTI section).",
           "metrics": {
-            "stars": 10510,
+            "stars": 10524,
             "updated": "2026-05-31",
-            "snapshot": "2026-08-06"
+            "snapshot": "2026-08-11"
           }
         }
       ]
