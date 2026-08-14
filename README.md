@@ -70,6 +70,8 @@ AI/LLM tools that triage, deduplicate, prioritize, or validate the output of sca
 
 ## AI Agent & Coding-Agent Security
 
+- [Clickyy](https://github.com/jayamitkatariya/clickyyy) - Shake your cursor to summon an AI agent that sees your screen and clicks, types, drags, and acts for you on macOS. Open-source, MIT.
+
 Securing the AI agents themselves — auditing coding agents (Claude Code, Codex, OpenClaw), scanning skills / plugins / MCP manifests, and governance for agentic development. A fast-moving 2026 category, split below by role.
 
 ### Scanners & Auditors
