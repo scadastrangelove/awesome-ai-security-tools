@@ -85,7 +85,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [SkillSpector](https://github.com/NVIDIA/SkillSpector) · [Cisco AI Defense – skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) · [Cisco AI Defense – mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner)
 - **[mcp-armor](https://github.com/aira-security/mcp-armor)** 🟢 — Local MCP security scanner with auto-discovery for agentic IDE configs, tool/resource/prompt inventory, prompt-injection checks, rug-pull and tool-poisoning detection, baseline drift monitoring, and JSON/Markdown reports. *(Aira Security)* *(★ 117 · updated 2026-03-27)*
   - **Related:** [SkillSpector](https://github.com/NVIDIA/SkillSpector) · [Ramparts](https://github.com/highflame-ai/ramparts) · [Cisco AI Defense – mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner)
-- **[aguara](https://github.com/garagon/aguara)** 🟢 — Single-binary static scanner (Go, no LLM) for AI-agent skills and MCP servers; multi-layer engine (pattern + NLP + taint tracking + rug-pull detection). Companion **[aguara-mcp](https://github.com/garagon/aguara-mcp)** exposes scanning as an MCP tool. *(★ 85 · updated 2026-07-24)*
+- **[aguara](https://github.com/garagon/aguara)** 🟢 — Single-binary static scanner (Go, no LLM) for AI-agent skills and MCP servers; multi-layer engine (pattern + NLP + taint tracking + rug-pull detection). Companion **[aguara-mcp](https://github.com/garagon/mcp-aguara)** exposes scanning as an MCP tool. *(★ 85 · updated 2026-07-24)*
   - **Related:** [aguara-mcp](https://github.com/garagon/aguara-mcp) · [agent-audit](https://github.com/scadastrangelove/agent-audit) · [Snyk Agent Scan](https://github.com/snyk/agent-scan) · [Cisco AI Defense – skill-scanner](https://github.com/cisco-ai-defense/skill-scanner)
 - **[agent-scan](https://github.com/snyk/agent-scan)** 🟢 — Security scanner for AI agents, MCP servers, and agent skills; the successor path for the original Invariant Labs mcp-scan work. *(Snyk)* *(★ 2,878 · updated 2026-08-06)*
   - **Related:** [aguara](https://github.com/garagon/aguara) · [Cisco AI Defense – mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner) · [Cisco AI Defense – skill-scanner](https://github.com/cisco-ai-defense/skill-scanner)
@@ -282,6 +282,7 @@ Hyper-specific AI/ML tools for a single offensive-security, recon, or detection 
 ### Recon Screenshot Triage
 
 - **[eyeballer](https://github.com/BishopFox/eyeballer)** 🟢⚠️ — 🅐 Convolutional neural network that classifies pentest/recon screenshots (login pages, webapps, old-looking sites, parked domains, and custom 404s) for attack-surface triage. *(Bishop Fox)* — **note:** GPL-3.0 licensed. *(★ 1,288 · updated 2024-02-19)*
+- **[Xquik](https://github.com/Xquik-dev/x-twitter-scraper)** - Independent X (Twitter) data API for search, follower export, monitors, and MCP.
 
 ### Software / Tech Fingerprinting
 
