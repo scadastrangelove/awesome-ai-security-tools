@@ -282,7 +282,6 @@ Hyper-specific AI/ML tools for a single offensive-security, recon, or detection 
 ### Recon Screenshot Triage
 
 - **[eyeballer](https://github.com/BishopFox/eyeballer)** 🟢⚠️ — 🅐 Convolutional neural network that classifies pentest/recon screenshots (login pages, webapps, old-looking sites, parked domains, and custom 404s) for attack-surface triage. *(Bishop Fox)* — **note:** GPL-3.0 licensed. *(★ 1,288 · updated 2024-02-19)*
-- **[Xquik](https://github.com/Xquik-dev/x-twitter-scraper)** - Independent X (Twitter) data API for search, follower export, monitors, and MCP.
 
 ### Software / Tech Fingerprinting
 
@@ -604,6 +603,7 @@ AI tooling for cloud/IaC security, digital forensics, OSINT, and phishing detect
 - **[Volatility-MCP-Server](https://github.com/bornpresident/Volatility-MCP-Server)** 🟢 — MCP exposing Volatility 3 plugins for natural-language memory forensics. *(★ 39 · updated 2025-07-07)*
   - **Related:** [MemoryInvestigator](https://github.com/jan-hendrik-lang/MemoryInvestigator)
 - **[llm_osint](https://github.com/sshh12/llm_osint)** 🟢🔬 — Proof-of-concept LLM OSINT framework using knowledge and web agents for internet research workflows. *(★ 313 · updated 2024-11-02)*
+- **[Xquik](https://github.com/Xquik-dev/x-twitter-scraper)** 🟢 — Independent X (Twitter) data API for search, follower export, monitors, and MCP.
 - **[ai_osint](https://github.com/7WaySecurity/ai_osint)** 🟢 — Curated AI-OSINT dorks, queries, and techniques for discovering exposed LLM and AI infrastructure. *(★ 151 · updated 2026-06-19)*
 - **[PhishLLM](https://github.com/code-philia/PhishLLM)** 🔬⚠️ — Reference-less phishing detection via LLM brand recognition (USENIX'24). *(★ 39 · updated 2026-06-04)*
   - **Related:** [PhishVLM](https://github.com/code-philia/PhishVLM)
