@@ -5951,6 +5951,19 @@
           }
         },
         {
+          "name": "TRACE",
+          "repo": "ionsec/trace",
+          "license": "AGPL-3.0",
+          "desc": "Read-only DFIR collector and analyzer for AI and LLM artifacts on Windows, macOS, and Linux, covering local model runners, coding and autonomous agents, Docker AI, and browser AI assistants, with SHA-256 chain of custody, unified timeline, MITRE ATLAS mapping, HTML/JSON/STIX 2.1 reports, and a Velociraptor artifact pack.",
+          "status": [
+            "open_source"
+          ],
+          "flags": [
+            "copyleft",
+            "early_stage"
+          ]
+        },
+        {
           "name": "MemoryInvestigator",
           "repo": "jan-hendrik-lang/MemoryInvestigator",
           "desc": "Volatility 3 + LLM + RAG for memory-forensic triage.",

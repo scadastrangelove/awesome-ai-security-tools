@@ -628,6 +628,7 @@ AI tooling for cloud/IaC security, digital forensics, OSINT, and phishing detect
   - **Related:** [Fraim](https://github.com/fraim-dev/fraim) · [EscalateGPT](https://github.com/tenable/EscalateGPT)
 - **[Julius](https://github.com/praetorian-inc/julius)** 🟢 — Local Go tool that fingerprints LLM service infrastructure on authorized endpoints, identifies 60+ serving, gateway, MCP, and RAG platforms, and can enumerate exposed models. *(Praetorian)* — **note:** use only against endpoints you own or are authorized to assess. *(★ 208 · updated 2026-08-06)*
   - **Related:** [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) · [ai_osint](https://github.com/7WaySecurity/ai_osint)
+- **[TRACE](https://github.com/ionsec/trace)** 🟢⚠️ — Read-only DFIR collector and analyzer for AI and LLM artifacts on Windows, macOS, and Linux, covering local model runners, coding and autonomous agents, Docker AI, and browser AI assistants, with SHA-256 chain of custody, unified timeline, MITRE ATLAS mapping, HTML/JSON/STIX 2.1 reports, and a Velociraptor artifact pack.
 - **[MemoryInvestigator](https://github.com/jan-hendrik-lang/MemoryInvestigator)** 🔬 — Volatility 3 + LLM + RAG for memory-forensic triage. *(★ 13 · updated 2025-09-16)*
   - **Related:** [Volatility-MCP-Server](https://github.com/bornpresident/Volatility-MCP-Server)
 - **[Volatility-MCP-Server](https://github.com/bornpresident/Volatility-MCP-Server)** 🟢 — MCP exposing Volatility 3 plugins for natural-language memory forensics. *(★ 39 · updated 2025-07-07)*
