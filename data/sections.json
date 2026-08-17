@@ -5226,6 +5226,25 @@
                 "updated": "2026-05-18",
                 "snapshot": "2026-08-16"
               }
+            },
+            {
+              "name": "AgentInterdict",
+              "repo": "BryanFiFife/AgentInterdict",
+              "org": "Bryan Fi Fife",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage"
+              ],
+              "desc": "Local-first runtime that enforces retrieval-is-not-permission, origin-bound authority, and action-time re-scoring at the boundary where retrieved context becomes agent action. Published 96.5% block rate over a 200-attempt injection suite with 7 documented misses.",
+              "note": "— **note:** early-stage; published benchmark includes the 7 misses with payloads. Integrates with Hermes, OpenClaw, MCP, and REST.",
+              "metrics": {
+                "stars": 3,
+                "updated": "2026-08-11",
+                "snapshot": "2026-08-11"
+              }
             }
           ]
         },
