@@ -7,7 +7,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Latest snapshot: 2026-08-17. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Latest snapshot: 2026-08-19. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -141,6 +141,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
 
 ### Runtime Protection & Enforcement
 
+- **[SandBase Harness](https://github.com/sandbaseai/sandbase-harness)** 🟢 — Local-first AI-agent runtime with tool permission policies and approvals, credential vaults, auditable session replay, and local, per-session Docker, Kubernetes, or self-hosted worker sandbox backends. *(SandBase)* — **note:** the local backend runs commands as the current OS user and is intended for trusted development; use the Docker or Kubernetes backend when a stronger isolation boundary is required. *(★ 623 · updated 2026-08-19)*
+  - **Related:** [ToolHive](https://github.com/stacklok/toolhive) · [microsandbox](https://github.com/superradcompany/microsandbox)
 - **[nono](https://github.com/nolabs-ai/nono)** 🟢 — Least-privilege sandbox for AI coding agents that isolates the agent and delegated tools with composable filesystem, network, credential-proxy, and command policies. *(NoLabs)* — **note:** APIs are still stabilizing ahead of the 1.0 release; review every pulled profile before use. *(★ 3,687 · updated 2026-08-17)*
   - **Related:** [microsandbox](https://github.com/superradcompany/microsandbox) · [ToolHive](https://github.com/stacklok/toolhive)
 - **[Arcjet Guard](https://github.com/arcjet/arcjet-js)** 🟢🟠 — JavaScript runtime guard for AI-agent tool calls and MCP handlers, with prompt-injection detection, sensitive-data detection/redaction, and custom local policy rules. *(Arcjet)* — **note:** open SDK packages integrate with Arcjet's hosted platform; assess the service, account, and data-processing requirements for the protections you enable. *(★ 681 · updated 2026-08-15)*

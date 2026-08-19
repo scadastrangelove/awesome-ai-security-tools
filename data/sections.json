@@ -989,6 +989,32 @@
           "title": "Runtime Protection & Enforcement",
           "entries": [
             {
+              "name": "SandBase Harness",
+              "repo": "sandbaseai/sandbase-harness",
+              "org": "SandBase",
+              "desc": "Local-first AI-agent runtime with tool permission policies and approvals, credential vaults, auditable session replay, and local, per-session Docker, Kubernetes, or self-hosted worker sandbox backends.",
+              "license": "Apache-2.0",
+              "note": "— **note:** the local backend runs commands as the current OS user and is intended for trusted development; use the Docker or Kubernetes backend when a stronger isolation boundary is required.",
+              "status": [
+                "open_source"
+              ],
+              "related": [
+                {
+                  "label": "ToolHive",
+                  "url": "https://github.com/stacklok/toolhive"
+                },
+                {
+                  "label": "microsandbox",
+                  "url": "https://github.com/superradcompany/microsandbox"
+                }
+              ],
+              "metrics": {
+                "stars": 623,
+                "updated": "2026-08-19",
+                "snapshot": "2026-08-19"
+              }
+            },
+            {
               "name": "nono",
               "repo": "nolabs-ai/nono",
               "org": "NoLabs",
