@@ -1697,6 +1697,29 @@
                 "updated": "2026-08-17",
                 "snapshot": "2026-08-17"
               }
+            },
+            {
+              "name": "MARGINAL",
+              "repo": "SignalLayerLabs/Marginal",
+              "desc": "Local-first runtime governor for AI coding agents that detects proven no-progress repetition, records decision evidence, starts in Shadow Mode, and earns narrow enforcement only after repository-local evidence thresholds are met.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "— **note:** young project; Codex supports tool enforcement, while Claude Code and OpenCode integrations are observe-only. Enforcement is evidence-gated and failures fail open.",
+              "related": [
+                {
+                  "label": "AgentLock",
+                  "url": "https://github.com/webpro255/agentlock"
+                },
+                {
+                  "label": "xaidr",
+                  "url": "https://github.com/delphisecurity/xaidr"
+                }
+              ]
             }
           ]
         }

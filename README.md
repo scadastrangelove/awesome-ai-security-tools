@@ -194,6 +194,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Pipelock](https://github.com/luckyPipewrench/pipelock) · [AgentLock](https://github.com/webpro255/agentlock)
 - **[xaidr](https://github.com/delphisecurity/xaidr)** 🟢 — In-process runtime security sensor for AI agents that inspects input, tool calls, output, and agent-to-agent envelopes inside the agent process, with structured shell-command classification, YAML policy, privilege tiers, an opt-in circuit breaker, and OpenTelemetry export. *(Delphi Security)* — **note:** early-stage in-process sensor, not an isolation boundary; monitor mode is the default and unexpected scan failures fail open while emitting degraded telemetry. Published detection and false-positive figures are project-reported on its committed corpus. *(★ 22 · updated 2026-08-17)*
   - **Related:** [agentguard](https://github.com/GoPlusSecurity/agentguard) · [defenseclaw](https://github.com/cisco-ai-defense/defenseclaw)
+- **[MARGINAL](https://github.com/SignalLayerLabs/Marginal)** 🟢 — Local-first runtime governor for AI coding agents that detects proven no-progress repetition, records decision evidence, starts in Shadow Mode, and earns narrow enforcement only after repository-local evidence thresholds are met. — **note:** young project; Codex supports tool enforcement, while Claude Code and OpenCode integrations are observe-only. Enforcement is evidence-gated and failures fail open.
+  - **Related:** [AgentLock](https://github.com/webpro255/agentlock) · [xaidr](https://github.com/delphisecurity/xaidr)
 
 ---
 
