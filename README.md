@@ -195,6 +195,9 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
 - **[xaidr](https://github.com/delphisecurity/xaidr)** 🟢 — In-process runtime security sensor for AI agents that inspects input, tool calls, output, and agent-to-agent envelopes inside the agent process, with structured shell-command classification, YAML policy, privilege tiers, an opt-in circuit breaker, and OpenTelemetry export. *(Delphi Security)* — **note:** early-stage in-process sensor, not an isolation boundary; monitor mode is the default and unexpected scan failures fail open while emitting degraded telemetry. Published detection and false-positive figures are project-reported on its committed corpus. *(★ 22 · updated 2026-08-17)*
   - **Related:** [agentguard](https://github.com/GoPlusSecurity/agentguard) · [defenseclaw](https://github.com/cisco-ai-defense/defenseclaw)
 
+
+- **[MandateGuard](https://github.com/ezequiellich44-cmd/MandateGuard)** 🐍 — Deterministic payment/order policy enforcement for AI agents: pre-action gate enforcing budgets, allowlists, denylists, rate limits, and signed Ed25519 mandates with zero LLM in the decision path (reproducible verdicts). Tamper-evident SHA-256 chained audit ledger; official MCP server on the Model Context Protocol Registry. *(Eze Lech)* *(☆ 0 · updated 2026-08)*
+  - **Related:** [Arcjet Guard](https://github.com/arcjet/arcjet-js) · [xaidr](https://github.com/delphisecurity/xaidr)
 ---
 
 ## AI/ML Supply Chain & Model Security
