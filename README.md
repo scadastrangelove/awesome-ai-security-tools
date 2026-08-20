@@ -194,6 +194,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Pipelock](https://github.com/luckyPipewrench/pipelock) · [AgentLock](https://github.com/webpro255/agentlock)
 - **[xaidr](https://github.com/delphisecurity/xaidr)** 🟢 — In-process runtime security sensor for AI agents that inspects input, tool calls, output, and agent-to-agent envelopes inside the agent process, with structured shell-command classification, YAML policy, privilege tiers, an opt-in circuit breaker, and OpenTelemetry export. *(Delphi Security)* — **note:** early-stage in-process sensor, not an isolation boundary; monitor mode is the default and unexpected scan failures fail open while emitting degraded telemetry. Published detection and false-positive figures are project-reported on its committed corpus. *(★ 22 · updated 2026-08-17)*
   - **Related:** [agentguard](https://github.com/GoPlusSecurity/agentguard) · [defenseclaw](https://github.com/cisco-ai-defense/defenseclaw)
+- **[Agentmetry](https://github.com/blitzcrieg1/agentmetry)** 🟢 — Local-first flight recorder for AI coding agents and MCP servers that writes a hash-chained JSONL trail with RFC 6962 Merkle roots, applies MITRE-mapped sequence detection across a session, attests every 300s which agent surfaces are covered, uncovered, absent or unknown, and forwards to Splunk HEC, Elastic ECS, Google SecOps UDM or CloudEvents. — **note:** young project with limited independent adoption signal; it records and detects rather than blocks, and its README states that hooks are cooperative and that tamper-evident is not the same as attributable.
+  - **Related:** [HOL Guard](https://github.com/hashgraph-online/hol-guard) · [ADR](https://github.com/uber/ADR)
 
 ---
 
