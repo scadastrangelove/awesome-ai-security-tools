@@ -75,6 +75,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
 
 ### Scanners & Auditors
 
+- [ccs-lint](https://github.com/DSHCorrectover/ccs-mcp-server/tree/main/tools/ccs-lint) - Zero-dependency CLI linter + [GitHub Action](https://github.com/DSHCorrectover/ccs-lint-action) for detecting unsigned receipt field injection and trust indicator forgery in MCP/agent JSON-RPC responses (10KB, 5 detection rules).
 - **[agent-audit](https://github.com/scadastrangelove/agent-audit)** 🟢 — Forensic auditor for local AI coding agents (Claude Code, Codex CLI, OpenClaw) **and** project-surface scanner for repos shipping skills, plugins, and MCP manifests; 296 bundled rules across native + imported detector families, with optional LLM cross-verification. *(CyberOK / S. Gordeychik)* *(★ 15 · updated 2026-07-15)*
   - **Sources:** [asamm](https://github.com/scadastrangelove/asamm) · [ATR – Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules) · [aguara](https://github.com/garagon/aguara) · [Cisco AI Defense – skill-scanner](https://github.com/cisco-ai-defense/skill-scanner)
   - **Related:** [asamm](https://github.com/scadastrangelove/asamm) · [aguara](https://github.com/garagon/aguara) · [agentguard](https://github.com/GoPlusSecurity/agentguard) · [agentic-radar](https://github.com/splx-ai/agentic-radar) · [nuclei-autotriage](https://github.com/cyberok-org/nuclei-autotriage)
