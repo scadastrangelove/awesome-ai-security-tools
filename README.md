@@ -194,6 +194,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Pipelock](https://github.com/luckyPipewrench/pipelock) · [AgentLock](https://github.com/webpro255/agentlock)
 - **[xaidr](https://github.com/delphisecurity/xaidr)** 🟢 — In-process runtime security sensor for AI agents that inspects input, tool calls, output, and agent-to-agent envelopes inside the agent process, with structured shell-command classification, YAML policy, privilege tiers, an opt-in circuit breaker, and OpenTelemetry export. *(Delphi Security)* — **note:** early-stage in-process sensor, not an isolation boundary; monitor mode is the default and unexpected scan failures fail open while emitting degraded telemetry. Published detection and false-positive figures are project-reported on its committed corpus. *(★ 22 · updated 2026-08-17)*
   - **Related:** [agentguard](https://github.com/GoPlusSecurity/agentguard) · [defenseclaw](https://github.com/cisco-ai-defense/defenseclaw)
+- **[piighost](https://github.com/Athroniaeth/piighost)** 🟢 — Anonymizes PII before it reaches the LLM by swapping personal data for placeholders like <<PERSON:1>> and restoring the real values in the reply and in tool arguments, so the model only ever sees placeholders. Tokens stay stable across a thread and across tool calls; works via LangChain, Pydantic AI, and LlamaIndex, or as an OpenAI-compatible proxy. *(★ 7 · updated 2026-08-23)*
+  - **Related:** [onecli](https://github.com/onecli/onecli) · [MCP Gateway](https://github.com/lasso-security/mcp-gateway)
 
 ---
 
