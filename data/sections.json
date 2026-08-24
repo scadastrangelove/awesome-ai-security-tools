@@ -187,6 +187,25 @@
               }
             },
             {
+              "name": "ccs-lint",
+              "repo": "DSHCorrectover/ccs-lint-action",
+              "desc": "Zero-dependency CLI and GitHub Action that scans MCP/agent JSON-RPC responses for unsigned receipt field injection and forged trust indicators (_ccsReceipt, _verified, _trusted) across 5 rules, with SARIF output.",
+              "status": [
+                "open_source"
+              ],
+              "license": "Elastic-2.0",
+              "flags": [
+                "early_stage",
+                "license_caveat"
+              ],
+              "note": "— **note:** source-available Elastic License 2.0 (not OSI-approved); the project is new with limited independent adoption. CLI also published as `npx ccs-lint` on npm.",
+              "metrics": {
+                "stars": 0,
+                "updated": "2026-08-24",
+                "snapshot": "2026-08-24"
+              }
+            },
+            {
               "name": "AI-Infra-Guard",
               "repo": "Tencent/AI-Infra-Guard",
               "org": "Tencent Zhuque Lab",
