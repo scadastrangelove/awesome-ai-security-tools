@@ -557,6 +557,7 @@ Tools for attacking and defending LLM applications themselves.
   - **Related:** [PromptFuzz](https://github.com/PromptFuzz/PromptFuzz) · [promptfoo](https://github.com/promptfoo/promptfoo)
 - **[Prompt SIREN](https://github.com/facebookresearch/prompt-siren)** 🟢🔬 — Research workbench for developing and evaluating prompt-injection attacks and defenses with state-machine agent control, AgentDojo/SWE-bench integrations, configuration sweeps, and reproducible result aggregation. *(Meta AI)* — **note:** experiment harness; running target evaluations requires model-provider credentials and may need Docker or browser extras depending on the selected environment. *(★ 61 · updated 2026-05-18)*
   - **Related:** [AgentDojo](https://github.com/ethz-spylab/agentdojo) · [PyRIT](https://github.com/microsoft/PyRIT)
+- **[AgentInterdict](https://github.com/BryanFiFife/AgentInterdict)** 🟢 — Local-first runtime that enforces retrieval-is-not-permission, origin-bound authority, and action-time re-scoring at the boundary where retrieved context becomes agent action. Published 96.5% block rate over a 200-attempt injection suite with 7 documented misses. *(Bryan Fi Fife)* — **note:** early-stage; published benchmark includes the 7 misses with payloads. Integrates with Hermes, OpenClaw, MCP, and REST. *(★ 3 · updated 2026-08-11)*
 
 ### Prompt-Injection Classifier Models
 
