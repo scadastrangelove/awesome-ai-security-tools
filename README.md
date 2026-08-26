@@ -121,6 +121,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
 
 ### Frameworks, Rule Standards & Benchmarks
 
+- **[AI Security Registry](https://forefy.com/asr)** - Secured registry of skills, goals, and dynamic workflows for AI agents, git-pinned and human-reviewed before updates.
 - **[asamm](https://github.com/scadastrangelove/asamm)** 🔬 — *Agentic SAMM* — an OWASP SAMM extension for AI-driven development: an entry-point-based threat taxonomy plus 17 controls across 5 SAMM functions (Governance, Design, Implementation, Verification, Operations) with L1/L2/L3 maturity. License: CC BY-SA 4.0. *(CyberOK / S. Gordeychik)* *(★ 17 · updated 2026-07-26)*
   - **Sources:** [OWASP SAMM](https://owaspsamm.org/) · [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) · [NCSC Secure AI Guidelines](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development) · [MCP Security Best Practices](https://modelcontextprotocol.io/)
   - **Related:** [agent-audit](https://github.com/scadastrangelove/agent-audit)
