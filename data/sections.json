@@ -751,8 +751,14 @@
                 "updated": "2026-04-17",
                 "snapshot": "2026-08-24"
               }
+            },
+            {
+              "name": "whatileaked",
+              "repo": "selan-ai/whatileaked",
+              "org": "Selan",
+              "desc": "Scans local Claude Code and Codex transcripts **and** instruction/memory files (CLAUDE.md, AGENTS.md) for credentials already sent to a model provider, using the gitleaks rule set unmodified; reports a rule name and one-way fingerprint instead of the secret, and `wipe` redacts findings in place. No network calls, no telemetry, zero dependencies; MIT."
             }
-          ]
+]
         },
         {
           "title": "Frameworks, Rule Standards & Benchmarks",
