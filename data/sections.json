@@ -753,6 +753,32 @@
               }
             },
             {
+              "name": "Sandbox Probe",
+              "repo": "controlplaneio/sandbox-probe",
+              "org": "ControlPlane",
+              "desc": "Static Go probe that measures the effective filesystem, network, process, credential, and runtime capabilities exposed inside an AI-agent sandbox, then compares sandbox and host baselines.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "note": "— **note:** boundary-measurement auditor, not an enforcement layer; some integration scripts can ask real agents to execute the probe, while deterministic model-free stubs are available for CI.",
+              "related": [
+                {
+                  "label": "Sandlock",
+                  "url": "https://github.com/multikernel/sandlock"
+                },
+                {
+                  "label": "AIO Sandbox",
+                  "url": "https://github.com/agent-infra/sandbox"
+                }
+              ],
+              "metrics": {
+                "stars": 25,
+                "updated": "2026-08-25",
+                "snapshot": "2026-08-30"
+              }
+            },
+            {
               "name": "whatileaked",
               "repo": "selan-ai/whatileaked",
               "org": "Selan",
@@ -1072,6 +1098,35 @@
                 "stars": 429,
                 "updated": "2026-07-30",
                 "snapshot": "2026-08-17"
+              }
+            },
+            {
+              "name": "OWASP Agent Security Regression Harness",
+              "repo": "OWASP/Agent-Security-Regression-Harness",
+              "org": "OWASP",
+              "desc": "Vendor-neutral harness for running repeatable agent and MCP abuse scenarios, evaluating policy assertions over execution traces, and emitting machine-readable regression results for local development and CI.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "— **note:** early OWASP Incubator project; it is a regression harness for known abuse cases, not a scanner, leaderboard, general benchmark, or guarantee of agent security.",
+              "related": [
+                {
+                  "label": "Agent Security Bench (ASB)",
+                  "url": "https://github.com/agiresearch/ASB"
+                },
+                {
+                  "label": "AgentDojo",
+                  "url": "https://github.com/ethz-spylab/agentdojo"
+                }
+              ],
+              "metrics": {
+                "stars": 49,
+                "updated": "2026-07-27",
+                "snapshot": "2026-08-30"
               }
             }
           ]
@@ -1935,6 +1990,37 @@
               }
             },
             {
+              "name": "Bifrost",
+              "repo": "maximhq/bifrost",
+              "org": "Maxim",
+              "desc": "Apache-licensed AI and MCP gateway with multi-provider routing, virtual-key access controls, budgets, rate limits, MCP aggregation, OAuth, automatic fallbacks, and load balancing.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source",
+                "commercial_open"
+              ],
+              "flags": [
+                "commercial_features",
+                "requires_api_key"
+              ],
+              "note": "— **note:** model-provider credentials and proxied request/response data are sensitive; restrict and authenticate the gateway and admin interface, use TLS, and load only trusted plugins. Content guardrails, RBAC/SSO, clustering, and other advanced governance controls require Bifrost Enterprise.",
+              "related": [
+                {
+                  "label": "Portkey AI Gateway",
+                  "url": "https://github.com/Portkey-AI/gateway"
+                },
+                {
+                  "label": "Agentgateway",
+                  "url": "https://github.com/agentgateway/agentgateway"
+                }
+              ],
+              "metrics": {
+                "stars": 7548,
+                "updated": "2026-08-25",
+                "snapshot": "2026-08-25"
+              }
+            },
+            {
               "name": "Portkey AI Gateway",
               "repo": "Portkey-AI/gateway",
               "org": "Portkey",
@@ -1989,6 +2075,92 @@
                 "stars": 570,
                 "updated": "2026-08-24",
                 "snapshot": "2026-08-24"
+              }
+            },
+            {
+              "name": "Adrian",
+              "repo": "secureagentics/Adrian",
+              "org": "Secure Agentics",
+              "desc": "Runtime monitoring and intervention layer that correlates agent actions with available reasoning traces through Python and TypeScript SDKs, a Claude Code integration, and managed or self-hosted deployments.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source",
+                "commercial_open"
+              ],
+              "flags": [
+                "heavy_runtime"
+              ],
+              "note": "— **note:** the bundled self-hosted stack requires Docker, substantial disk space, and an NVIDIA GPU for the recommended local classifier; the README's `+35%` and `4x` headline extrapolates cited third-party research rather than an Adrian benchmark.",
+              "related": [
+                {
+                  "label": "Agentic Radar",
+                  "url": "https://github.com/splx-ai/agentic-radar"
+                },
+                {
+                  "label": "Armorer Guard",
+                  "url": "https://github.com/ArmorerLabs/Armorer-Guard"
+                }
+              ],
+              "metrics": {
+                "stars": 552,
+                "updated": "2026-08-20",
+                "snapshot": "2026-08-30"
+              }
+            },
+            {
+              "name": "Sandlock",
+              "repo": "multikernel/sandlock",
+              "org": "Multikernel",
+              "desc": "Unprivileged Linux process sandbox using Landlock, seccomp-BPF, and seccomp user notification to apply per-process filesystem, network, syscall, and execution policies without a container or VM.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "note": "— **note:** Linux-kernel process isolation rather than prompt-injection detection; protection depends on available Landlock and seccomp features and is not a multi-tenant VM boundary.",
+              "related": [
+                {
+                  "label": "Sandbox Probe",
+                  "url": "https://github.com/controlplaneio/sandbox-probe"
+                },
+                {
+                  "label": "AIO Sandbox",
+                  "url": "https://github.com/agent-infra/sandbox"
+                }
+              ],
+              "metrics": {
+                "stars": 381,
+                "updated": "2026-08-23",
+                "snapshot": "2026-08-30"
+              }
+            },
+            {
+              "name": "Lunar",
+              "repo": "TheLunarCompany/lunar",
+              "org": "Lunar.dev",
+              "desc": "API and MCP gateway combining outbound-traffic visibility, policy enforcement, rate limits, retries, circuit breakers, and centralized MCP server aggregation for agent workloads.",
+              "license": "MIT",
+              "status": [
+                "open_source",
+                "commercial_open"
+              ],
+              "flags": [
+                "commercial_features"
+              ],
+              "note": "— **note:** the repository is active but its latest formal GitHub release is from 2024; the README positions the open core for non-production or personal use and directs production deployments to commercial platform tiers.",
+              "related": [
+                {
+                  "label": "agentgateway",
+                  "url": "https://github.com/agentgateway/agentgateway"
+                },
+                {
+                  "label": "Bifrost",
+                  "url": "https://github.com/maximhq/bifrost"
+                }
+              ],
+              "metrics": {
+                "stars": 485,
+                "updated": "2026-08-28",
+                "snapshot": "2026-08-30"
               }
             }
           ]
@@ -2438,6 +2610,36 @@
             "stars": 129,
             "updated": "2026-07-21",
             "snapshot": "2026-08-17"
+          }
+        },
+        {
+          "name": "Activation-based Model Scanner (AMS)",
+          "repo": "GoogleCloudPlatform/activation-model-scanner",
+          "org": "Google Cloud Platform",
+          "desc": "PyPI scanner that uses safety-related activation fingerprints to detect degraded or removed safety training and compare an open-weight model with a known baseline.",
+          "license": "Apache-2.0",
+          "status": [
+            "open_source",
+            "research"
+          ],
+          "flags": [
+            "heavy_runtime"
+          ],
+          "note": "— **note:** unofficial and unsupported Google research-derived project; GPU execution is recommended, calibration covers a limited set of model families, and the documented method can miss modifications that preserve measured safety directions.",
+          "related": [
+            {
+              "label": "AASE research",
+              "url": "https://research.google/pubs/aase-activation-based-ai-safety-enforcement-via-lightweight-probes/"
+            },
+            {
+              "label": "model-provenance-kit",
+              "url": "https://github.com/cisco-ai-defense/model-provenance-kit"
+            }
+          ],
+          "metrics": {
+            "stars": 32,
+            "updated": "2026-08-27",
+            "snapshot": "2026-08-30"
           }
         }
       ]
@@ -5672,6 +5874,68 @@
                 "updated": "2026-08-20",
                 "snapshot": "2026-08-24"
               }
+            },
+            {
+              "name": "CaMeL",
+              "repo": "google-research/camel-prompt-injection",
+              "org": "Google Research / Google DeepMind / ETH Zurich",
+              "desc": "Research implementation of the capability-based CaMeL interpreter architecture for separating trusted control flow from untrusted data while evaluating prompt-injection defenses on AgentDojo.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source",
+                "research"
+              ],
+              "flags": [
+                "requires_api_key"
+              ],
+              "note": "— **note:** unsupported paper-reproduction artifact whose maintainers explicitly warn that the interpreter may contain bugs and may not be fully secure; do not treat it as a production guardrail.",
+              "related": [
+                {
+                  "label": "Defeating Prompt Injections by Design",
+                  "url": "https://arxiv.org/abs/2503.18813"
+                },
+                {
+                  "label": "AgentDojo",
+                  "url": "https://github.com/ethz-spylab/agentdojo"
+                }
+              ],
+              "metrics": {
+                "stars": 379,
+                "updated": "2025-06-20",
+                "snapshot": "2026-08-30"
+              }
+            },
+            {
+              "name": "Meta SecAlign",
+              "repo": "facebookresearch/Meta_SecAlign",
+              "org": "Meta / UC Berkeley",
+              "desc": "Research code, training recipe, and evaluation harness for prompt-injection-resistant Meta SecAlign models across six security and eight utility benchmarks.",
+              "license": "CC BY-NC 4.0 code; Llama community licenses for model weights",
+              "status": [
+                "research"
+              ],
+              "flags": [
+                "license_caveat",
+                "noncommercial",
+                "heavy_runtime",
+                "requires_api_key"
+              ],
+              "note": "— **note:** most repository code is non-commercial while published model weights use separate Llama community terms; reproducing training or the full evaluation requires substantial GPU capacity and optional provider credentials.",
+              "related": [
+                {
+                  "label": "AgentDojo",
+                  "url": "https://github.com/ethz-spylab/agentdojo"
+                },
+                {
+                  "label": "Meta SecAlign models",
+                  "url": "https://huggingface.co/meta-llama"
+                }
+              ],
+              "metrics": {
+                "stars": 70,
+                "updated": "2026-06-11",
+                "snapshot": "2026-08-30"
+              }
             }
           ]
         },
@@ -6411,6 +6675,37 @@
             "stars": 284,
             "updated": "2025-09-16",
             "snapshot": "2026-08-24"
+          }
+        },
+        {
+          "name": "LivePI",
+          "repo": "leizhao7/livepi",
+          "desc": "Reproducibility artifact for a production-like indirect prompt-injection benchmark spanning live but test-controlled email, chat, web, local-file, repository, and wallet surfaces.",
+          "license": "CC BY 4.0 code and data",
+          "status": [
+            "research"
+          ],
+          "flags": [
+            "license_caveat",
+            "heavy_runtime",
+            "requires_api_key",
+            "authorized_testing_only"
+          ],
+          "note": "— **note:** benchmark setup interacts with live test accounts and services and includes attack scenarios capable of exfiltration, unsafe execution, security-control changes, and value transfer; reproduce only in isolated infrastructure with synthetic credentials and explicit authorization.",
+          "related": [
+            {
+              "label": "LivePI paper",
+              "url": "https://arxiv.org/abs/2605.17986"
+            },
+            {
+              "label": "AgentDojo",
+              "url": "https://github.com/ethz-spylab/agentdojo"
+            }
+          ],
+          "metrics": {
+            "stars": 9,
+            "updated": "2026-06-08",
+            "snapshot": "2026-08-30"
           }
         }
       ]
