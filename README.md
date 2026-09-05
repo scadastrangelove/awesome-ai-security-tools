@@ -318,6 +318,7 @@ Autonomous and semi-autonomous AI agents for penetration testing, exploitation, 
 - **[Forefy .context](https://github.com/forefy/.context)** 🟢 — MIT-licensed collection of AI-agent Skills, Goals, and Dynamic Workflows for security auditing, authorized penetration testing, and research across web, cloud, blockchain, and defensive workflows. *(Forefy)* — **note:** agent-interpreted skill and workflow bundle rather than a deterministic scanner; includes active offensive procedures, so review and pin content before use and run it only in isolated, authorized assessments. The hosted AI Security Registry is a separate SaaS-backed catalog that publishes commit provenance and project-generated scan/audit metadata. *(★ 133 · updated 2026-08-31)*
   - **Related:** [AI Security Registry](https://forefy.com/asr) · [Review methodology](https://forefy.com/asr/docs/supply-chain-defense) · [OpenAPI schema](https://forefy.com/docs/openapi.json)
 
+- **[UpClaw](https://github.com/okdkebm/UpClaw)** 🟢 — AI-driven pentest CLI in ONE zero-dependency Python file: 29 stdlib checks (sqli/xss/ssti/takeover/js-secrets/graphql…), orchestrates 16 external tools, Burp-style req/codec/cmp manual toolkit, evidence-grade reports + trace.json decision replay (Apache-2.0)
 ---
 
 ## AI-Powered Recon & Narrow ML Tools
