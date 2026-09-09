@@ -7005,6 +7005,15 @@
             "updated": "2023-12-11",
             "snapshot": "2026-08-17"
           }
+        },
+        {
+          "name": "Cloud Security Audit Scripts",
+          "repo": "TrazTech-Inc/cloud-security-audit-scripts",
+          "org": "TrazTech",
+          "desc": "Pre-audit cloud security assessment scripts for AWS, GCP, and Azure with compliance control mappings.",
+          "status": [
+            "open_source"
+          ]
         }
       ]
     },
