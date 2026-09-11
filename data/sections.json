@@ -1262,6 +1262,30 @@
                 "snapshot": "2026-08-17"
               }
             },
+                    {
+                                "name": "Strixgov",
+                                "repo": "Strixgov/strix",
+                                "org": "Velaris Group",
+                                "desc": "AI agent execution-control / runtime governance kernel (Allow/Deny/Intercept before side effects) with Ed25519-signed decision evidence and public offline verifier (`npx @strixgov/verifier@latest 5686`). strixgov.com — not usestrix/strix.",
+                                "license": "MIT",
+                                "status": [
+                                              "open_source",
+                                              "commercial_open"
+                                ],
+                                "flags": [
+                                              "commercial_features"
+                                ],
+                                "related": [
+                                              {
+                                                              "label": "Verify without trusting Strix",
+                                                              "url": "https://www.strixgov.com/blog/verify-strix-decision-without-trusting-strix"
+                                              },
+                                              {
+                                                              "label": "MCP action governance",
+                                                              "url": "https://www.strixgov.com/mcp-action-governance"
+                                              }
+                                ]
+                    },
             {
               "name": "SourceryKit",
               "repo": "ProvablyAI/sourcerykit",
