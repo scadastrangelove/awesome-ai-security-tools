@@ -777,6 +777,14 @@
                 "updated": "2026-08-25",
                 "snapshot": "2026-08-30"
               }
+            },
+            {
+              "name": "mcpaudit",
+              "repo": "catidegla/mcpaudit",
+              "desc": "Scanner for MCP manifests and agent skills that scores findings from independent signals rather than single keywords and ships the benign corpus its rules must not fire on, with SARIF output and OWASP MCP Top 10 mapping.",
+              "status": [
+                "open_source"
+              ]
             }
           ]
         },
