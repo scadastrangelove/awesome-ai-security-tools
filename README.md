@@ -124,6 +124,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
 ### Frameworks, Rule Standards & Benchmarks
 
 - **[asamm](https://github.com/scadastrangelove/asamm)** 🔬 — *Agentic SAMM* — an OWASP SAMM extension for AI-driven development: an entry-point-based threat taxonomy plus 17 controls across 5 SAMM functions (Governance, Design, Implementation, Verification, Operations) with L1/L2/L3 maturity. License: CC BY-SA 4.0. *(CyberOK / S. Gordeychik)* *(★ 17 · updated 2026-07-26)*
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) – Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
   - **Sources:** [OWASP SAMM](https://owaspsamm.org/) · [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) · [NCSC Secure AI Guidelines](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development) · [MCP Security Best Practices](https://modelcontextprotocol.io/)
   - **Related:** [agent-audit](https://github.com/scadastrangelove/agent-audit)
 - **[agent-threat-rules (ATR)](https://github.com/Agent-Threat-Rule/agent-threat-rules)** 🟢 — Open, versioned, machine-readable detection rules for AI-agent threats (prompt injection, tool poisoning, MCP attacks, and skill compromise) — "Sigma for agents"; 768 rules across 10 categories with integrations for Microsoft AGT, Cisco AI Defense, MISP, OWASP, FINOS, and SigmaHQ. *(★ 371 · updated 2026-08-17)*
