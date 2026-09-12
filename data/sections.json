@@ -5736,7 +5736,7 @@
             {
               "name": "little-canary",
               "repo": "hermes-labs-ai/little-canary",
-              "desc": "Prompt-injection preflight risk sensor that routes untrusted input through a powerless sacrificial model, then reads response residue to return pass/flag/block before the primary agent acts.",
+              "desc": "Prompt-injection preflight sensor that probes untrusted input with a powerless canary model and returns PASS, FLAG, or BLOCK with explicit coverage state before primary-agent action; includes opt-in Claude Code prompt-submission and OpenAI Agents SDK input-boundary adapters.",
               "license": "Apache-2.0",
               "note": "— **note:** experimental sensing layer, not a security guarantee or runtime containment. A failed canary can return availability-first routing with explicit degraded coverage; remote/OpenAI-compatible canary or judge endpoints receive raw input.",
               "status": [
@@ -5758,9 +5758,9 @@
                 }
               ],
               "metrics": {
-                "stars": 27,
-                "updated": "2026-08-14",
-                "snapshot": "2026-08-17"
+                "stars": 28,
+                "updated": "2026-09-12",
+                "snapshot": "2026-09-12"
               }
             },
             {

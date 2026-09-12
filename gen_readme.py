@@ -242,7 +242,7 @@ def build(data: dict[str, Any]) -> str:
     out.append("")
     out.append("**Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.")
     out.append("")
-    snapshot_note = (f" Latest snapshot: {latest_snapshot}."
+    snapshot_note = (f" Most recently refreshed entry: {latest_snapshot}."
                      if latest_snapshot else " run `python3 scripts/update_github_metrics.py` before release.")
     out.append("GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release." + snapshot_note + " Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.")
     out.append("")

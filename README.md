@@ -7,7 +7,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Latest snapshot: 2026-09-07. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-09-12. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -586,7 +586,7 @@ Tools for attacking and defending LLM applications themselves.
 - **[JailbreakLLMs](https://github.com/TrustAIRLab/JailbreakLLMs)** 🔬⚠️ — Research dataset of 6,387 ChatGPT prompts, including in-the-wild jailbreak prompts from Reddit, Discord, websites, and open datasets. *(★ 23 · updated 2024-02-21)*
 - **[Do-Not-Answer](https://github.com/Libr-AI/do-not-answer)** 🟢🔬 — Dataset for evaluating LLM safeguards on unsafe or policy-sensitive prompts. *(★ 341 · updated 2024-06-07)*
 - **[prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses)** 🟢⚠️ — Curated catalog of practical defenses against prompt injection. *(★ 724 · updated 2025-02-22)*
-- **[little-canary](https://github.com/hermes-labs-ai/little-canary)** 🟢🔬 — Prompt-injection preflight risk sensor that routes untrusted input through a powerless sacrificial model, then reads response residue to return pass/flag/block before the primary agent acts. — **note:** experimental sensing layer, not a security guarantee or runtime containment. A failed canary can return availability-first routing with explicit degraded coverage; remote/OpenAI-compatible canary or judge endpoints receive raw input. *(★ 27 · updated 2026-08-14)*
+- **[little-canary](https://github.com/hermes-labs-ai/little-canary)** 🟢🔬 — Prompt-injection preflight sensor that probes untrusted input with a powerless canary model and returns PASS, FLAG, or BLOCK with explicit coverage state before primary-agent action; includes opt-in Claude Code prompt-submission and OpenAI Agents SDK input-boundary adapters. — **note:** experimental sensing layer, not a security guarantee or runtime containment. A failed canary can return availability-first routing with explicit degraded coverage; remote/OpenAI-compatible canary or judge endpoints receive raw input. *(★ 28 · updated 2026-09-12)*
   - **Related:** [Rebuff](https://github.com/protectai/rebuff) · [prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses)
 - **[Kiji Privacy Proxy](https://github.com/Dataiku/kiji-proxy)** 🟢 — Local privacy proxy for OpenAI-compatible AI API traffic that detects and masks 26 PII types with an ONNX model before forwarding requests, then restores mappings in responses. *(Dataiku 575 Lab)* — **note:** protects configured proxied traffic, not every path by which an application or agent can disclose data; operators retain responsibility for proxy routing and local mapping storage. *(★ 422 · updated 2026-07-27)*
   - **Related:** [LLM Guard](https://github.com/protectai/llm-guard) · [Kiji PII model](https://huggingface.co/DataikuNLP/kiji-pii-model-onnx)
