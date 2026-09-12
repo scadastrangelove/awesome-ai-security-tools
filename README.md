@@ -148,6 +148,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [asamm](https://github.com/scadastrangelove/asamm) · [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)
 - **[OWASP Agent Security Regression Harness](https://github.com/OWASP/Agent-Security-Regression-Harness)** 🟢 — Vendor-neutral harness for running repeatable agent and MCP abuse scenarios, evaluating policy assertions over execution traces, and emitting machine-readable regression results for local development and CI. *(OWASP)* — **note:** early OWASP Incubator project; it is a regression harness for known abuse cases, not a scanner, leaderboard, general benchmark, or guarantee of agent security. *(★ 49 · updated 2026-07-27)*
   - **Related:** [Agent Security Bench (ASB)](https://github.com/agiresearch/ASB) · [AgentDojo](https://github.com/ethz-spylab/agentdojo)
+- **[agent-evidence-vectors](https://github.com/astrogilda/agent-evidence-vectors)** 🟢🔬 — 461 conformance vectors across eight corpora for the in-toto adversarial-execution-evidence predicate, shipped with a Go verifier (aee-verify) that recomputes every outcome from the bytes an attestation carries instead of reading the producer's verdict. — **note:** young project; an independently written Rust verifier has replayed the adversarial-execution-evidence corpus and RUNS.md records that run and what it does not cover.
+  - **Related:** [in-toto attestation](https://github.com/in-toto/attestation)
 
 ### Runtime Protection & Enforcement
 

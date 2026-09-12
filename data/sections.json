@@ -1122,6 +1122,26 @@
                 "updated": "2026-07-27",
                 "snapshot": "2026-08-30"
               }
+            },
+            {
+              "name": "agent-evidence-vectors",
+              "repo": "astrogilda/agent-evidence-vectors",
+              "desc": "461 conformance vectors across eight corpora for the in-toto adversarial-execution-evidence predicate, shipped with a Go verifier (aee-verify) that recomputes every outcome from the bytes an attestation carries instead of reading the producer's verdict.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source",
+                "research"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "— **note:** young project; an independently written Rust verifier has replayed the adversarial-execution-evidence corpus and RUNS.md records that run and what it does not cover.",
+              "related": [
+                {
+                  "label": "in-toto attestation",
+                  "url": "https://github.com/in-toto/attestation"
+                }
+              ]
             }
           ]
         },
