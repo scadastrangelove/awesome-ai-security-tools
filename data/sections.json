@@ -1129,6 +1129,83 @@
           "title": "Runtime Protection & Enforcement",
           "entries": [
             {
+              "name": "agent-canary",
+              "repo": "DorianChn/agent-canary",
+              "desc": "Canary tripwires for AI coding agents: inert decoy MCP tools (fake transfer, prod-secrets reader, sudo shell) and planted canary tokens turn any interaction into a zero-false-positive compromise signal, with per-call trace tokens, JSONL audit trail, desktop/webhook alerts, and CI-friendly token scanning. *(MIT · no telemetry · Windows/macOS/Linux)*",
+              "license": "MIT",
+              "status": [
+                "open_source"
+              ],
+              "note": "— **note:** detection-only; decoys never perform real actions by design (see SECURITY.md).",
+              "related": [
+                {
+                  "label": "agent-gate",
+                  "url": "https://github.com/DorianChn/agent-gate"
+                },
+                {
+                  "label": "traceplay",
+                  "url": "https://github.com/DorianChn/traceplay"
+                }
+              ]
+            },
+            {
+              "name": "agent-gate",
+              "repo": "DorianChn/agent-gate",
+              "desc": "Python policy gateway for AI-agent and MCP tool calls with deny-by-default controls, parameter-level rules, short-lived HMAC credentials, audit logs, HTTP/MCP proxying, and webhook or Langfuse alerts.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "related": [
+                {
+                  "label": "agent-canary",
+                  "url": "https://github.com/DorianChn/agent-canary"
+                },
+                {
+                  "label": "traceplay",
+                  "url": "https://github.com/DorianChn/traceplay"
+                }
+              ]
+            },
+            {
+              "name": "traceplay",
+              "repo": "DorianChn/traceplay",
+              "desc": "Local, deterministic VCR-style recorder and replayer for AI-agent trajectories with tool-call assertions, forbidden-tool checks, reporters, and zero-token CI replay.",
+              "license": "MIT",
+              "status": [
+                "open_source"
+              ],
+              "related": [
+                {
+                  "label": "agent-canary",
+                  "url": "https://github.com/DorianChn/agent-canary"
+                },
+                {
+                  "label": "agent-gate",
+                  "url": "https://github.com/DorianChn/agent-gate"
+                }
+              ]
+            },
+            {
+              "name": "RepoSieve",
+              "repo": "DorianChn/reposieve",
+              "desc": "Local-first repository context packer for AI coding agents with generated-file filtering, secret-like value detection and redaction, and token-budget controls.",
+              "license": "MIT",
+              "status": [
+                "open_source"
+              ],
+              "related": [
+                {
+                  "label": "agent-canary",
+                  "url": "https://github.com/DorianChn/agent-canary"
+                },
+                {
+                  "label": "traceplay",
+                  "url": "https://github.com/DorianChn/traceplay"
+                }
+              ]
+            },
+            {
               "name": "nono",
               "repo": "nolabs-ai/nono",
               "org": "NoLabs",
