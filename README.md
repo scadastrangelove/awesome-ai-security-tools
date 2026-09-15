@@ -706,6 +706,8 @@ AI tooling for cloud/IaC security, digital forensics, OSINT, and phishing detect
   - **Related:** [PhishVLM](https://github.com/code-philia/PhishVLM)
 - **[mcp-dnstwist](https://github.com/BurtTheCoder/mcp-dnstwist)** 🟢 — MCP server for dnstwist DNS fuzzing to support typosquatting, phishing, and lookalike-domain analysis. *(★ 51 · updated 2025-03-03)*
 - **[osintgpt](https://github.com/estebanpdl/osintgpt)** 🟢⚠️ — OpenAI embeddings + Qdrant over OSINT corpora. *(★ 525 · updated 2023-12-11)*
+- [HostDeFi](https://hostdefi.com) - Agent-ready token-safety scanner with a public A2A agent card, hosted MCP server and x402-paid endpoints for autonomous checks.
+
 
 ---
 
