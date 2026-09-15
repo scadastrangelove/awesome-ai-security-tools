@@ -7,7 +7,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-09-14. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-09-15. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -233,6 +233,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Prismor](https://github.com/PrismorSec/prismor) · [mcp-context-protector](https://github.com/trailofbits/mcp-context-protector)
 - **[sofagent](https://github.com/KongFangXun/sofagent)** 🟢 — Commit-time audit and governance suite for AI coding agents that scans git diffs against deterministic rules, records local audit history, and exposes MCP tools for governance aggregation. — **note:** HMAC signing is optional, while local hooks, configuration, and key material remain accessible to same-user agents; the default setup is not fail-closed and Git hooks can be bypassed, so treat the history as local audit evidence rather than a hardened tamper-proof boundary. *(★ 42 · updated 2026-09-03)*
   - **Related:** [Pipelock](https://github.com/luckyPipewrench/pipelock)
+- **[prompt-protection](https://github.com/mughalhere/prompt-protection)** 🟢 — Zero-dependency TypeScript tool-call guard that labels tool results as untrusted and blocks flows from them into network, email, exec, file-write and payment sinks, with spotlighting, canary leak detection and an Agent Threat Rules loader. — **note:** young project with limited independent adoption signal; publishes its own false-positive rate (19.4% on a hard-negative set) alongside detection numbers. *(★ 3 · updated 2026-09-15)*
+  - **Related:** [agent-threat-rules (ATR)](https://github.com/Agent-Threat-Rule/agent-threat-rules)
 
 ---
 

@@ -2255,6 +2255,30 @@
                 "updated": "2026-09-03",
                 "snapshot": "2026-09-04"
               }
+            },
+            {
+              "name": "prompt-protection",
+              "repo": "mughalhere/prompt-protection",
+              "desc": "Zero-dependency TypeScript tool-call guard that labels tool results as untrusted and blocks flows from them into network, email, exec, file-write and payment sinks, with spotlighting, canary leak detection and an Agent Threat Rules loader.",
+              "license": "MIT",
+              "note": "— **note:** young project with limited independent adoption signal; publishes its own false-positive rate (19.4% on a hard-negative set) alongside detection numbers.",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "related": [
+                {
+                  "label": "agent-threat-rules (ATR)",
+                  "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules"
+                }
+              ],
+              "metrics": {
+                "stars": 3,
+                "updated": "2026-09-15",
+                "snapshot": "2026-09-15"
+              }
             }
           ]
         }
