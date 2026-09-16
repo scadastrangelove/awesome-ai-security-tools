@@ -1945,11 +1945,17 @@
               "name": "HOL Guard",
               "repo": "hashgraph-online/hol-guard",
               "org": "Hashgraph Online",
-              "desc": "Local-first runtime security layer for coding agents that evaluates commands, package installs, skills, MCP configuration, and sensitive actions through policy, approval, evidence, and audit workflows.",
+              "desc": "Local-first runtime security layer for AI agents that evaluates tool calls, commands, package installs, skills, MCP configuration, and other sensitive actions through policy, approval, evidence, and audit workflows.",
               "license": "Apache-2.0",
               "status": [
                 "open_source",
                 "commercial_open"
+              ],
+              "sources": [
+                {
+                  "label": "Official site",
+                  "url": "https://hol.org/guard"
+                }
               ],
               "flags": [
                 "early_stage",
