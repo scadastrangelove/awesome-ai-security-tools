@@ -120,6 +120,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist) · [sast-skills](https://github.com/utkusen/sast-skills)
 - **[Sandbox Probe](https://github.com/controlplaneio/sandbox-probe)** 🟢 — Static Go probe that measures the effective filesystem, network, process, credential, and runtime capabilities exposed inside an AI-agent sandbox, then compares sandbox and host baselines. *(ControlPlane)* — **note:** boundary-measurement auditor, not an enforcement layer; some integration scripts can ask real agents to execute the probe, while deterministic model-free stubs are available for CI. *(★ 25 · updated 2026-08-25)*
   - **Related:** [Sandlock](https://github.com/multikernel/sandlock) · [AIO Sandbox](https://github.com/agent-infra/sandbox)
+- **[agentgate](https://github.com/ciceroyang/agentgate)** 🟢 — Control plane for the tools AI agents run: inventories MCP servers and other agent tooling from public registries, records which scanners actually ran for each record, and refuses to report clean when a required part is unmeasured. Public evidence index, policy checks, SARIF output and a GitHub Action; AGPL-3.0, zero runtime dependencies. *(Zhiliang Tech)* *(★ 0 · updated 2026-09-17)*
+  - **Related:** [mcp-scan](https://github.com/invariantlabs-ai/mcp-scan) · [agent-scan](https://github.com/snyk/agent-scan) · [mcp-armor](https://github.com/aira-security/mcp-armor)
 
 ### Frameworks, Rule Standards & Benchmarks
 
