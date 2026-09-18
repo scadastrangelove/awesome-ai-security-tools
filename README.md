@@ -467,6 +467,7 @@ AI/LLM tooling for CTI gathering, IOC/TTP extraction, and analysis.
 - **[CTIBench](https://github.com/maveryn/cti-bench)** 🔬⚠️ — NeurIPS 2024 Spotlight benchmark with 4,610 examples across CTI knowledge, CWE root-cause mapping, CVSS prediction, ATT&CK technique extraction, and threat-actor attribution. — **note:** non-commercial research benchmark; the repository publishes data, evaluation notebooks, model outputs, and raw logs rather than a production CTI service. *(★ 92 · updated 2026-05-07)*
   - **Related:** [CTINexus](https://github.com/peng-gao-lab/ctinexus) · [CTI-BERT](https://huggingface.co/ibm-research/CTI-BERT)
 - **[CTI-BERT](https://huggingface.co/ibm-research/CTI-BERT)** 🟢🔬 — BERT model pretrained from scratch on a large cybersecurity text corpus for downstream CTI extraction, classification, and question-answering tasks. *(IBM Research)* *license: Apache-2.0 · access: open · artifacts: PyTorch.*
+- **[ThreatCluster](https://github.com/Jam0k/Threat-Intelligence-MCP)** 🟠 — Threat intelligence API and MCP server for agents: clustered incident records, validated IOCs, CVE/KEV/EPSS lookup, ransomware leak-site victims. Free tier. *(★ 1 · updated 2026-09-18)*
 
 ---
 
