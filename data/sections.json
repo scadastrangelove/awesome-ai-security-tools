@@ -187,6 +187,21 @@
               }
             },
             {
+              "name": "rule-audit",
+              "repo": "hermes-labs-ai/rule-audit",
+              "desc": "Static analyzer for AI system prompts and agent instructions that reports contradictions, coverage gaps, priority ambiguities, meta-rule paradoxes, and absolute-rule edge cases without an LLM.",
+              "license": "MIT",
+              "status": [
+                "open_source"
+              ],
+              "note": "— **note:** prompt-structure analysis is not runtime enforcement or proof that an agent is safe; findings depend on the analyzer's rule coverage.",
+              "metrics": {
+                "stars": 3,
+                "updated": "2026-09-19",
+                "snapshot": "2026-09-19"
+              }
+            },
+            {
               "name": "AI-Infra-Guard",
               "repo": "Tencent/AI-Infra-Guard",
               "org": "Tencent Zhuque Lab",
