@@ -240,6 +240,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Prismor](https://github.com/PrismorSec/prismor) · [mcp-context-protector](https://github.com/trailofbits/mcp-context-protector)
 - **[sofagent](https://github.com/KongFangXun/sofagent)** 🟢 — Commit-time audit and governance suite for AI coding agents that scans git diffs against deterministic rules, records local audit history, and exposes MCP tools for governance aggregation. — **note:** HMAC signing is optional, while local hooks, configuration, and key material remain accessible to same-user agents; the default setup is not fail-closed and Git hooks can be bypassed, so treat the history as local audit evidence rather than a hardened tamper-proof boundary. *(★ 42 · updated 2026-09-03)*
   - **Related:** [Pipelock](https://github.com/luckyPipewrench/pipelock)
+- **[Provenza](https://github.com/kironovlaziz-del/provenza) 🟢 — Self-hosted runtime protection for AI agents: Ed25519-signed delegation, monotonic TTL enforcement, PII masking, and Shadow AI detection. (Independent) — note: pre-release; full production hardening is in progress. Apache-2.0.
 
 ---
 
