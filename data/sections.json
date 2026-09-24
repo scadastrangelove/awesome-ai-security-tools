@@ -4271,6 +4271,25 @@
             "updated": "2026-08-10",
             "snapshot": "2026-08-17"
           }
+        },
+        {
+          "name": "Supercov",
+          "repo": "supercorp-ai/supercov",
+          "desc": "Coverage, security and code quality for coding agents.",
+          "license": "MIT",
+          "status": [
+            "open_source"
+          ],
+          "flags": [
+            "model_dependent",
+            "requires_api_key"
+          ],
+          "note": "— **note:** security and quality checks send each in-scope source file to TypeSafe's API under the user's own `TYPESAFE_API_KEY`; findings are model judgments, cached by file content. Coverage runs locally and needs no key.",
+          "metrics": {
+            "stars": 114,
+            "updated": "2026-09-24",
+            "snapshot": "2026-09-24"
+          }
         }
       ]
     },
