@@ -7,7 +7,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-09-21. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-09-24. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -425,6 +425,7 @@ Static analysis and secure code review enhanced with LLMs.
   - **Related:** [deepsec](https://github.com/vercel-labs/deepsec) · [rust-in-peace](https://github.com/scadastrangelove/rust-in-peace)
 - **[Buttercup](https://github.com/trailofbits/buttercup)** 🟢🔬⚠️ — Multi-component cyber reasoning system for finding, validating, and patching software vulnerabilities with coordinated agent workflows. *(Trail of Bits)* — **note:** AGPL-3.0 research/competition system rather than a lightweight scanner; deployment uses multiple services, Docker, and configured model providers. *(★ 1,676 · updated 2026-08-10)*
   - **Related:** [OpenHack](https://github.com/hadriansecurity/OpenHack) · [Visa Vulnerability Agentic Harness](https://github.com/visa/visa-vulnerability-agentic-harness)
+- **[Supercov](https://github.com/supercorp-ai/supercov)** 🟢 — Coverage, security and code quality for coding agents. — **note:** security and quality checks send each in-scope source file to TypeSafe's API under the user's own `TYPESAFE_API_KEY`; findings are model judgments, cached by file content. Coverage runs locally and needs no key. *(★ 114 · updated 2026-09-24)*
 
 ---
 
