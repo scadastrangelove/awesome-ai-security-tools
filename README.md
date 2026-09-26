@@ -123,6 +123,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
 
 ### Frameworks, Rule Standards & Benchmarks
 
+- **[buried-injections](https://github.com/rudratoshs/buried-injections)** 🟢🔬 — Reproducible benchmark scoring 10 open-source prompt-injection detectors on 629 realistic AgentDojo attacks buried in tool output, with false-positive rates measured on benign traffic; the best detector catches ~51% at a 2% false-positive rate. *(R. Shastri)* — **note:** early independent benchmark; all attacks use one AgentDojo wrapper template, a documented limitation. *(★ 17 · updated 2026-09-26)*
 - **[Project CodeGuard](https://github.com/cosai-oasis/project-codeguard)** 🟢⚠️ — Model-agnostic secure-coding rules and skills framework with translators for popular coding agents, validators, release artifacts, and an MCP server for centrally distributing the rules. *(CoSAI / OASIS)* — **note:** framework and ruleset, not a deterministic scanner or runtime enforcement boundary; repository content uses CC BY 4.0 rather than a conventional software license. *(★ 338 · updated 2026-09-18)*
 - **[asamm](https://github.com/scadastrangelove/asamm)** 🔬 — *Agentic SAMM* — an OWASP SAMM extension for AI-driven development: an entry-point-based threat taxonomy plus 17 controls across 5 SAMM functions (Governance, Design, Implementation, Verification, Operations) with L1/L2/L3 maturity. License: CC BY-SA 4.0. *(CyberOK / S. Gordeychik)* *(★ 17 · updated 2026-07-26)*
   - **Sources:** [OWASP SAMM](https://owaspsamm.org/) · [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) · [NCSC Secure AI Guidelines](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development) · [MCP Security Best Practices](https://modelcontextprotocol.io/)
@@ -552,6 +553,7 @@ Tools for attacking and defending LLM applications themselves.
 
 ### Scanners, Evals & Guardrails
 
+- **[taintgate](https://github.com/rudratoshs/taintgate)** 🟢 — Deterministic, no-LLM policy gate that blocks AI agent tool calls based on the provenance of their arguments (user-typed vs. tool output) rather than classifying text; deny > ask > allow with plain-YAML policies. *(R. Shastri)* — **note:** early prototype; documents its own failure modes (values that are reformatted or laundered across tools evade string-based provenance). *(★ 2 · updated 2026-09-26)*
 - **[RAMPART](https://github.com/microsoft/RAMPART)** 🟢 — Pytest-native framework for repeatable adversarial and benign safety regression tests against AI agents, with statistical trials and evaluators for responses, tool calls, and external side effects. *(Microsoft)* — **note:** test framework built on PyRIT, not a runtime protection layer; users must supply target adapters and model credentials, and passing its scenarios does not establish production safety beyond the tested behaviors. *(★ 414 · updated 2026-09-18)*
   - **Sources:** [Microsoft Security announcement](https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/)
   - **Related:** [PyRIT](https://github.com/microsoft/PyRIT)
