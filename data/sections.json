@@ -2372,6 +2372,24 @@
                 "updated": "2026-09-03",
                 "snapshot": "2026-09-04"
               }
+            },
+            {
+              "name": "unified-ai-system",
+              "repo": "happy520ai/unified-ai-system",
+              "desc": "Self-hosted AI and MCP gateway whose Agent Governance layer gives each governed agent a deterministic permission lifecycle - policy classification, per-call tool-proxy enforcement, approvals, expiry and cascade revocation - behind an append-only audit chain.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "— **note:** the governance layer is opt-in (`AI_GATEWAY_AGENT_GOVERNANCE_ENABLED=true`) and enforces at the gateway tool-proxy boundary rather than inside agent processes; single-host public preview with limited independent adoption signal; the default provider is a deterministic local fake, and the optional Langfuse export sends trace data to whatever endpoint is configured.",
+              "metrics": {
+                "stars": 7,
+                "updated": "2026-09-26",
+                "snapshot": "2026-09-26"
+              }
             }
           ]
         }

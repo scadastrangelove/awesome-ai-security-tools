@@ -7,7 +7,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-09-21. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-09-26. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -240,6 +240,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Prismor](https://github.com/PrismorSec/prismor) · [mcp-context-protector](https://github.com/trailofbits/mcp-context-protector)
 - **[sofagent](https://github.com/KongFangXun/sofagent)** 🟢 — Commit-time audit and governance suite for AI coding agents that scans git diffs against deterministic rules, records local audit history, and exposes MCP tools for governance aggregation. — **note:** HMAC signing is optional, while local hooks, configuration, and key material remain accessible to same-user agents; the default setup is not fail-closed and Git hooks can be bypassed, so treat the history as local audit evidence rather than a hardened tamper-proof boundary. *(★ 42 · updated 2026-09-03)*
   - **Related:** [Pipelock](https://github.com/luckyPipewrench/pipelock)
+- **[unified-ai-system](https://github.com/happy520ai/unified-ai-system)** 🟢 — Self-hosted AI and MCP gateway whose Agent Governance layer gives each governed agent a deterministic permission lifecycle - policy classification, per-call tool-proxy enforcement, approvals, expiry and cascade revocation - behind an append-only audit chain. — **note:** the governance layer is opt-in (`AI_GATEWAY_AGENT_GOVERNANCE_ENABLED=true`) and enforces at the gateway tool-proxy boundary rather than inside agent processes; single-host public preview with limited independent adoption signal; the default provider is a deterministic local fake, and the optional Langfuse export sends trace data to whatever endpoint is configured. *(★ 7 · updated 2026-09-26)*
 
 ---
 
