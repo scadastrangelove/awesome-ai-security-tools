@@ -1380,6 +1380,36 @@
               }
             },
             {
+              "name": "node9",
+              "repo": "node9-ai/node9-proxy",
+              "org": "Node9",
+              "desc": "Local pre-execution gate for AI coding agents and MCP servers that allows, holds for human approval, or blocks each tool call, with a credential jail and secret detection on by default.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "commercial_features",
+                "telemetry"
+              ],
+              "note": "— **note:** enforcement uses each agent's own hooks and an MCP wrapper, not an isolation boundary: agents without hook support are covered only through MCP, and a script the agent runs is judged by its command line, not its contents. The egress allowlist is opt-in. Runs locally with no account; a hosted team workspace and a paid tier are optional, and `node9 init` asks before sending a one-time install ping.",
+              "related": [
+                {
+                  "label": "Pipelock",
+                  "url": "https://github.com/luckyPipewrench/pipelock"
+                },
+                {
+                  "label": "agentsh",
+                  "url": "https://github.com/canyonroad/agentsh"
+                }
+              ],
+              "metrics": {
+                "stars": 216,
+                "updated": "2026-09-25",
+                "snapshot": "2026-09-25"
+              }
+            },
+            {
               "name": "SourceryKit",
               "repo": "ProvablyAI/sourcerykit",
               "org": "ProvablyAI",
