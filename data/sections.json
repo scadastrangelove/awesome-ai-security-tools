@@ -2402,6 +2402,26 @@
                 "updated": "2026-09-03",
                 "snapshot": "2026-09-04"
               }
+            },
+            {
+              "name": "Aikonos",
+              "repo": "adamdekan/aikonos",
+              "org": "Moon Ting Studio",
+              "desc": "Self-hosted control plane for AI agents that mediates every tool call - including calls to approved MCP servers - across four gates: identity, access, routing, and single-use capability tokens, with each decision recorded in a signed, hash-chained audit trail.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "- **note:** pre-1.0 project; Docker Compose deployment only; public repository created 2026-09.",
+              "related": [
+                {
+                  "label": "Documentation",
+                  "url": "https://aikonos.com/docs/"
+                }
+              ]
             }
           ]
         }
