@@ -304,6 +304,20 @@
               }
             },
             {
+              "name": "SkillPreflight",
+              "repo": "agent-contracts/skill-preflight",
+              "status": ["open_source"],
+              "license": "MIT",
+              "flags": ["early_stage"],
+              "desc": "Static pre-install CLI for local and GitHub agent skills, with source findings and a 0-100 score across security, permissions, token efficiency, footprint, maintainability, reliability, and compatibility, plus JSON/SARIF reports and a GitHub Action.",
+              "note": "**Caveat:** early-stage heuristic scanner; findings need manual review and coverage depends on readable files, exclusions, and resource limits. It does not execute target scripts or enforce runtime agent actions. Local scans do not upload target content; GitHub URL scans download repository files.",
+              "metrics": {"stars": 3, "updated": "2026-10-07", "snapshot": "2026-10-07"},
+              "sources": [
+                {"label": "Documentation", "url": "https://github.com/agent-contracts/skill-preflight/blob/v0.9.3/README.md"},
+                {"label": "Scan implementation", "url": "https://github.com/agent-contracts/skill-preflight/blob/v0.9.3/src/core/scan.ts"}
+              ]
+            },
+            {
               "name": "Ramparts",
               "repo": "highflame-ai/ramparts",
               "desc": "Rust scanner for MCP servers and agent-skill bundles with YARA rules, optional LLM analysis, OSV/CVE lookups, OWASP MCP Top 10 mapping, and SARIF/JSON/Markdown reports.",
