@@ -7,7 +7,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-10-05. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-10-08. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -82,7 +82,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
 - **[agent-audit](https://github.com/scadastrangelove/agent-audit)** 🟢 — Forensic auditor for local AI coding agents (Claude Code, Codex CLI, OpenClaw) **and** project-surface scanner for repos shipping skills, plugins, and MCP manifests; 296 bundled rules across native + imported detector families, with optional LLM cross-verification. *(CyberOK / S. Gordeychik)* *(★ 15 · updated 2026-07-15)*
   - **Sources:** [asamm](https://github.com/scadastrangelove/asamm) · [ATR – Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules) · [aguara](https://github.com/garagon/aguara) · [Cisco AI Defense – skill-scanner](https://github.com/cisco-ai-defense/skill-scanner)
   - **Related:** [asamm](https://github.com/scadastrangelove/asamm) · [aguara](https://github.com/garagon/aguara) · [agentguard](https://github.com/GoPlusSecurity/agentguard) · [agentic-radar](https://github.com/splx-ai/agentic-radar) · [nuclei-autotriage](https://github.com/cyberok-org/nuclei-autotriage)
-- **[AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** 🟢 — Full-stack AI red-teaming platform covering OpenClaw security scan, agent scan, skills scan, MCP scan, AI-infra vulnerability scan, and LLM jailbreak evaluation. *(Tencent Zhuque Lab)* *(★ 6,226 · updated 2026-09-10)*
+- **[AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** 🟢 — Full-stack AI red-teaming platform covering OpenClaw security scan, agent scan, skills scan, MCP scan, AI-infra vulnerability scan, and LLM jailbreak evaluation. *(Tencent Zhuque Lab)* *(★ 6,777 · updated 2026-10-07)*
   - **Related:** [agent-audit](https://github.com/scadastrangelove/agent-audit) · [aguara](https://github.com/garagon/aguara) · [Cisco AI Defense – skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) · [Cisco AI Defense – mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner)
 - **[SkillSpector](https://github.com/NVIDIA/SkillSpector)** 🟢 — Security scanner for AI-agent skills used by Claude Code, Codex CLI, Gemini CLI, and similar ecosystems; combines static analysis, AST/YARA/taint checks, optional LLM semantic review, MCP least-privilege/tool-poisoning checks, risk scoring, and SARIF/JSON/Markdown output. *(NVIDIA)* *(★ 14,696 · updated 2026-08-15)*
   - **Related:** [Cisco AI Defense – skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) · [skilltotal](https://github.com/pezhik/skilltotal) · [Snyk Agent Scan](https://github.com/snyk/agent-scan) · [Cisco AI Defense – mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner)
