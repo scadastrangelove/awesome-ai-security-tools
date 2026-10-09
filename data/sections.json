@@ -359,6 +359,24 @@
               }
             },
             {
+              "name": "Agent Verifier",
+              "repo": "Aurite-ai/agent-verifier",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "model_dependent"
+              ],
+              "desc": "Agent skill and Claude Code plugin that reviews AI agent code for hardcoded secrets, missing input validation, exposed stack traces, infinite loops, unbounded retries, hallucinated tool references, and oversized prompts, with Python, TypeScript, and Go checks and a file:line report.",
+              "note": "**Caveat:** runs inside the user's coding agent (Claude Code, Cursor, and others), so findings depend on that agent's model and are not fully reproducible; each finding is tagged [P] for pattern-matched or [H] for heuristic. Code is read locally in the user's existing agent session; the skill adds no telemetry or other network calls.",
+              "metrics": {
+                "stars": 45,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-09"
+              }
+            },
+            {
               "name": "mcp-armor",
               "repo": "aira-security/mcp-armor",
               "org": "Aira Security",
