@@ -7,7 +7,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-10-08. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-10-09. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -126,6 +126,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist) · [sast-skills](https://github.com/utkusen/sast-skills)
 - **[Sandbox Probe](https://github.com/controlplaneio/sandbox-probe)** 🟢 — Static Go probe that measures the effective filesystem, network, process, credential, and runtime capabilities exposed inside an AI-agent sandbox, then compares sandbox and host baselines. *(ControlPlane)* — **note:** boundary-measurement auditor, not an enforcement layer; some integration scripts can ask real agents to execute the probe, while deterministic model-free stubs are available for CI. *(★ 25 · updated 2026-08-25)*
   - **Related:** [Sandlock](https://github.com/multikernel/sandlock) · [AIO Sandbox](https://github.com/agent-infra/sandbox)
+- **[agent-audit-kit](https://github.com/sattyamjjain/agent-audit-kit)** 🟢 — Offline static scanner for MCP and agent configurations, instruction files and tool code, with SARIF output, a GitHub Action, and a public ledger that maps each covered MCP CVE to the rule that detects it. — **note:** single-maintainer project; findings come from pattern and version-range rules and need review, and the CVE ledger records measured rule latency rather than a response commitment. *(★ 12 · updated 2026-10-09)*
+  - **Sources:** [CVE-to-rule ledger](https://github.com/sattyamjjain/agent-audit-kit/blob/main/CHANGELOG.cves.md)
 
 ### Frameworks, Rule Standards & Benchmarks
 
@@ -267,6 +269,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Pipelock](https://github.com/luckyPipewrench/pipelock)
 - **[Tenuo](https://github.com/tenuo-ai/tenuo)** 🟢🟠 — Capability-based authorization for agent tool calls using signed, holder-bound warrants that constrain tools and arguments, verify locally, and narrow authority across delegation. — **note:** the Rust core, SDKs, and authorizer sidecar are Apache-2.0; the managed control plane is commercial. Enforcement requires trusted verification on every effecting tool path, outside agent control when bypass is possible; this is not a sandbox. The stateless core permits identical-call replay within its proof-of-possession window, so state-changing operations need application-level nonce or idempotency controls. *(★ 100 · updated 2026-10-03)*
   - **Related:** [Agentgateway](https://github.com/agentgateway/agentgateway) · [AgentLock](https://github.com/webpro255/agentlock)
+- **[agent-airlock](https://github.com/sattyamjjain/agent-airlock)** 🟢 — In-process, deny-by-default contract layer for agent tool calls: one Python decorator adds Pydantic strict validation, ghost-argument stripping, and policy checks before a tool runs, returning fix hints the model can retry against. — **note:** runs inside the agent's own process, so it constrains tool arguments but is not an isolation boundary or sandbox; single-maintainer project. *(★ 16 · updated 2026-10-09)*
 
 ---
 

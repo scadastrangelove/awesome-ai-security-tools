@@ -858,6 +858,30 @@
                 "updated": "2026-08-25",
                 "snapshot": "2026-08-30"
               }
+            },
+            {
+              "name": "agent-audit-kit",
+              "repo": "sattyamjjain/agent-audit-kit",
+              "desc": "Offline static scanner for MCP and agent configurations, instruction files and tool code, with SARIF output, a GitHub Action, and a public ledger that maps each covered MCP CVE to the rule that detects it.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "— **note:** single-maintainer project; findings come from pattern and version-range rules and need review, and the CVE ledger records measured rule latency rather than a response commitment.",
+              "sources": [
+                {
+                  "label": "CVE-to-rule ledger",
+                  "url": "https://github.com/sattyamjjain/agent-audit-kit/blob/main/CHANGELOG.cves.md"
+                }
+              ],
+              "metrics": {
+                "stars": 12,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-09"
+              }
             }
           ]
         },
@@ -2800,6 +2824,24 @@
                 "stars": 100,
                 "updated": "2026-10-03",
                 "snapshot": "2026-10-03"
+              }
+            },
+            {
+              "name": "agent-airlock",
+              "repo": "sattyamjjain/agent-airlock",
+              "desc": "In-process, deny-by-default contract layer for agent tool calls: one Python decorator adds Pydantic strict validation, ghost-argument stripping, and policy checks before a tool runs, returning fix hints the model can retry against.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "— **note:** runs inside the agent's own process, so it constrains tool arguments but is not an isolation boundary or sandbox; single-maintainer project.",
+              "metrics": {
+                "stars": 16,
+                "updated": "2026-10-09",
+                "snapshot": "2026-10-09"
               }
             }
           ]
