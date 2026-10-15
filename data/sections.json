@@ -866,6 +866,24 @@
                 "updated": "2026-09-08",
                 "snapshot": "2026-10-13"
               }
+            },
+            {
+              "name": "SkillHawk",
+              "repo": "Berserk-hub150/skillhawk",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "desc": "Zero-dependency static scanner for Agent Skills, SKILL.md files, and MCP configurations that flags risky shell, credential, privilege-escalation, data-exfiltration, and prompt-injection patterns without executing the target.",
+              "note": "**Caveat:** heuristic static analysis only; findings require review and do not provide runtime enforcement or prove exploitability.",
+              "metrics": {
+                "stars": 64,
+                "updated": "2026-10-15",
+                "snapshot": "2026-10-15"
+              },
+              "flags": [
+                "early_stage"
+              ]
             }
           ]
         },

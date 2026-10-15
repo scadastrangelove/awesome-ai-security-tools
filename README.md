@@ -7,7 +7,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-10-13. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-10-15. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -126,6 +126,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist) · [sast-skills](https://github.com/utkusen/sast-skills)
 - **[Sandbox Probe](https://github.com/controlplaneio/sandbox-probe)** 🟢 — Static Go probe that measures the effective filesystem, network, process, credential, and runtime capabilities exposed inside an AI-agent sandbox, then compares sandbox and host baselines. *(ControlPlane)* — **note:** boundary-measurement auditor, not an enforcement layer; some integration scripts can ask real agents to execute the probe, while deterministic model-free stubs are available for CI. *(★ 27 · updated 2026-09-08)*
   - **Related:** [Sandlock](https://github.com/multikernel/sandlock) · [AIO Sandbox](https://github.com/agent-infra/sandbox)
+- **[SkillHawk](https://github.com/Berserk-hub150/skillhawk)** 🟢 — Zero-dependency static scanner for Agent Skills, SKILL.md files, and MCP configurations that flags risky shell, credential, privilege-escalation, data-exfiltration, and prompt-injection patterns without executing the target. **Caveat:** heuristic static analysis only; findings require review and do not provide runtime enforcement or prove exploitability. *(★ 64 · updated 2026-10-15)*
 
 ### Frameworks, Rule Standards & Benchmarks
 
