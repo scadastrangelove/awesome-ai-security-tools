@@ -2899,6 +2899,37 @@
                 "updated": "2026-10-19",
                 "snapshot": "2026-10-21"
               }
+            },
+            {
+              "name": "Scalekit",
+              "repo": "scalekit-inc/scalekit-mcp-server",
+              "org": "Scalekit",
+              "desc": "Hosted integration layer that keeps third-party OAuth tokens out of the agent runtime: each user connects their own SaaS accounts once, the agent calls tools by user id across 600+ connectors, tool exposure is scoped per agent role, and every call is logged.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source",
+                "commercial_open"
+              ],
+              "flags": [
+                "commercial_features",
+                "requires_api_key"
+              ],
+              "note": "— **note:** the MCP server and SDKs are open source; token storage, tool scoping and call logs run in Scalekit's hosted service, so review its data-processing terms and the OAuth scopes you grant per connector.",
+              "sources": [
+                {
+                  "label": "AgentKit docs",
+                  "url": "https://docs.scalekit.com/agentkit/overview/"
+                },
+                {
+                  "label": "Website",
+                  "url": "https://scalekit.com"
+                }
+              ],
+              "metrics": {
+                "stars": 5,
+                "updated": "2026-10-27",
+                "snapshot": "2026-10-27"
+              }
             }
           ]
         }
