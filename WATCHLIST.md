@@ -300,6 +300,8 @@ PR review additions: 2026-10-28, six watchlist candidates from PRs #193-196 and 
 
 - [OpenClaw Hardening Checklist](https://github.com/ismyagentsafe/openclaw-hardening-checklist) - CC BY 4.0, documentation-linked checklist for self-hosted OpenClaw covering gateway exposure, access, tool limits, plugins, secrets, budgets and incident response. Watch as an unofficial reference by IsMyAgentSafe/YourEvenings Ltd, not a scanner, official standard or security certification. The repository discloses AI-assisted drafting; independent curation is not established. Refer to primary OpenClaw documentation/advisories when applying an item: version floors are not latest-version recommendations and guidance can drift. Reconsider after sustained maintenance and independent review. *Metadata 2026-10-22: 0 stars · created 2026-10-19 · last commit 2026-10-19.*
 
+- [Agent Role Contracts](https://github.com/suirindo/agent-role-contracts) - MIT-licensed offline checker of declared agent roles, task scopes, review separation, and handoffs before execution; validates declarations but does not grant execution authority or enforce runtime permissions. Watch because the repository is young and independent adoption remains limited. *Metadata 2026-10-29: 2 stars · created 2026-09-30.*
+
 ## Unavailable at Last Check
 
 - [claude-security-audit](https://github.com/TobiasVeiga00/claude-security-audit) — previously tracked Claude Code security-review skill bundle. The public repository URL still returned 404 on 2026-10-22, and no replacement upstream was confirmed. This does not establish whether it was deleted, renamed, or made private; recheck availability and license before reconsidering.
