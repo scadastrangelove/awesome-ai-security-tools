@@ -2455,7 +2455,7 @@
             {
               "name": "Agentmetry",
               "repo": "blitzcrieg1/agentmetry",
-              "desc": "Local-first sensor for AI coding agents and MCP servers that records each tool call into a hash-chained JSONL trail with RFC 6962 Merkle roots, applies MITRE-mapped sequence detection across a session, can deny or ask on a call before it runs, attests every 300s which agent surfaces are covered, uncovered, absent or unknown, and forwards to Splunk HEC, Elastic ECS, Google SecOps UDM, Microsoft Sentinel or CloudEvents.",
+              "desc": "Local-first sensor for AI coding agents and MCP servers that records intercepted tool calls in a hash-chained JSONL trail with RFC 6962 Merkle roots, applies MITRE-mapped sequence detection, reports coverage gaps and supports optional pre-execution deny/approval decisions and SIEM export.",
               "license": "Apache-2.0",
               "status": [
                 "open_source"
@@ -2463,7 +2463,17 @@
               "flags": [
                 "early_stage"
               ],
-              "note": "— **note:** young project with limited independent adoption signal; blocking is opt-in at pre-execution hooks and off by default; its README states that hooks are cooperative, that tamper-evident is not the same as attributable, and that the Sentinel sink has not run against a live workspace.",
+              "note": "— **note:** young project with limited independent adoption; tool policy and DLP default to log mode. Blocking requires block mode and a supported pre-execution hook; post-execution hooks and the separate stdio MCP proxy are observational. Hooks are cooperative, coverage is not universal, and hash-chain integrity does not establish attribution. Optional SIEM forwarding exports operational metadata; the project states that its Sentinel sink has not been tested against a live workspace.",
+              "sources": [
+                {
+                  "label": "Pre-execution policy handling",
+                  "url": "https://github.com/blitzcrieg1/agentmetry/blob/ffdc8bcd994c1e845c3bdaf22e2e73b90d6b4913/apps/orchestrator/agentmetry/hooks/ingest.py#L1953"
+                },
+                {
+                  "label": "Observational MCP proxy",
+                  "url": "https://github.com/blitzcrieg1/agentmetry/blob/ffdc8bcd994c1e845c3bdaf22e2e73b90d6b4913/apps/orchestrator/agentmetry/hooks/mcp_proxy.py#L188"
+                }
+              ],
               "related": [
                 {
                   "label": "HOL Guard",
@@ -2475,9 +2485,9 @@
                 }
               ],
               "metrics": {
-                "stars": 14,
-                "updated": "2026-10-12",
-                "snapshot": "2026-10-13"
+                "stars": 19,
+                "updated": "2026-10-31",
+                "snapshot": "2026-11-01"
               }
             },
             {
