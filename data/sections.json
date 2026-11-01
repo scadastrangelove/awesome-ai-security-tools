@@ -2455,7 +2455,7 @@
             {
               "name": "Agentmetry",
               "repo": "blitzcrieg1/agentmetry",
-              "desc": "Local-first flight recorder for AI coding agents and MCP servers that writes a hash-chained JSONL trail with RFC 6962 Merkle roots, applies MITRE-mapped sequence detection across a session, attests every 300s which agent surfaces are covered, uncovered, absent or unknown, and forwards to Splunk HEC, Elastic ECS, Google SecOps UDM or CloudEvents.",
+              "desc": "Local-first sensor for AI coding agents and MCP servers that records each tool call into a hash-chained JSONL trail with RFC 6962 Merkle roots, applies MITRE-mapped sequence detection across a session, can deny or ask on a call before it runs, attests every 300s which agent surfaces are covered, uncovered, absent or unknown, and forwards to Splunk HEC, Elastic ECS, Google SecOps UDM, Microsoft Sentinel or CloudEvents.",
               "license": "Apache-2.0",
               "status": [
                 "open_source"
@@ -2463,7 +2463,7 @@
               "flags": [
                 "early_stage"
               ],
-              "note": "— **note:** young project with limited independent adoption signal; it records and detects rather than blocks, and its README states that hooks are cooperative and that tamper-evident is not the same as attributable.",
+              "note": "— **note:** young project with limited independent adoption signal; blocking is opt-in at pre-execution hooks and off by default; its README states that hooks are cooperative, that tamper-evident is not the same as attributable, and that the Sentinel sink has not run against a live workspace.",
               "related": [
                 {
                   "label": "HOL Guard",
