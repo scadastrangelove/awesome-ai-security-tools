@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-01. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-02. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -281,6 +281,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [node9](https://github.com/node9-ai/node9-proxy) · [Agentmetry](https://github.com/blitzcrieg1/agentmetry)
 - **[AEGIS](https://github.com/antropos17/Aegis)** 🟢 — Windows-first desktop monitor for local AI-agent processes, configured file activity, TCP endpoints and audit records, with opt-in selected-action policies and MCP gateways. **Caveat:** Windows beta; macOS/Linux remain experimental. Default monitoring observes activity, not automatic blocking or agent containment; process actions are explicit, and policy/gateway controls cover only separately configured routes. Sensor gaps and incomplete attribution remain possible. Logs and exports can contain sensitive paths and endpoints. Optional Anthropic analysis sends activity metadata on request using the operator's API key; DNS lookups and update checks are separate network activity. *(★ 160 · updated 2026-10-27)*
   - **Sources:** [Capabilities and limits](https://github.com/antropos17/Aegis/blob/003ef1723a0afd97c6647ffd8c1a6641cf94c848/README.md) · [Security and privacy](https://github.com/antropos17/Aegis/blob/003ef1723a0afd97c6647ffd8c1a6641cf94c848/SECURITY.md) · [Published Windows beta](https://github.com/antropos17/Aegis/releases/tag/aegis-v0.21.0-beta)
+- **[Cognipeer Console](https://github.com/Cognipeer/console)** 🟢🟠⚠️ — Self-hosted AI gateway and control plane with OpenAI-compatible LLM routing, guardrails (PII detection, content moderation, prompt shields), MCP server hosting with per-tool controls, OWASP LLM Top 10 red-teaming probes, and agent tracing for multi-tenant teams. *(Cognipeer)* — **note:** AGPL-3.0 copyleft community edition; commercial licensing is available separately from Cognipeer, and some features (for example Realtime and Sandbox) are Enterprise-only. PII detection is rule-based; LLM-based guardrail checks use a model configured in the gateway. *(★ 26 · updated 2026-11-02)*
 
 ---
 
