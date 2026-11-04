@@ -8828,6 +8828,22 @@
           ]
         },
         {
+          "name": "Atlas",
+          "repo": "AtlasFO/Atlas-Community",
+          "status": [
+            "open_source"
+          ],
+          "flags": [
+            "noncommercial"
+          ],
+          "desc": "AI-assisted DFIR agent that investigates disk images, memory dumps and log exports with Volatility 3, Plaso, YARA and other open-source tools and answers case questions with findings linked to the evidence, in a web dashboard with a full audit trail.",
+          "metrics": {
+            "stars": 5,
+            "updated": "2026-11-03",
+            "snapshot": "2026-11-04"
+          }
+        },
+        {
           "name": "EscalateGPT",
           "repo": "tenable/EscalateGPT",
           "org": "Tenable",
