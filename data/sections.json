@@ -7669,7 +7669,7 @@
             {
               "name": "Argus",
               "repo": "gy15901580825/Argus",
-              "desc": "Black-box red-team framework for LLM applications and agents with target adapters, attack probes, deterministic and model-assisted judging, and SARIF, JUnit, HTML, and JSON reporting.",
+              "desc": "Open-source red-team testing for AI agents with selected probes using recorded browser requests, MCP tool calls, or mock payments, and HTML, SARIF, JUnit XML, and local JSON reports.",
               "license": "Apache-2.0",
               "status": [
                 "open_source",
@@ -7681,7 +7681,7 @@
                 "requires_api_key",
                 "authorized_testing_only"
               ],
-              "note": "— **note:** pre-1.0 project; full deployments use an orchestrator and PostgreSQL, while model-assisted judges require provider credentials. Attack-success and guardrail-improvement figures are project-reported; probe only authorized targets.",
+              "note": "— **note:** the library contains 261 probes, and each run selects probes compatible with its target; a GitHub Action runs the CLI in CI. Model-assisted judges require provider credentials. Attack-success and guardrail-improvement figures are project-reported; probe only authorized targets.",
               "related": [
                 {
                   "label": "PyRIT",
