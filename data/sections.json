@@ -2983,27 +2983,42 @@
               "repo": "Cognipeer/console",
               "org": "Cognipeer",
               "license": "AGPL-3.0",
-              "desc": "Self-hosted AI gateway and control plane with OpenAI-compatible LLM routing, guardrails (PII detection, content moderation, prompt shields), MCP server hosting with per-tool controls, OWASP LLM Top 10 red-teaming probes, and agent tracing for multi-tenant teams.",
+              "desc": "Self-hosted AI gateway and control plane with LLM routing, rule-based PII checks, model-based guardrails, MCP tool policies, red-team probes and agent tracing.",
               "status": [
                 "open_source",
                 "commercial_open"
               ],
               "flags": [
                 "copyleft",
-                "commercial_features"
+                "commercial_features",
+                "model_dependent"
               ],
-              "note": "— **note:** AGPL-3.0 copyleft community edition; commercial licensing is available separately from Cognipeer, and some features (for example Realtime and Sandbox) are Enterprise-only. PII detection is rule-based; LLM-based guardrail checks use a model configured in the gateway.",
+              "note": "**Caveat:** AGPL community edition; Realtime and Sandbox are commercial features. Only routed traffic is covered. Model-based checks can send evaluated content to configured providers and default to fail-open on errors. Monitor mode does not block, and unresolved tenant/default-policy paths can run tools unenforced; review enforcement and failure settings before deployment.",
+              "sources": [
+                {
+                  "label": "Community and commercial features",
+                  "url": "https://github.com/Cognipeer/console/blob/7783c48b013ca42db1d1ae2b71cbd1611dfbbd6a/COMMERCIAL.md"
+                },
+                {
+                  "label": "Model-check failure modes",
+                  "url": "https://github.com/Cognipeer/console/blob/7783c48b013ca42db1d1ae2b71cbd1611dfbbd6a/src/lib/services/guardrail/llmEvaluator.ts"
+                },
+                {
+                  "label": "Tool enforcement paths",
+                  "url": "https://github.com/Cognipeer/console/blob/7783c48b013ca42db1d1ae2b71cbd1611dfbbd6a/src/lib/services/guardrail/hooks/enforce.ts"
+                }
+              ],
               "metrics": {
-                "stars": 26,
-                "updated": "2026-11-02",
-                "snapshot": "2026-11-02"
+                "stars": 27,
+                "updated": "2026-11-04",
+                "snapshot": "2026-11-05"
               }
             },
             {
               "name": "mu",
               "repo": "qybaihe/mu",
               "license": "MIT",
-              "desc": "Coding agent (CLI and desktop app) that has a judge model screen web, search and MCP results for prompt injection before the model reads them and, in its default permission mode, approve commands and external actions only when it judges them needed for the user's request.",
+              "desc": "CLI and desktop coding agent with judge-assisted tool permissions and prompt-injection screening of selected web, search and MCP results.",
               "status": [
                 "open_source"
               ],
@@ -3011,25 +3026,25 @@
                 "early_stage",
                 "model_dependent"
               ],
-              "note": "**Caveat:** a coding agent with built-in guards, not a standalone enforcement layer: it checks only its own tool calls, and its Full access mode runs every call without asking (stated constraints are still checked). Approvals and injection screening are model verdicts, so they are probabilistic. A call runs unasked only at a judged confidence of 0.8 (0.7 for in-project checks such as test runs); risky-command rules apply in every mode; a local judge is not used for approvals, and when no judge answers, mu asks about every step. Injection screening falls back to phrase rules when the judge times out. The judge gets only the fields each question needs, with credentials masked: with no key they go to TypeSafe's Jev on OpenCode Zen's free tier, otherwise to the configured service; the local judge (mude 1.0, Apple-silicon Macs) with `--local-only`, or turning the judge off, keeps them on the machine. Every verdict is logged locally. Desktop files taken from AionUi remain Apache-2.0.",
+              "note": "**Caveat:** guards cover mu's own calls, not a standalone security boundary. Full access bypasses ordinary permission prompts; write-sandbox exits retain separate checks. Model verdicts are probabilistic, and injection screening has heuristic fallback and fail-open error paths. The default judge is externally hosted; redaction is best-effort. `--local-only` applies to the judge, not the main coding-model provider. AionUi-derived desktop files retain Apache-2.0.",
               "sources": [
                 {
-                  "label": "Permission modes and injection screening",
-                  "url": "https://github.com/qybaihe/mu/blob/395c3caf2fa949ebb4a7f6bcc91bcaa61d272462/site/content/docs/en/permissions.md"
+                  "label": "Permission modes",
+                  "url": "https://github.com/qybaihe/mu/blob/097039bcaa36666fe1eefb5c3edddf705c076e10/packages/kyrn-judge/src/extension/features/permissions.ts"
                 },
                 {
-                  "label": "What the judge sees",
-                  "url": "https://github.com/qybaihe/mu/blob/395c3caf2fa949ebb4a7f6bcc91bcaa61d272462/site/content/docs/en/privacy.md"
+                  "label": "Injection screening and fallback",
+                  "url": "https://github.com/qybaihe/mu/blob/097039bcaa36666fe1eefb5c3edddf705c076e10/packages/kyrn-judge/src/extension/features/injection.ts"
                 },
                 {
-                  "label": "What leaves the machine",
-                  "url": "https://github.com/qybaihe/mu/blob/395c3caf2fa949ebb4a7f6bcc91bcaa61d272462/SECURITY.md"
+                  "label": "Security and data boundaries",
+                  "url": "https://github.com/qybaihe/mu/blob/097039bcaa36666fe1eefb5c3edddf705c076e10/SECURITY.md"
                 }
               ],
               "metrics": {
-                "stars": 573,
-                "updated": "2026-11-03",
-                "snapshot": "2026-11-04"
+                "stars": 576,
+                "updated": "2026-11-05",
+                "snapshot": "2026-11-05"
               }
             }
           ]
@@ -4516,20 +4531,6 @@
                 "updated": "2022-02-09",
                 "snapshot": "2026-10-13"
               }
-            },
-            {
-              "name": "Limnex UIE",
-              "repo": "youssefismail-dev/limnex-uie",
-              "desc": "🅐 Character-level transformer (25.5M parameters, trained from scratch) that generates benign and phishing-style URLs as synthetic training and evaluation data for URL phishing detectors; weights are published as a GitHub release.",
-              "note": "— **note:** young research project; a known-URL filter that removes copies of training URLs is required for every generation.",
-              "status": [
-                "open_source"
-              ],
-              "flags": [
-                "research",
-                "early_stage"
-              ],
-              "license": "Apache-2.0"
             }
           ]
         },
@@ -8898,17 +8899,33 @@
         {
           "name": "Atlas",
           "repo": "AtlasFO/Atlas-Community",
+          "license": "PolyForm-Noncommercial-1.0.0 OR PolyForm-Free-Trial-1.0.0",
           "status": [
-            "open_source"
+            "commercial_open"
           ],
           "flags": [
-            "noncommercial"
+            "noncommercial",
+            "license_caveat",
+            "heavy_runtime",
+            "model_dependent",
+            "early_stage"
           ],
-          "desc": "AI-assisted DFIR agent that investigates disk images, memory dumps and log exports with Volatility 3, Plaso, YARA and other open-source tools and answers case questions with findings linked to the evidence, in a web dashboard with a full audit trail.",
+          "desc": "AI-assisted DFIR workbench for disk images, memory dumps and log exports, integrating Volatility 3, Plaso, YARA and other forensic tools with case workflows, evidence-linked findings and activity records.",
+          "note": "**Caveat:** source-available under PolyForm Noncommercial or Free Trial (evaluation for less than 32 consecutive days), not OSI open source; commercial licensing is separate. The vendor's organizational-use wording needs clarification against the included Noncommercial Organizations clause. Configured model providers may receive sensitive case content. The supplied Docker Compose uses privileged mode and writable evidence/case mounts: isolate the workload and preserve evidence independently; the container is not a security sandbox.",
+          "sources": [
+            {
+              "label": "License options and organizational-use wording",
+              "url": "https://github.com/AtlasFO/Atlas-Community/blob/6ca241cb417267aae09091439d54c5989298d400/LICENSE"
+            },
+            {
+              "label": "Container privileges and mounts",
+              "url": "https://github.com/AtlasFO/Atlas-Community/blob/6ca241cb417267aae09091439d54c5989298d400/docker-compose.yml"
+            }
+          ],
           "metrics": {
-            "stars": 5,
+            "stars": 115,
             "updated": "2026-11-03",
-            "snapshot": "2026-11-04"
+            "snapshot": "2026-11-05"
           }
         },
         {
