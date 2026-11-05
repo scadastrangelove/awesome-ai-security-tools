@@ -335,6 +335,8 @@ PR review additions: 2026-11-01, seven watchlist entries from PRs #186 and #202-
 
 - [Agent Role Contracts](https://github.com/suirindo/agent-role-contracts) - MIT offline checker for declared agent roles, task scopes, review separation and handoffs. Watch as a young project with limited independent adoption. Checks declaration consistency only: a passing result does not authenticate identity, grant execution authority or enforce runtime permissions; those remain the integrator's responsibility. *Metadata 2026-11-01: 4 stars · created 2026-09-30 · last commit 2026-11-01.*
 
+- [agent-leash](https://github.com/tonydzi/agent-leash) - MIT reference repository defining LEASH-8, an 8-domain control model for AI agents with delegated authority, with a scorecard, an approval-design checklist and a plan-vs-authorize pattern. Watch as a reference resource, not a tool: it documents patterns from the maintainer's own agent operation and has limited independent adoption (5 stars, created 2026-07-04, self-submitted by its maintainer).
+
 ## Unavailable at Last Check
 
 - [claude-security-audit](https://github.com/TobiasVeiga00/claude-security-audit) — previously tracked Claude Code security-review skill bundle. The public repository URL still returned 404 on 2026-10-22, and no replacement upstream was confirmed. This does not establish whether it was deleted, renamed, or made private; recheck availability and license before reconsidering.
