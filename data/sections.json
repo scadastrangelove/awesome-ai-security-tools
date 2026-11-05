@@ -2977,6 +2977,27 @@
                 "updated": "2026-10-27",
                 "snapshot": "2026-10-28"
               }
+            },
+            {
+              "name": "Cognipeer Console",
+              "repo": "Cognipeer/console",
+              "org": "Cognipeer",
+              "license": "AGPL-3.0",
+              "desc": "Self-hosted AI gateway and control plane with OpenAI-compatible LLM routing, guardrails (PII detection, content moderation, prompt shields), MCP server hosting with per-tool controls, OWASP LLM Top 10 red-teaming probes, and agent tracing for multi-tenant teams.",
+              "status": [
+                "open_source",
+                "commercial_open"
+              ],
+              "flags": [
+                "copyleft",
+                "commercial_features"
+              ],
+              "note": "— **note:** AGPL-3.0 copyleft community edition; commercial licensing is available separately from Cognipeer, and some features (for example Realtime and Sandbox) are Enterprise-only. PII detection is rule-based; LLM-based guardrail checks use a model configured in the gateway.",
+              "metrics": {
+                "stars": 26,
+                "updated": "2026-11-02",
+                "snapshot": "2026-11-02"
+              }
             }
           ]
         }
