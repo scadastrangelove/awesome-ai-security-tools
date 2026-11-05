@@ -4483,6 +4483,20 @@
                 "updated": "2022-02-09",
                 "snapshot": "2026-10-13"
               }
+            },
+            {
+              "name": "Limnex UIE",
+              "repo": "youssefismail-dev/limnex-uie",
+              "desc": "🅐 Character-level transformer (25.5M parameters, trained from scratch) that generates benign and phishing-style URLs as synthetic training and evaluation data for URL phishing detectors; weights are published as a GitHub release.",
+              "note": "— **note:** young research project; a known-URL filter that removes copies of training URLs is required for every generation.",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "research",
+                "early_stage"
+              ],
+              "license": "Apache-2.0"
             }
           ]
         },
