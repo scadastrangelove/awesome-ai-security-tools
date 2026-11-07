@@ -7863,6 +7863,26 @@
                 "updated": "2026-02-25",
                 "snapshot": "2026-10-13"
               }
+            },
+            {
+              "name": "dsh-jailbreak",
+              "repo": "xqpsec/dsh-jailbreak",
+              "status": [
+                "open_source"
+              ],
+              "license": "AGPL-3.0-only",
+              "flags": [
+                "copyleft",
+                "license_caveat",
+                "authorized_testing_only"
+              ],
+              "desc": "Request-boundary plugin for the DSH harness that rewrites outbound request bodies across four wire protocols (OpenAI chat/completions/responses, Anthropic messages, Gemini generateContent) with per-call audit records and byte-level regression tests.",
+              "note": "**Caveat:** rewrites outbound model requests, including system prompts and parameter defaults; intended for authorized red-team, evaluation, and gateway-compatibility debugging only. Root license AGPL-3.0-only (copyleft).",
+              "metrics": {
+                "stars": 123,
+                "updated": "2026-11-05",
+                "snapshot": "2026-11-07"
+              }
             }
           ]
         },
