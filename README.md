@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-05. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-08. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -720,6 +720,8 @@ Tools for attacking and defending LLM applications themselves.
   - **Related:** [Defeating Prompt Injections by Design](https://arxiv.org/abs/2503.18813) · [AgentDojo](https://github.com/ethz-spylab/agentdojo) · [Agent-security lecture demos (no root license; CaMeL and external models required)](https://github.com/anishathalye/ai-agent-security-lecture)
 - **[Meta SecAlign](https://github.com/facebookresearch/Meta_SecAlign)** 🔬⚠️ — Research code, training recipe, and evaluation harness for prompt-injection-resistant Meta SecAlign models across six security and eight utility benchmarks. *(Meta / UC Berkeley)* — **note:** most repository code is non-commercial while published model weights use separate Llama community terms; reproducing training or the full evaluation requires substantial GPU capacity and optional provider credentials. *(★ 71 · updated 2026-02-25)*
   - **Related:** [AgentDojo](https://github.com/ethz-spylab/agentdojo) · [Meta SecAlign models](https://huggingface.co/meta-llama) · [SecAlign (historical predecessor; CC BY-NC 4.0, noncommercial)](https://github.com/facebookresearch/SecAlign) · [StruQ predecessor research (CC BY-NC 4.0; trained models/GPU, OpenAI utility evaluation)](https://github.com/Sizhe-Chen/StruQ)
+- **[AI Chatbot Red-Team Starter](https://github.com/kaito3636/ai-chatbot-redteam-starter)** 🟢 — Starter set of 20 adversarial prompts with a promptfoo config to test your own chatbot or custom GPT for prompt injection, system-prompt extraction, and data leaks, mapped to the OWASP LLM Top 10. **Caveat:** teaser subset of a larger prompt pack; you supply the target provider or deployed-bot endpoint and your own model credentials. LLM-graded results are heuristic, not proof of exploitation. Authorized and defensive testing only. *(★ 0 · updated 2026-11-07)*
+  - **Related:** [promptfoo](https://github.com/promptfoo/promptfoo)
 
 ### Prompt-Injection Classifier Models
 

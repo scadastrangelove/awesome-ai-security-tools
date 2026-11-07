@@ -7863,6 +7863,32 @@
                 "updated": "2026-02-25",
                 "snapshot": "2026-10-13"
               }
+            },
+            {
+              "name": "AI Chatbot Red-Team Starter",
+              "repo": "kaito3636/ai-chatbot-redteam-starter",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage",
+                "model_dependent",
+                "authorized_testing_only"
+              ],
+              "desc": "Starter set of 20 adversarial prompts with a promptfoo config to test your own chatbot or custom GPT for prompt injection, system-prompt extraction, and data leaks, mapped to the OWASP LLM Top 10.",
+              "note": "**Caveat:** teaser subset of a larger prompt pack; you supply the target provider or deployed-bot endpoint and your own model credentials. LLM-graded results are heuristic, not proof of exploitation. Authorized and defensive testing only.",
+              "related": [
+                {
+                  "label": "promptfoo",
+                  "url": "https://github.com/promptfoo/promptfoo"
+                }
+              ],
+              "metrics": {
+                "stars": 0,
+                "updated": "2026-11-07",
+                "snapshot": "2026-11-08"
+              }
             }
           ]
         },
