@@ -3046,6 +3046,34 @@
                 "updated": "2026-11-05",
                 "snapshot": "2026-11-05"
               }
+            },
+            {
+              "name": "tiny",
+              "repo": "tiny-systems/tiny",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage"
+              ],
+              "desc": "Runs the real Claude Code and Codex CLIs as Kubernetes pods that hold no git or cloud credentials, with work leaving as a git bundle pushed by a separate short-lived job and an optional CONNECT proxy restricting egress and DNS to named hosts.",
+              "note": "**Caveat:** the model API credential still lives in the pod, and the agent runs with permissions bypassed, so containment comes from the pod, the missing keys and the network policy rather than from intercepting tool calls. Allow-listing a host allows everything on it, and NetworkPolicy only works where the CNI enforces it.",
+              "metrics": {
+                "stars": 18,
+                "updated": "2026-11-06",
+                "snapshot": "2026-11-08"
+              },
+              "sources": [
+                {
+                  "label": "Egress proxy and resolver",
+                  "url": "https://github.com/tiny-systems/tiny/tree/7b0045c616944174eaedafd8a096c5916c4ee89e/internal/egressproxy"
+                },
+                {
+                  "label": "Session pod spec",
+                  "url": "https://github.com/tiny-systems/tiny/blob/7b0045c616944174eaedafd8a096c5916c4ee89e/internal/workload/workload.go"
+                }
+              ]
             }
           ]
         }
