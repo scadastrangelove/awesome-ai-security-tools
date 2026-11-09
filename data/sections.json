@@ -3046,6 +3046,24 @@
                 "updated": "2026-11-05",
                 "snapshot": "2026-11-05"
               }
+            },
+            {
+              "name": "claude-bulkhead",
+              "repo": "dooly6276/claude-bulkhead",
+              "license": "MIT",
+              "desc": "Claude Code plugin of PreToolUse hooks that block name-based process kills, port clashes, heavy commands under low RAM, cross-session git commits and whole-disk scans when several sessions share one machine.",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "**Caveat:** parses command strings rather than sandboxing, so it guards against accidents between cooperating sessions, not a security boundary; supports Claude Code only.",
+              "metrics": {
+                "stars": 23,
+                "updated": "2026-11-08",
+                "snapshot": "2026-11-10"
+              }
             }
           ]
         }
