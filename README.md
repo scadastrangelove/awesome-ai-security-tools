@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-05. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-08. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -285,6 +285,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Sources:** [Community and commercial features](https://github.com/Cognipeer/console/blob/7783c48b013ca42db1d1ae2b71cbd1611dfbbd6a/COMMERCIAL.md) · [Model-check failure modes](https://github.com/Cognipeer/console/blob/7783c48b013ca42db1d1ae2b71cbd1611dfbbd6a/src/lib/services/guardrail/llmEvaluator.ts) · [Tool enforcement paths](https://github.com/Cognipeer/console/blob/7783c48b013ca42db1d1ae2b71cbd1611dfbbd6a/src/lib/services/guardrail/hooks/enforce.ts)
 - **[mu](https://github.com/qybaihe/mu)** 🟢 — CLI and desktop coding agent with judge-assisted tool permissions and prompt-injection screening of selected web, search and MCP results. **Caveat:** guards cover mu's own calls, not a standalone security boundary. Full access bypasses ordinary permission prompts; write-sandbox exits retain separate checks. Model verdicts are probabilistic, and injection screening has heuristic fallback and fail-open error paths. The default judge is externally hosted; redaction is best-effort. `--local-only` applies to the judge, not the main coding-model provider. AionUi-derived desktop files retain Apache-2.0. *(★ 576 · updated 2026-11-05)*
   - **Sources:** [Permission modes](https://github.com/qybaihe/mu/blob/097039bcaa36666fe1eefb5c3edddf705c076e10/packages/kyrn-judge/src/extension/features/permissions.ts) · [Injection screening and fallback](https://github.com/qybaihe/mu/blob/097039bcaa36666fe1eefb5c3edddf705c076e10/packages/kyrn-judge/src/extension/features/injection.ts) · [Security and data boundaries](https://github.com/qybaihe/mu/blob/097039bcaa36666fe1eefb5c3edddf705c076e10/SECURITY.md)
+- **[tiny](https://github.com/tiny-systems/tiny)** 🟢 — Runs the real Claude Code and Codex CLIs as Kubernetes pods that hold no git or cloud credentials, with work leaving as a git bundle pushed by a separate short-lived job and an optional CONNECT proxy restricting egress and DNS to named hosts. **Caveat:** the model API credential still lives in the pod, and the agent runs with permissions bypassed, so containment comes from the pod, the missing keys and the network policy rather than from intercepting tool calls. Allow-listing a host allows everything on it, and NetworkPolicy only works where the CNI enforces it. *(★ 18 · updated 2026-11-06)*
+  - **Sources:** [Egress proxy and resolver](https://github.com/tiny-systems/tiny/tree/7b0045c616944174eaedafd8a096c5916c4ee89e/internal/egressproxy) · [Session pod spec](https://github.com/tiny-systems/tiny/blob/7b0045c616944174eaedafd8a096c5916c4ee89e/internal/workload/workload.go)
 
 ---
 
