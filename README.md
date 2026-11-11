@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-05. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-11. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -501,6 +501,8 @@ Architecture-level threat model generation and design-phase risk analysis driven
   - **Related:** [RAMPART](https://github.com/microsoft/RAMPART) · [STRIDE GPT](https://github.com/mrwadams/stride-gpt)
 - **[STRIDE GPT](https://github.com/mrwadams/stride-gpt)** 🟢 — LLM-powered threat modeling tool that generates STRIDE threat models, attack trees, data flow diagrams, DREAD risk scores, mitigations, and Gherkin test cases from application descriptions, architecture diagrams, or codebases (agentic analysis mode), with OWASP LLM Top 10 and Agentic (ASI) coverage, MITRE ATT&CK/ATLAS mapping, Markdown/JSON/SARIF/HTML output, and broad LLM provider support via LiteLLM including local hosting. *(Matthew Adams)* *(★ 1,141 · updated 2026-10-05)*
   - **Related:** [tachi](https://github.com/davidmatousek/tachi)
+- **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** 🟢 — Continuous threat-modeling-as-code framework in which security annotations in source comments (`@asset`, `@threat`, `@exposes`, `@mitigates`, `@flows`) form a threat model that updates with the code, is validated and diffed against the base branch in CI, is maintained by coding agents through an MCP server and instruction directives, tracks which claims are verified or stale, and turns open exposures into CERT-X-GEN test templates so they can be proven. *(Bugb Technologies)* **Caveat:** vendor-submitted project with limited independent adoption. The model is only as complete and accurate as the annotations people or coding agents write; `validate`, `lint`, `diff` and `paths` (untrusted-entry-to-sink routes with no control, citing file:line) are deterministic over committed annotations and do not by themselves prove code behavior. Agent-driven `annotate` and `translate` and optional LLM threat reports send repository content to the configured agent or provider (Anthropic, OpenAI, Google, OpenRouter, DeepSeek or a local Ollama). Generated templates are test candidates, not confirmed exploitation; GuardLink does not execute them. *(★ 20 · updated 2026-11-10)*
+  - **Sources:** [Documentation](https://docs.bugb.io/guardlink/)
 
 ---
 

@@ -5377,6 +5377,32 @@
             "updated": "2026-10-05",
             "snapshot": "2026-10-13"
           }
+        },
+        {
+          "name": "GuardLink",
+          "repo": "Bugb-Technologies/guardlink",
+          "org": "Bugb Technologies",
+          "desc": "Continuous threat-modeling-as-code framework in which security annotations in source comments (`@asset`, `@threat`, `@exposes`, `@mitigates`, `@flows`) form a threat model that updates with the code, is validated and diffed against the base branch in CI, is maintained by coding agents through an MCP server and instruction directives, tracks which claims are verified or stale, and turns open exposures into CERT-X-GEN test templates so they can be proven.",
+          "license": "MIT",
+          "status": [
+            "open_source"
+          ],
+          "flags": [
+            "early_stage",
+            "model_dependent"
+          ],
+          "note": "**Caveat:** vendor-submitted project with limited independent adoption. The model is only as complete and accurate as the annotations people or coding agents write; `validate`, `lint`, `diff` and `paths` (untrusted-entry-to-sink routes with no control, citing file:line) are deterministic over committed annotations and do not by themselves prove code behavior. Agent-driven `annotate` and `translate` and optional LLM threat reports send repository content to the configured agent or provider (Anthropic, OpenAI, Google, OpenRouter, DeepSeek or a local Ollama). Generated templates are test candidates, not confirmed exploitation; GuardLink does not execute them.",
+          "sources": [
+            {
+              "label": "Documentation",
+              "url": "https://docs.bugb.io/guardlink/"
+            }
+          ],
+          "metrics": {
+            "stars": 20,
+            "updated": "2026-11-10",
+            "snapshot": "2026-11-11"
+          }
         }
       ]
     },
