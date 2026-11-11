@@ -7863,6 +7863,25 @@
                 "updated": "2026-02-25",
                 "snapshot": "2026-10-13"
               }
+            },
+            {
+              "name": "fraud-eval",
+              "repo": "RishabhPande/fraud-eval",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "research",
+                "early_stage"
+              ],
+              "desc": "Open benchmark for evaluating LLM-based fraud and abuse detectors, with curated red-team attack packs, benign hard cases, cost-aware metrics, and counterfactual evaluation under selective and delayed labels.",
+              "note": "**Caveat:** early-stage benchmark; v0.1.0 ships a 20-case smoke test, the larger 190-case version is not yet shipped, and the project is young with limited independent adoption signal.",
+              "metrics": {
+                "stars": 0,
+                "updated": "2026-11-10",
+                "snapshot": "2026-11-11"
+              }
             }
           ]
         },
