@@ -866,6 +866,30 @@
                 "updated": "2026-09-08",
                 "snapshot": "2026-10-13"
               }
+            },
+            {
+              "name": "cfgaudit",
+              "repo": "cfgaudit/cfgaudit",
+              "desc": "Local CLI that audits AI coding-agent configuration (Claude Code, MCP servers, Cursor, Codex, Copilot, Gemini CLI) for hardcoded secrets in permission entries, config files missing from gitignore, and risky settings, with deterministic offline checks, SARIF output, and OWASP LLM Top 10 mapping.",
+              "license": "Apache-2.0",
+              "status": [
+                "open_source"
+              ],
+              "related": [
+                {
+                  "label": "SkillSpector",
+                  "url": "https://github.com/NVIDIA/SkillSpector"
+                },
+                {
+                  "label": "agent-scan",
+                  "url": "https://github.com/snyk/agent-scan"
+                }
+              ],
+              "metrics": {
+                "stars": 24,
+                "updated": "2026-11-12",
+                "snapshot": "2026-11-12"
+              }
             }
           ]
         },
