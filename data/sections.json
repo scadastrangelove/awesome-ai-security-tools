@@ -3058,7 +3058,7 @@
               "flags": [
                 "heavy_runtime"
               ],
-              "note": "— **note:** targets self-developed/self-hosted agents; the server-side chain of third-party SaaS/desktop agents cannot be inserted. Kernel-layer controls require Linux; eBPF/Falco observability degrades when unavailable. The MCP proxy requires a free, on-demand project-issued license key.",
+              "note": "— **note:** targets self-developed/self-hosted agents; the server-side chain of third-party SaaS/desktop agents cannot be inserted. Kernel-layer controls require Linux; eBPF/Falco observability degrades when unavailable.",
               "related": [
                 {
                   "label": "Agentgateway",
