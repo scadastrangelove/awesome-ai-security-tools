@@ -3046,6 +3046,44 @@
                 "updated": "2026-11-05",
                 "snapshot": "2026-11-05"
               }
+            },
+            {
+              "name": "VirbiusAgent",
+              "repo": "i1see1you/VirbiusAgent",
+              "license": "MIT",
+              "desc": "Open-source runtime guardrail for self-developed AI agents, combining edge SDK precheck/DLP/taint tracking, an MCP proxy with tool allowlists and approval gates, eBPF/Falco kernel observability with Landlock/gVisor sandboxing, and cloud-side LLM review with hash-chain audit.",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "heavy_runtime"
+              ],
+              "note": "— **note:** targets self-developed/self-hosted agents; the server-side chain of third-party SaaS/desktop agents cannot be inserted. Kernel-layer controls require Linux; eBPF/Falco observability degrades when unavailable. The MCP proxy requires a free, on-demand project-issued license key.",
+              "related": [
+                {
+                  "label": "Agentgateway",
+                  "url": "https://github.com/agentgateway/agentgateway"
+                },
+                {
+                  "label": "Prismor",
+                  "url": "https://github.com/PrismorSec/prismor"
+                }
+              ],
+              "sources": [
+                {
+                  "label": "Architecture",
+                  "url": "https://github.com/i1see1you/VirbiusAgent/blob/main/ARCHITECTURE.md"
+                },
+                {
+                  "label": "README",
+                  "url": "https://github.com/i1see1you/VirbiusAgent/blob/main/README.md"
+                }
+              ],
+              "metrics": {
+                "stars": 29,
+                "updated": "2026-11-13",
+                "snapshot": "2026-11-13"
+              }
             }
           ]
         }
