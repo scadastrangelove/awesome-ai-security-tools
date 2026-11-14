@@ -5203,6 +5203,25 @@
           }
         },
         {
+          "name": "Pashov Audit Group Skills",
+          "repo": "pashov/skills",
+          "org": "Pashov Audit Group",
+          "desc": "Open-source agent skills for Solidity security auditing, pre-audit threat modeling, and Echidna/Medusa fuzz-suite generation.",
+          "license": "MIT",
+          "status": [
+            "open_source"
+          ],
+          "flags": [
+            "model_dependent"
+          ],
+          "note": "— **note:** reusable agent workflow skills rather than a standalone deterministic scanner; findings depend on the host coding agent and model.",
+          "metrics": {
+            "stars": 1302,
+            "updated": "2026-10-21",
+            "snapshot": "2026-11-06"
+          }
+        },
+        {
           "name": "OpenHack",
           "repo": "hadriansecurity/OpenHack",
           "org": "Hadrian Security",
