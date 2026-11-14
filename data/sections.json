@@ -9673,6 +9673,17 @@
             "updated": "2026-10-13",
             "snapshot": "2026-10-13"
           }
+        },
+        {
+          "kind": "awesome_list",
+          "name": "Awesome REA",
+          "repo": "AIshihzong/awesome-reverse-engineer-anything",
+          "desc": "Bilingual (English/Chinese) index of AI-agent reverse-engineering cases across apps, firmware, protocols and games, each tagged by whether its own sources show REA, Ghidra/IDA MCP or other tools were used (pairs with the Reverse Engineering section).",
+          "metrics": {
+            "stars": 584,
+            "updated": "2026-11-10",
+            "snapshot": "2026-11-10"
+          }
         }
       ]
     }

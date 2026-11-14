@@ -885,6 +885,7 @@ AI tooling for cloud/IaC security, digital forensics, OSINT, and phishing detect
 - **[awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence)** — Classic CTI list (pairs with the AI-CTI section). *(★ 10,726 · updated 2026-05-31)*
 - **[awesome-threat-modelling](https://github.com/hysnsec/awesome-threat-modelling)** — General-purpose threat modeling list — methodologies and non-AI tools (Threat Dragon, pytm, Threagile); dormant since 2023 but a solid reference. *(★ 1,828 · updated 2023-07-15)*
 - **[Awesome-LLMs-for-Vulnerability-Detection](https://github.com/huhusmang/Awesome-LLMs-for-Vulnerability-Detection)** — Focused, continuously updated index of LLM-based software-vulnerability detection research across function, repository, agentic, and smart-contract analysis, including datasets, benchmarks, and surveys. *(★ 1,485 · updated 2026-10-13)*
+- **[Awesome REA](https://github.com/AIshihzong/awesome-reverse-engineer-anything)** — Bilingual (English/Chinese) index of AI-agent reverse-engineering cases across apps, firmware, protocols and games, each tagged by whether its own sources show REA, Ghidra/IDA MCP or other tools were used (pairs with the Reverse Engineering section). *(★ 584 · updated 2026-11-10)*
 
 ---
 
