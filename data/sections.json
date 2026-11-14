@@ -1327,6 +1327,25 @@
           "title": "Runtime Protection & Enforcement",
           "entries": [
             {
+              "name": "AgentFox",
+              "repo": "architsharm/agentfox",
+              "status": [
+                "open_source"
+              ],
+              "license": "Apache-2.0",
+              "flags": [
+                "early_stage",
+                "model_dependent"
+              ],
+              "desc": "Python control plane for AI agents that enforces declared capability grants on tool calls, tracks tainted arguments into privileged parameters, and records each decision in a hash-chained audit log.",
+              "note": "**Caveat:** early project with limited independent adoption. Containment depends on the operator declaring capability grants and tool semantics correctly; a tool recorded as read-only that writes is not constrained. Prompt-injection detection is model-dependent, and the project's own published benchmark reports 11.5% false positives on harmless look-alikes and an adaptive attacker defeating the detector, with enforcement rather than detection carrying the reported result.",
+              "metrics": {
+                "stars": 4,
+                "updated": "2026-11-09",
+                "snapshot": "2026-11-10"
+              }
+            },
+            {
               "name": "OpenAPPA",
               "repo": "archestra-ai/OpenAPPA",
               "org": "Archestra",
