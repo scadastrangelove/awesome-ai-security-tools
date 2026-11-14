@@ -128,6 +128,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist) · [sast-skills](https://github.com/utkusen/sast-skills)
 - **[Sandbox Probe](https://github.com/controlplaneio/sandbox-probe)** 🟢 — Static Go probe that measures the effective filesystem, network, process, credential, and runtime capabilities exposed inside an AI-agent sandbox, then compares sandbox and host baselines. *(ControlPlane)* — **note:** boundary-measurement auditor, not an enforcement layer; some integration scripts can ask real agents to execute the probe, while deterministic model-free stubs are available for CI. *(★ 27 · updated 2026-09-08)*
   - **Related:** [Sandlock](https://github.com/multikernel/sandlock) · [AIO Sandbox](https://github.com/agent-infra/sandbox)
+- **[cfgaudit](https://github.com/cfgaudit/cfgaudit)** 🟢 — Local CLI that audits AI coding-agent configuration (Claude Code, MCP servers, Cursor, Codex, Copilot, Gemini CLI) for hardcoded secrets in permission entries, config files missing from gitignore, and risky settings, with deterministic offline checks, SARIF output, and OWASP LLM Top 10 mapping. *(★ 24 · updated 2026-11-12)*
+  - **Related:** [SkillSpector](https://github.com/NVIDIA/SkillSpector) · [agent-scan](https://github.com/snyk/agent-scan)
 
 ### Frameworks, Rule Standards & Benchmarks
 
