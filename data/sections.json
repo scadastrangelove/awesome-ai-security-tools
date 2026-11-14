@@ -890,6 +890,20 @@
                 "updated": "2026-11-14",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "name": "vibe-shield",
+              "repo": "avivgerz-hue/vibe-shield",
+              "desc": "Static security scanner and MCP server with 92 rules for AI-generated Next.js, Supabase and TypeScript apps, covering the OWASP Top 10 and MCP/Skill poisoning.",
+              "license": "MIT",
+              "status": [
+                "open_source"
+              ],
+              "metrics": {
+                "stars": 40,
+                "updated": "2026-11-10",
+                "snapshot": "2026-11-14"
+              }
             }
           ]
         },
