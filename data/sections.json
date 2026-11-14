@@ -8160,6 +8160,20 @@
                 "updated": "2026-11-07",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "kind": "hf_model",
+              "name": "HaloGuard 2.0-Stream 0.8B (output guard)",
+              "model": "astroware/HaloGuard2-Stream-0.8B",
+              "org": "Astroware",
+              "desc": "Open-weight English output guard that scores every token of a reply as it streams, so the app can stop the stream once harm is confirmed; it reaches 83.6 macro F1 on six English response-safety benchmarks.",
+              "license": "Apache-2.0",
+              "access": "open",
+              "artifacts": "Safetensors",
+              "status": [
+                "open_source"
+              ],
+              "note": "— **note:** paper: [arXiv 2611.02134](https://arxiv.org/abs/2611.02134); 17-language variant: [HaloGuard2-MultiStream-0.8B](https://huggingface.co/astroware/HaloGuard2-MultiStream-0.8B)."
             }
           ]
         },
@@ -8239,6 +8253,19 @@
               ],
               "flags": [
                 "license_caveat"
+              ]
+            },
+            {
+              "kind": "hf_model",
+              "name": "HaloGuard 2.0 0.8B (input guard)",
+              "model": "astroware/HaloGuard2-Gen-0.8B",
+              "org": "Astroware",
+              "desc": "Given a user prompt, HaloGuard predicts a safe / unsafe verdict together with a policy category before the prompt reaches a downstream LLM, agent, or application.",
+              "license": "Apache-2.0",
+              "access": "open",
+              "artifacts": "Safetensors",
+              "status": [
+                "open_source"
               ]
             }
           ]
