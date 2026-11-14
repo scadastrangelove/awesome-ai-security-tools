@@ -870,25 +870,25 @@
             {
               "name": "cfgaudit",
               "repo": "cfgaudit/cfgaudit",
-              "desc": "Local CLI that audits AI coding-agent configuration (Claude Code, MCP servers, Cursor, Codex, Copilot, Gemini CLI) for hardcoded secrets in permission entries, config files missing from gitignore, and risky settings, with deterministic offline checks, SARIF output, and OWASP LLM Top 10 mapping.",
-              "license": "Apache-2.0",
+              "desc": "Local deterministic CLI auditing coding-agent permissions, hooks, MCP configuration, instruction files and skills, with JSON/SARIF findings.",
               "status": [
                 "open_source"
               ],
-              "related": [
+              "license": "Apache-2.0",
+              "flags": [
+                "early_stage"
+              ],
+              "note": "**Caveat:** Early-stage static configuration analysis, not runtime enforcement or complete prompt-injection detection. A scanned repository's `.cfgaudit.yml` can suppress rules; use operator-controlled configuration when reviewing untrusted projects. Optional ShellCheck adds an external analysis dependency.",
+              "sources": [
                 {
-                  "label": "SkillSpector",
-                  "url": "https://github.com/NVIDIA/SkillSpector"
-                },
-                {
-                  "label": "agent-scan",
-                  "url": "https://github.com/snyk/agent-scan"
+                  "label": "Agent-run threat model",
+                  "url": "https://github.com/cfgaudit/cfgaudit/blob/203205862bfc44f8a5dca23449eb4c1d3ae65fe6/docs/agent-run-threat-model.md"
                 }
               ],
               "metrics": {
-                "stars": 24,
-                "updated": "2026-11-12",
-                "snapshot": "2026-11-12"
+                "stars": 26,
+                "updated": "2026-11-14",
+                "snapshot": "2026-11-14"
               }
             }
           ]
@@ -1351,25 +1351,6 @@
           "title": "Runtime Protection & Enforcement",
           "entries": [
             {
-              "name": "AgentFox",
-              "repo": "architsharm/agentfox",
-              "status": [
-                "open_source"
-              ],
-              "license": "Apache-2.0",
-              "flags": [
-                "early_stage",
-                "model_dependent"
-              ],
-              "desc": "Python control plane for AI agents that enforces declared capability grants on tool calls, tracks tainted arguments into privileged parameters, and records each decision in a hash-chained audit log.",
-              "note": "**Caveat:** early project with limited independent adoption. Containment depends on the operator declaring capability grants and tool semantics correctly; a tool recorded as read-only that writes is not constrained. Prompt-injection detection is model-dependent, and the project's own published benchmark reports 11.5% false positives on harmless look-alikes and an adaptive attacker defeating the detector, with enforcement rather than detection carrying the reported result.",
-              "metrics": {
-                "stars": 4,
-                "updated": "2026-11-09",
-                "snapshot": "2026-11-10"
-              }
-            },
-            {
               "name": "OpenAPPA",
               "repo": "archestra-ai/OpenAPPA",
               "org": "Archestra",
@@ -1782,7 +1763,7 @@
             },
             {
               "name": "Pipelock",
-              "repo": "luckyPipewrench/pipelock",
+              "repo": "pipelab-org/pipelock",
               "desc": "AI-agent firewall and verifiable egress-control layer mediating HTTP, WebSocket, CONNECT, MCP, and A2A traffic to detect prompt injection, secret exfiltration, SSRF, and suspicious outbound actions.",
               "note": "— **note:** open-source core is Apache-2.0; commercial reporting/features are also advertised.",
               "status": [
@@ -1799,9 +1780,9 @@
                 }
               ],
               "metrics": {
-                "stars": 922,
-                "updated": "2026-10-12",
-                "snapshot": "2026-10-13"
+                "stars": 991,
+                "updated": "2026-11-14",
+                "snapshot": "2026-11-14"
               }
             },
             {
@@ -1821,7 +1802,7 @@
               "related": [
                 {
                   "label": "Pipelock",
-                  "url": "https://github.com/luckyPipewrench/pipelock"
+                  "url": "https://github.com/pipelab-org/pipelock"
                 },
                 {
                   "label": "agentsh",
@@ -1852,7 +1833,7 @@
               "related": [
                 {
                   "label": "Pipelock",
-                  "url": "https://github.com/luckyPipewrench/pipelock"
+                  "url": "https://github.com/pipelab-org/pipelock"
                 },
                 {
                   "label": "mcp-context-protector",
@@ -1903,7 +1884,7 @@
                 },
                 {
                   "label": "Pipelock",
-                  "url": "https://github.com/luckyPipewrench/pipelock"
+                  "url": "https://github.com/pipelab-org/pipelock"
                 }
               ],
               "metrics": {
@@ -1954,7 +1935,7 @@
                 },
                 {
                   "label": "Pipelock",
-                  "url": "https://github.com/luckyPipewrench/pipelock"
+                  "url": "https://github.com/pipelab-org/pipelock"
                 },
                 {
                   "label": "mcp-context-protector",
@@ -1982,7 +1963,7 @@
               "related": [
                 {
                   "label": "Pipelock",
-                  "url": "https://github.com/luckyPipewrench/pipelock"
+                  "url": "https://github.com/pipelab-org/pipelock"
                 },
                 {
                   "label": "Armorer Guard",
@@ -2223,7 +2204,7 @@
                 },
                 {
                   "label": "Pipelock",
-                  "url": "https://github.com/luckyPipewrench/pipelock"
+                  "url": "https://github.com/pipelab-org/pipelock"
                 },
                 {
                   "label": "Armorer Guard",
@@ -2323,7 +2304,7 @@
                 },
                 {
                   "label": "Pipelock",
-                  "url": "https://github.com/luckyPipewrench/pipelock"
+                  "url": "https://github.com/pipelab-org/pipelock"
                 }
               ],
               "metrics": {
@@ -2453,7 +2434,7 @@
               "related": [
                 {
                   "label": "Pipelock",
-                  "url": "https://github.com/luckyPipewrench/pipelock"
+                  "url": "https://github.com/pipelab-org/pipelock"
                 },
                 {
                   "label": "AgentLock",
@@ -2703,7 +2684,7 @@
                 },
                 {
                   "label": "Pipelock",
-                  "url": "https://github.com/luckyPipewrench/pipelock"
+                  "url": "https://github.com/pipelab-org/pipelock"
                 }
               ],
               "metrics": {
@@ -2867,7 +2848,7 @@
               "related": [
                 {
                   "label": "Pipelock",
-                  "url": "https://github.com/luckyPipewrench/pipelock"
+                  "url": "https://github.com/pipelab-org/pipelock"
                 }
               ],
               "metrics": {
@@ -3091,21 +3072,34 @@
               }
             },
             {
-              "name": "claude-bulkhead",
-              "repo": "dooly6276/claude-bulkhead",
-              "license": "MIT",
-              "desc": "Claude Code plugin of PreToolUse hooks that block name-based process kills, port clashes, heavy commands under low RAM, cross-session git commits and whole-disk scans when several sessions share one machine.",
+              "name": "Sage",
+              "repo": "gendigitalinc/sage",
+              "org": "Gen Digital",
+              "desc": "Coding-agent hooks screening supported tool calls with local threat rules, cloud URL/file/skill reputation, and optional prompt-injection classification and Windows AMSI integration.",
               "status": [
                 "open_source"
               ],
+              "license": "Apache-2.0 code; Detection Rule License 1.1 threat definitions",
               "flags": [
-                "early_stage"
+                "telemetry",
+                "model_dependent",
+                "license_caveat"
               ],
-              "note": "**Caveat:** parses command strings rather than sandboxing, so it guards against accidents between cooperating sessions, not a security boundary; supports Claude Code only.",
+              "note": "**Caveat:** Hook coverage is not OS isolation; errors/timeouts fail open, and ML prompt-injection detection is off by default. Unknown skills upload `SKILL.md` and supporting files by default; set `skill_check.upload_enabled=false` for hash-only lookup. URL checks disclose URLs; Community IQ sends bounded command/URL/path metadata. `community_iq=false` disables detection telemetry, but session-start version checks still send environment data and a persistent installation ID. OpenCode's agent-mediated approvals are injection-sensitive; paranoid mode promotes ask to deny. Code is Apache-2.0; threat definitions use Detection Rule License 1.1 attribution terms.",
+              "sources": [
+                {
+                  "label": "Defaults, privacy and fail-open",
+                  "url": "https://github.com/gendigitalinc/sage/blob/263e023e88b7089f88a70a476846385594aa4370/docs/user-guide.md"
+                },
+                {
+                  "label": "Detection rule license",
+                  "url": "https://github.com/gendigitalinc/sage/blob/263e023e88b7089f88a70a476846385594aa4370/threats/LICENSE"
+                }
+              ],
               "metrics": {
-                "stars": 23,
-                "updated": "2026-11-08",
-                "snapshot": "2026-11-10"
+                "stars": 326,
+                "updated": "2026-11-09",
+                "snapshot": "2026-11-14"
               }
             }
           ]
@@ -4161,15 +4155,39 @@
         {
           "name": "Pentest-Swarm-AI",
           "repo": "Armur-Ai/Pentest-Swarm-AI",
-          "desc": "Swarm-intelligence multi-agent pentest with stigmergic blackboard coordination (Go).",
+          "desc": "Go multi-agent pentest framework coordinating parallel reconnaissance and exploitation work through a shared blackboard, with local or hosted model backends and optional finding-verification oracles.",
           "status": [
             "open_source"
           ],
           "metrics": {
-            "stars": 2884,
-            "updated": "2026-10-11",
-            "snapshot": "2026-10-13"
-          }
+            "stars": 3211,
+            "updated": "2026-11-13",
+            "snapshot": "2026-11-14"
+          },
+          "license": "AGPL-3.0",
+          "flags": [
+            "copyleft",
+            "license_caveat",
+            "heavy_runtime",
+            "model_dependent",
+            "authorized_testing_only",
+            "early_stage"
+          ],
+          "note": "**Caveat:** AGPL-3.0 early-stage offensive runtime; use isolated, explicitly authorized targets. `--verify` is opt-in, and inconclusive oracle checks can fall back to model judgment. OSS egress interception covers Go-native connections; subprocess command checks are not kernel-level containment. Published speed comparisons are project-run swarm-versus-sequential tests, not independent parity with commercial pentesters.",
+          "sources": [
+            {
+              "label": "Verification limits",
+              "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/docs/verification-oracles.md"
+            },
+            {
+              "label": "Egress interception",
+              "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/internal/scope/egress.go"
+            },
+            {
+              "label": "Benchmark scope",
+              "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI/blob/c077a76499589845b9d0b67ab7c20e99e0dd295f/tests/bench/speed/README.md"
+            }
+          ]
         },
         {
           "name": "hackGPT",
@@ -4350,19 +4368,32 @@
         {
           "name": "Xalgorix",
           "repo": "xalgorix/xalgorix",
-          "desc": "Black-box autonomous AI pentester for web apps and APIs that exploits each finding and re-tests it with an independent verifier before reporting.",
-          "note": "— **note:** results depend on the configured model (your own LLM provider key, or local models via Ollama); target responses go to that provider unless run locally. A hosted version (Xalgorix Cloud) is commercial.",
+          "desc": "Go autonomous web/API pentesting framework with model-assisted exploration, a separate finding re-test stage and out-of-band checks.",
           "status": [
-            "open_source"
+            "open_source",
+            "commercial_open"
           ],
           "license": "Apache-2.0",
           "flags": [
-            "model_dependent"
+            "commercial_features",
+            "model_dependent",
+            "authorized_testing_only"
+          ],
+          "note": "**Caveat:** Use isolated, authorized targets. Re-tests and model judgments are not independent proof that every finding is exploitable. Target context reaches configured model providers unless a local backend is used. The dashboard assumes a trusted single operator, not hostile multi-tenancy; provider URLs are trusted configuration. Hosted Cloud is a separate commercial service.",
+          "sources": [
+            {
+              "label": "Finding verification",
+              "url": "https://github.com/xalgorix/xalgorix/blob/5fed1aa1f74fb189815bd04b695e3912e7fffc74/internal/agent/verifier.go"
+            },
+            {
+              "label": "Security assumptions",
+              "url": "https://github.com/xalgorix/xalgorix/blob/5fed1aa1f74fb189815bd04b695e3912e7fffc74/SECURITY.md"
+            }
           ],
           "metrics": {
-            "stars": 1350,
+            "stars": 1349,
             "updated": "2026-11-13",
-            "snapshot": "2026-11-13"
+            "snapshot": "2026-11-14"
           }
         }
       ]
@@ -4689,6 +4720,34 @@
                 "stars": 12,
                 "updated": "2025-04-25",
                 "snapshot": "2026-10-13"
+              }
+            },
+            {
+              "name": "NOVA",
+              "repo": "Nova-Hunting/nova-framework",
+              "desc": "YARA-like prompt-hunting rule engine combining keyword/regex conditions with optional semantic similarity and LLM-based matching.",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "model_dependent"
+              ],
+              "note": "**Caveat:** Keyword matching can run locally; semantic stages need model artifacts and hosted LLM matching sends inspected content to the selected provider, with local backends also available. Rules require calibration and are not a general prompt-injection security boundary. Formerly hosted under fr0gger.",
+              "sources": [
+                {
+                  "label": "Operational limitations",
+                  "url": "https://github.com/Nova-Hunting/nova-framework/blob/dbcdf6738db588b1953104552e0d7084a80ba960/PRODUCTION_READINESS.md"
+                },
+                {
+                  "label": "License",
+                  "url": "https://github.com/Nova-Hunting/nova-framework/blob/dbcdf6738db588b1953104552e0d7084a80ba960/LICENCE"
+                }
+              ],
+              "metrics": {
+                "stars": 174,
+                "updated": "2026-09-21",
+                "snapshot": "2026-11-14"
               }
             }
           ]
@@ -5282,25 +5341,6 @@
           }
         },
         {
-          "name": "Pashov Audit Group Skills",
-          "repo": "pashov/skills",
-          "org": "Pashov Audit Group",
-          "desc": "Open-source agent skills for Solidity security auditing, pre-audit threat modeling, and Echidna/Medusa fuzz-suite generation.",
-          "license": "MIT",
-          "status": [
-            "open_source"
-          ],
-          "flags": [
-            "model_dependent"
-          ],
-          "note": "— **note:** reusable agent workflow skills rather than a standalone deterministic scanner; findings depend on the host coding agent and model.",
-          "metrics": {
-            "stars": 1302,
-            "updated": "2026-10-21",
-            "snapshot": "2026-11-06"
-          }
-        },
-        {
           "name": "OpenHack",
           "repo": "hadriansecurity/OpenHack",
           "org": "Hadrian Security",
@@ -5360,6 +5400,62 @@
             "stars": 1720,
             "updated": "2026-09-28",
             "snapshot": "2026-10-13"
+          }
+        },
+        {
+          "name": "Pashov Audit Group Skills",
+          "repo": "pashov/skills",
+          "org": "Pashov Audit Group",
+          "desc": "Coding-agent skills for Solidity security audits, pre-audit threat modeling, and generation of Echidna/Medusa fuzzing suites.",
+          "status": [
+            "open_source"
+          ],
+          "license": "MIT",
+          "flags": [
+            "model_dependent",
+            "authorized_testing_only"
+          ],
+          "note": "**Caveat:** Workflow skills, not a standalone deterministic scanner. Audit context goes to the configured coding-agent model; generated fuzzing/build commands execute target code. Review outputs and run active work only in isolated, authorized workspaces.",
+          "sources": [
+            {
+              "label": "Audit workflow",
+              "url": "https://github.com/pashov/skills/blob/eacfc09b365d2697b83355909d0300607e596ffc/solidity-auditor/SKILL.md"
+            },
+            {
+              "label": "Fuzzing workflow",
+              "url": "https://github.com/pashov/skills/blob/eacfc09b365d2697b83355909d0300607e596ffc/fizz/SKILL.md"
+            }
+          ],
+          "metrics": {
+            "stars": 1311,
+            "updated": "2026-10-21",
+            "snapshot": "2026-11-14"
+          }
+        },
+        {
+          "name": "OpenCodeReview",
+          "repo": "alibaba/open-code-review",
+          "org": "Alibaba",
+          "desc": "Code-review harness combining deterministic rule selection with tool-using LLM review of diffs or complete files, including security rules and structured line-level comments.",
+          "status": [
+            "open_source"
+          ],
+          "license": "Apache-2.0",
+          "flags": [
+            "model_dependent",
+            "telemetry"
+          ],
+          "note": "**Caveat:** General code-quality and security review, not a proof of vulnerability coverage. Selected source and context go to the configured model or delegated coding agent. OpenTelemetry is opt-in via `OCR_ENABLE_TELEMETRY` and disabled by default.",
+          "sources": [
+            {
+              "label": "Telemetry defaults",
+              "url": "https://github.com/alibaba/open-code-review/blob/0e9060da66af36a96a15516e76a001953095318b/internal/telemetry/config.go"
+            }
+          ],
+          "metrics": {
+            "stars": 50881,
+            "updated": "2026-11-14",
+            "snapshot": "2026-11-14"
           }
         }
       ]
@@ -5479,27 +5575,30 @@
         {
           "name": "GuardLink",
           "repo": "Bugb-Technologies/guardlink",
-          "org": "Bugb Technologies",
-          "desc": "Continuous threat-modeling-as-code framework in which security annotations in source comments (`@asset`, `@threat`, `@exposes`, `@mitigates`, `@flows`) form a threat model that updates with the code, is validated and diffed against the base branch in CI, is maintained by coding agents through an MCP server and instruction directives, tracks which claims are verified or stale, and turns open exposures into CERT-X-GEN test templates so they can be proven.",
-          "license": "MIT",
+          "desc": "Threat-model-as-code annotations and CLI for deterministic validation, linting, diffs and attack-path queries, with agent/MCP workflows for maintaining threat models alongside source.",
           "status": [
             "open_source"
           ],
+          "license": "MIT code; CC BY 4.0 specification",
           "flags": [
             "early_stage",
             "model_dependent"
           ],
-          "note": "**Caveat:** vendor-submitted project with limited independent adoption. The model is only as complete and accurate as the annotations people or coding agents write; `validate`, `lint`, `diff` and `paths` (untrusted-entry-to-sink routes with no control, citing file:line) are deterministic over committed annotations and do not by themselves prove code behavior. Agent-driven `annotate` and `translate` and optional LLM threat reports send repository content to the configured agent or provider (Anthropic, OpenAI, Google, OpenRouter, DeepSeek or a local Ollama). Generated templates are test candidates, not confirmed exploitation; GuardLink does not execute them.",
+          "note": "**Caveat:** Early-stage project. Queries operate on the declared annotation graph, not verified code/data flow; a mitigation annotation is not proof that a control works. Optional model-assisted annotation/reporting sends repository context to the configured provider. Attack-path templates are not validated exploits.",
           "sources": [
             {
-              "label": "Documentation",
-              "url": "https://docs.bugb.io/guardlink/"
+              "label": "Path analysis",
+              "url": "https://github.com/Bugb-Technologies/guardlink/blob/dfefdf594642368a604eb4b0257967aa3811043a/src/paths/index.ts"
+            },
+            {
+              "label": "Model-assisted analysis",
+              "url": "https://github.com/Bugb-Technologies/guardlink/blob/dfefdf594642368a604eb4b0257967aa3811043a/src/analyze/llm.ts"
             }
           ],
           "metrics": {
-            "stars": 20,
+            "stars": 22,
             "updated": "2026-11-10",
-            "snapshot": "2026-11-11"
+            "snapshot": "2026-11-14"
           }
         }
       ]
@@ -6629,6 +6728,37 @@
             "stars": 1255,
             "updated": "2026-09-29",
             "snapshot": "2026-10-13"
+          }
+        },
+        {
+          "name": "AETHER",
+          "repo": "CSIT-SG/AETHER",
+          "org": "Centre for Strategic Infocomm Technologies, Singapore",
+          "desc": "IDA Pro copilot for malware reverse engineering, using model-assisted code explanation, annotations, renaming and analysis context with MCP integration.",
+          "status": [
+            "open_source"
+          ],
+          "license": "GPL-3.0",
+          "flags": [
+            "copyleft",
+            "license_caveat",
+            "model_dependent"
+          ],
+          "note": "**Caveat:** GPL-3.0 code; requires a separately licensed IDA Pro installation. Hosted OpenAI-compatible backends, including the documented OpenRouter setup, receive analysis context; local backends are an alternative. It can change the IDA analysis database, so review generated annotations rather than treating them as verified analysis.",
+          "sources": [
+            {
+              "label": "Requirements and integration",
+              "url": "https://github.com/CSIT-SG/AETHER/blob/a61493ff2810cfd256d5903ecdde39a0640003a1/README.md"
+            },
+            {
+              "label": "License",
+              "url": "https://github.com/CSIT-SG/AETHER/blob/a61493ff2810cfd256d5903ecdde39a0640003a1/LICENSE"
+            }
+          ],
+          "metrics": {
+            "stars": 76,
+            "updated": "2026-09-18",
+            "snapshot": "2026-11-14"
           }
         }
       ]
@@ -7793,19 +7923,19 @@
             {
               "name": "Argus",
               "repo": "gy15901580825/Argus",
-              "desc": "Open-source red-team testing for AI agents with selected probes using recorded browser requests, MCP tool calls, or mock payments, and HTML, SARIF, JUnit XML, and local JSON reports.",
+              "desc": "Black-box red-team CLI for LLM applications and agents with HTTP, recorded-browser-request and MCP targets, deterministic/model-assisted judges, and SARIF, JUnit, HTML and JSON reports.",
               "license": "Apache-2.0",
               "status": [
                 "open_source",
                 "research"
               ],
               "flags": [
-                "early_stage",
                 "heavy_runtime",
                 "requires_api_key",
+                "model_dependent",
                 "authorized_testing_only"
               ],
-              "note": "— **note:** the library contains 261 probes, and each run selects probes compatible with its target; a GitHub Action runs the CLI in CI. Model-assisted judges require provider credentials. Attack-success and guardrail-improvement figures are project-reported; probe only authorized targets.",
+              "note": "**Caveat:** Released standalone CLI; model-assisted judges send evaluated content to configured providers. The optional `scan-skill` workflow executes the installed skill with Claude Code inside Docker and needs provider credentials; stdio MCP targets also start processes. These are active tests, not passive static scans: use disposable, authorized environments. Attack-success figures remain project-reported.",
               "related": [
                 {
                   "label": "PyRIT",
@@ -7817,10 +7947,20 @@
                 }
               ],
               "metrics": {
-                "stars": 206,
-                "updated": "2026-08-25",
-                "snapshot": "2026-10-13"
-              }
+                "stars": 209,
+                "updated": "2026-11-14",
+                "snapshot": "2026-11-14"
+              },
+              "sources": [
+                {
+                  "label": "Skill execution workflow",
+                  "url": "https://github.com/gy15901580825/Argus/blob/257ed892904f2e9b1996f2e500dbc312e1a5c43c/argus/cli/cmd_scan_skill.py"
+                },
+                {
+                  "label": "Stdio target execution",
+                  "url": "https://github.com/gy15901580825/Argus/blob/257ed892904f2e9b1996f2e500dbc312e1a5c43c/argus/mcp_scan/stdio.py"
+                }
+              ]
             },
             {
               "name": "Cryptex OSS",
@@ -7991,21 +8131,34 @@
             {
               "name": "dsh-jailbreak",
               "repo": "xqpsec/dsh-jailbreak",
+              "desc": "Offensive DSH plugin that rewrites outbound OpenAI-, Anthropic- and Gemini-style requests for jailbreak experiments, with request transformation and per-call audit records.",
               "status": [
-                "open_source"
+                "open_source",
+                "research"
               ],
-              "license": "AGPL-3.0-only",
+              "license": "AGPL-3.0-only; gate component MIT",
               "flags": [
                 "copyleft",
                 "license_caveat",
+                "early_stage",
+                "model_dependent",
                 "authorized_testing_only"
               ],
-              "desc": "Request-boundary plugin for the DSH harness that rewrites outbound request bodies across four wire protocols (OpenAI chat/completions/responses, Anthropic messages, Gemini generateContent) with per-call audit records and byte-level regression tests.",
-              "note": "**Caveat:** rewrites outbound model requests, including system prompts and parameter defaults; intended for authorized red-team, evaluation, and gateway-compatibility debugging only. Root license AGPL-3.0-only (copyleft).",
+              "note": "**Caveat:** AGPL-3.0-only plugin (gate component MIT); use only against explicitly authorized models. The shipped `gate.json` disables enforcement, uses target warnings and passes requests through on denial; do not assume default scope enforcement. Providers receive rewritten requests, audit records can retain sensitive context, and success rates are project-reported.",
+              "sources": [
+                {
+                  "label": "Shipped gate defaults",
+                  "url": "https://github.com/xqpsec/dsh-jailbreak/blob/d40fa84748d1f2e663b443078955b75a218cdb5c/gate.json"
+                },
+                {
+                  "label": "Scope and limitations",
+                  "url": "https://github.com/xqpsec/dsh-jailbreak/blob/d40fa84748d1f2e663b443078955b75a218cdb5c/SCOPE.md"
+                }
+              ],
               "metrics": {
-                "stars": 123,
-                "updated": "2026-11-05",
-                "snapshot": "2026-11-07"
+                "stars": 224,
+                "updated": "2026-11-07",
+                "snapshot": "2026-11-14"
               }
             }
           ]
@@ -8971,6 +9124,40 @@
             "updated": "2026-06-08",
             "snapshot": "2026-10-13"
           }
+        },
+        {
+          "name": "AgentRE-Bench",
+          "repo": "agentrebench/AgentRE-Bench",
+          "desc": "Research benchmark for multi-step, tool-assisted static reverse engineering of ELF/PE binaries, with purpose-built tasks, ground truth and a structured scoring harness.",
+          "status": [
+            "open_source",
+            "research"
+          ],
+          "license": "MIT",
+          "flags": [
+            "heavy_runtime",
+            "model_dependent"
+          ],
+          "note": "**Caveat:** A fixed synthetic suite, not evidence of generalization to arbitrary malware. The harness invokes analysis tools locally or in Docker; model backends can receive analysis content. Published results and AI-assisted rubric/calibration are project-reported, not independent human evaluation.",
+          "sources": [
+            {
+              "label": "Tool execution",
+              "url": "https://github.com/agentrebench/AgentRE-Bench/blob/c0f5fa5b5c1447ce2cc764b96365bc9fed0cbf01/harness/sandbox.py"
+            },
+            {
+              "label": "Scoring",
+              "url": "https://github.com/agentrebench/AgentRE-Bench/blob/c0f5fa5b5c1447ce2cc764b96365bc9fed0cbf01/docs/scoring.md"
+            },
+            {
+              "label": "Result scope",
+              "url": "https://github.com/agentrebench/AgentRE-Bench/blob/c0f5fa5b5c1447ce2cc764b96365bc9fed0cbf01/docs/results-current.md"
+            }
+          ],
+          "metrics": {
+            "stars": 142,
+            "updated": "2026-11-05",
+            "snapshot": "2026-11-14"
+          }
         }
       ]
     },
@@ -9763,13 +9950,14 @@
         },
         {
           "kind": "awesome_list",
-          "name": "Awesome REA",
+          "name": "Awesome Reverse Engineer Anything",
           "repo": "AIshihzong/awesome-reverse-engineer-anything",
-          "desc": "Bilingual (English/Chinese) index of AI-agent reverse-engineering cases across apps, firmware, protocols and games, each tagged by whether its own sources show REA, Ghidra/IDA MCP or other tools were used (pairs with the Reverse Engineering section).",
+          "desc": "English/Chinese index of AI-assisted reverse-engineering cases, tools and writeups, distinguishing explicit REA usage from adjacent or unverified examples. Unofficial companion, not an endorsement by the REA project.",
+          "license": "CC0-1.0",
           "metrics": {
-            "stars": 584,
-            "updated": "2026-11-10",
-            "snapshot": "2026-11-10"
+            "stars": 721,
+            "updated": "2026-11-12",
+            "snapshot": "2026-11-14"
           }
         }
       ]
