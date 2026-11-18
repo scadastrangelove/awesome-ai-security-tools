@@ -131,6 +131,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Sandlock](https://github.com/multikernel/sandlock) · [AIO Sandbox](https://github.com/agent-infra/sandbox)
 - **[cfgaudit](https://github.com/cfgaudit/cfgaudit)** 🟢 — Local deterministic CLI auditing coding-agent permissions, hooks, MCP configuration, instruction files and skills, with JSON/SARIF findings. **Caveat:** Early-stage static configuration analysis, not runtime enforcement or complete prompt-injection detection. A scanned repository's `.cfgaudit.yml` can suppress rules; use operator-controlled configuration when reviewing untrusted projects. Optional ShellCheck adds an external analysis dependency. *(★ 26 · updated 2026-11-14)*
   - **Sources:** [Agent-run threat model](https://github.com/cfgaudit/cfgaudit/blob/203205862bfc44f8a5dca23449eb4c1d3ae65fe6/docs/agent-run-threat-model.md)
+- **[vibe-shield](https://github.com/avivgerz-hue/vibe-shield)** 🟢 — Static security scanner and MCP server with 92 rules for AI-generated Next.js, Supabase and TypeScript apps, covering the OWASP Top 10 and MCP/Skill poisoning. *(★ 40 · updated 2026-11-10)*
 
 ### Frameworks, Rule Standards & Benchmarks
 
