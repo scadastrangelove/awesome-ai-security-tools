@@ -757,25 +757,6 @@
               }
             },
             {
-              "name": "Batesian",
-              "repo": "calbebop/batesian",
-              "status": [
-                "open_source"
-              ],
-              "license": "Apache-2.0",
-              "flags": [
-                "early_stage",
-                "authorized_testing_only"
-              ],
-              "desc": "Go CLI that uses live protocol traffic to test deployed A2A and MCP endpoints for authorization, task and tenant isolation, callback handling, and tool-boundary issues, with JSON and SARIF reports.",
-              "note": "**Caveat:** Early-stage project with limited independent adoption. Active scans may change target state and leave objects for manual cleanup; use only on authorized systems and review skipped checks.",
-              "metrics": {
-                "stars": 3,
-                "updated": "2026-11-14",
-                "snapshot": "2026-11-14"
-              }
-            },
-            {
               "name": "Ship Safe",
               "repo": "asamassekou10/ship-safe",
               "desc": "Local security CLI for application code, AI-agent and MCP configuration, secrets, dependencies, CI, and cloud/IaC surfaces, with deterministic checks, optional AI-assisted analysis, and SARIF output.",
@@ -907,20 +888,6 @@
               "metrics": {
                 "stars": 26,
                 "updated": "2026-11-14",
-                "snapshot": "2026-11-14"
-              }
-            },
-            {
-              "name": "vibe-shield",
-              "repo": "avivgerz-hue/vibe-shield",
-              "desc": "Static security scanner and MCP server with 92 rules for AI-generated Next.js, Supabase and TypeScript apps, covering the OWASP Top 10 and MCP/Skill poisoning.",
-              "license": "MIT",
-              "status": [
-                "open_source"
-              ],
-              "metrics": {
-                "stars": 40,
-                "updated": "2026-11-10",
                 "snapshot": "2026-11-14"
               }
             }
@@ -2059,7 +2026,7 @@
             {
               "name": "aquaman",
               "repo": "tech4242/aquaman",
-              "desc": "Local credential proxy for AI agents: injects API keys at egress from the user's own vault (OS keychain, 1Password, Bitwarden, HashiCorp Vault, KeePassXC, Keeper), lets an agent request a credential that a person approves in a native dialog, and keeps a hash-chained audit log anchored in that vault.",
+              "desc": "Local credential broker for AI agents with vault adapters, human-approved credential requests, policy-controlled proxy injection and a vault-anchored audit log.",
               "status": [
                 "open_source"
               ],
@@ -2067,10 +2034,25 @@
               "flags": [
                 "early_stage"
               ],
+              "note": "**Caveat:** proxy injection covers routed traffic; coding-agent command mode can expose declared secrets in the child environment. This is not a sandbox or a boundary against other processes running as the same OS user. Configure destination/request policies: a missing service policy allows requests. Audit anchors leave a time interval unanchored and cannot protect against an actor able to rewrite the vault. Stronger isolation needs a separate user or sandbox; some setup modes broaden Unix-socket access.",
+              "sources": [
+                {
+                  "label": "Security model and integration limits",
+                  "url": "https://github.com/tech4242/aquaman/blob/9de562c8b911d8b1a9116c7d47de5e0a2bb38cf1/README.md#security-model"
+                },
+                {
+                  "label": "Request-policy defaults",
+                  "url": "https://github.com/tech4242/aquaman/blob/9de562c8b911d8b1a9116c7d47de5e0a2bb38cf1/packages/proxy/src/request-policy.ts"
+                },
+                {
+                  "label": "Audit-anchor scope",
+                  "url": "https://github.com/tech4242/aquaman/blob/9de562c8b911d8b1a9116c7d47de5e0a2bb38cf1/packages/proxy/src/audit-anchor.ts"
+                }
+              ],
               "metrics": {
                 "stars": 39,
                 "updated": "2026-11-18",
-                "snapshot": "2026-11-18"
+                "snapshot": "2026-11-19"
               }
             },
             {
@@ -3150,37 +3132,6 @@
                 "stars": 326,
                 "updated": "2026-11-09",
                 "snapshot": "2026-11-14"
-              }
-            },
-            {
-              "name": "ControlClaw",
-              "repo": "madarco/controlclaw",
-              "license": "AGPL-3.0",
-              "desc": "Network firewall and control panel for OpenClaw agents that checks requests and MCP calls against plain-English rules, swaps in passwords and API keys at the firewall so the agent only holds placeholders, and holds risky actions for human approval.",
-              "status": [
-                "open_source",
-                "commercial_open"
-              ],
-              "flags": [
-                "copyleft",
-                "model_dependent",
-                "early_stage"
-              ],
-              "note": "**Caveat:** AGPL-3.0; young project (first npm release November 2026). Linux only (Docker). Plain-English rules and log review need a model key set in the panel. Enforcement is strongest in `up --all` mode, where the firewall is OpenClaw's only route out; the same firewall also runs as the hosted ControlClaw cloud service.",
-              "sources": [
-                {
-                  "label": "README",
-                  "url": "https://github.com/madarco/controlclaw/blob/main/README.md"
-                },
-                {
-                  "label": "What each setup protects",
-                  "url": "https://github.com/madarco/controlclaw/blob/main/docs/standalone/protection.md"
-                }
-              ],
-              "metrics": {
-                "stars": 3,
-                "updated": "2026-11-12",
-                "snapshot": "2026-11-18"
               }
             }
           ]
@@ -8241,20 +8192,6 @@
                 "updated": "2026-11-07",
                 "snapshot": "2026-11-14"
               }
-            },
-            {
-              "kind": "hf_model",
-              "name": "HaloGuard 2.0-Stream 0.8B (output guard)",
-              "model": "astroware/HaloGuard2-Stream-0.8B",
-              "org": "Astroware",
-              "desc": "Open-weight English output guard that scores every token of a reply as it streams, so the app can stop the stream once harm is confirmed; it reaches 83.6 macro F1 on six English response-safety benchmarks.",
-              "license": "Apache-2.0",
-              "access": "open",
-              "artifacts": "Safetensors",
-              "status": [
-                "open_source"
-              ],
-              "note": "— **note:** paper: [arXiv 2611.02134](https://arxiv.org/abs/2611.02134); 17-language variant: [HaloGuard2-MultiStream-0.8B](https://huggingface.co/astroware/HaloGuard2-MultiStream-0.8B)."
             }
           ]
         },
@@ -8335,19 +8272,49 @@
               "flags": [
                 "license_caveat"
               ]
+            }
+          ]
+        },
+        {
+          "title": "Input & Output Safety Classifier Models",
+          "entries": [
+            {
+              "kind": "hf_model",
+              "name": "HaloGuard 2.0 Gen 0.8B (input safety)",
+              "model": "astroware/HaloGuard2-Gen-0.8B",
+              "org": "Astroware",
+              "desc": "Qwen3.5-based generative classifier that labels input prompts safe or unsafe and assigns a policy category for application-side moderation.",
+              "status": [
+                "open_source",
+                "research"
+              ],
+              "flags": [
+                "early_stage",
+                "model_dependent"
+              ],
+              "license": "Apache-2.0 (model-card declaration)",
+              "access": "open",
+              "artifacts": "Safetensors",
+              "note": "**Caveat:** research input-safety classifier, not a standalone agent authorization or prompt-injection boundary. The card describes an 8,192-token input window; longer inputs need application-side segmentation. Thresholds, language-specific false positives and published quality figures require validation for the intended workload; results are author-reported. Local inference needs a compatible Transformers runtime. [Reviewed card](https://huggingface.co/astroware/HaloGuard2-Gen-0.8B/blob/677accff8870ee93447ef486763e9f10e22075a0/README.md)."
             },
             {
               "kind": "hf_model",
-              "name": "HaloGuard 2.0 0.8B (input guard)",
-              "model": "astroware/HaloGuard2-Gen-0.8B",
+              "name": "HaloGuard 2.0 Stream 0.8B (output safety)",
+              "model": "astroware/HaloGuard2-Stream-0.8B",
               "org": "Astroware",
-              "desc": "Given a user prompt, HaloGuard predicts a safe / unsafe verdict together with a policy category before the prompt reaches a downstream LLM, agent, or application.",
-              "license": "Apache-2.0",
-              "access": "open",
-              "artifacts": "Safetensors",
+              "desc": "English token-level output-safety classifier producing per-token harmfulness scores for application-integrated response monitoring.",
               "status": [
-                "open_source"
-              ]
+                "open_source",
+                "research"
+              ],
+              "flags": [
+                "early_stage",
+                "model_dependent"
+              ],
+              "license": "Apache-2.0 (model-card declaration)",
+              "access": "open",
+              "artifacts": "Safetensors, custom Transformers modeling code",
+              "note": "**Caveat:** the supplied implementation requires `trust_remote_code`; review and pin its Python code as well as the weights. Its 2,048-token window can truncate longer responses. `classify_stream` scores an already supplied response before yielding token verdicts; live buffering, stopping generation and windowing are the integrator's responsibility. Published accuracy and throughput are author-reported, not independently verified here. [Paper](https://arxiv.org/abs/2611.02134) / [Reviewed implementation](https://huggingface.co/astroware/HaloGuard2-Stream-0.8B/blob/4751772ad76762b86a8e097b960a4a746464b459/modeling_stream_guard.py)."
             }
           ]
         },
