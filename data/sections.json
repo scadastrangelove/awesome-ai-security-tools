@@ -757,6 +757,25 @@
               }
             },
             {
+              "name": "Batesian",
+              "repo": "calbebop/batesian",
+              "status": [
+                "open_source"
+              ],
+              "license": "Apache-2.0",
+              "flags": [
+                "early_stage",
+                "authorized_testing_only"
+              ],
+              "desc": "Go CLI that uses live protocol traffic to test deployed A2A and MCP endpoints for authorization, task and tenant isolation, callback handling, and tool-boundary issues, with JSON and SARIF reports.",
+              "note": "**Caveat:** Early-stage project with limited independent adoption. Active scans may change target state and leave objects for manual cleanup; use only on authorized systems and review skipped checks.",
+              "metrics": {
+                "stars": 3,
+                "updated": "2026-11-14",
+                "snapshot": "2026-11-14"
+              }
+            },
+            {
               "name": "Ship Safe",
               "repo": "asamassekou10/ship-safe",
               "desc": "Local security CLI for application code, AI-agent and MCP configuration, secrets, dependencies, CI, and cloud/IaC surfaces, with deterministic checks, optional AI-assisted analysis, and SARIF output.",
