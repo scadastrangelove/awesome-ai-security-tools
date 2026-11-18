@@ -3101,6 +3101,37 @@
                 "updated": "2026-11-09",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "name": "ControlClaw",
+              "repo": "madarco/controlclaw",
+              "license": "AGPL-3.0",
+              "desc": "Network firewall and control panel for OpenClaw agents that checks requests and MCP calls against plain-English rules, swaps in passwords and API keys at the firewall so the agent only holds placeholders, and holds risky actions for human approval.",
+              "status": [
+                "open_source",
+                "commercial_open"
+              ],
+              "flags": [
+                "copyleft",
+                "model_dependent",
+                "early_stage"
+              ],
+              "note": "**Caveat:** AGPL-3.0; young project (first npm release November 2026). Linux only (Docker). Plain-English rules and log review need a model key set in the panel. Enforcement is strongest in `up --all` mode, where the firewall is OpenClaw's only route out; the same firewall also runs as the hosted ControlClaw cloud service.",
+              "sources": [
+                {
+                  "label": "README",
+                  "url": "https://github.com/madarco/controlclaw/blob/main/README.md"
+                },
+                {
+                  "label": "What each setup protects",
+                  "url": "https://github.com/madarco/controlclaw/blob/main/docs/standalone/protection.md"
+                }
+              ],
+              "metrics": {
+                "stars": 3,
+                "updated": "2026-11-12",
+                "snapshot": "2026-11-18"
+              }
             }
           ]
         }
