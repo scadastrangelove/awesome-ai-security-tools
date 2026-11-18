@@ -2024,6 +2024,23 @@
               }
             },
             {
+              "name": "aquaman",
+              "repo": "tech4242/aquaman",
+              "desc": "Local credential proxy for AI agents: injects API keys at egress from the user's own vault (OS keychain, 1Password, Bitwarden, HashiCorp Vault, KeePassXC, Keeper), lets an agent request a credential that a person approves in a native dialog, and keeps a hash-chained audit log anchored in that vault.",
+              "status": [
+                "open_source"
+              ],
+              "license": "Apache-2.0",
+              "flags": [
+                "early_stage"
+              ],
+              "metrics": {
+                "stars": 39,
+                "updated": "2026-11-18",
+                "snapshot": "2026-11-18"
+              }
+            },
+            {
               "name": "microsandbox",
               "repo": "superradcompany/microsandbox",
               "desc": "Local-first, microVM-backed programmable sandboxes for AI agents with SDKs, CLI, MCP support, and rootless hardware isolation.",

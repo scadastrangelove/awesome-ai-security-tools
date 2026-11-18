@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-14. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-18. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -213,6 +213,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [agentguard](https://github.com/GoPlusSecurity/agentguard) · [ATR – Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)
 - **[onecli](https://github.com/onecli/onecli)** 🟢 — Credential gateway and encrypted vault for AI agents; injects real API credentials at the gateway so agents only see placeholder keys. *(★ 3,569 · updated 2026-10-09)*
   - **Related:** [agentguard](https://github.com/GoPlusSecurity/agentguard) · [defenseclaw](https://github.com/cisco-ai-defense/defenseclaw)
+- **[aquaman](https://github.com/tech4242/aquaman)** 🟢 — Local credential proxy for AI agents: injects API keys at egress from the user's own vault (OS keychain, 1Password, Bitwarden, HashiCorp Vault, KeePassXC, Keeper), lets an agent request a credential that a person approves in a native dialog, and keeps a hash-chained audit log anchored in that vault. *(★ 39 · updated 2026-11-18)*
 - **[microsandbox](https://github.com/superradcompany/microsandbox)** 🟢 — Local-first, microVM-backed programmable sandboxes for AI agents with SDKs, CLI, MCP support, and rootless hardware isolation. *(★ 8,669 · updated 2026-10-12)*
   - **Related:** [agentguard](https://github.com/GoPlusSecurity/agentguard) · [defenseclaw](https://github.com/cisco-ai-defense/defenseclaw) · [agents-sandbox launcher for microsandbox (GPL-3.0)](https://github.com/inoio/agents-sandbox)
 - **[agentguard](https://github.com/GoPlusSecurity/agentguard)** 🟢 — Real-time security layer for coding agents: hooks scan every new skill, block dangerous actions before execution, run daily posture patrols, and track which skill triggered each action (incl. Web3-specific checks). *(★ 467 · updated 2026-10-12)*
