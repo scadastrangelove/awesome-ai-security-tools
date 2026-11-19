@@ -8441,6 +8441,27 @@
                 "authorized_testing_only",
                 "abliterated_or_uncensored"
               ]
+            },
+            {
+              "kind": "hf_model",
+              "name": "GLM-5.3-CYBERSECURITY-FP8",
+              "model": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
+              "org": "dealignai",
+              "desc": "FP8 build of the 753B-parameter GLM-5.3 MoE with refusals reduced by a direct weight edit for offensive-security, red-team, reverse-engineering and malware-analysis prompts.",
+              "note": "**Caveat:** refusal-removed weights (bf16 residual writers edited, not a fine-tune or LoRA); use only for authorized testing, in isolated harnesses with tool-call validation. Self-hosting is multi-GPU: the card reports a practical context of about 131K tokens on 8× H200 (TP8), and that `reasoning_effort` honors only `low` and `high` (other values run at max). Also served as a commercial hosted API by [AbliteratedLLM](https://abliteratedllm.dev/models/glm-5.3-cyber-abliterated) (model `glm-5.3-cyber-abliterated`, OpenAI-compatible, 1M context, prepaid API key); hosted use sends prompts to that service and its GPU provider (Fireworks AI, zero-data-retention configuration) and is subject to its terms, including automated screening for CSAM and mass-casualty weapon instructions.",
+              "license": "MIT (model-card declaration); base zai-org/GLM-5.3 uses the GLM-5.3 license",
+              "access": "open weights; hosted API with paid key",
+              "artifacts": "Safetensors (FP8)",
+              "status": [
+                "commercial_open"
+              ],
+              "flags": [
+                "license_caveat",
+                "heavy_runtime",
+                "requires_api_key",
+                "authorized_testing_only",
+                "abliterated_or_uncensored"
+              ]
             }
           ]
         }
