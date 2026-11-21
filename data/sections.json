@@ -5489,6 +5489,26 @@
             "updated": "2026-11-14",
             "snapshot": "2026-11-14"
           }
+        },
+        {
+          "name": "How Could I Be Hacked",
+          "repo": "sandhiveio/How-Could-I-Be-Hacked",
+          "org": "SandHive",
+          "status": [
+            "open_source"
+          ],
+          "license": "MIT",
+          "flags": [
+            "model_dependent"
+          ],
+          "desc": "Coding-agent skill that adapts security checks from open-source reviews to PR diffs, runs local checks, and reports coverage beyond existing tests.",
+          "note": "**Caveat:** Library search and report tooling run locally without an additional API key. Model calls and source-code handling follow the selected coding agent's provider and data settings.",
+          "related": [
+            {
+              "label": "Example PR review",
+              "url": "https://github.com/sandhiveio/How-Could-I-Be-Hacked/blob/main/references/example-pr-report.md"
+            }
+          ]
         }
       ]
     },
