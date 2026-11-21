@@ -890,6 +890,34 @@
                 "updated": "2026-11-14",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "name": "mcp-agent-security-auditor",
+              "repo": "jashory/mcp-agent-security-auditor",
+              "license": "MIT",
+              "desc": "Zero-dependency Python static AST and CWE-mapped pre-audit scanner (CLI and GitHub Action) for MCP servers, coding-agent hooks, and Firebase security rules detecting shell/eval injection, SSRF, path traversal, and hardcoded secrets.",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "**Caveat:** young project (published October 2026) with limited independent adoption signal; static AST/pattern scanner only and does not replace dynamic sandboxing or manual security review.",
+              "sources": [
+                {
+                  "label": "README",
+                  "url": "https://github.com/jashory/mcp-agent-security-auditor/blob/main/README.md"
+                },
+                {
+                  "label": "Scanner implementation",
+                  "url": "https://github.com/jashory/mcp-agent-security-auditor/blob/main/mcp_security_auditor.py"
+                }
+              ],
+              "metrics": {
+                "stars": 3,
+                "updated": "2026-11-19",
+                "snapshot": "2026-11-21"
+              }
             }
           ]
         },

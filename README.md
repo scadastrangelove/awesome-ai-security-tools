@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-19. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-21. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -131,6 +131,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Sandlock](https://github.com/multikernel/sandlock) · [AIO Sandbox](https://github.com/agent-infra/sandbox)
 - **[cfgaudit](https://github.com/cfgaudit/cfgaudit)** 🟢 — Local deterministic CLI auditing coding-agent permissions, hooks, MCP configuration, instruction files and skills, with JSON/SARIF findings. **Caveat:** Early-stage static configuration analysis, not runtime enforcement or complete prompt-injection detection. A scanned repository's `.cfgaudit.yml` can suppress rules; use operator-controlled configuration when reviewing untrusted projects. Optional ShellCheck adds an external analysis dependency. *(★ 26 · updated 2026-11-14)*
   - **Sources:** [Agent-run threat model](https://github.com/cfgaudit/cfgaudit/blob/203205862bfc44f8a5dca23449eb4c1d3ae65fe6/docs/agent-run-threat-model.md)
+- **[mcp-agent-security-auditor](https://github.com/jashory/mcp-agent-security-auditor)** 🟢 — Zero-dependency Python static AST and CWE-mapped pre-audit scanner (CLI and GitHub Action) for MCP servers, coding-agent hooks, and Firebase security rules detecting shell/eval injection, SSRF, path traversal, and hardcoded secrets. **Caveat:** young project (published October 2026) with limited independent adoption signal; static AST/pattern scanner only and does not replace dynamic sandboxing or manual security review. *(★ 3 · updated 2026-11-19)*
+  - **Sources:** [README](https://github.com/jashory/mcp-agent-security-auditor/blob/main/README.md) · [Scanner implementation](https://github.com/jashory/mcp-agent-security-auditor/blob/main/mcp_security_auditor.py)
 
 ### Frameworks, Rule Standards & Benchmarks
 
