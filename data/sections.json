@@ -8442,6 +8442,26 @@
                 "authorized_testing_only",
                 "abliterated_or_uncensored"
               ]
+            },
+            {
+              "kind": "hf_model",
+              "name": "GLM-5.3-CYBERSECURITY-FP8",
+              "model": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
+              "org": "dealignai",
+              "desc": "Downloadable FP8 GLM-5.3 MoE derivative with weight edits intended to reduce refusals for cybersecurity prompts, including authorized red-team, reverse-engineering and malware-analysis tasks.",
+              "note": "**Caveat:** self-hosting requires substantial multi-GPU resources. Refusal reduction and project-reported compliance scores do not establish vulnerability-discovery effectiveness. Use only for authorized testing in isolated harnesses with tool-call validation. The derivative card declares MIT, but the base uses custom [GLM-5.3 license terms](https://huggingface.co/zai-org/GLM-5.3/blob/ba32f8c19c8738e2c57c71798c601d477a7bf844/LICENSE); review the license chain before reuse. [Reviewed model card](https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8/blob/5915c1b88f998a9c1e1a0c83688e285a08ae3ca5/README.md).",
+              "license": "MIT (model-card declaration); base zai-org/GLM-5.3 uses the GLM-5.3 license",
+              "access": "open weights (ungated)",
+              "artifacts": "Safetensors (FP8)",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "license_caveat",
+                "heavy_runtime",
+                "authorized_testing_only",
+                "abliterated_or_uncensored"
+              ]
             }
           ]
         }
