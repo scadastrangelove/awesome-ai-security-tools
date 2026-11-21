@@ -550,6 +550,7 @@ Two families: (a) LLMs generating harnesses/targets for traditional fuzzing, and
 - **[promptmap](https://github.com/utkusen/promptmap)** 🟢⚠️ — Prompt-injection scanner for custom LLM applications in white-box and black-box modes; GPL-3.0 licensed. *(★ 1,280 · updated 2025-12-01)*
   - **Related:** [spikee](https://github.com/ReversecLabs/spikee)
 - **[ai-prompt-fuzzer](https://github.com/PortSwigger/ai-prompt-fuzzer)** 🟢 — Burp Suite extension fuzzing GenAI/LLM prompts. *(PortSwigger)* *(★ 37 · updated 2025-09-04)*
+- **[adversarial-feed-sample](https://github.com/AdamDiStefanoAI/adversarial-feed-sample)** 🟢 — Ten free adversarial tests for AI agents with a dependency-free scoring runner; free sample of a monthly subscription pack.
 
 ---
 
