@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-19. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-21. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -292,6 +292,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Sources:** [Permission modes](https://github.com/qybaihe/mu/blob/097039bcaa36666fe1eefb5c3edddf705c076e10/packages/kyrn-judge/src/extension/features/permissions.ts) · [Injection screening and fallback](https://github.com/qybaihe/mu/blob/097039bcaa36666fe1eefb5c3edddf705c076e10/packages/kyrn-judge/src/extension/features/injection.ts) · [Security and data boundaries](https://github.com/qybaihe/mu/blob/097039bcaa36666fe1eefb5c3edddf705c076e10/SECURITY.md)
 - **[Sage](https://github.com/gendigitalinc/sage)** 🟢⚠️ — Coding-agent hooks screening supported tool calls with local threat rules, cloud URL/file/skill reputation, and optional prompt-injection classification and Windows AMSI integration. *(Gen Digital)* **Caveat:** Hook coverage is not OS isolation; errors/timeouts fail open, and ML prompt-injection detection is off by default. Unknown skills upload `SKILL.md` and supporting files by default; set `skill_check.upload_enabled=false` for hash-only lookup. URL checks disclose URLs; Community IQ sends bounded command/URL/path metadata. `community_iq=false` disables detection telemetry, but session-start version checks still send environment data and a persistent installation ID. OpenCode's agent-mediated approvals are injection-sensitive; paranoid mode promotes ask to deny. Code is Apache-2.0; threat definitions use Detection Rule License 1.1 attribution terms. *(★ 326 · updated 2026-11-09)*
   - **Sources:** [Defaults, privacy and fail-open](https://github.com/gendigitalinc/sage/blob/263e023e88b7089f88a70a476846385594aa4370/docs/user-guide.md) · [Detection rule license](https://github.com/gendigitalinc/sage/blob/263e023e88b7089f88a70a476846385594aa4370/threats/LICENSE)
+- **[PromptGuard API](https://github.com/sinescribe/promptguard-api)** 🟢 — Sub-1ms zero-dependency FastAPI middleware and Python library for deterministic prompt-injection signature detection, ChatML/Llama delimiter spoofing checks, and Python AST tool-call sandboxing. **Caveat:** Early-stage rule- and AST-based filter; does not replace OS/container isolation or detect purely semantic attacks outside configured signatures. Optional Pro license key verification uses Gumroad API. *(★ 0 · updated 2026-11-21)*
 
 ---
 
