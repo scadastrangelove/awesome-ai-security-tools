@@ -502,6 +502,8 @@ Static analysis and secure code review enhanced with LLMs.
   - **Sources:** [Audit workflow](https://github.com/pashov/skills/blob/eacfc09b365d2697b83355909d0300607e596ffc/solidity-auditor/SKILL.md) · [Fuzzing workflow](https://github.com/pashov/skills/blob/eacfc09b365d2697b83355909d0300607e596ffc/fizz/SKILL.md)
 - **[OpenCodeReview](https://github.com/alibaba/open-code-review)** 🟢 — Code-review harness combining deterministic rule selection with tool-using LLM review of diffs or complete files, including security rules and structured line-level comments. *(Alibaba)* **Caveat:** General code-quality and security review, not a proof of vulnerability coverage. Selected source and context go to the configured model or delegated coding agent. OpenTelemetry is opt-in via `OCR_ENABLE_TELEMETRY` and disabled by default. *(★ 50,881 · updated 2026-11-14)*
   - **Sources:** [Telemetry defaults](https://github.com/alibaba/open-code-review/blob/0e9060da66af36a96a15516e76a001953095318b/internal/telemetry/config.go)
+- **[How Could I Be Hacked](https://github.com/sandhiveio/How-Could-I-Be-Hacked)** 🟢 — Coding-agent skill that adapts security checks from open-source reviews to PR diffs, runs local checks, and reports coverage beyond existing tests. *(SandHive)* **Caveat:** Library search and report tooling run locally without an additional API key. Model calls and source-code handling follow the selected coding agent's provider and data settings.
+  - **Related:** [Example PR review](https://github.com/sandhiveio/How-Could-I-Be-Hacked/blob/main/references/example-pr-report.md)
 
 ---
 
