@@ -1360,8 +1360,8 @@
               "flags": [
                 "early_stage"
               ],
-              "desc": "KeePass-compatible terminal secrets manager that lets agents run commands with approved secrets injected into their environment.",
-              "note": "**Caveat:** beta; approved commands receive the secrets and can expose them, and Bypass does not sandbox those commands."
+              "desc": "Local KeePass-compatible terminal secrets manager that lets agents run commands with approved secrets injected into their environment.",
+              "note": "**Caveat:** approved commands receive the secrets and can expose them, and Bypass does not sandbox those commands."
             },
             {
               "name": "OpenAPPA",
