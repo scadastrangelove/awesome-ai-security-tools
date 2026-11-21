@@ -3133,6 +3133,25 @@
                 "updated": "2026-11-09",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "name": "PromptGuard API",
+              "repo": "sinescribe/promptguard-api",
+              "desc": "Sub-1ms zero-dependency FastAPI middleware and Python library for deterministic prompt-injection signature detection, ChatML/Llama delimiter spoofing checks, and Python AST tool-call sandboxing.",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage",
+                "commercial_features"
+              ],
+              "note": "**Caveat:** Early-stage rule- and AST-based filter; does not replace OS/container isolation or detect purely semantic attacks outside configured signatures. Optional Pro license key verification uses Gumroad API.",
+              "metrics": {
+                "stars": 0,
+                "updated": "2026-11-21",
+                "snapshot": "2026-11-21"
+              }
             }
           ]
         }
