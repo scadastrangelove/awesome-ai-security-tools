@@ -3764,7 +3764,8 @@
             "snapshot": "2026-10-13"
           }
         }
-      ]
+      ],
+      "footer": "> **See also:** [Mozhenzhen](https://mozhenzhen.com/en/reports) provides public reports on third-party AI API endpoints, model-identity signals and provider pricing. **Caveat:** operator-published, point-in-time assessments are not independent model-origin certification or guarantees of future service quality. Browsing reports needs no API key; submitting a new check shares endpoint credentials with the service and consumes provider quota. See its [verification terms](https://mozhenzhen.com/en/user-agreement) and [data-handling policy](https://mozhenzhen.com/en/privacy-policy)."
     },
     {
       "title": "Pentest & Red-Team Agents",

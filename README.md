@@ -347,6 +347,8 @@ Tools for securing model artifacts, serialized ML files, AI/ML supply-chain surf
 - **[Activation-based Model Scanner (AMS)](https://github.com/GoogleCloudPlatform/activation-model-scanner)** 🟢🔬 — PyPI scanner that uses safety-related activation fingerprints to detect degraded or removed safety training and compare an open-weight model with a known baseline. *(Google Cloud Platform)* — **note:** unofficial and unsupported Google research-derived project; GPU execution is recommended, calibration covers a limited set of model families, and the documented method can miss modifications that preserve measured safety directions. *(★ 33 · updated 2026-10-07)*
   - **Related:** [AASE research](https://research.google/pubs/aase-activation-based-ai-safety-enforcement-via-lightweight-probes/) · [model-provenance-kit](https://github.com/cisco-ai-defense/model-provenance-kit)
 
+> **See also:** [Mozhenzhen](https://mozhenzhen.com/en/reports) provides public reports on third-party AI API endpoints, model-identity signals and provider pricing. **Caveat:** operator-published, point-in-time assessments are not independent model-origin certification or guarantees of future service quality. Browsing reports needs no API key; submitting a new check shares endpoint credentials with the service and consumes provider quota. See its [verification terms](https://mozhenzhen.com/en/user-agreement) and [data-handling policy](https://mozhenzhen.com/en/privacy-policy).
+
 ---
 
 ## Pentest & Red-Team Agents
