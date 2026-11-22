@@ -6091,7 +6091,7 @@
             "updated": "2026-11-22",
             "snapshot": "2026-11-22"
           },
-          "note": "— **note:** young project (created November 2026). It is detection content for attacks run by AI agents, not an AI-powered tool; rules are checked in CI but have not been tested against a captured intrusion."
+          "note": "— **note:** young project (created November 2026). It is detection content for attacks run by AI agents, not an AI-powered tool."
         },
         {
           "name": "CTINexus",
