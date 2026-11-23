@@ -3133,6 +3133,62 @@
                 "updated": "2026-11-09",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "name": "TaintGuard (dortort/claude-plugins)",
+              "repo": "dortort/claude-plugins",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage"
+              ],
+              "desc": "Claude Code hooks mod that tracks sensitive and untrusted sources entering a session and blocks risky downstream tool calls according to JSON-schema-validated policy presets.",
+              "note": "**Caveat:** early-stage Claude Code mod (`plugins/taint-guard` inside the `dortort/claude-plugins` marketplace); in-session hook enforcement is not an OS/kernel isolation boundary.",
+              "metrics": {
+                "stars": 4,
+                "updated": "2026-11-22",
+                "snapshot": "2026-11-23"
+              }
+            },
+            {
+              "name": "agent-bound",
+              "repo": "dortort/agent-bound",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage",
+                "research"
+              ],
+              "desc": "TypeScript access control framework for MCP servers combining declarative Android-style permission manifests (`AgentManifest`), static source-code manifest generation, and runtime enforcement (`AgentBox`).",
+              "note": "**Caveat:** explicitly experimental reference implementation inspired by the AgentBound paper (arXiv:2510.21236); not production-hardened and not yet published on npm.",
+              "metrics": {
+                "stars": 3,
+                "updated": "2026-11-20",
+                "snapshot": "2026-11-23"
+              }
+            },
+            {
+              "name": "ai-tool-guard",
+              "repo": "dortort/ai-tool-guard",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage",
+                "telemetry"
+              ],
+              "desc": "TypeScript policy enforcement middleware for Vercel AI SDK tool calls covering heuristic prompt-injection checks, argument guards, rule/OPA/Cedar policies, approval tokens, output redaction, MCP schema drift detection, and OpenTelemetry spans.",
+              "note": "**Caveat:** early-stage in-process application middleware (`@dortort/ai-tool-guard` on npm), not an OS containment boundary; prompt-injection detection is heuristic.",
+              "metrics": {
+                "stars": 0,
+                "updated": "2026-11-20",
+                "snapshot": "2026-11-23"
+              }
             }
           ]
         }
