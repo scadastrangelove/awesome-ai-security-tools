@@ -3133,6 +3133,21 @@
                 "updated": "2026-11-09",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "name": "GAWE",
+              "repo": "riadgaffar/gawe",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage",
+                "model_dependent",
+                "requires_api_key"
+              ],
+              "desc": "Engine for agents acting on business systems in which a quarantined Reader turns untrusted documents into schema-bound findings, a default-deny YAML policy engine signs a decision for every step, approvals bind to a hash of the exact action and referenced record versions, and a hash-chained audit log is anchored externally; ships a prompt-injection benchmark that also runs every attack against a deliberately fooled model.",
+              "note": "**Caveat:** young project with limited independent adoption. The reference apps (contract review, IT access) run against mock connectors with demo token auth; no OIDC or production connector yet. Live runs call Anthropic models with the user's API key; policy decisions are deterministic, and the test suite and scripted benchmark run on a fake model with no key or data egress."
             }
           ]
         }
