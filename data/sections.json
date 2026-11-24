@@ -9255,7 +9255,8 @@
             "snapshot": "2026-11-14"
           }
         }
-      ]
+      ],
+      "footer": "> **See also / Related evaluation resources:** [AssetOpsBench](https://github.com/IBM/AssetOpsBench) (IBM, Apache-2.0) benchmarks tool-using agents in industrial asset operations and maintenance. **Scope:** evaluates task execution and operational reliability, not dedicated adversarial security; benchmark scores alone do not establish safe deployment. [Research paper](https://arxiv.org/abs/2506.03828)."
     },
     {
       "title": "Cloud / IaC / DFIR / OSINT / Phishing",

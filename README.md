@@ -839,6 +839,8 @@ Offensive agents and the benchmarks used to evaluate them.
 - **[AgentRE-Bench](https://github.com/agentrebench/AgentRE-Bench)** 🟢🔬 — Research benchmark for multi-step, tool-assisted static reverse engineering of ELF/PE binaries, with purpose-built tasks, ground truth and a structured scoring harness. **Caveat:** A fixed synthetic suite, not evidence of generalization to arbitrary malware. The harness invokes analysis tools locally or in Docker; model backends can receive analysis content. Published results and AI-assisted rubric/calibration are project-reported, not independent human evaluation. *(★ 142 · updated 2026-11-05)*
   - **Sources:** [Tool execution](https://github.com/agentrebench/AgentRE-Bench/blob/c0f5fa5b5c1447ce2cc764b96365bc9fed0cbf01/harness/sandbox.py) · [Scoring](https://github.com/agentrebench/AgentRE-Bench/blob/c0f5fa5b5c1447ce2cc764b96365bc9fed0cbf01/docs/scoring.md) · [Result scope](https://github.com/agentrebench/AgentRE-Bench/blob/c0f5fa5b5c1447ce2cc764b96365bc9fed0cbf01/docs/results-current.md)
 
+> **See also / Related evaluation resources:** [AssetOpsBench](https://github.com/IBM/AssetOpsBench) (IBM, Apache-2.0) benchmarks tool-using agents in industrial asset operations and maintenance. **Scope:** evaluates task execution and operational reliability, not dedicated adversarial security; benchmark scores alone do not establish safe deployment. [Research paper](https://arxiv.org/abs/2506.03828).
+
 ---
 
 ## Cloud / IaC / DFIR / OSINT / Phishing
