@@ -3133,6 +3133,24 @@
                 "updated": "2026-11-09",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "name": "Archon OS",
+              "repo": "michaelbeatman/ARCHON-OS",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage"
+              ],
+              "desc": "Self-hosted multi-agent workspace with Zero-Egress local execution, human-in-the-loop approval gates, and a tamper-evident HMAC-SHA256 audit log.",
+              "metrics": {
+                "stars": 1,
+                "updated": "2026-11-24",
+                "snapshot": "2026-11-24"
+              },
+              "note": "**Note:** pre-1.0 project (v0.5.7.8) with limited independent adoption signal."
             }
           ]
         }
