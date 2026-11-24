@@ -1351,19 +1351,6 @@
           "title": "Runtime Protection & Enforcement",
           "entries": [
             {
-              "name": "Bypass",
-              "repo": "yaroshevych/bypass",
-              "status": [
-                "open_source"
-              ],
-              "license": "MIT",
-              "flags": [
-                "early_stage"
-              ],
-              "desc": "Local KeePass-compatible terminal secrets manager that lets agents run commands with approved secrets injected into their environment.",
-              "note": "**Caveat:** approved commands receive the secrets and can expose them, and Bypass does not sandbox those commands."
-            },
-            {
               "name": "OpenAPPA",
               "repo": "archestra-ai/OpenAPPA",
               "org": "Archestra",
@@ -6091,7 +6078,7 @@
         {
           "name": "Agentic Attack Detections",
           "repo": "ThreatDefence/agentic-attack-detections",
-          "desc": "Detection rules, hunting queries, and sourced indicators for AI agent attack frameworks such as Cairn, PentAGI, Strix, HexStrike, and CyberStrikeAI, in KQL, Sigma, Suricata, Zeek, YARA, and STIX 2.1.",
+          "desc": "Detection rules, hunting queries and sourced indicators for activity associated with agentic attack frameworks, in KQL, Sigma, Suricata, Zeek, YARA and STIX 2.1.",
           "status": [
             "open_source"
           ],
@@ -6100,11 +6087,21 @@
             "early_stage"
           ],
           "metrics": {
-            "stars": 179,
-            "updated": "2026-11-22",
-            "snapshot": "2026-11-22"
+            "stars": 580,
+            "updated": "2026-11-24",
+            "snapshot": "2026-11-24"
           },
-          "note": "— **note:** young project (created November 2026). It is detection content for attacks run by AI agents, not an AI-powered tool."
+          "note": "**Caveat:** young detection-content project, not an AI-powered scanner. Experimental rules and mutable tool fingerprints require local validation and tuning; authorized testing can trigger them. Tool presence or an exposed console does not establish malicious activity or actor attribution. Published sample traffic is synthetic, not a recorded intrusion.",
+          "sources": [
+            {
+              "label": "Rule scope and false positives",
+              "url": "https://github.com/ThreatDefence/agentic-attack-detections/blob/3e80803e25cc2b6f97e752e0fce9825ad5228245/frameworks/artex/sigma/web/web_artex_user_agent.yml"
+            },
+            {
+              "label": "Source-derived signals and fragility",
+              "url": "https://github.com/ThreatDefence/agentic-attack-detections/blob/3e80803e25cc2b6f97e752e0fce9825ad5228245/frameworks/strix/source-code-signals.md"
+            }
+          ]
         },
         {
           "name": "CTINexus",
