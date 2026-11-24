@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-19. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-22. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -570,6 +570,7 @@ AI/LLM tooling for CTI gathering, IOC/TTP extraction, and analysis.
   - **Related:** [IATelligence](https://github.com/fr0gger/IATelligence)
 - **[threat-intelligence-cti-analysis](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis)** 🟢 — NLP/LLM pipeline for IOC extraction, MITRE ATT&CK mapping, and knowledge-graph generation from unstructured CTI. *(★ 4 · updated 2025-11-03)*
   - **Related:** [soctalk](https://github.com/soctalk/soctalk)
+- **[Agentic Attack Detections](https://github.com/ThreatDefence/agentic-attack-detections)** 🟢 — Detection rules, hunting queries, and sourced indicators for AI agent attack frameworks such as Cairn, PentAGI, Strix, HexStrike, and CyberStrikeAI, in KQL, Sigma, Suricata, Zeek, YARA, and STIX 2.1. — **note:** young project (created November 2026). It is detection content for attacks run by AI agents, not an AI-powered tool. *(★ 179 · updated 2026-11-22)*
 - **[CTINexus](https://github.com/peng-gao-lab/ctinexus)** 🟢🔬 — LLM-assisted framework for data-efficient extraction of cyber-threat intelligence and construction of structured cybersecurity knowledge graphs from unstructured reports. — **note:** ships tests, releases, Docker configuration, and a Python package; extraction workflows require a configured supported LLM provider. *(★ 89 · updated 2026-02-25)*
   - **Related:** [threat-intelligence-cti-analysis](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis) · [CTIBench](https://github.com/maveryn/cti-bench)
 - **[CTIBench](https://github.com/maveryn/cti-bench)** 🔬⚠️ — NeurIPS 2024 Spotlight benchmark with 4,610 examples across CTI knowledge, CWE root-cause mapping, CVSS prediction, ATT&CK technique extraction, and threat-actor attribution. — **note:** non-commercial research benchmark; the repository publishes data, evaluation notebooks, model outputs, and raw logs rather than a production CTI service. *(★ 94 · updated 2026-05-07)*
