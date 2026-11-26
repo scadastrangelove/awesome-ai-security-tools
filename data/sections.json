@@ -6218,10 +6218,11 @@
           "name": "Vigil SOC",
           "repo": "Vigil-SOC/vigil",
           "org": "Vigil SOC",
-          "desc": "Open-source AI SOC with readable Python agents, Markdown playbooks, and MCP integrations for triage, investigation, hunting, response, reporting, and forensics.",
+          "desc": "Self-hosted, Apache-2.0 AI SOC whose specialist agents triage, investigate, and hunt through MCP integrations (SIEM, EDR/XDR, cloud, identity, threat intel) under Markdown WORKFLOW.md playbooks, holding response actions for analyst approval, recording each run in an append-only ledger, and serving its own MCP endpoint to headless clients; runs on a local or hosted LLM.",
           "status": [
             "open_source"
           ],
+          "license": "Apache-2.0",
           "related": [
             {
               "label": "soctalk",
@@ -6229,9 +6230,9 @@
             }
           ],
           "metrics": {
-            "stars": 365,
-            "updated": "2026-10-12",
-            "snapshot": "2026-10-13"
+            "stars": 470,
+            "updated": "2026-11-26",
+            "snapshot": "2026-11-26"
           }
         },
         {
