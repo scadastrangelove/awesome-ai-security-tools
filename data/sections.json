@@ -890,6 +890,22 @@
                 "updated": "2026-11-14",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "name": "agent-check",
+              "repo": "daviderez4/nodatachat-core",
+              "org": "NoData",
+              "desc": "Local CLI that reads existing Claude Code and Codex session history and reports, per category, what the agent attempted (credential files, secret searches, outbound commands), what succeeded, and how many secret-looking values entered its context.",
+              "status": [
+                "open_source"
+              ],
+              "license": "Apache-2.0",
+              "note": "— **note:** retrospective audit of local agent history, not runtime enforcement; makes no network requests after `npx` downloads it and outputs counts by default; part of the `@nodatachat/protect` package.",
+              "metrics": {
+                "stars": 15,
+                "updated": "2026-11-26",
+                "snapshot": "2026-11-26"
+              }
             }
           ]
         },

@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-24. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-26. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -131,6 +131,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Sandlock](https://github.com/multikernel/sandlock) · [AIO Sandbox](https://github.com/agent-infra/sandbox)
 - **[cfgaudit](https://github.com/cfgaudit/cfgaudit)** 🟢 — Local deterministic CLI auditing coding-agent permissions, hooks, MCP configuration, instruction files and skills, with JSON/SARIF findings. **Caveat:** Early-stage static configuration analysis, not runtime enforcement or complete prompt-injection detection. A scanned repository's `.cfgaudit.yml` can suppress rules; use operator-controlled configuration when reviewing untrusted projects. Optional ShellCheck adds an external analysis dependency. *(★ 26 · updated 2026-11-14)*
   - **Sources:** [Agent-run threat model](https://github.com/cfgaudit/cfgaudit/blob/203205862bfc44f8a5dca23449eb4c1d3ae65fe6/docs/agent-run-threat-model.md)
+- **[agent-check](https://github.com/daviderez4/nodatachat-core)** 🟢 — Local CLI that reads existing Claude Code and Codex session history and reports, per category, what the agent attempted (credential files, secret searches, outbound commands), what succeeded, and how many secret-looking values entered its context. *(NoData)* — **note:** retrospective audit of local agent history, not runtime enforcement; makes no network requests after `npx` downloads it and outputs counts by default; part of the `@nodatachat/protect` package. *(★ 15 · updated 2026-11-26)*
 
 ### Frameworks, Rule Standards & Benchmarks
 
