@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-24. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-26. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -587,7 +587,7 @@ AI agents for SOC alert triage, investigation, and incident response.
 - **[AI-SOC-Agent](https://github.com/M507/ai-soc-agent)** 🟢 — Black Hat 2025 MCP server exposing security-investigation tools (ELK, IRIS). *(★ 51 · updated 2026-09-30)*
 - **[soctalk](https://github.com/soctalk/soctalk)** 🟢 — LangGraph SOC automation agent with MCP integrations for Wazuh, Cortex, TheHive, and MISP plus mock-agent test lab. *(★ 89 · updated 2026-08-12)*
   - **Related:** [SigmaOptimizer](https://github.com/YusukeJustinNakajima/SigmaOptimizer)
-- **[Vigil SOC](https://github.com/Vigil-SOC/vigil)** 🟢 — Open-source AI SOC with readable Python agents, Markdown playbooks, and MCP integrations for triage, investigation, hunting, response, reporting, and forensics. *(Vigil SOC)* *(★ 365 · updated 2026-10-12)*
+- **[Vigil SOC](https://github.com/Vigil-SOC/vigil)** 🟢 — Self-hosted, Apache-2.0 AI SOC whose specialist agents triage, investigate, and hunt through MCP integrations (SIEM, EDR/XDR, cloud, identity, threat intel) under Markdown WORKFLOW.md playbooks, holding response actions for analyst approval, recording each run in an append-only ledger, and serving its own MCP endpoint to headless clients; runs on a local or hosted LLM. *(Vigil SOC)* *(★ 470 · updated 2026-11-26)*
   - **Related:** [soctalk](https://github.com/soctalk/soctalk)
 - **[agentic-soc-platform](https://github.com/FunnyWolf/agentic-soc-platform)** 🟢 — Agentic SOC platform (LangGraph/Dify) with local-LLM support. *(★ 1,205 · updated 2026-09-29)*
 - **[SigmAIQ](https://github.com/AttackIQ/SigmAIQ)** 🟢⚠️ — pySigma wrapper and LangChain toolkit for automatic Sigma rule creation and translation; LGPL-2.1 licensed. *(AttackIQ)* *(★ 98 · updated 2025-11-03)*
