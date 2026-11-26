@@ -7874,6 +7874,31 @@
               }
             },
             {
+              "name": "newmean-pii",
+              "repo": "newmean-ai/pii",
+              "org": "newmean.ai",
+              "license": "Apache-2.0",
+              "desc": "Multilingual PII detection and masking SDK that runs 2.6 to 15.5 MB models for 54 languages in the browser (WebAssembly) or on the device, with packages for JavaScript, Python, iOS, Android, Flutter and Rust and middlewares for the Vercel AI SDK and LangChain that mask text before model calls and can restore the values in responses.",
+              "status": [
+                "open_source"
+              ],
+              "flags": [
+                "early_stage"
+              ],
+              "note": "**Caveat:** model-based detection can miss PII (per-language miss rates are published in the repository); with the vault, the placeholder mapping holds the original values and restored tool arguments contain them.",
+              "related": [
+                {
+                  "label": "Kiji Privacy Proxy",
+                  "url": "https://github.com/Dataiku/kiji-proxy"
+                }
+              ],
+              "metrics": {
+                "stars": 196,
+                "updated": "2026-11-26",
+                "snapshot": "2026-11-26"
+              }
+            },
+            {
               "name": "Anamorpher",
               "repo": "trailofbits/anamorpher",
               "org": "Trail of Bits",
