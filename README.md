@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-24. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-26. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -724,6 +724,8 @@ Tools for attacking and defending LLM applications themselves.
   - **Related:** [Rebuff](https://github.com/protectai/rebuff) · [prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses)
 - **[Kiji Privacy Proxy](https://github.com/Dataiku/kiji-proxy)** 🟢 — Local privacy proxy for OpenAI-compatible AI API traffic that detects and masks 26 PII types with an ONNX model before forwarding requests, then restores mappings in responses. *(Dataiku 575 Lab)* — **note:** protects configured proxied traffic, not every path by which an application or agent can disclose data; operators retain responsibility for proxy routing and local mapping storage. *(★ 437 · updated 2026-09-14)*
   - **Related:** [LLM Guard](https://github.com/protectai/llm-guard) · [Kiji PII model](https://huggingface.co/DataikuNLP/kiji-pii-model-onnx)
+- **[newmean-pii](https://github.com/newmean-ai/pii)** 🟢 — Multilingual PII detection and masking SDK that runs 2.6 to 15.5 MB models for 54 languages in the browser (WebAssembly) or on the device, with packages for JavaScript, Python, iOS, Android, Flutter and Rust and middlewares for the Vercel AI SDK and LangChain that mask text before model calls and can restore the values in responses. *(newmean.ai)* **Caveat:** model-based detection can miss PII (per-language miss rates are published in the repository); with the vault, the placeholder mapping holds the original values and restored tool arguments contain them. *(★ 196 · updated 2026-11-26)*
+  - **Related:** [Kiji Privacy Proxy](https://github.com/Dataiku/kiji-proxy)
 - **[Anamorpher](https://github.com/trailofbits/anamorpher)** 🟢🔬 — Research tool with a frontend and Python API for crafting and visualizing image-scaling attacks that reveal hidden prompt injections to multimodal AI systems after downscaling. *(Trail of Bits)* — **note:** active beta research tool for authorized testing; generated payloads are sensitive to the target's image-resampling implementation and preprocessing pipeline. *(★ 1,080 · updated 2026-02-19)*
   - **Sources:** [Trail of Bits research announcement](https://blog.trailofbits.com/2025/08/21/weaponizing-image-scaling-against-production-ai-systems/)
   - **Related:** [PromptFuzz](https://github.com/FuzzAnything/PromptFuzz) · [promptfoo](https://github.com/promptfoo/promptfoo) · [Invisible prompt-injection fixtures (hidden-content samples)](https://github.com/bountyyfi/invisible-prompt-injection)
