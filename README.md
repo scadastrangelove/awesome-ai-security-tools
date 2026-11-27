@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-24. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-27. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -68,6 +68,7 @@ AI/LLM tools that triage, deduplicate, prioritize, or validate the output of sca
 - **[SigmaOptimizer](https://github.com/YusukeJustinNakajima/SigmaOptimizer)** 🟢 — Generates, tests, and refines Sigma rules from real logs with false-positive checking. *(★ 11 · updated 2025-08-01)*
   - **Related:** [soctalk](https://github.com/soctalk/soctalk) · [seclab-taskflow-agent](https://github.com/GitHubSecurityLab/seclab-taskflow-agent)
 - **[ai-soc-triage-assistant](https://github.com/pranavibunny/ai-soc-triage-assistant)** 🟢⚠️ — SOC alert triage assistant with prompt-injection guardrails, output validation, and MITRE ATT&CK mapping. *(★ 0 · updated 2026-02-23)*
+- **[cvENGINE](https://github.com/hevnsnt/CVEngine)** 🟢⚠️ — Self-hosted attack surface platform that matches each new CVE to the software versions fingerprinted on your internet-facing hosts, confirms matches with read-only checks (nuclei, testssl), and optionally has an LLM triage the collected evidence. **Caveat:** GPL-3.0 copyleft. AI triage is optional and runs on the operator's own provider key (Anthropic, OpenAI, OpenRouter) or a local model (Ollama, LM Studio, vLLM); hosted providers receive finding evidence. Model verdicts are not proof of exploitability. Scan only assets you are authorized to test. *(★ 816 · updated 2026-11-27)*
 
 > See also: OpenAI's *Aardvark* research preview — public references exist, but there is no standalone installable repository to badge here.
 

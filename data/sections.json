@@ -139,6 +139,25 @@
             "updated": "2026-02-23",
             "snapshot": "2026-10-13"
           }
+        },
+        {
+          "name": "cvENGINE",
+          "repo": "hevnsnt/CVEngine",
+          "status": [
+            "open_source"
+          ],
+          "license": "GPL-3.0",
+          "flags": [
+            "copyleft",
+            "model_dependent"
+          ],
+          "desc": "Self-hosted attack surface platform that matches each new CVE to the software versions fingerprinted on your internet-facing hosts, confirms matches with read-only checks (nuclei, testssl), and optionally has an LLM triage the collected evidence.",
+          "note": "**Caveat:** GPL-3.0 copyleft. AI triage is optional and runs on the operator's own provider key (Anthropic, OpenAI, OpenRouter) or a local model (Ollama, LM Studio, vLLM); hosted providers receive finding evidence. Model verdicts are not proof of exploitability. Scan only assets you are authorized to test.",
+          "metrics": {
+            "stars": 816,
+            "updated": "2026-11-27",
+            "snapshot": "2026-11-27"
+          }
         }
       ],
       "footer": "> See also: OpenAI's *Aardvark* research preview — public references exist, but there is no standalone installable repository to badge here."
