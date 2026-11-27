@@ -890,6 +890,30 @@
                 "updated": "2026-11-14",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "name": "cage-mcp-server",
+              "repo": "draarivpatel-ui/cage-mcp-server",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage"
+              ],
+              "desc": "Offline AppSec firewall MCP server exposing ten bounded tools for repository policy linting and path, header, redirect, env, cookie, ZIP, log, CORS and JSON checks.",
+              "note": "**Caveat:** deterministic static checks only, not runtime enforcement or proof of security; the server makes no network requests and never executes tool input.",
+              "related": [
+                {
+                  "label": "sentinel-lint",
+                  "url": "https://github.com/draarivpatel-ui/sentinel-lint"
+                }
+              ],
+              "metrics": {
+                "stars": 0,
+                "updated": "2026-11-27",
+                "snapshot": "2026-11-27"
+              }
             }
           ]
         },

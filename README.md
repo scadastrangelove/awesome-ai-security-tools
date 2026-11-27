@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-24. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-27. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -131,6 +131,8 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Sandlock](https://github.com/multikernel/sandlock) · [AIO Sandbox](https://github.com/agent-infra/sandbox)
 - **[cfgaudit](https://github.com/cfgaudit/cfgaudit)** 🟢 — Local deterministic CLI auditing coding-agent permissions, hooks, MCP configuration, instruction files and skills, with JSON/SARIF findings. **Caveat:** Early-stage static configuration analysis, not runtime enforcement or complete prompt-injection detection. A scanned repository's `.cfgaudit.yml` can suppress rules; use operator-controlled configuration when reviewing untrusted projects. Optional ShellCheck adds an external analysis dependency. *(★ 26 · updated 2026-11-14)*
   - **Sources:** [Agent-run threat model](https://github.com/cfgaudit/cfgaudit/blob/203205862bfc44f8a5dca23449eb4c1d3ae65fe6/docs/agent-run-threat-model.md)
+- **[cage-mcp-server](https://github.com/draarivpatel-ui/cage-mcp-server)** 🟢 — Offline AppSec firewall MCP server exposing ten bounded tools for repository policy linting and path, header, redirect, env, cookie, ZIP, log, CORS and JSON checks. **Caveat:** deterministic static checks only, not runtime enforcement or proof of security; the server makes no network requests and never executes tool input. *(★ 0 · updated 2026-11-27)*
+  - **Related:** [sentinel-lint](https://github.com/draarivpatel-ui/sentinel-lint)
 
 ### Frameworks, Rule Standards & Benchmarks
 
