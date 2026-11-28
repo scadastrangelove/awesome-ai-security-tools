@@ -890,6 +890,24 @@
                 "updated": "2026-11-14",
                 "snapshot": "2026-11-14"
               }
+            },
+            {
+              "name": "mcp-audit",
+              "repo": "cybrxprt/mcp-audit",
+              "org": "cybrxprt",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage"
+              ],
+              "desc": "Zero-dependency Node CLI, SARIF GitHub Action, and VS Code extension that audits mcp.json, Cursor, and Claude configs for tool poisoning, hardcoded tokens, unpinned npx/uvx runners, and overbroad filesystem scopes.",
+              "metrics": {
+                "stars": 0,
+                "updated": "2026-11-28",
+                "snapshot": "2026-11-28"
+              }
             }
           ]
         },
@@ -8220,6 +8238,25 @@
                 "stars": 224,
                 "updated": "2026-11-07",
                 "snapshot": "2026-11-14"
+              }
+            },
+            {
+              "name": "agent-redteam",
+              "repo": "cybrxprt/agent-redteam",
+              "org": "cybrxprt",
+              "status": [
+                "open_source"
+              ],
+              "license": "MIT",
+              "flags": [
+                "early_stage",
+                "requires_api_key"
+              ],
+              "desc": "Zero-dependency CI/CD red-teaming runner and GitHub Action executing 20 OWASP LLM Top 10 and MITRE ATLAS probes across prompt injection, indirect RAG poisoning, PII/secret leakage, and excessive tool agency, with SARIF and HTML reporting.",
+              "metrics": {
+                "stars": 0,
+                "updated": "2026-11-28",
+                "snapshot": "2026-11-28"
               }
             }
           ]

@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-24. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-28. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -131,6 +131,7 @@ Securing the AI agents themselves — auditing coding agents (Claude Code, Codex
   - **Related:** [Sandlock](https://github.com/multikernel/sandlock) · [AIO Sandbox](https://github.com/agent-infra/sandbox)
 - **[cfgaudit](https://github.com/cfgaudit/cfgaudit)** 🟢 — Local deterministic CLI auditing coding-agent permissions, hooks, MCP configuration, instruction files and skills, with JSON/SARIF findings. **Caveat:** Early-stage static configuration analysis, not runtime enforcement or complete prompt-injection detection. A scanned repository's `.cfgaudit.yml` can suppress rules; use operator-controlled configuration when reviewing untrusted projects. Optional ShellCheck adds an external analysis dependency. *(★ 26 · updated 2026-11-14)*
   - **Sources:** [Agent-run threat model](https://github.com/cfgaudit/cfgaudit/blob/203205862bfc44f8a5dca23449eb4c1d3ae65fe6/docs/agent-run-threat-model.md)
+- **[mcp-audit](https://github.com/cybrxprt/mcp-audit)** 🟢 — Zero-dependency Node CLI, SARIF GitHub Action, and VS Code extension that audits mcp.json, Cursor, and Claude configs for tool poisoning, hardcoded tokens, unpinned npx/uvx runners, and overbroad filesystem scopes. *(cybrxprt)* *(★ 0 · updated 2026-11-28)*
 
 ### Frameworks, Rule Standards & Benchmarks
 
@@ -747,6 +748,7 @@ Tools for attacking and defending LLM applications themselves.
   - **Related:** [AgentDojo](https://github.com/ethz-spylab/agentdojo) · [Meta SecAlign models](https://huggingface.co/meta-llama) · [SecAlign (historical predecessor; CC BY-NC 4.0, noncommercial)](https://github.com/facebookresearch/SecAlign) · [StruQ predecessor research (CC BY-NC 4.0; trained models/GPU, OpenAI utility evaluation)](https://github.com/Sizhe-Chen/StruQ)
 - **[dsh-jailbreak](https://github.com/xqpsec/dsh-jailbreak)** 🟢🔬⚠️ — Offensive DSH plugin that rewrites outbound OpenAI-, Anthropic- and Gemini-style requests for jailbreak experiments, with request transformation and per-call audit records. **Caveat:** AGPL-3.0-only plugin (gate component MIT); use only against explicitly authorized models. The shipped `gate.json` disables enforcement, uses target warnings and passes requests through on denial; do not assume default scope enforcement. Providers receive rewritten requests, audit records can retain sensitive context, and success rates are project-reported. *(★ 224 · updated 2026-11-07)*
   - **Sources:** [Shipped gate defaults](https://github.com/xqpsec/dsh-jailbreak/blob/d40fa84748d1f2e663b443078955b75a218cdb5c/gate.json) · [Scope and limitations](https://github.com/xqpsec/dsh-jailbreak/blob/d40fa84748d1f2e663b443078955b75a218cdb5c/SCOPE.md)
+- **[agent-redteam](https://github.com/cybrxprt/agent-redteam)** 🟢 — Zero-dependency CI/CD red-teaming runner and GitHub Action executing 20 OWASP LLM Top 10 and MITRE ATLAS probes across prompt injection, indirect RAG poisoning, PII/secret leakage, and excessive tool agency, with SARIF and HTML reporting. *(cybrxprt)* *(★ 0 · updated 2026-11-28)*
 
 ### Prompt-Injection Classifier Models
 
