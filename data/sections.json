@@ -8603,6 +8603,21 @@
             "updated": "2026-01-23",
             "snapshot": "2026-10-13"
           }
+        },
+        {
+          "name": "Krawl",
+          "repo": "BlessedRebuS/Krawl",
+          "desc": "Web honeypot and anti-crawler (Python) that can use an LLM to generate decoy pages from the paths attackers request.",
+          "license": "MIT",
+          "note": "**Caveat:** LLM page generation is optional and off by default; the core honeypot does not need a model.",
+          "status": [
+            "open_source"
+          ],
+          "metrics": {
+            "stars": 841,
+            "updated": "2026-11-28",
+            "snapshot": "2026-11-28"
+          }
         }
       ]
     },
