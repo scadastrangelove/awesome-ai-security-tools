@@ -9,7 +9,7 @@
 
 **Type legend:** 🟢 public source / open-source · 🔬 research (paper / benchmark / dataset / framework) · 🟠 commercial with open components · ⚠️ restrictive, non-commercial, or unclear/no license — check before use.
 
-GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-24. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
+GitHub-hosted entries show static **★ stars** and **last-commit** snapshots; refresh them with `python3 scripts/update_github_metrics.py` before release. Most recently refreshed entry: 2026-11-28. Hugging Face model entries show license, access, and artifact metadata. Ordering within a section favors flagship and actively maintained projects.
 
 ---
 
@@ -787,6 +787,7 @@ Honeypots and deception that use LLMs to simulate convincing systems.
 - **[VelLMes](https://github.com/stratosphereips/VelLMes-AI-Deception-Framework)** 🟢🔬 — Multi-protocol LLM honeypot framework (successor to shelLM). *(★ 80 · updated 2025-02-18)*
   - **Related:** [shelLM](https://github.com/stratosphereips/shelLM)
 - **[llm-honeypot](https://github.com/PalisadeResearch/llm-honeypot)** 🔬⚠️ — Cowrie SSH honeypot extended with prompt-injection traps to detect LLM hacker agents. *(Palisade Research)* *(★ 65 · updated 2026-01-23)*
+- **[Krawl](https://github.com/BlessedRebuS/Krawl)** 🟢 — Web honeypot and anti-crawler (Python) that can use an LLM to generate decoy pages from the paths attackers request. **Caveat:** LLM page generation is optional and off by default; the core honeypot does not need a model. *(★ 841 · updated 2026-11-28)*
 
 ---
 
