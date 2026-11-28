@@ -1,4 +1,5 @@
 # Awesome AI Security Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+- [Insomnia Security MCP](https://github.com/CQR-Cybersecurity-LLC/insomnia-mcp) - Unified offensive security & AppSec MCP server for AI agents (160 tools: multi-language SAST/taint, live secret validation, Web DAST, 21,100+ 1-Day CVE verification, 29-protocol enumeration, OSINT, Cloud/AD audit, Scope Firewall; Streamable HTTP & local CLI).
 
 <a href="https://trendshift.io/repositories/87988?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-87988" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/87988/daily?language=Python" alt="scadastrangelove/awesome-ai-security-tools | Trendshift" width="250" height="55"/></a>
 
